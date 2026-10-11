@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 """
 DUS-Abflüge Scraper (dus.com Flug-API)
-Läuft über Cron/Scheduler.
-Aufruf mit --force ignoriert das Zeitfenster (zum Testen).
-
-Charter/Linie-Zuordnung:
-  1. Ausgang/Gate: Airline-Terminals / Typ
-  2. Flugtyp   : dus.com-Flugtyp 21 (Pauschalreise-Charter)
-  3. Airline   : Airline-Liste
+Angepasst für einen erweiterten Zeitraum (nächste 12 Stunden / Testbetrieb).
 """
 import json
 import os
@@ -28,13 +22,13 @@ CACHE_FILE = "cache.json"
 
 TZ = ZoneInfo("Europe/Berlin")
 
-# Abruf-Zeitfenster (lokale Zeit)
-WINDOW_START = (3, 30)
-WINDOW_END = (23, 55)
+# Abruf-Zeitfenster: Hier für den Test komplett geöffnet (00:00 bis 23:59 Uhr)
+WINDOW_START = (0, 0)
+WINDOW_END = (23, 59)
 
-# Anzeige-Fenster
+# Anzeige-Fenster: 1 Stunde zurück, volle 12 Stunden in die Zukunft
 MINUTES_PAST = 60
-HOURS_FUTURE = 5
+HOURS_FUTURE = 12
 
 FETCH_BACK_HOURS = 2
 FETCH_AHEAD_HOURS = HOURS_FUTURE + 1
@@ -171,7 +165,7 @@ def fetch_flights(now):
     for page in range(MAX_PAGES):
         params = {
             "lang": "de",
-            "arrival": "false",  # WICHTIG: false für Abflüge
+            "arrival": "false",
             "offset": offset,
             "codeshare": "true",
             "count": PAGE_SIZE,
@@ -209,7 +203,7 @@ def build_flights(raw, now):
             continue
 
         airline = fl.get("airline") or {}
-        airline_name = airline.get("name") or airline.get("iataCode")or "Unbekannt"
+        airline_name = airline.get("name") or airline.get("iataCode") or "Unbekannt"
         airline_iata = airline.get("iataCode") or ""
         if any(k in airline_name.lower() for k in SKIP_AIRLINE_KEYWORDS):
             continue
@@ -285,7 +279,7 @@ def main():
         "source": "Dus.com",
         "flights": unique,
     })
-    print(f"cache.json aktualisiert: {len(unique)} Abflüge.")
+    print(f"cache.json aktualisiert: {len(unique)} Abflüge (12h-Fenster).")
 
 
 if __name__ == "__main__":
