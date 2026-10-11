@@ -502,13 +502,13 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
         </div>
     </div>
     <div>
-        <span class="menu-label">Abgeflogen-Filter: Anzahl</span>
+        <span class="menu-label">Gestartet-Filter: Anzahl</span>
         <div class="seg">
             <button type="button" class="seg-btn active" id="departedBtn">Letzte 15 Flüge</button>
         </div>
     </div>
     <div>
-        <span class="menu-label">Abgeflogene in Alle / Linie / Charter</span>
+        <span class="menu-label">Gestartet in Alle / Linie / Charter</span>
         <div class="seg">
             <button type="button" class="seg-btn active" id="segDepartedOn">Einblenden</button>
             <button type="button" class="seg-btn" id="segDepartedOff">Ausblenden</button>
@@ -533,7 +533,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
     <button class="filter-btn btn-linie" onclick="filterFlights('Linie', event)">Linie</button>
     <button class="filter-btn btn-charter" onclick="filterFlights('Charter', event)">Charter</button>
     <button class="filter-btn btn-boarding" onclick="filterFlights('boarding', event)">Boarding</button>
-    <button class="filter-btn btn-departed" onclick="filterFlights('departed', event)" title="Die letzten 15 abgeflogenen Flüge">Abgeflogen</button>
+    <button class="filter-btn btn-departed" onclick="filterFlights('departed', event)" title="Die letzten 15 gestarteten Flüge">Gestartet</button>
 </div>
 
 <!-- ANSICHT 1: Klassische Detail-Karten -->
@@ -764,7 +764,7 @@ const departedBtn = document.getElementById('departedBtn');
 function updateDepartedBtn() {
     departedBtn.textContent = 'Letzte ' + departedCount + ' Flüge';
     const filterBtn = document.querySelector('.btn-departed');
-    if (filterBtn) filterBtn.title = 'Die letzten ' + departedCount + ' abgeflogenen Flüge';
+    if (filterBtn) filterBtn.title = 'Die letzten ' + departedCount + ' gestarteten Flüge';
 }
 
 departedBtn.addEventListener('click', () => {
