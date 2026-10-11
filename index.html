@@ -69,6 +69,9 @@
     --tf-bar-charter-edge: #e65100;
     --tf-bar-cancelled: rgba(179, 38, 30, .32);
     --tf-bar-cancelled-edge: #b3261e;
+    --tf-tint-linie: rgba(13, 110, 200, .16);
+    --tf-tint-charter: rgba(230, 110, 0, .18);
+    --tf-tint-cancelled: rgba(179, 38, 30, .16);
     --tf-display: "Barlow Condensed", "Arial Narrow", sans-serif;
     --tf-data: "B612 Mono", ui-monospace, "Courier New", monospace;
 }
@@ -126,6 +129,9 @@
     --tf-bar-charter-edge: #ffa24d;
     --tf-bar-cancelled: rgba(255, 144, 130, .44);
     --tf-bar-cancelled-edge: #ff5252;
+    --tf-tint-linie: rgba(96, 190, 255, .26);
+    --tf-tint-charter: rgba(255, 138, 28, .30);
+    --tf-tint-cancelled: rgba(255, 144, 130, .26);
 }
 
 html { font-size: var(--base-font-size); }
@@ -301,6 +307,11 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .tf-body .tf-row.s-checkin { border-left-color: var(--tf-warn); }
 .tf-body .tf-row.s-annulliert { border-left-color: var(--tf-bad); }
 .tf-body .tf-row.s-gestartet { border-left-color: var(--tf-dim); }
+
+/* Grundfarbe je Terminal, immer sichtbar; der Balken füllt sie beim Näherrücken kräftiger */
+.tf-body .tf-row.art-linie { background: linear-gradient(var(--tf-tint-linie), var(--tf-tint-linie)), var(--tf-row); }
+.tf-body .tf-row.art-charter { background: linear-gradient(var(--tf-tint-charter), var(--tf-tint-charter)), var(--tf-row); }
+.tf-body .tf-row.art-cancelled { background: linear-gradient(var(--tf-tint-cancelled), var(--tf-tint-cancelled)), var(--tf-row); }
 
 .tf-bar {
     position: absolute; z-index: 0; left: 0; top: 0; bottom: 0; width: 0; pointer-events: none;
@@ -1083,8 +1094,7 @@ function tfFortschritt(zeit, status) {
     const s = String(status).toLowerCase();
     if (s === 'departed' || s === 'cancelled' || s === 'diverted' || s === 'incident') return 1;
     let diff = timeToMinutes(zeit) - berlinMin();
-    if (diff < -720) diff += 1440;
-    if (diff > 720) diff -= 1440;
+    if (diff < -120) diff += 1440;   // Anzeige-Fenster: -60 Min. bis +5 Std.; alles Frühere liegt nach Mitternacht
     if (diff <= 0) return 1;
     return Math.max(0, Math.min(1, 1 - diff / TF_FENSTER));
 }
@@ -1117,7 +1127,7 @@ function renderBoard(flights) {
         }
 
         const row = document.createElement('div');
-        row.className = 'tf-row ' + st.cls + (isCancelled ? ' cancelled' : '');
+        row.className = 'tf-row ' + st.cls + ' art-' + art + (isCancelled ? ' cancelled' : '');
         row.innerHTML = `
             <div class="tf-bar ${art}" data-zeit="${esc(zeit)}" data-status="${esc(f.status)}"></div>
             <div class="tf-flight">${esc(f.flight_no)}<small>${esc(f.airline)}</small></div>
