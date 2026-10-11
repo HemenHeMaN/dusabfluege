@@ -1,7 +1,17 @@
 #!/usr/bin/env python3
 """
 DUS-Abflüge Scraper (dus.com Flug-API)
-Erweiterte Erkennung für Check-in-Schalter und Gates.
+Läuft zwischen 05:25 und 00:35 (Europe/Berlin), Takt über Cron/Scheduler.
+Aufruf mit --force ignoriert das Zeitfenster (zum Testen).
+Aufruf mit --debug gibt die rohen API-Felder der ersten Abflüge aus
+(praktisch, um die Feldnamen für Gate und Check-in zu prüfen).
+
+Pro Abflug werden Gate und Check-in-Schalter direkt von dus.com übernommen.
+
+Linie/Charter-Zuordnung (Reihenfolge):
+  1. Flugtyp : dus.com-Flugtyp 21 (Pauschalreise-Charter)
+  2. Airline : Airline-Liste
+type_source zeigt, woher die Zuordnung stammt.
 """
 import json
 import os
@@ -15,19 +25,24 @@ import urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+# ---------------------------------------------------------------- Konfiguration
 API_URL = "https://www.dus.com/api/sitecore/flightapi/SearchFlightsWithOutParams"
 REFERER = "https://www.dus.com/de-de/fliegen/abflug"
 CACHE_FILE = "cache.json"
 
 TZ = ZoneInfo("Europe/Berlin")
 
-WINDOW_START = (0, 0)
-WINDOW_END = (23, 59)
+# Abruf-Zeitfenster (lokale Zeit). Endet am Folgetag um 00:35 Uhr.
+WINDOW_START = (5, 25)    # frühester Start (Soll: 05:30)
+WINDOW_END = (0, 35)      # spätester Start (bis 00:35 Uhr, cronjob läuft bis 00:55 )
 
+# Anzeige-Fenster (nach tatsächlicher/erwarteter Abflugzeit)
 MINUTES_PAST = 60
-HOURS_FUTURE = 12
+HOURS_FUTURE = 5
 
-FETCH_BACK_HOURS = 2
+# Abfrage-Fenster (nach Plan-Zeit), größer als das Anzeige-Fenster,
+# damit stark verspätete oder zu früh gestartete Flüge nicht fehlen
+FETCH_BACK_HOURS = 4
 FETCH_AHEAD_HOURS = HOURS_FUTURE + 1
 
 PAGE_SIZE = 100
@@ -42,6 +57,11 @@ HEADERS = {
                    "(KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36"),
 }
 
+# Mögliche Feldnamen für Check-in-Schalter in der API (erster Treffer gewinnt)
+CHECKIN_KEYS = ("checkIn", "checkin", "checkInCounter", "checkInCounters",
+                "checkInDesk", "checkInDesks", "counter", "counters")
+
+# Flughafennamen kommen direkt von dus.com (Name + Land auf Deutsch).
 AIRPORT_NAME_OVERRIDES = {
     "HER": "Heraklion (Kreta)", "CHQ": "Chania (Kreta)",
     "SUF": "Lamezia Terme (Kalabrien)", "GWT": "Sylt (Westerland)",
@@ -65,15 +85,28 @@ CHARTER_CODES = {"DE", "X3", "XC", "XR", "FHY", "6Y", "4Y", "XQ", "ENT", "E4",
 
 SKIP_AIRLINE_KEYWORDS = ("flugschule", "training", "flight school")
 
+# Statustexte (Kleinbuchstaben, Teilstring-Suche)
+STATUS_CANCELLED = ("gestrichen", "annull", "cancel")
+STATUS_DIVERTED = ("umgeleitet", "divert")
+STATUS_DEPARTED = ("abgeflogen", "gestartet", "departed", "took off")
+STATUS_BOARDING = ("boarding", "einsteigen", "letzter aufruf", "final call",
+                   "gate offen", "gate open")
+STATUS_CHECKIN = ("check-in", "checkin", "check in", "abfertigung")
+STATUS_KNOWN_SCHEDULED = ("verspätet", "delayed", "planmäßig", "on time", "geplant")
 
+
+# ---------------------------------------------------------------- Hilfsfunktionen
 def in_run_window(now_local):
     start = now_local.replace(hour=WINDOW_START[0], minute=WINDOW_START[1], second=0, microsecond=0)
     end = now_local.replace(hour=WINDOW_END[0], minute=WINDOW_END[1], second=0, microsecond=0)
+
+    # Wenn das End-Fenster vor dem Start liegt, geht es über Mitternacht hinweg
     if end < start:
         if now_local >= start:
             end = end + timedelta(days=1)
         else:
             start = start - timedelta(days=1)
+
     return start <= now_local <= end
 
 
@@ -96,9 +129,68 @@ def parse_dt(s):
     return dt.astimezone(TZ)
 
 
+def flat_values(v):
+    """Macht aus String, Liste oder Objekt eine flache Liste getrimmter Texte."""
+    if v is None:
+        return []
+    if isinstance(v, str):
+        v = v.strip()
+        return [v] if v else []
+    if isinstance(v, dict):
+        for k in ("name", "code", "number", "value", "id"):
+            if v.get(k) not in (None, ""):
+                return flat_values(v[k])
+        return []
+    if isinstance(v, (list, tuple)):
+        out = []
+        for item in v:
+            out.extend(flat_values(item))
+        return out
+    return [str(v)]
+
+
+def compact_numbers(items):
+    """['201','202','203','210'] -> '201–203/210'; Nicht-Zahlen bleiben unverändert."""
+    if not items:
+        return ""
+    if not all(i.isdigit() for i in items):
+        return "/".join(items)
+    nums = sorted({int(i) for i in items})
+    groups, start, prev = [], nums[0], nums[0]
+    for n in nums[1:]:
+        if n == prev + 1:
+            prev = n
+            continue
+        groups.append((start, prev))
+        start = prev = n
+    groups.append((start, prev))
+    return "/".join(str(a) if a == b else f"{a}–{b}" for a, b in groups)
+
+
+def gate_text(fl):
+    return compact_numbers(flat_values(fl.get("gate")))
+
+
+def checkin_text(fl):
+    for key in CHECKIN_KEYS:
+        items = flat_values(fl.get(key))
+        if items:
+            return compact_numbers(items)
+    return ""
+
+
+def terminal_letter(fl, airline):
+    for g in flat_values(fl.get("gate")):
+        m = re.match(r"[A-Za-z]", g)
+        if m:
+            return m.group(0).upper()
+    return str(airline.get("terminalGateDeparture") or airline.get("terminalGateArrival") or "").strip().upper()
+
+
 def classify(fl, airline_name, airline_iata):
     if (fl.get("flightType") or {}).get("code") == 21:
         return "Charter", "Flugtyp"
+
     if str(airline_iata or "").upper() in CHARTER_CODES:
         return "Charter", "Airline"
     name = str(airline_name or "").lower()
@@ -111,14 +203,18 @@ def map_status(fl):
     st = fl.get("status") or {}
     text = str((st.get("publicStatus") or {}).get("name") or st.get("description") or "").strip()
     low = text.lower()
-    if "gestartet" in low or "departed" in low or "abgeflogen" in low:
-        return "departed", text
-    if "boarding" in low:
-        return "boarding", text
-    if any(k in low for k in ("gestrichen", "annull", "cancel")):
+    if any(k in low for k in STATUS_CANCELLED):
         return "cancelled", text
-    if "umgeleitet" in low or "divert" in low:
+    if any(k in low for k in STATUS_DIVERTED):
         return "diverted", text
+    if any(k in low for k in STATUS_DEPARTED):
+        return "departed", text
+    if any(k in low for k in STATUS_BOARDING):
+        return "boarding", text
+    if any(k in low for k in STATUS_CHECKIN):
+        return "checkin", text
+    if not text and fl.get("actualTime"):
+        return "departed", text
     return "scheduled", text
 
 
@@ -134,6 +230,7 @@ def airport_info(fl):
     return name, COUNTRY_RENAMES.get(country, country)
 
 
+# ---------------------------------------------------------------- Datenabruf
 def get_json(url, retries=3):
     last = None
     for attempt in range(retries):
@@ -186,6 +283,7 @@ def fetch_flights(now):
     return flights
 
 
+# ---------------------------------------------------------------- Hauptlogik
 def build_flights(raw, now):
     time_min = now - timedelta(minutes=MINUTES_PAST)
     time_max = now + timedelta(hours=HOURS_FUTURE)
@@ -215,23 +313,12 @@ def build_flights(raw, now):
 
         delay = max(0, int(round((real - sched).total_seconds() / 60)))
         status, status_text = map_status(fl)
-        if status == "scheduled" and status_text:
+        if status == "scheduled" and status_text and \
+                not any(k in status_text.lower() for k in STATUS_KNOWN_SCHEDULED):
             unknown_status.add(status_text)
 
         city, country = airport_info(fl)
         ftype, type_source = classify(fl, airline_name, airline_iata)
-
-        gate = str(fl.get("gate") or "").strip()
-        
-        # Verbesserte Check-in Erkennung über verschiedene mögliche API-Schlüssel
-        checkin = (
-            str(fl.get("checkinDesk") or "").strip() or
-            str(fl.get("checkin") or "").strip() or
-            str(fl.get("checkIn") or "").strip()
-        )
-        if not checkin and isinstance(fl.get("counters"), list):
-            checkin = ", ".join(str(c) for c in fl.get("counters") if c)
-
         flights.append({
             "dt": sched.timestamp(),
             "time_scheduled": sched.strftime("%H:%M"),
@@ -242,8 +329,9 @@ def build_flights(raw, now):
             "country": country,
             "type": ftype,
             "type_source": type_source,
-            "gate": gate if gate else "–",
-            "checkin": checkin if checkin else "–",
+            "terminal": terminal_letter(fl, airline),
+            "gate": gate_text(fl),
+            "checkin": checkin_text(fl),
             "status": status,
             "status_text": status_text,
             "delay": delay,
@@ -265,26 +353,39 @@ def main():
     now = datetime.now(TZ)
 
     if "--force" not in sys.argv and not in_run_window(now):
-        print(f"{now:%H:%M} liegt außerhalb des erlaubten Zeitfensters, kein Abruf.")
+        print(f"{now:%H:%M} liegt außerhalb des erlaubten Zeitfensters "
+              f"({WINDOW_START[0]:02d}:{WINDOW_START[1]:02d}–{WINDOW_END[0]:02d}:{WINDOW_END[1]:02d}), kein Abruf.")
         return
 
     try:
         raw = fetch_flights(now)
     except Exception as e:
         print(f"Fehler beim Abruf: {e}")
+        print("cache.json bleibt unverändert.")
         sys.exit(1)
     if not raw:
-        print("API lieferte keine Flüge.")
+        print("API lieferte keine Flüge, cache.json bleibt unverändert.")
         sys.exit(1)
 
+    if "--debug" in sys.argv:
+        for fl in raw[:2]:
+            print(json.dumps(fl, ensure_ascii=False, indent=2))
+
     unique, unknown_status = build_flights(raw, now)
+
+    with_gate = sum(1 for f in unique if f["gate"])
+    with_checkin = sum(1 for f in unique if f["checkin"])
+    print(f"Rohdaten: {len(raw)} Einträge, im Fenster: {len(unique)} "
+          f"(mit Gate: {with_gate}, mit Check-in: {with_checkin})")
+    if unknown_status:
+        print("Unbekannte Statustexte (als 'scheduled' behandelt):", sorted(unknown_status))
 
     write_json_atomic(CACHE_FILE, {
         "updated_at": now.strftime("%d.%m.%Y %H:%M"),
         "source": "Dus.com",
         "flights": unique,
     })
-    print(f"cache.json aktualisiert: {len(unique)} Abflüge.")
+    print(f"cache.json aktualisiert: {len(unique)} Flüge.")
 
 
 if __name__ == "__main__":
