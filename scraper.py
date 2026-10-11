@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 DUS-Abflüge Scraper (dus.com Flug-API)
-Angepasst für einen erweiterten Zeitraum (nächste 12 Stunden / Testbetrieb).
+Liest Check-in und Gate direkt aus.
 """
 import json
 import os
@@ -15,18 +15,15 @@ import urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-# ---------------------------------------------------------------- Konfiguration
 API_URL = "https://www.dus.com/api/sitecore/flightapi/SearchFlightsWithOutParams"
 REFERER = "https://www.dus.com/de-de/fliegen/abflug"
 CACHE_FILE = "cache.json"
 
 TZ = ZoneInfo("Europe/Berlin")
 
-# Abruf-Zeitfenster: Hier für den Test komplett geöffnet (00:00 bis 23:59 Uhr)
 WINDOW_START = (0, 0)
 WINDOW_END = (23, 59)
 
-# Anzeige-Fenster: 1 Stunde zurück, volle 12 Stunden in die Zukunft
 MINUTES_PAST = 60
 HOURS_FUTURE = 12
 
@@ -223,7 +220,7 @@ def build_flights(raw, now):
 
         city, country = airport_info(fl)
         ftype, type_source = classify(fl, airline_name, airline_iata)
-        
+
         gate = str(fl.get("gate") or "").strip()
         checkin = str(fl.get("checkinDesk") or "").strip()
 
@@ -279,7 +276,7 @@ def main():
         "source": "Dus.com",
         "flights": unique,
     })
-    print(f"cache.json aktualisiert: {len(unique)} Abflüge (12h-Fenster).")
+    print(f"cache.json aktualisiert: {len(unique)} Abflüge.")
 
 
 if __name__ == "__main__":
