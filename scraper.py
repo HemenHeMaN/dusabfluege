@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 DUS-Abflüge Scraper (dus.com Flug-API)
-Liest Check-in und Gate direkt aus.
+Erweiterte Erkennung für Check-in-Schalter und Gates.
 """
 import json
 import os
@@ -25,7 +25,7 @@ WINDOW_START = (0, 0)
 WINDOW_END = (23, 59)
 
 MINUTES_PAST = 60
-HOURS_FUTURE = 9
+HOURS_FUTURE = 12
 
 FETCH_BACK_HOURS = 2
 FETCH_AHEAD_HOURS = HOURS_FUTURE + 1
@@ -222,7 +222,15 @@ def build_flights(raw, now):
         ftype, type_source = classify(fl, airline_name, airline_iata)
 
         gate = str(fl.get("gate") or "").strip()
-        checkin = str(fl.get("checkinDesk") or "").strip()
+        
+        # Verbesserte Check-in Erkennung über verschiedene mögliche API-Schlüssel
+        checkin = (
+            str(fl.get("checkinDesk") or "").strip() or
+            str(fl.get("checkin") or "").strip() or
+            str(fl.get("checkIn") or "").strip()
+        )
+        if not checkin and isinstance(fl.get("counters"), list):
+            checkin = ", ".join(str(c) for c in fl.get("counters") if c)
 
         flights.append({
             "dt": sched.timestamp(),
