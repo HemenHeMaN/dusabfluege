@@ -35,17 +35,18 @@ CACHE_FILE = "cache.json"
 TZ = ZoneInfo("Europe/Berlin")
 
 # Abruf-Zeitfenster (lokale Zeit). Endet am Folgetag um 00:35 Uhr.
-WINDOW_START = (3, 0)     # frühester Start 03:00
-WINDOW_END = (22, 0)      # spätester Start 22:00
+WINDOW_START = (3, 25)    # frühester Start (Soll: 05:30)
+WINDOW_END = (2, 35)      # spätester Start (bis 00:35 Uhr, cronjob läuft bis 00:55 )
 
 # Anzeige-Fenster (nach tatsächlicher/erwarteter Abflugzeit)
 MINUTES_PAST = 60
-HOURS_FUTURE = 6
+HOURS_FUTURE = 6              # normale Flüge: bis zu 6 Std. im Voraus
+HOURS_FUTURE_CANCELLED = 20   # annullierte Flüge: bis zu 20 Std. im Voraus
 
 # Abfrage-Fenster (nach Plan-Zeit), größer als das Anzeige-Fenster,
 # damit stark verspätete oder zu früh gestartete Flüge nicht fehlen
 FETCH_BACK_HOURS = 4
-FETCH_AHEAD_HOURS = HOURS_FUTURE + 1
+FETCH_AHEAD_HOURS = HOURS_FUTURE_CANCELLED + 1
 
 PAGE_SIZE = 100
 MAX_PAGES = 10
@@ -177,11 +178,13 @@ def checkin_text(fl):
 
 
 def terminal_letter(fl, airline):
+    """Terminal-Buchstabe (A, B oder C) aus dem Gate, z. B. 'B24', 'C 03', 'Gate A12'."""
     for g in flat_values(fl.get("gate")):
-        m = re.match(r"[A-Za-z]", g)
+        m = re.search(r"(?<![A-Za-z])([ABC])\s*-?\s*\d", g, re.IGNORECASE)
         if m:
-            return m.group(0).upper()
-    return str(airline.get("terminalGateDeparture") or airline.get("terminalGateArrival") or "").strip().upper()
+            return m.group(1).upper()
+    fallback = str(airline.get("terminalGateDeparture") or "").strip().upper()
+    return fallback if fallback in ("A", "B", "C") else ""
 
 
 def classify(terminal, fl, airline_name, airline_iata):
@@ -289,6 +292,7 @@ def fetch_flights(now):
 def build_flights(raw, now):
     time_min = now - timedelta(minutes=MINUTES_PAST)
     time_max = now + timedelta(hours=HOURS_FUTURE)
+    time_max_cancelled = now + timedelta(hours=HOURS_FUTURE_CANCELLED)
 
     flights, unknown_status = [], set()
     for fl in raw:
@@ -310,11 +314,12 @@ def build_flights(raw, now):
             continue
         real = parse_dt(fl.get("actualTime")) or parse_dt(fl.get("estimatedTime")) or sched
 
-        if not (time_min <= real <= time_max):
+        status, status_text = map_status(fl)
+        limit = time_max_cancelled if status == "cancelled" else time_max
+        if not (time_min <= real <= limit):
             continue
 
         delay = max(0, int(round((real - sched).total_seconds() / 60)))
-        status, status_text = map_status(fl)
         if status == "scheduled" and status_text and \
                 not any(k in status_text.lower() for k in STATUS_KNOWN_SCHEDULED):
             unknown_status.add(status_text)
