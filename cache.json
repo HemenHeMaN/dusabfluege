@@ -1,5 +1,5 @@
 {
-  "updated_at": "11.10.2026 23:45",
+  "updated_at": "11.10.2026 23:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -12,7 +12,7 @@
       "country": "Spanien",
       "type": "Charter",
       "type_source": "Airline",
-      "gate": "['B37']",
+      "gate": "['B77']",
       "checkin": "–",
       "status": "scheduled",
       "status_text": "",
@@ -76,7 +76,7 @@
       "country": "Griechenland",
       "type": "Charter",
       "type_source": "Airline",
-      "gate": "['B31']",
+      "gate": "['B71']",
       "checkin": "–",
       "status": "scheduled",
       "status_text": "",
@@ -892,7 +892,7 @@
       "country": "Spanien",
       "type": "Charter",
       "type_source": "Airline",
-      "gate": "['B76']",
+      "gate": "['B36']",
       "checkin": "–",
       "status": "scheduled",
       "status_text": "",
