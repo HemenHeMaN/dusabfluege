@@ -43,7 +43,6 @@
 
     --slider-bg: #fff;
     --size-btn-bg: #003366;
-    --size-btn-hover: #00224a;
     --reset-btn-bg: #e4e4ed;
 
     --tf-top: #e3ecfb;
@@ -56,14 +55,10 @@
     --tf-text: #0b1b4d;
     --tf-dim: #4f6191;
     --tf-ok: #137a3a;
-    --tf-warn: #9a6a00;
     --tf-bad: #b3261e;
     --tf-bar-linie: rgba(13, 110, 200, .28);
-    --tf-bar-linie-edge: #1976d2;
     --tf-bar-charter: rgba(230, 110, 0, .30);
-    --tf-bar-charter-edge: #e65100;
     --tf-bar-cancelled: rgba(179, 38, 30, .32);
-    --tf-bar-cancelled-edge: #b3261e;
     --tf-display: "Barlow Condensed", "Arial Narrow", sans-serif;
     --tf-data: "B612 Mono", ui-monospace, "Courier New", monospace;
 }
@@ -98,7 +93,6 @@
 
     --slider-bg: #1e1e1e;
     --size-btn-bg: #1565c0;
-    --size-btn-hover: #0d47a1;
     --reset-btn-bg: #333;
 
     --tf-top: #17409f;
@@ -111,55 +105,32 @@
     --tf-text: #eef2fb;
     --tf-dim: #9fb4e6;
     --tf-ok: #86ffae;
-    --tf-warn: #ffd24d;
     --tf-bad: #ff9082;
-    --tf-bar-linie: rgba(96, 190, 255, .46);
-    --tf-bar-linie-edge: #8fd3ff;
-    --tf-bar-charter: rgba(255, 138, 28, .52);
-    --tf-bar-charter-edge: #ffa24d;
-    --tf-bar-cancelled: rgba(255, 144, 130, .44);
-    --tf-bar-cancelled-edge: #ff5252;
 }
 
 html { font-size: var(--base-font-size); }
 * { box-sizing: border-box; }
-body {
-    font-family: var(--font);
-    font-size: 1rem; line-height: 1.4;
-    margin: 0; padding: 12px; background: var(--bg-color); color: var(--text-color);
-    transition: background-color 0.6s ease, color 0.3s ease;
-}
-
-.no-anim, .no-anim *, .no-anim *::before, .no-anim *::after { transition: none !important; }
+body { font-family: var(--font); font-size: 1rem; line-height: 1.4; margin: 0; padding: 12px; background: var(--bg-color); color: var(--text-color); }
 
 .top-bar { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 6px; }
 h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .header-controls { display: flex; align-items: center; gap: 8px; }
 
-.size-btn {
-    background: var(--size-btn-bg); color: #fff; border: none; border-radius: 8px;
-    padding: 8px 12px; font-size: 0.9rem; font-weight: bold; cursor: pointer; white-space: nowrap;
-    display: inline-flex; align-items: center; justify-content: center;
-}
+.size-btn { background: var(--size-btn-bg); color: #fff; border: none; border-radius: 8px; padding: 8px 12px; font-size: 0.9rem; font-weight: bold; cursor: pointer; }
 .menu-btn { padding: 8px 10px; }
 .menu-btn svg { display: block; width: 22px; height: 22px; }
 
-.menu-box {
-    display: none; flex-direction: column; gap: 14px;
-    background: var(--slider-bg); padding: 12px; border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.12); margin-bottom: 12px;
-    border: 1px solid var(--border-color);
-}
+.menu-box { display: none; flex-direction: column; gap: 14px; background: var(--slider-bg); padding: 12px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12); margin-bottom: 12px; border: 1px solid var(--border-color); }
 .menu-box.active { display: flex; }
 .menu-label { display: block; font-size: 0.8rem; font-weight: bold; color: var(--update-color); margin-bottom: 6px; text-transform: uppercase; }
 .size-row { display: flex; align-items: center; gap: 10px; }
-.size-row input[type="range"] { flex: 1; min-width: 0; height: 28px; cursor: pointer; }
+.size-row input[type="range"] { flex: 1; height: 28px; cursor: pointer; }
 .reset-btn { background: var(--reset-btn-bg); color: var(--text-color); border: none; border-radius: 6px; padding: 6px 10px; font-size: 0.8rem; font-weight: bold; cursor: pointer; }
 .seg { display: flex; gap: 6px; }
 .seg-btn { flex: 1; padding: 9px 6px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 0.9rem; background: var(--filter-bg); color: var(--text-color); }
 .seg-btn.active { background: var(--filter-active-all); color: #fff; }
 
-.update-info { font-size: 0.85rem; color: var(--update-color); margin-bottom: 12px; line-height: 1.5; }
+.update-info { font-size: 0.85rem; color: var(--update-color); margin-bottom: 12px; }
 
 .view-switcher { display: flex; gap: 8px; margin-bottom: 12px; background: var(--card-bg); padding: 6px; border-radius: 8px; border: 1px solid var(--border-color); }
 .view-btn { flex: 1; background: transparent; border: none; padding: 8px 6px; font-family: var(--font); font-weight: 700; font-size: 0.9rem; color: var(--text-color); border-radius: 6px; cursor: pointer; }
@@ -174,7 +145,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .search-container.has-text .clear-search-btn { display: flex; }
 
 .filter-container { margin-bottom: 15px; display: flex; gap: 5px; }
-.filter-btn { flex: 1; min-width: 0; padding: 10px 4px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 0.82rem; text-align: center; background: var(--filter-bg); color: var(--text-color); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.filter-btn { flex: 1; padding: 10px 4px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 0.82rem; text-align: center; background: var(--filter-bg); color: var(--text-color); }
 .btn-all.active { background: var(--filter-active-all); color: #fff; }
 .btn-linie.active { background: var(--filter-active-linie); color: #fff; }
 .btn-charter.active { background: var(--filter-active-charter); color: #fff; }
@@ -188,106 +159,53 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 
 .card-header { display: flex; align-items: center; justify-content: space-between; }
 .time-col { font-size: 1.35rem; font-weight: bold; color: var(--heading-color); min-width: 4.2em; }
-.main-info { flex-grow: 1; padding: 0 10px; min-width: 0; }
+.main-info { flex-grow: 1; padding: 0 10px; }
 .city-name { font-size: 1.1rem; font-weight: bold; color: var(--text-color); margin-bottom: 4px; }
 .country { font-weight: normal; font-size: 0.95rem; color: var(--update-color); }
 
-.badge-linie, .badge-charter { padding: 3px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; display: inline-block; }
-.badge-linie { background: var(--badge-linie-bg); color: var(--badge-linie-color); }
-.badge-charter { background: var(--badge-charter-bg); color: var(--badge-charter-color); }
+.badge-gate { padding: 3px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; background: #003366; color: #fff; display: inline-block; }
+.badge-checkin { padding: 3px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; background: #e0e0e0; color: #333; display: inline-block; margin-left: 5px; }
 
 .delay-badge { display: inline-block; margin-top: 3px; padding: 2px 6px; border-radius: 4px; background: #ffd6d6; color: #a00000; font-size: 0.8rem; font-weight: bold; }
-.delay-badge.early-badge { background: #d6f5e0; color: #11602d; }
 
 .card-details { margin-top: 10px; font-size: 0.95rem; color: var(--text-color); }
 .detail-divider { border: none; border-top: 1px solid var(--border-color); margin: 8px 0; }
 .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.no-flights { text-align: center; padding: 20px; color: var(--text-color); background: var(--card-bg); border-radius: 8px; }
 
 /* Flughafentafel */
 .tf-board { background: linear-gradient(to bottom, var(--tf-top), var(--tf-bottom)); border: 1px solid var(--tf-line); border-radius: 6px; padding: 14px 12px 12px; color: var(--tf-text); font-family: var(--tf-data); }
-.tf-header { display: flex; align-items: flex-end; justify-content: space-between; padding-bottom: 12px; border-bottom: 2px solid var(--tf-amber); }
-.tf-title { margin: 0; font-family: var(--tf-display); font-weight: 700; color: var(--tf-text); font-size: clamp(1.9rem, 6vw, 3rem); text-transform: uppercase; }
-.tf-row { display: grid; align-items: center; column-gap: 12px; grid-template-columns: 6.5rem minmax(0, 1fr) 5rem 5.5rem 5.5rem 8.5rem; padding: 10px 12px; }
-.tf-head { color: var(--tf-dim); font-size: .62rem; letter-spacing: .14em; text-transform: uppercase; }
-.tf-body { display: flex; flex-direction: column; gap: 4px; }
-.tf-body .tf-row { position: relative; overflow: hidden; background: var(--tf-row); border-left: 4px solid var(--tf-line); }
+.tf-row { display: grid; align-items: center; column-gap: 8px; grid-template-columns: 6rem minmax(0, 1fr) 4.5rem 4.5rem 6.5rem 4.5rem 6.5rem; padding: 10px 8px; }
+.tf-head { color: var(--tf-dim); font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; }
+.tf-body .tf-row { position: relative; overflow: hidden; background: var(--tf-row); border-left: 4px solid var(--tf-line); margin-bottom: 4px; }
 .tf-body .tf-row > :not(.tf-bar) { position: relative; z-index: 1; }
-.tf-body .tf-row.s-boarding { border-left-color: var(--tf-ok); }
-.tf-body .tf-row.s-annulliert { border-left-color: var(--tf-bad); }
-.tf-body .tf-row.s-gestartet { border-left-color: var(--tf-dim); }
-
-.tf-bar { position: absolute; z-index: 0; left: 0; top: 0; bottom: 0; width: 0; pointer-events: none; transition: width 1.4s ease; }
-.tf-bar.linie { background: var(--tf-bar-linie); box-shadow: inset -3px 0 0 var(--tf-bar-linie-edge); }
-.tf-bar.charter { background: var(--tf-bar-charter); box-shadow: inset -3px 0 0 var(--tf-bar-charter-edge); }
-.tf-bar.cancelled { background: var(--tf-bar-cancelled); box-shadow: inset -3px 0 0 var(--tf-bar-cancelled-edge); }
 
 .tf-flight { font-weight: 700; font-size: .8rem; }
 .tf-flight small { display: block; font-weight: 400; font-size: .62rem; color: var(--tf-dim); }
-.tf-city { font-family: var(--tf-display); font-size: 1.45rem; font-weight: 500; text-transform: uppercase; }
-.tf-city small { font-family: var(--tf-data); font-size: .62rem; color: var(--tf-dim); margin-left: 6px; }
-.tf-flag { height: .7em; width: auto; margin-left: 8px; vertical-align: baseline; border: 1px solid rgba(0,0,0,.25); border-radius: 2px; }
-.tf-time { justify-self: start; background: var(--tf-flap); color: var(--tf-flap-text); font-weight: 700; font-size: 1rem; padding: 4px 8px; border-radius: 2px; }
-.tf-exit { font-weight: 700; font-size: .85rem; }
-.tf-kind { font-size: .68rem; font-weight: 700; text-transform: uppercase; }
-.tf-status { display: flex; align-items: center; gap: 8px; font-size: .68rem; font-weight: 700; text-transform: uppercase; }
-.tf-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--tf-dim); }
-.s-boarding .tf-dot { background: var(--tf-ok); }
-.s-annulliert .tf-status { color: var(--tf-bad); }
-.s-boarding .tf-status { color: var(--tf-ok); }
-.tf-empty { padding: 24px 14px; color: var(--tf-dim); background: var(--tf-row); text-align: center; }
-.tf-footer { margin-top: 12px; color: var(--tf-dim); font-size: .62rem; }
+.tf-city { font-family: var(--tf-display); font-size: 1.35rem; font-weight: 500; text-transform: uppercase; }
+.tf-time { justify-self: start; background: var(--tf-flap); color: var(--tf-flap-text); font-weight: 700; font-size: 0.95rem; padding: 4px 6px; border-radius: 2px; }
+.tf-checkin { font-weight: 700; font-size: .85rem; color: var(--tf-text); }
+.tf-gate { font-weight: 800; font-size: .95rem; color: var(--tf-amber); }
+.tf-status { display: flex; align-items: center; gap: 4px; font-size: .68rem; font-weight: 700; text-transform: uppercase; }
 
-.to-top { position: fixed; right: 16px; bottom: 16px; z-index: 100; width: 48px; height: 48px; border: none; border-radius: 50%; cursor: pointer; background: var(--size-btn-bg); color: #fff; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity .25s ease; }
-.to-top.show { opacity: 1; }
-
-/* Taxi Dachzeichen Switch CSS */
-.tx-input { display: none; }
-.tx { display: inline-block; font-size: 6.5px; line-height: 1; cursor: pointer; border-radius: 6em; }
-.track { position: relative; display: block; width: 17.625em; height: 5.75em; border: .125em solid rgba(26, 33, 48, .18); border-radius: 6em; overflow: hidden; background: linear-gradient(180deg, #cfe2f4, #f2f7fc); }
-[data-theme="dark"] .track { border-color: rgba(255, 255, 255, .14); }
-.track::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, #060919, #1b2250); opacity: 0; transition: opacity .6s ease; }
-.tx-input:checked + label .track::before { opacity: 1; }
-.t { position: absolute; z-index: 1; top: 50%; transform: translateY(-50%); font: 600 1.15em/1 var(--font); }
-.t-night { right: 1.5em; color: #52627c; }
-.t-day   { left: 1.6em;  color: #93a3d2; opacity: 0; }
-.tx-input:checked + label .track .t-night { opacity: 0; }
-.tx-input:checked + label .track .t-day   { opacity: 1; }
-.knob { position: absolute; z-index: 2; top: .75em; left: .75em; width: 7.5em; height: 4em; transition: transform .75s cubic-bezier(.6, -.15, .25, 1.15); }
-.tx-input:checked + label .track .knob { transform: translateX(8.375em); }
-.sign { position: relative; z-index: 1; display: block; width: 100%; height: 100%; }
-.bar, .foot { fill: #454b5c; }
-.gloss { fill: #fff; opacity: .35; }
-.lit { opacity: 0; transition: opacity .25s ease; }
-.tx-input:checked + label .track .lit { opacity: 1; }
-.txt { fill: #4b4a42; font-family: var(--font); font-weight: 800; font-size: 26px; }
-.tx-input:checked + label .track .txt { fill: #17130a; }
+@media (max-width: 720px) {
+    .tf-head { display: none; }
+    .tf-row { grid-template-columns: 1fr auto auto; grid-template-areas: "flight flight time" "city city city" "checkin gate status"; row-gap: 6px; }
+    .tf-flight { grid-area: flight; }
+    .tf-time { grid-area: time; justify-self: end; }
+    .tf-city { grid-area: city; font-size: 1.5rem; }
+    .tf-checkin { grid-area: checkin; font-size: .8rem; }
+    .tf-gate { grid-area: gate; font-size: .9rem; }
+    .tf-status { grid-area: status; justify-self: end; }
+}
 </style>
 </head>
-<body class="no-anim">
+<body>
 
 <div class="top-bar">
     <h1>DUS Abflüge</h1>
     <div class="header-controls">
-        <input type="checkbox" id="themeSwitch" class="tx-input" role="switch" aria-label="Nachtmodus umschalten">
-        <label class="tx" for="themeSwitch" title="Design umschalten">
-            <span class="track">
-                <span class="t t-night" aria-hidden="true">Nachtfahrer</span>
-                <span class="t t-day" aria-hidden="true">Tagfahrer</span>
-                <span class="knob">
-                    <svg class="sign" viewBox="0 0 120 64" aria-hidden="true">
-                        <rect class="bar"  x="16" y="46" width="88" height="8" rx="3"/>
-                        <rect class="foot" x="22" y="52" width="18" height="10" rx="2.5"/>
-                        <rect class="foot" x="80" y="52" width="18" height="10" rx="2.5"/>
-                        <rect x="4" y="6" width="112" height="44" rx="16" fill="#e4e0cd"/>
-                        <rect class="lit" x="4" y="6" width="112" height="44" rx="16" fill="#ffd24d"/>
-                        <rect class="gloss" x="14" y="10" width="92" height="9" rx="4.5"/>
-                        <text class="txt" x="60" y="37" text-anchor="middle">TAXI</text>
-                    </svg>
-                </span>
-            </span>
-        </label>
-        <button class="size-btn menu-btn" id="menuToggle" type="button" aria-label="Menü">
+        <input type="checkbox" id="themeSwitch" class="tx-input">
+        <button class="size-btn menu-btn" id="menuToggle" type="button">
             <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>
         </button>
     </div>
@@ -303,13 +221,6 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
             <button class="reset-btn" id="sizeReset" type="button">Reset</button>
         </div>
     </div>
-    <div>
-        <span class="menu-label">Tafel: Zielort-Land</span>
-        <div class="seg">
-            <button type="button" class="seg-btn active" id="segFlag">Flagge</button>
-            <button type="button" class="seg-btn" id="segName">Name</button>
-        </div>
-    </div>
 </div>
 
 <div class="view-switcher">
@@ -319,7 +230,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 
 <div class="update-info" id="updateInfo">Lade Daten...</div>
 <div class="search-container" id="searchContainer">
-    <input type="text" id="searchInput" class="search-input" placeholder="Nach Flug, Zielstadt, Land oder Airline suchen...">
+    <input type="text" id="searchInput" class="search-input" placeholder="Nach Flug, Ziel, Check-in oder Gate suchen...">
     <button type="button" id="clearSearchBtn" class="clear-search-btn">&times;</button>
 </div>
 <div class="filter-container">
@@ -331,80 +242,30 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 </div>
 
 <div id="view1" class="view-section active-view">
-    <div id="flightList"><div class="no-flights">Flüge werden geladen...</div></div>
+    <div id="flightList"></div>
 </div>
 
 <div id="view3" class="view-section">
     <div class="tf-board">
         <div class="tf-head tf-row">
-            <div>Flug</div><div>Nach</div><div>Geplant</div><div>Gate</div><div>Art</div><div>Status</div>
+            <div>Flug</div><div>Nach</div><div>Geplant</div><div>Erwartet</div><div>Check-in</div><div>Gate</div><div>Bemerkung</div>
         </div>
-        <div class="tf-body" id="tfBody">
-            <div class="tf-empty">Flüge werden geladen...</div>
-        </div>
-        <div class="tf-footer">Der Balken zeigt den zeitlichen Fortschritt bis zum Abflug.</div>
+        <div class="tf-body" id="tfBody"></div>
     </div>
 </div>
 
-<button type="button" class="to-top" id="toTop" aria-label="Nach oben">↑</button>
-
 <script>
-const REFRESH_MINUTES = 5;
-const DEFAULT_SIZE = 18;
-const STORAGE_KEY = 'dus_dep_font_size';
-const THEME_KEY = 'dus_dep_theme';
-const VIEW_KEY = 'dus_dep_active_view';
-const FLAG_KEY = 'dus_dep_flag_mode';
-const FILTER_KEY = 'dus_dep_active_filter';
-let allFlights = [], currentFilter = 'all', currentSearch = '', showFlag = true;
-
-function getFlagCode(country) {
-    if (!country) return 'de';
-    const map = {
-        'deutschland': 'de', 'germany': 'de', 'türkei': 'tr', 'spanien': 'es',
-        'großbritannien': 'gb', 'griechenland': 'gr', 'italien': 'it', 'frankreich': 'fr'
-    };
-    return map[country.toLowerCase().trim()] || 'de';
-}
+let allFlights = [], currentFilter = 'all', currentSearch = '';
 
 function switchView(viewId) {
     document.querySelectorAll('.view-section').forEach(el => el.classList.remove('active-view'));
     document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
     document.getElementById(viewId).classList.add('active-view');
     document.getElementById('btn' + viewId.charAt(0).toUpperCase() + viewId.slice(1)).classList.add('active');
-    if (viewId === 'view3') updateBoardBars();
-    try { localStorage.setItem(VIEW_KEY, viewId); } catch (e) {}
 }
-
-const root = document.documentElement;
-const themeCb = document.getElementById('themeSwitch');
-function applyTheme() {
-    if (themeCb.checked) root.setAttribute('data-theme', 'dark');
-    else root.removeAttribute('data-theme');
-}
-themeCb.addEventListener('change', () => { applyTheme(); try { localStorage.setItem(THEME_KEY, themeCb.checked ? 'dark' : 'light'); } catch (e) {} });
-if (localStorage.getItem(THEME_KEY) === 'dark') { themeCb.checked = true; applyTheme(); }
 
 const menuToggle = document.getElementById('menuToggle'), menuBox = document.getElementById('menuBox');
 menuToggle.addEventListener('click', () => menuBox.classList.toggle('active'));
-
-const sizeSlider = document.getElementById('sizeSlider');
-sizeSlider.addEventListener('input', e => {
-    root.style.setProperty('--base-font-size', e.target.value + 'px');
-    try { localStorage.setItem(STORAGE_KEY, e.target.value); } catch (err) {}
-});
-const savedSize = localStorage.getItem(STORAGE_KEY);
-if (savedSize) { root.style.setProperty('--base-font-size', savedSize + 'px'); sizeSlider.value = savedSize; }
-
-document.getElementById('sizeReset').addEventListener('click', () => {
-    root.style.setProperty('--base-font-size', DEFAULT_SIZE + 'px');
-    sizeSlider.value = DEFAULT_SIZE;
-    localStorage.removeItem(STORAGE_KEY);
-});
-
-const segFlag = document.getElementById('segFlag'), segName = document.getElementById('segName');
-segFlag.addEventListener('click', () => { showFlag = true; segFlag.classList.add('active'); segName.classList.remove('active'); applyFilter(); });
-segName.addEventListener('click', () => { showFlag = false; segName.classList.add('active'); segFlag.classList.remove('active'); applyFilter(); });
 
 const searchInput = document.getElementById('searchInput'), searchContainer = document.getElementById('searchContainer');
 searchInput.addEventListener('input', () => {
@@ -412,39 +273,30 @@ searchInput.addEventListener('input', () => {
     searchContainer.classList.toggle('has-text', searchInput.value.length > 0);
     applyFilter();
 });
-document.getElementById('clearSearchBtn').addEventListener('click', () => { searchInput.value = ''; currentSearch = ''; searchContainer.classList.remove('has-text'); applyFilter(); });
-
-const toTop = document.getElementById('toTop');
-window.addEventListener('scroll', () => toTop.classList.toggle('show', window.scrollY > 300));
-toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
 function loadData() {
     fetch('cache.json?t=' + Date.now(), { cache: 'no-store' })
         .then(res => res.json())
         .then(data => {
-            document.getElementById('updateInfo').innerHTML = `Letztes Update: <b>${data.updated_at} Uhr</b> (${data.source})<br>${data.flights.length} Abflüge`;
+            document.getElementById('updateInfo').innerHTML = `Letztes Update: <b>${data.updated_at} Uhr</b> (${data.source}) | ${data.flights.length} Abflüge`;
             allFlights = data.flights;
             applyFilter();
-        })
-        .catch(() => {
-            if (allFlights.length === 0) {
-                document.getElementById('flightList').innerHTML = '<div class="no-flights">Fehler beim Laden der cache.json</div>';
-            }
         });
 }
 
 function getFilteredList() {
     let list = allFlights;
-    if (currentFilter === 'boarding') {
-        list = list.filter(f => String(f.status).toLowerCase() === 'boarding');
-    } else if (currentFilter === 'departed') {
-        list = list.filter(f => String(f.status).toLowerCase() === 'departed');
-    } else if (currentFilter !== 'all') {
-        list = list.filter(f => f.type === currentFilter);
-    }
+    if (currentFilter === 'boarding') list = list.filter(f => String(f.status).toLowerCase() === 'boarding');
+    else if (currentFilter === 'departed') list = list.filter(f => String(f.status).toLowerCase() === 'departed');
+    else if (currentFilter !== 'all') list = list.filter(f => f.type === currentFilter);
 
     if (currentSearch) {
-        list = list.filter(f => f.city.toLowerCase().includes(currentSearch) || f.flight_no.toLowerCase().includes(currentSearch) || f.airline.toLowerCase().includes(currentSearch));
+        list = list.filter(f => 
+            f.city.toLowerCase().includes(currentSearch) || 
+            f.flight_no.toLowerCase().includes(currentSearch) || 
+            f.gate.toLowerCase().includes(currentSearch) ||
+            f.checkin.toLowerCase().includes(currentSearch)
+        );
     }
     return list;
 }
@@ -458,30 +310,33 @@ function applyFilter() {
 function renderFlights(flights) {
     const container = document.getElementById('flightList');
     container.innerHTML = '';
-    if (!flights.length) { container.innerHTML = '<div class="no-flights">Keine Abflüge gefunden.</div>'; return; }
 
     flights.forEach(f => {
-        const isCharter = f.type === "Charter";
-        const isCancelled = f.status === 'cancelled';
-        const cardClass = isCancelled ? "flight-card card-cancelled" : (isCharter ? "flight-card card-charter" : "flight-card card-linie");
-        const badgeClass = isCharter ? "badge-charter" : "badge-linie";
+        const estDiff = f.time_estimated && f.time_estimated !== f.time_scheduled;
+        const estHtml = estDiff ? `<span class="delay-badge">${f.time_estimated} Uhr</span>` : '';
 
         container.innerHTML += `
-            <div class="${cardClass}">
+            <div class="flight-card ${f.type === 'Charter' ? 'card-charter' : 'card-linie'}">
                 <div class="card-header">
-                    <div class="time-col"><span>${f.time_scheduled}</span></div>
+                    <div class="time-col">
+                        <span>${f.time_scheduled}</span>
+                        ${estHtml}
+                    </div>
                     <div class="main-info">
-                        <div class="city-name">Nach ${f.city} ${f.country ? '<span class="country">(' + f.country + ')</span>' : ''}</div>
-                        <div><span class="${badgeClass}">Gate ${f.gate}</span></div>
+                        <div class="city-name">${f.city}</div>
+                        <div>
+                            <span class="badge-gate">Gate: ${f.gate}</span>
+                            <span class="badge-checkin">Check-in: ${f.checkin}</span>
+                        </div>
                     </div>
                 </div>
                 <div class="card-details">
                     <hr class="detail-divider">
                     <div class="detail-grid">
-                        <div><strong>Flug-Nr.:</strong> ${f.flight_no}</div>
+                        <div><strong>Flug Nr.:</strong> ${f.flight_no}</div>
                         <div><strong>Airline:</strong> ${f.airline}</div>
-                        <div><strong>Check-in:</strong> ${f.checkin}</div>
-                        <div><strong>Status:</strong> ${f.status_text || f.status}</div>
+                        <div><strong>Erwartet:</strong> ${f.time_estimated || f.time_scheduled}</div>
+                        <div><strong>Bemerkung:</strong> ${f.status_text || f.status}</div>
                     </div>
                 </div>
             </div>`;
@@ -491,38 +346,18 @@ function renderFlights(flights) {
 function renderBoard(flights) {
     const body = document.getElementById('tfBody');
     body.innerHTML = '';
-    if (!flights.length) { body.innerHTML = '<div class="tf-empty">Keine Abflüge gefunden.</div>'; return; }
 
     flights.forEach(f => {
-        const s = String(f.status).toLowerCase();
-        const stCls = s === 'boarding' ? 's-boarding' : (s === 'cancelled' ? 's-annulliert' : 's-gestartet');
-        const flagUrl = `https://flagcdn.com/${getFlagCode(f.country)}.svg`;
-        const countryHtml = f.country ? (showFlag ? `<img class="tf-flag" src="${flagUrl}" alt="">` : `<small>${f.country}</small>`) : '';
-
         body.innerHTML += `
-            <div class="tf-row ${stCls}">
-                <div class="tf-bar ${f.type === 'Charter' ? 'charter' : 'linie'}" data-zeit="${f.time_scheduled}"></div>
+            <div class="tf-row">
                 <div class="tf-flight">${f.flight_no}<small>${f.airline}</small></div>
-                <div class="tf-city">${f.city} ${countryHtml}</div>
+                <div class="tf-city">${f.city}</div>
                 <div class="tf-time">${f.time_scheduled}</div>
-                <div class="tf-exit">Gate ${f.gate}</div>
-                <div class="tf-kind">${f.type}</div>
-                <div class="tf-status"><span class="tf-dot"></span><span>${f.status_text || f.status}</span></div>
+                <div class="tf-time" style="background:#0d47a1; color:#fff;">${f.time_estimated || f.time_scheduled}</div>
+                <div class="tf-checkin">${f.checkin}</div>
+                <div class="tf-gate">${f.gate}</div>
+                <div class="tf-status">${f.status_text || f.status}</div>
             </div>`;
-    });
-    updateBoardBars();
-}
-
-function updateBoardBars() {
-    document.querySelectorAll('#tfBody .tf-bar').forEach(bar => {
-        const [h, m] = bar.dataset.zeit.split(':').map(Number);
-        const flightMin = h * 60 + m;
-        const now = new Date();
-        const nowMin = now.getHours() * 60 + now.getMinutes();
-        let diff = flightMin - nowMin;
-        if (diff < -720) diff += 1440;
-        let p = 1 - Math.max(0, Math.min(120, diff)) / 120;
-        bar.style.width = (p * 100).toFixed(1) + '%';
     });
 }
 
@@ -534,7 +369,6 @@ function filterFlights(category, event) {
 }
 
 loadData();
-setInterval(loadData, REFRESH_MINUTES * 60 * 1000);
 </script>
 </body>
 </html>
