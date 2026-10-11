@@ -402,7 +402,13 @@ function getFlagCode(country) {
         'ägypten': 'eg', 'egypt': 'eg',
         'tunesien': 'tn', 'tunisia': 'tn',
         'kosovo': 'xk',
-        'usa': 'us', 'vereinigte staaten': 'us', 'united states': 'us'
+        'usa': 'us', 'vereinigte staaten': 'us', 'united states': 'us',
+        'portugal': 'pt',
+        'dänemark': 'dk', 'denmark': 'dk',
+        'estland': 'ee', 'estonia': 'ee',
+        'schweden': 'se', 'sweden': 'se',
+        'niederlande': 'nl', 'netherlands': 'nl',
+        'polen': 'pl', 'poland': 'pl'
     };
     const key = country.toLowerCase().trim();
     return map[key] || 'de';
