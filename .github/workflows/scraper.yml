@@ -3,10 +3,11 @@ name: DUS Abfluege Clean Table
 on:
   repository_dispatch:
     types: [scraper]
+
   workflow_dispatch:
 
 concurrency:
-  group: dus-scraper-departures
+  group: dus-scraper
   cancel-in-progress: false
 
 jobs:
@@ -40,7 +41,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "Keine Änderungen an cache.json."
           else
-            git commit -m "Update cache.json (dus.com abfluege)"
+            git commit -m "Update cache.json (dus.com Abflüge)"
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi
