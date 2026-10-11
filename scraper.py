@@ -34,7 +34,7 @@ CACHE_FILE = "cache.json"
 
 TZ = ZoneInfo("Europe/Berlin")
 
-# Abruf-Zeitfenster (lokale Zeit). Endet am Folgetag um 00:35 Uhr.
+# Abruf-Zeitfenster (lokale Zeit), am selben Tag.
 WINDOW_START = (3, 0)     # frühester Start 03:00
 WINDOW_END = (22, 0)      # spätester Start 22:00
 
