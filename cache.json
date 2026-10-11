@@ -1,5 +1,5 @@
 {
-  "updated_at": "11.10.2026 23:40",
+  "updated_at": "11.10.2026 23:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -956,7 +956,7 @@
       "country": "Spanien",
       "type": "Linie",
       "type_source": "Airline",
-      "gate": "['B27']",
+      "gate": "['B29']",
       "checkin": "–",
       "status": "scheduled",
       "status_text": "",
