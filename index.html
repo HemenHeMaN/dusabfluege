@@ -284,7 +284,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 }
 .tf-row {
     display: grid; align-items: center; column-gap: 12px;
-    grid-template-columns: 6.5rem minmax(0, 1fr) 5rem 7.5rem 5.5rem 8.5rem;
+    grid-template-columns: 6.5rem minmax(0, 1fr) 5rem 5.5rem 7rem 8.5rem;
     padding: 10px 12px;
 }
 .tf-head {
@@ -329,8 +329,8 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 }
 .tf-row.cancelled .tf-time { opacity: .6; text-decoration: line-through; }
 .tf-exit { font-weight: 700; font-size: .85rem; overflow-wrap: anywhere; }
-.tf-exit small { display: block; font-weight: 400; font-size: .62rem; color: var(--tf-dim); letter-spacing: .02em; }
-.tf-kind { font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.tf-kind { font-size: .85rem; font-weight: 700; letter-spacing: .04em; overflow-wrap: anywhere; }
+.tf-lbl { display: none; color: var(--tf-dim); font-weight: 400; }
 .tf-status {
     display: flex; align-items: center; gap: 8px; font-size: .68rem; font-weight: 700;
     letter-spacing: .06em; text-transform: uppercase;
@@ -363,6 +363,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
     .tf-exit { grid-area: exit; font-size: .75rem; }
     .tf-kind { grid-area: kind; justify-self: start; }
     .tf-status { grid-area: status; justify-self: end; }
+    .tf-lbl { display: inline; }
 }
 
 /* --- Nach-oben-Button (Overlay) --- */
@@ -508,7 +509,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
         </div>
     </div>
     <div>
-        <span class="menu-label">Gestartete in Alle / Linie / Charter</span>
+        <span class="menu-label">Gestartete in Alle / Terminal A / Terminal B/C</span>
         <div class="seg">
             <button type="button" class="seg-btn active" id="segDepartedOn">Einblenden</button>
             <button type="button" class="seg-btn" id="segDepartedOff">Ausblenden</button>
@@ -530,8 +531,8 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 </div>
 <div class="filter-container">
     <button class="filter-btn btn-all active" onclick="filterFlights('all', event)">Alle</button>
-    <button class="filter-btn btn-linie" onclick="filterFlights('Linie', event)">Linie</button>
-    <button class="filter-btn btn-charter" onclick="filterFlights('Charter', event)">Charter</button>
+    <button class="filter-btn btn-linie" onclick="filterFlights('Terminal A', event)">Terminal A</button>
+    <button class="filter-btn btn-charter" onclick="filterFlights('Terminal B/C', event)">Terminal B/C</button>
     <button class="filter-btn btn-boarding" onclick="filterFlights('boarding', event)">Boarding</button>
     <button class="filter-btn btn-departed" onclick="filterFlights('departed', event)" title="Die letzten 15 gestarteten Flüge">Gestartet</button>
 </div>
@@ -547,12 +548,12 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 <div id="view3" class="view-section">
     <div class="tf-board">
         <div class="tf-head tf-row" aria-hidden="true">
-            <div>Flug</div><div>Nach</div><div>Abflug</div><div>Gate / Check-in</div><div>Art</div><div>Status</div>
+            <div>Flug</div><div>Nach</div><div>Abflug</div><div>Gate</div><div>Check-in</div><div>Status</div>
         </div>
         <div class="tf-body" id="tfBody">
             <div class="tf-empty">Flüge werden geladen...</div>
         </div>
-        <div class="tf-footer">Der Balken füllt sich, je näher der Abflug rückt: blau für Linie, orange für Charter, rot für annullierte Flüge.</div>
+        <div class="tf-footer">Der Balken füllt sich, je näher der Abflug rückt: blau für Terminal A, orange für Terminal B/C, rot für annullierte Flüge.</div>
     </div>
 </div>
 
@@ -573,7 +574,7 @@ const TF_FENSTER = 90;
 const DEPARTED_STEPS = [5, 10, 15];   // Reihenfolge beim Tippen im Menü
 const DEPARTED_KEY = 'dus_landed_count';
 const SHOWDEPARTED_KEY = 'dus_show_landed';
-let showDepartedInLists = true;       // Gestartete in Alle/Linie/Charter anzeigen
+let showDepartedInLists = true;       // Gestartete in Alle/Terminal A/Terminal B/C anzeigen
 let departedCount = 15;               // Anzahl der Flüge im Filter "Gestartet"
 
 let allFlights = [];
@@ -782,7 +783,7 @@ try {
 } catch (e) {}
 updateDepartedBtn();
 
-/* ---------- Menü: Gestartete in Alle/Linie/Charter ein-/ausblenden ---------- */
+/* ---------- Menü: Gestartete in Alle/Terminal A/Terminal B/C ein-/ausblenden ---------- */
 const segDepartedOn = document.getElementById('segDepartedOn');
 const segDepartedOff = document.getElementById('segDepartedOff');
 
@@ -874,8 +875,8 @@ function getFilteredList() {
         list = list.filter(f => f.type === currentFilter);
     }
 
-    // Gestartete in Alle / Linie / Charter ausblenden (Menü)
-    if (!showDepartedInLists && (currentFilter === 'all' || currentFilter === 'Linie' || currentFilter === 'Charter')) {
+    // Gestartete in Alle / Terminal A / Terminal B/C ausblenden (Menü)
+    if (!showDepartedInLists && (currentFilter === 'all' || currentFilter === 'Terminal A' || currentFilter === 'Terminal B/C')) {
         list = list.filter(f => String(f.status).toLowerCase() !== 'departed');
     }
 
@@ -946,7 +947,7 @@ function renderFlights(flights) {
     flights.forEach(f => {
         const st = String(f.status).toLowerCase();
         const isCancelled = st === 'cancelled' || st === 'diverted' || st === 'incident';
-        const isCharter = f.type === "Charter";
+        const isCharter = f.type === "Terminal B/C" || f.type === "Charter";
 
         let cardClass = isCharter ? "flight-card card-charter" : "flight-card card-linie";
         if (isCancelled) {
@@ -1004,7 +1005,7 @@ function renderFlights(flights) {
                 <div class="main-info">
                     <div class="city-name">${f.city}${countryHtml}</div>
                     <div class="gate-info">
-                        <span class="${badgeClass}">${f.type}</span>
+                        <span class="${badgeClass}"${f.type_source !== 'Gate' ? ' title="Vorläufig, Gate noch nicht vergeben"' : ''}>${f.type}${f.type_source !== 'Gate' ? ' ?' : ''}</span>
                     </div>
                 </div>
                 ${iconHtml}
@@ -1034,8 +1035,8 @@ function filterFlights(category, event, save = true) {
     } else {
         const btnMap = {
             'all': '.btn-all',
-            'Linie': '.btn-linie',
-            'Charter': '.btn-charter',
+            'Terminal A': '.btn-linie',
+            'Terminal B/C': '.btn-charter',
             'boarding': '.btn-boarding',
             'departed': '.btn-departed'
         };
@@ -1102,7 +1103,7 @@ function renderBoard(flights) {
         const st = tfStatus(f);
         const s = String(f.status).toLowerCase();
         const isCancelled = s === 'cancelled' || s === 'diverted' || s === 'incident';
-        const art = isCancelled ? 'cancelled' : (f.type === 'Charter' ? 'charter' : 'linie');
+        const art = isCancelled ? 'cancelled' : ((f.type === 'Terminal B/C' || f.type === 'Charter') ? 'charter' : 'linie');
 
         const zeit = f.time_estimated || f.time_scheduled || '';
         const cc = getFlagCode(f.country);
@@ -1122,8 +1123,8 @@ function renderBoard(flights) {
             <div class="tf-flight">${esc(f.flight_no)}<small>${esc(f.airline)}</small></div>
             <div class="tf-city">${esc(f.city)}${countryHtml}</div>
             <div class="tf-time">${esc(zeit)}</div>
-            <div class="tf-exit">${f.gate ? esc(f.gate) : '–'}<small>${f.checkin ? 'CI ' + esc(f.checkin) : 'CI –'}</small></div>
-            <div class="tf-kind">${esc(f.type)}</div>
+            <div class="tf-exit"><span class="tf-lbl">Gate </span>${f.gate ? esc(f.gate) : '–'}</div>
+            <div class="tf-kind"><span class="tf-lbl">Check-in </span>${f.checkin ? esc(f.checkin) : '–'}</div>
             <div class="tf-status"><span class="tf-dot"></span><span>${st.label}${!isCancelled && f.delay > 0 ? '<span class="tf-delay">+' + esc(f.delay) + ' Min.</span>' : ''}</span></div>
         `;
         body.appendChild(row);
@@ -1144,7 +1145,7 @@ loadSavedView();
 // Gespeicherten Filter laden oder Standard ('all') nutzen
 try {
     const savedFilter = localStorage.getItem(FILTER_KEY);
-    const validFilters = ['all', 'Linie', 'Charter', 'boarding', 'departed'];
+    const validFilters = ['all', 'Terminal A', 'Terminal B/C', 'boarding', 'departed'];
     if (savedFilter && validFilters.includes(savedFilter)) {
         filterFlights(savedFilter, null, false);
     } else {
