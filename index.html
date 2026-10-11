@@ -924,7 +924,9 @@ function getFilteredList() {
     }
 
     // Einheitlich für Detail UND Tafel: nach erwarteter Zeit sortiert
-    const expected = f => timeToMinutes(f.time_estimated || f.time_scheduled);
+    // Minuten ab jetzt (mit Puffer für kürzlich Gestartete), damit die Sortierung über Mitternacht stimmt
+    const nowMin = berlinMin();
+    const expected = f => (((timeToMinutes(f.time_estimated || f.time_scheduled) - nowMin + 120) % 1440) + 1440) % 1440;
 
     return [...list].sort((a, b) => (expected(a) - expected(b)) || ((a.dt || 0) - (b.dt || 0)));
 }
