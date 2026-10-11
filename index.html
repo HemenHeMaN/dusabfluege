@@ -47,7 +47,7 @@
     --size-btn-hover: #00224a;
     --reset-btn-bg: #e4e4ed;
 
-    /* Flugtafel (Hellmodus) */
+    /* Flughafentafel (Hellmodus) */
     --tf-top: #e3ecfb;
     --tf-bottom: #cfdcf5;
     --tf-row: rgba(255, 255, 255, .75);
@@ -103,6 +103,7 @@
     --size-btn-hover: #0d47a1;
     --reset-btn-bg: #333;
 
+    /* Flughafentafel (Dunkelmodus) */
     --tf-top: #17409f;
     --tf-bottom: #0b2373;
     --tf-row: rgba(6, 20, 78, .62);
@@ -194,13 +195,10 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .city-name { font-size: 1.1rem; font-weight: bold; color: var(--text-color); margin-bottom: 4px; }
 .country { font-weight: normal; font-size: 0.95rem; color: var(--update-color); }
 
-.badge-linie, .badge-charter { padding: 3px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; display: inline-block; }
-.badge-linie { background: var(--badge-linie-bg); color: var(--badge-linie-color); }
-.badge-charter { background: var(--badge-charter-bg); color: var(--badge-charter-color); }
+.badge-gate { padding: 3px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; background: #003366; color: #fff; display: inline-block; }
+.badge-checkin { padding: 3px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; background: #e0e0e0; color: #333; display: inline-block; margin-left: 5px; }
 
 .delay-badge { display: inline-block; margin-top: 3px; padding: 2px 6px; border-radius: 4px; background: #ffd6d6; color: #a00000; font-size: 0.8rem; font-weight: bold; }
-.delay-badge.early-badge { background: #d6f5e0; color: #11602d; }
-
 .card-details { margin-top: 10px; font-size: 0.95rem; color: var(--text-color); }
 .detail-divider { border: none; border-top: 1px solid var(--border-color); margin: 8px 0; }
 .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
@@ -208,8 +206,8 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 
 /* Flughafentafel */
 .tf-board { background: linear-gradient(to bottom, var(--tf-top), var(--tf-bottom)); border: 1px solid var(--tf-line); border-radius: 6px; padding: 14px 12px 12px; color: var(--tf-text); font-family: var(--tf-data); }
-.tf-row { display: grid; align-items: center; column-gap: 12px; grid-template-columns: 6.5rem minmax(0, 1fr) 5rem 5.5rem 5.5rem 8.5rem; padding: 10px 12px; }
-.tf-head { color: var(--tf-dim); font-size: .62rem; letter-spacing: .14em; text-transform: uppercase; }
+.tf-row { display: grid; align-items: center; column-gap: 8px; grid-template-columns: 6rem minmax(0, 1fr) 4.5rem 4.5rem 5rem 5rem 6.5rem; padding: 10px 8px; }
+.tf-head { color: var(--tf-dim); font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; }
 .tf-body { display: flex; flex-direction: column; gap: 4px; }
 .tf-body .tf-row { position: relative; overflow: hidden; background: var(--tf-row); border-left: 4px solid var(--tf-line); }
 .tf-body .tf-row > :not(.tf-bar) { position: relative; z-index: 1; }
@@ -224,13 +222,13 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 
 .tf-flight { font-weight: 700; font-size: .8rem; }
 .tf-flight small { display: block; font-weight: 400; font-size: .62rem; color: var(--tf-dim); }
-.tf-city { font-family: var(--tf-display); font-size: 1.45rem; font-weight: 500; text-transform: uppercase; }
+.tf-city { font-family: var(--tf-display); font-size: 1.35rem; font-weight: 500; text-transform: uppercase; }
 .tf-city small { font-family: var(--tf-data); font-size: .62rem; color: var(--tf-dim); margin-left: 6px; }
 .tf-flag { height: .7em; width: auto; margin-left: 8px; vertical-align: baseline; border: 1px solid rgba(0,0,0,.25); border-radius: 2px; }
-.tf-time { justify-self: start; background: var(--tf-flap); color: var(--tf-flap-text); font-weight: 700; font-size: 1rem; padding: 4px 8px; border-radius: 2px; }
-.tf-exit { font-weight: 700; font-size: .85rem; }
-.tf-kind { font-size: .68rem; font-weight: 700; text-transform: uppercase; }
-.tf-status { display: flex; align-items: center; gap: 8px; font-size: .68rem; font-weight: 700; text-transform: uppercase; }
+.tf-time { justify-self: start; background: var(--tf-flap); color: var(--tf-flap-text); font-weight: 700; font-size: 0.95rem; padding: 4px 6px; border-radius: 2px; }
+.tf-checkin { font-weight: 700; font-size: .85rem; color: var(--tf-text); }
+.tf-gate { font-weight: 800; font-size: .95rem; color: var(--tf-amber); }
+.tf-status { display: flex; align-items: center; gap: 6px; font-size: .68rem; font-weight: 700; text-transform: uppercase; }
 .tf-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--tf-dim); }
 .s-boarding .tf-dot { background: var(--tf-ok); }
 .s-annulliert .tf-status { color: var(--tf-bad); }
@@ -348,7 +346,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 
 <div class="update-info" id="updateInfo">Lade Daten...</div>
 <div class="search-container" id="searchContainer">
-    <input type="text" id="searchInput" class="search-input" placeholder="Nach Flug, Zielstadt, Land oder Airline suchen...">
+    <input type="text" id="searchInput" class="search-input" placeholder="Nach Flug, Ziel, Check-in oder Gate suchen...">
     <button type="button" id="clearSearchBtn" class="clear-search-btn">&times;</button>
 </div>
 <div class="filter-container">
@@ -366,7 +364,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 <div id="view3" class="view-section">
     <div class="tf-board">
         <div class="tf-head tf-row">
-            <div>Flug</div><div>Nach</div><div>Geplant</div><div>Gate</div><div>Art</div><div>Status</div>
+            <div>Flug</div><div>Nach</div><div>Geplant</div><div>Erwartet</div><div>Check-in</div><div>Gate</div><div>Bemerkung</div>
         </div>
         <div class="tf-body" id="tfBody">
             <div class="tf-empty">Flüge werden geladen...</div>
@@ -491,7 +489,13 @@ function getFilteredList() {
     }
 
     if (currentSearch) {
-        list = list.filter(f => f.city.toLowerCase().includes(currentSearch) || f.flight_no.toLowerCase().includes(currentSearch) || f.airline.toLowerCase().includes(currentSearch) || f.checkin.toLowerCase().includes(currentSearch));
+        list = list.filter(f => 
+            f.city.toLowerCase().includes(currentSearch) || 
+            f.flight_no.toLowerCase().includes(currentSearch) || 
+            f.airline.toLowerCase().includes(currentSearch) || 
+            f.checkin.toLowerCase().includes(currentSearch) ||
+            f.gate.toLowerCase().includes(currentSearch)
+        );
     }
     return list;
 }
@@ -511,15 +515,22 @@ function renderFlights(flights) {
         const isCharter = f.type === "Charter";
         const isCancelled = f.status === 'cancelled';
         const cardClass = isCancelled ? "flight-card card-cancelled" : (isCharter ? "flight-card card-charter" : "flight-card card-linie");
-        const badgeClass = isCharter ? "badge-charter" : "badge-linie";
+        const estDiff = f.time_estimated && f.time_estimated !== f.time_scheduled;
+        const estHtml = estDiff ? `<span class="delay-badge">${f.time_estimated} Uhr</span>` : '';
 
         container.innerHTML += `
             <div class="${cardClass}">
                 <div class="card-header">
-                    <div class="time-col"><span>${f.time_scheduled}</span></div>
+                    <div class="time-col">
+                        <span>${f.time_scheduled}</span>
+                        ${estHtml}
+                    </div>
                     <div class="main-info">
                         <div class="city-name">Nach ${f.city} ${f.country ? '<span class="country">(' + f.country + ')</span>' : ''}</div>
-                        <div><span class="${badgeClass}">Gate ${f.gate}</span></div>
+                        <div>
+                            <span class="badge-gate">Gate ${f.gate}</span>
+                            <span class="badge-checkin">Check-in ${f.checkin}</span>
+                        </div>
                     </div>
                 </div>
                 <div class="card-details">
@@ -527,7 +538,7 @@ function renderFlights(flights) {
                     <div class="detail-grid">
                         <div><strong>Flug-Nr.:</strong> ${f.flight_no}</div>
                         <div><strong>Airline:</strong> ${f.airline}</div>
-                        <div><strong>Check-in:</strong> ${f.checkin}</div>
+                        <div><strong>Erwartet:</strong> ${f.time_estimated || f.time_scheduled}</div>
                         <div><strong>Status:</strong> ${f.status_text || f.status}</div>
                     </div>
                 </div>
@@ -552,8 +563,9 @@ function renderBoard(flights) {
                 <div class="tf-flight">${f.flight_no}<small>${f.airline}</small></div>
                 <div class="tf-city">${f.city} ${countryHtml}</div>
                 <div class="tf-time">${f.time_scheduled}</div>
-                <div class="tf-exit">Gate ${f.gate}</div>
-                <div class="tf-kind">${f.type}</div>
+                <div class="tf-time" style="background:#0d47a1; color:#fff; font-size:0.85rem; padding:2px 6px;">${f.time_estimated || f.time_scheduled}</div>
+                <div class="tf-checkin">${f.checkin}</div>
+                <div class="tf-gate">Gate ${f.gate}</div>
                 <div class="tf-status"><span class="tf-dot"></span><span>${f.status_text || f.status}</span></div>
             </div>`;
     });
