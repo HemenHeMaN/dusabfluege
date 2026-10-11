@@ -1,5 +1,5 @@
 {
-  "updated_at": "11.10.2026 23:30",
+  "updated_at": "11.10.2026 23:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -1085,6 +1085,22 @@
       "type": "Linie",
       "type_source": "Airline",
       "gate": "['C40']",
+      "checkin": "–",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791786900.0,
+      "time_scheduled": "08:35",
+      "time_estimated": "08:35",
+      "flight_no": "EW8041",
+      "airline": "Eurowings",
+      "city": "Berlin-Brandenburg",
+      "country": "Deutschland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "gate": "['A25']",
       "checkin": "–",
       "status": "scheduled",
       "status_text": "",
