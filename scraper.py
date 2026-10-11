@@ -35,8 +35,8 @@ CACHE_FILE = "cache.json"
 TZ = ZoneInfo("Europe/Berlin")
 
 # Abruf-Zeitfenster (lokale Zeit). Endet am Folgetag um 00:35 Uhr.
-WINDOW_START = (3, 25)    # frühester Start (Soll: 05:30)
-WINDOW_END = (2, 35)      # spätester Start (bis 00:35 Uhr, cronjob läuft bis 00:55 )
+WINDOW_START = (3, 0)     # frühester Start 03:00
+WINDOW_END = (22, 0)      # spätester Start 22:00
 
 # Anzeige-Fenster (nach tatsächlicher/erwarteter Abflugzeit)
 MINUTES_PAST = 60
