@@ -8,10 +8,12 @@ Aufruf mit --debug gibt die rohen API-Felder der ersten Abflüge aus
 
 Pro Abflug werden Gate und Check-in-Schalter direkt von dus.com übernommen.
 
-Linie/Charter-Zuordnung (Reihenfolge):
-  1. Flugtyp : dus.com-Flugtyp 21 (Pauschalreise-Charter)
-  2. Airline : Airline-Liste
-type_source zeigt, woher die Zuordnung stammt.
+Terminal-Zuordnung (Feld "type", Reihenfolge):
+  1. Gate    : Gate mit A = "Terminal A", Gate mit B oder C = "Terminal B/C"
+  2. Flugtyp : dus.com-Flugtyp 21 (Pauschalreise-Charter) -> "Terminal B/C"
+  3. Airline : Airline-Liste -> "Terminal B/C", sonst "Terminal A"
+Das Gate vergibt der Flughafen erst später, davor greifen die Fallbacks.
+type_source zeigt, woher die Zuordnung stammt ("Gate" = verlässlich).
 """
 import json
 import os
@@ -38,7 +40,7 @@ WINDOW_END = (0, 35)      # spätester Start (bis 00:35 Uhr, cronjob läuft bis 
 
 # Anzeige-Fenster (nach tatsächlicher/erwarteter Abflugzeit)
 MINUTES_PAST = 60
-HOURS_FUTURE = 15
+HOURS_FUTURE = 23
 
 # Abfrage-Fenster (nach Plan-Zeit), größer als das Anzeige-Fenster,
 # damit stark verspätete oder zu früh gestartete Flüge nicht fehlen
@@ -149,33 +151,28 @@ def flat_values(v):
     return [str(v)]
 
 
-def compact_numbers(items):
-    """['201','202','203','210'] -> '201–203/210'; Nicht-Zahlen bleiben unverändert."""
+def checkin_range(items):
+    """Check-in immer als Bereich mit Bindestrich: ['234','239'] -> '234-239',
+    ['171','172'] -> '171-172', ['205'] -> '205'."""
     if not items:
         return ""
-    if not all(i.isdigit() for i in items):
-        return "/".join(items)
-    nums = sorted({int(i) for i in items})
-    groups, start, prev = [], nums[0], nums[0]
-    for n in nums[1:]:
-        if n == prev + 1:
-            prev = n
-            continue
-        groups.append((start, prev))
-        start = prev = n
-    groups.append((start, prev))
-    return "/".join(str(a) if a == b else f"{a}–{b}" for a, b in groups)
+    if all(i.isdigit() for i in items):
+        nums = sorted({int(i) for i in items})
+        items = [str(nums[0]), str(nums[-1])] if len(nums) > 1 else [str(nums[0])]
+    elif len(items) > 1:
+        items = [items[0], items[-1]]
+    return "-".join(items)
 
 
 def gate_text(fl):
-    return compact_numbers(flat_values(fl.get("gate")))
+    return "/".join(flat_values(fl.get("gate")))
 
 
 def checkin_text(fl):
     for key in CHECKIN_KEYS:
         items = flat_values(fl.get(key))
         if items:
-            return compact_numbers(items)
+            return checkin_range(items)
     return ""
 
 
@@ -187,16 +184,21 @@ def terminal_letter(fl, airline):
     return str(airline.get("terminalGateDeparture") or airline.get("terminalGateArrival") or "").strip().upper()
 
 
-def classify(fl, airline_name, airline_iata):
-    if (fl.get("flightType") or {}).get("code") == 21:
-        return "Charter", "Flugtyp"
+def classify(terminal, fl, airline_name, airline_iata):
+    if terminal == "A":
+        return "Terminal A", "Gate"
+    if terminal in ("B", "C"):
+        return "Terminal B/C", "Gate"
 
+    # Gate noch nicht vergeben: Fallbacks
+    if (fl.get("flightType") or {}).get("code") == 21:
+        return "Terminal B/C", "Flugtyp"
     if str(airline_iata or "").upper() in CHARTER_CODES:
-        return "Charter", "Airline"
+        return "Terminal B/C", "Airline"
     name = str(airline_name or "").lower()
     if any(k in name for k in CHARTER_AIRLINES):
-        return "Charter", "Airline"
-    return "Linie", "Airline"
+        return "Terminal B/C", "Airline"
+    return "Terminal A", "Airline"
 
 
 def map_status(fl):
@@ -318,7 +320,8 @@ def build_flights(raw, now):
             unknown_status.add(status_text)
 
         city, country = airport_info(fl)
-        ftype, type_source = classify(fl, airline_name, airline_iata)
+        terminal = terminal_letter(fl, airline)
+        ftype, type_source = classify(terminal, fl, airline_name, airline_iata)
         flights.append({
             "dt": sched.timestamp(),
             "time_scheduled": sched.strftime("%H:%M"),
@@ -329,7 +332,7 @@ def build_flights(raw, now):
             "country": country,
             "type": ftype,
             "type_source": type_source,
-            "terminal": terminal_letter(fl, airline),
+            "terminal": terminal,
             "gate": gate_text(fl),
             "checkin": checkin_text(fl),
             "status": status,
