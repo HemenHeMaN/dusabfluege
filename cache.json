@@ -1,5 +1,5 @@
 {
-  "updated_at": "11.10.2026 23:15",
+  "updated_at": "11.10.2026 23:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -1869,6 +1869,38 @@
       "type": "Linie",
       "type_source": "Airline",
       "gate": "['B27']",
+      "checkin": "–",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791796800.0,
+      "time_scheduled": "11:20",
+      "time_estimated": "11:20",
+      "flight_no": "UD838",
+      "airline": "UR Airlines",
+      "city": "Erbil",
+      "country": "Irak",
+      "type": "Linie",
+      "type_source": "Airline",
+      "gate": "–",
+      "checkin": "–",
+      "status": "cancelled",
+      "status_text": "annulliert",
+      "delay": 0
+    },
+    {
+      "dt": 1791796800.0,
+      "time_scheduled": "11:20",
+      "time_estimated": "11:20",
+      "flight_no": "XQ289",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Charter",
+      "type_source": "Airline",
+      "gate": "['C36']",
       "checkin": "–",
       "status": "scheduled",
       "status_text": "",
