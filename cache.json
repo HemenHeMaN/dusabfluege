@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 14:15",
+  "updated_at": "12.10.2026 14:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791801000.0,
-      "time_scheduled": "12:30",
-      "time_estimated": "13:17",
-      "flight_no": "DE1428",
-      "airline": "Condor",
-      "city": "Teneriffa Süd",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B29",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 48
-    },
     {
       "dt": 1791801900.0,
       "time_scheduled": "12:45",
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 32
-    },
-    {
-      "dt": 1791802800.0,
-      "time_scheduled": "13:00",
-      "time_estimated": "13:16",
-      "flight_no": "EW9752",
-      "airline": "Eurowings",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
     },
     {
       "dt": 1791802800.0,
@@ -260,7 +226,7 @@
     {
       "dt": 1791805500.0,
       "time_scheduled": "13:45",
-      "time_estimated": "13:45",
+      "time_estimated": "14:19",
       "flight_no": "PC1002",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -270,9 +236,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 34
     },
     {
       "dt": 1791805500.0,
@@ -287,8 +253,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -328,7 +294,7 @@
     {
       "dt": 1791806100.0,
       "time_scheduled": "13:55",
-      "time_estimated": "13:55",
+      "time_estimated": "14:16",
       "flight_no": "EW9420",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -338,9 +304,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791806400.0,
@@ -491,8 +457,8 @@
       "terminal": "B",
       "gate": "B72",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -593,8 +559,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -628,7 +594,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -713,7 +679,7 @@
       "gate": "C54",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -863,7 +829,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B76",
+      "gate": "B29",
       "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
@@ -1356,7 +1322,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B37",
       "checkin": "148-150",
       "status": "scheduled",
       "status_text": "",
@@ -1441,7 +1407,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A79",
+      "gate": "A73",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1543,7 +1509,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B77",
+      "gate": "B29",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1919,6 +1885,23 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "146-147",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791829200.0,
+      "time_scheduled": "20:20",
+      "time_estimated": "20:20",
+      "flight_no": "TK1522",
+      "airline": "Turkish Airlines",
+      "city": "Istanbul",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
