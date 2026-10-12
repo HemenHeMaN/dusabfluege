@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 15:30",
+  "updated_at": "12.10.2026 15:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -56,7 +56,7 @@
     {
       "dt": 1791806700.0,
       "time_scheduled": "14:05",
-      "time_estimated": "15:05",
+      "time_estimated": "15:32",
       "flight_no": "EW9590",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -66,26 +66,9 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 60
-    },
-    {
-      "dt": 1791807000.0,
-      "time_scheduled": "14:10",
-      "time_estimated": "14:31",
-      "flight_no": "EW9630",
-      "airline": "Eurowings",
-      "city": "Rhodos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "151-170",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 21
+      "delay": 87
     },
     {
       "dt": 1791807300.0,
@@ -321,8 +304,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "140-141",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -525,8 +508,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -577,7 +560,7 @@
       "gate": "B26",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -611,7 +594,7 @@
       "gate": "B79",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -678,8 +661,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "171-173",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -712,8 +695,8 @@
       "terminal": "B",
       "gate": "B54",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -763,8 +746,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1118,7 +1101,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A73",
+      "gate": "A79",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
