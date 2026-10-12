@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 07:45",
+  "updated_at": "12.10.2026 07:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 86
-    },
-    {
-      "dt": 1791777900.0,
-      "time_scheduled": "06:05",
-      "time_estimated": "06:46",
-      "flight_no": "XC101",
-      "airline": "Corendon Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "265-267",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 42
     },
     {
       "dt": 1791778200.0,
@@ -107,23 +90,6 @@
     {
       "dt": 1791779100.0,
       "time_scheduled": "06:25",
-      "time_estimated": "06:50",
-      "flight_no": "EW9028",
-      "airline": "Eurowings",
-      "city": "Dresden",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A47",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 25
-    },
-    {
-      "dt": 1791779100.0,
-      "time_scheduled": "06:25",
       "time_estimated": "06:58",
       "flight_no": "EW9440",
       "airline": "Eurowings",
@@ -137,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 34
-    },
-    {
-      "dt": 1791779100.0,
-      "time_scheduled": "06:25",
-      "time_estimated": "06:48",
-      "flight_no": "EW9738",
-      "airline": "Eurowings",
-      "city": "Tallinn",
-      "country": "Estland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A51",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 24
     },
     {
       "dt": 1791779400.0,
@@ -362,7 +311,7 @@
     {
       "dt": 1791780600.0,
       "time_scheduled": "06:50",
-      "time_estimated": "07:15",
+      "time_estimated": "07:46",
       "flight_no": "EW9654",
       "airline": "Eurowings",
       "city": "Thessaloniki",
@@ -372,9 +321,9 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 25
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 57
     },
     {
       "dt": 1791780900.0,
@@ -447,7 +396,7 @@
     {
       "dt": 1791781200.0,
       "time_scheduled": "07:00",
-      "time_estimated": "07:00",
+      "time_estimated": "07:47",
       "flight_no": "EW9462",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -457,14 +406,14 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 48
     },
     {
       "dt": 1791781200.0,
       "time_scheduled": "07:00",
-      "time_estimated": "07:00",
+      "time_estimated": "07:45",
       "flight_no": "EW9242",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -474,9 +423,9 @@
       "terminal": "A",
       "gate": "A30",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 46
     },
     {
       "dt": 1791781200.0,
@@ -532,7 +481,7 @@
     {
       "dt": 1791781500.0,
       "time_scheduled": "07:05",
-      "time_estimated": "07:25",
+      "time_estimated": "07:50",
       "flight_no": "EW9750",
       "airline": "Eurowings",
       "city": "Wien",
@@ -544,7 +493,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 20
+      "delay": 45
     },
     {
       "dt": 1791781800.0,
@@ -627,8 +576,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -685,7 +634,7 @@
     {
       "dt": 1791783000.0,
       "time_scheduled": "07:30",
-      "time_estimated": "07:30",
+      "time_estimated": "07:49",
       "flight_no": "LH2035",
       "airline": "Lufthansa",
       "city": "München",
@@ -695,9 +644,9 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1791784200.0,
@@ -713,7 +662,7 @@
       "gate": "B58",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -797,8 +746,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -814,8 +763,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -934,7 +883,7 @@
       "gate": "B57",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -2343,6 +2292,40 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B79",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791805800.0,
+      "time_scheduled": "13:50",
+      "time_estimated": "13:50",
+      "flight_no": "EW9762",
+      "airline": "Eurowings",
+      "city": "Zürich",
+      "country": "Schweiz",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A65",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791805800.0,
+      "time_scheduled": "13:50",
+      "time_estimated": "13:50",
+      "flight_no": "DE138",
+      "airline": "Condor",
+      "city": "Agadir",
+      "country": "Marokko",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
