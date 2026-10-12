@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 10:55",
+  "updated_at": "12.10.2026 11:01",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,40 +18,6 @@
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
       "delay": 190
-    },
-    {
-      "dt": 1791788700.0,
-      "time_scheduled": "09:05",
-      "time_estimated": "10:01",
-      "flight_no": "ENT60621",
-      "airline": "Enter Air",
-      "city": "Pristina",
-      "country": "Kosovo",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C53",
-      "checkin": "265-267",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 56
-    },
-    {
-      "dt": 1791789000.0,
-      "time_scheduled": "09:10",
-      "time_estimated": "09:55",
-      "flight_no": "EW9394",
-      "airline": "Eurowings",
-      "city": "Dublin",
-      "country": "Irland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A73",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 46
     },
     {
       "dt": 1791790200.0,
@@ -243,23 +209,6 @@
     {
       "dt": 1791792000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
-      "flight_no": "XQ189",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
-    },
-    {
-      "dt": 1791792000.0,
-      "time_scheduled": "10:00",
       "time_estimated": "10:25",
       "flight_no": "XR403",
       "airline": "Corendon Airlines Europe",
@@ -304,8 +253,8 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -430,7 +379,7 @@
     {
       "dt": 1791793800.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:30",
+      "time_estimated": "11:01",
       "flight_no": "XR503",
       "airline": "Corendon Airlines Europe",
       "city": "Gran Canaria",
@@ -440,9 +389,9 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "240-248",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 32
     },
     {
       "dt": 1791793800.0,
@@ -457,14 +406,14 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 45
     },
     {
       "dt": 1791794100.0,
       "time_scheduled": "10:35",
-      "time_estimated": "10:35",
+      "time_estimated": "10:57",
       "flight_no": "LH073",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -474,9 +423,9 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791794400.0,
@@ -542,8 +491,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -560,7 +509,7 @@
       "gate": "C32",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -593,8 +542,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -678,8 +627,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -746,8 +695,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -797,8 +746,8 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -866,7 +815,7 @@
       "gate": "A79",
       "checkin": "261-263",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1127,7 +1076,7 @@
     {
       "dt": 1791803400.0,
       "time_scheduled": "13:10",
-      "time_estimated": "13:10",
+      "time_estimated": "14:00",
       "flight_no": "EW9588",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -1139,7 +1088,7 @@
       "checkin": "151-167",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 50
     },
     {
       "dt": 1791803400.0,
@@ -2208,6 +2157,23 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791817200.0,
+      "time_scheduled": "17:00",
+      "time_estimated": "17:00",
+      "flight_no": "EW9886",
+      "airline": "Eurowings",
+      "city": "Rom-Fiumicino",
+      "country": "Italien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A50",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
