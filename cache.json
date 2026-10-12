@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 15:47",
+  "updated_at": "12.10.2026 15:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -430,7 +430,7 @@
     {
       "dt": 1791811500.0,
       "time_scheduled": "15:25",
-      "time_estimated": "15:25",
+      "time_estimated": "15:48",
       "flight_no": "EK056",
       "airline": "Emirates",
       "city": "Dubai",
@@ -440,9 +440,9 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "263-272",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 24
     },
     {
       "dt": 1791811800.0,
@@ -525,8 +525,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -645,7 +645,7 @@
       "gate": "B54",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -713,7 +713,7 @@
       "gate": "C31",
       "checkin": "142-144",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
