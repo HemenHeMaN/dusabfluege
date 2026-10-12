@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 16:35",
+  "updated_at": "12.10.2026 16:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -90,23 +90,6 @@
     {
       "dt": 1791811200.0,
       "time_scheduled": "15:20",
-      "time_estimated": "15:38",
-      "flight_no": "SK1622",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
-    },
-    {
-      "dt": 1791811200.0,
-      "time_scheduled": "15:20",
       "time_estimated": "16:45",
       "flight_no": "NE721",
       "airline": "Nesma Airlines",
@@ -154,23 +137,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 28
-    },
-    {
-      "dt": 1791811500.0,
-      "time_scheduled": "15:25",
-      "time_estimated": "15:40",
-      "flight_no": "QR086",
-      "airline": "Qatar Airways",
-      "city": "Doha",
-      "country": "Katar",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C31",
-      "checkin": "243-248",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1791811500.0,
@@ -338,8 +304,8 @@
       "terminal": "A",
       "gate": "A72",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 30
     },
     {
@@ -424,13 +390,13 @@
       "gate": "A45",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 25
     },
     {
       "dt": 1791814800.0,
       "time_scheduled": "16:20",
-      "time_estimated": "16:20",
+      "time_estimated": "16:36",
       "flight_no": "XQ989",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -440,9 +406,9 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1791816300.0,
@@ -509,7 +475,7 @@
       "gate": "A50",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +491,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -542,8 +508,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +577,7 @@
       "gate": "B80",
       "checkin": "146",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
