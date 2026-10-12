@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 15:25",
+  "updated_at": "12.10.2026 15:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -390,13 +390,13 @@
       "gate": "C54",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
       "dt": 1791810600.0,
       "time_scheduled": "15:10",
-      "time_estimated": "15:10",
+      "time_estimated": "15:25",
       "flight_no": "XQ3181",
       "airline": "Sun Express",
       "city": "Bodrum-Milas",
@@ -406,9 +406,9 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1791811200.0,
@@ -423,8 +423,8 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +475,7 @@
       "gate": "C57",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,8 +491,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "243-248",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -508,8 +508,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "263-272",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -560,7 +560,7 @@
       "gate": "A65",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -594,7 +594,7 @@
       "gate": "B76",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -627,8 +627,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "145-147",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -695,8 +695,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1799,6 +1799,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A54",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791833400.0,
+      "time_scheduled": "21:30",
+      "time_estimated": "21:30",
+      "flight_no": "EW9898",
+      "airline": "Eurowings",
+      "city": "Tunis",
+      "country": "Tunesien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
