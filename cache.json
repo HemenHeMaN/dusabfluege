@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 18:00",
+  "updated_at": "12.10.2026 18:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -209,7 +209,7 @@
     {
       "dt": 1791819600.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:40",
+      "time_estimated": "18:00",
       "flight_no": "TP543",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -219,9 +219,9 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 21
     },
     {
       "dt": 1791819600.0,
@@ -243,7 +243,7 @@
     {
       "dt": 1791820500.0,
       "time_scheduled": "17:55",
-      "time_estimated": "17:55",
+      "time_estimated": "18:03",
       "flight_no": "EW9764",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -253,9 +253,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1791820500.0,
@@ -270,8 +270,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "243-245",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -457,8 +457,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "139-141",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -509,7 +509,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -611,7 +611,7 @@
       "gate": "C45",
       "checkin": "198-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
