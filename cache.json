@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 03:45",
+  "updated_at": "12.10.2026 03:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -48,7 +48,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B42A",
-      "checkin": "181-254",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -116,7 +116,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B29",
-      "checkin": "181-254",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -201,7 +201,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C45",
-      "checkin": "142-265",
+      "checkin": "265-267",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1426,6 +1426,23 @@
       "terminal": "A",
       "gate": "A75",
       "checkin": "173-178",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791791400.0,
+      "time_scheduled": "09:50",
+      "time_estimated": "09:50",
+      "flight_no": "LX1017",
+      "airline": "Swiss",
+      "city": "Zürich",
+      "country": "Schweiz",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A39",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
