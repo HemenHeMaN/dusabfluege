@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 14:55",
+  "updated_at": "12.10.2026 15:01",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791801900.0,
-      "time_scheduled": "12:45",
-      "time_estimated": "13:59",
-      "flight_no": "EW9600",
-      "airline": "Eurowings",
-      "city": "Funchal (Madeira)",
-      "country": "Portugal",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 75
-    },
     {
       "dt": 1791802800.0,
       "time_scheduled": "13:00",
@@ -39,7 +22,7 @@
     {
       "dt": 1791803400.0,
       "time_scheduled": "13:10",
-      "time_estimated": "14:40",
+      "time_estimated": "14:59",
       "flight_no": "EW9588",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -49,9 +32,9 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-167",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 90
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 110
     },
     {
       "dt": 1791804900.0,
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 23
-    },
-    {
-      "dt": 1791805500.0,
-      "time_scheduled": "13:45",
-      "time_estimated": "13:57",
-      "flight_no": "SK817",
-      "airline": "Scandinavian Airlines",
-      "city": "Oslo - Gardermoen",
-      "country": "Norwegen",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A50",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
     },
     {
       "dt": 1791805500.0,
@@ -311,7 +277,7 @@
     {
       "dt": 1791807900.0,
       "time_scheduled": "14:25",
-      "time_estimated": "14:25",
+      "time_estimated": "14:58",
       "flight_no": "EW9442",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -321,9 +287,9 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 33
     },
     {
       "dt": 1791808200.0,
@@ -407,7 +373,7 @@
       "gate": "B33",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 10
     },
     {
@@ -440,8 +406,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -509,7 +475,7 @@
       "gate": "A25",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +491,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -594,7 +560,7 @@
       "gate": "A54",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -696,7 +662,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -730,7 +696,7 @@
       "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -883,7 +849,7 @@
       "gate": "B54",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1885,6 +1851,23 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "198-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791831600.0,
+      "time_scheduled": "21:00",
+      "time_estimated": "21:00",
+      "flight_no": "EJU3944",
+      "airline": "Easy Jet Europe",
+      "city": "Mailand-Malpensa",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
