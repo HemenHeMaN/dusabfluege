@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 04:15",
+  "updated_at": "12.10.2026 04:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -1630,6 +1630,40 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791793200.0,
+      "time_scheduled": "10:20",
+      "time_estimated": "10:20",
+      "flight_no": "EW9612",
+      "airline": "Eurowings",
+      "city": "Korfu",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791793200.0,
+      "time_scheduled": "10:20",
+      "time_estimated": "10:20",
+      "flight_no": "EY134",
+      "airline": "Etihad Airways",
+      "city": "Abu Dhabi",
+      "country": "VAE",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
+      "checkin": "146-150",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
