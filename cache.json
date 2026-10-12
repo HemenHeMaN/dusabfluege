@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 03:05",
+  "updated_at": "12.10.2026 03:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -1239,6 +1239,23 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "265-266",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791789000.0,
+      "time_scheduled": "09:10",
+      "time_estimated": "09:10",
+      "flight_no": "EW9394",
+      "airline": "Eurowings",
+      "city": "Dublin",
+      "country": "Irland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A73",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
