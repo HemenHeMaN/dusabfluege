@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 07:20",
+  "updated_at": "12.10.2026 07:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 86
-    },
-    {
-      "dt": 1791777300.0,
-      "time_scheduled": "05:55",
-      "time_estimated": "06:25",
-      "flight_no": "DE1612",
-      "airline": "Condor",
-      "city": "Korfu",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B29",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 30
     },
     {
       "dt": 1791777600.0,
@@ -154,23 +137,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 42
-    },
-    {
-      "dt": 1791777900.0,
-      "time_scheduled": "06:05",
-      "time_estimated": "06:24",
-      "flight_no": "DE1826",
-      "airline": "Condor",
-      "city": "Olbia (Sardinien)",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B54",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
     },
     {
       "dt": 1791778200.0,
@@ -406,8 +372,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 30
     },
     {
@@ -474,14 +440,14 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1791780000.0,
       "time_scheduled": "06:40",
-      "time_estimated": "06:40",
+      "time_estimated": "07:23",
       "flight_no": "EW9860",
       "airline": "Eurowings",
       "city": "Neapel",
@@ -491,9 +457,9 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 43
     },
     {
       "dt": 1791780300.0,
@@ -577,7 +543,7 @@
       "gate": "A50",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 25
     },
     {
@@ -662,7 +628,7 @@
       "gate": "A79",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -679,7 +645,7 @@
       "gate": "A30",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -729,8 +695,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -787,7 +753,7 @@
     {
       "dt": 1791782400.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:20",
+      "time_estimated": "07:40",
       "flight_no": "EW9868",
       "airline": "Eurowings",
       "city": "Cagliari (Sardinien)",
@@ -799,7 +765,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1791782400.0,
@@ -849,7 +815,7 @@
       "gate": "A44",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -866,7 +832,7 @@
       "gate": "B36",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -883,7 +849,7 @@
       "gate": "C42",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -900,7 +866,7 @@
       "gate": "A45",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -985,7 +951,7 @@
       "gate": "C46",
       "checkin": "243-248",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1237,7 +1203,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A49",
+      "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
