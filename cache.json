@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 14:05",
+  "updated_at": "12.10.2026 14:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 48
-    },
-    {
-      "dt": 1791801600.0,
-      "time_scheduled": "12:40",
-      "time_estimated": "13:06",
-      "flight_no": "X32114",
-      "airline": "Tuifly",
-      "city": "Gran Canaria",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B80",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
     },
     {
       "dt": 1791801900.0,
@@ -168,8 +151,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-167",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 50
     },
     {
@@ -321,8 +304,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -373,7 +356,7 @@
       "gate": "C42",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 15
     },
     {
@@ -389,8 +372,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -727,7 +710,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C42",
+      "gate": "C36",
       "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
@@ -761,7 +744,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C53",
+      "gate": "C54",
       "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
@@ -999,7 +982,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C36",
+      "gate": "C42",
       "checkin": "145-147",
       "status": "scheduled",
       "status_text": "",
@@ -1135,7 +1118,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C53",
+      "gate": "C54",
       "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
@@ -1815,7 +1798,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C53",
+      "gate": "C54",
       "checkin": "171-173",
       "status": "scheduled",
       "status_text": "",
