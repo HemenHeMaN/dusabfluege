@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 11:05",
+  "updated_at": "12.10.2026 11:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 47
-    },
-    {
-      "dt": 1791790800.0,
-      "time_scheduled": "09:40",
-      "time_estimated": "10:06",
-      "flight_no": "OS162",
-      "airline": "Austrian Airlines",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 26
     },
     {
       "dt": 1791791100.0,
@@ -175,23 +158,6 @@
     {
       "dt": 1791792000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:07",
-      "flight_no": "LH2009",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
-    },
-    {
-      "dt": 1791792000.0,
-      "time_scheduled": "10:00",
       "time_estimated": "10:25",
       "flight_no": "XR403",
       "airline": "Corendon Airlines Europe",
@@ -226,7 +192,7 @@
     {
       "dt": 1791792600.0,
       "time_scheduled": "10:10",
-      "time_estimated": "10:10",
+      "time_estimated": "11:09",
       "flight_no": "XQ3581",
       "airline": "Sun Express",
       "city": "Dalaman",
@@ -236,9 +202,9 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 59
     },
     {
       "dt": 1791793200.0,
@@ -328,7 +294,7 @@
     {
       "dt": 1791793800.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:30",
+      "time_estimated": "11:07",
       "flight_no": "TK1524",
       "airline": "Turkish Airlines",
       "city": "Istanbul",
@@ -338,9 +304,9 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 37
     },
     {
       "dt": 1791793800.0,
@@ -458,7 +424,7 @@
       "gate": "C52",
       "checkin": "140-142",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -509,7 +475,7 @@
       "gate": "C45",
       "checkin": "192-194",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -559,8 +525,8 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 20
     },
     {
@@ -577,7 +543,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 30
     },
     {
@@ -601,23 +567,6 @@
       "dt": 1791796800.0,
       "time_scheduled": "11:20",
       "time_estimated": "11:20",
-      "flight_no": "UD838",
-      "airline": "UR Airlines",
-      "city": "Erbil",
-      "country": "Irak",
-      "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
-      "checkin": "",
-      "status": "cancelled",
-      "status_text": "annulliert",
-      "delay": 0
-    },
-    {
-      "dt": 1791796800.0,
-      "time_scheduled": "11:20",
-      "time_estimated": "11:20",
       "flight_no": "XQ289",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -629,6 +578,23 @@
       "checkin": "197-206",
       "status": "boarding",
       "status_text": "Boarding",
+      "delay": 0
+    },
+    {
+      "dt": 1791796800.0,
+      "time_scheduled": "11:20",
+      "time_estimated": "11:20",
+      "flight_no": "UD838",
+      "airline": "UR Airlines",
+      "city": "Erbil",
+      "country": "Irak",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "",
+      "status": "cancelled",
+      "status_text": "annulliert",
       "delay": 0
     },
     {
@@ -713,7 +679,7 @@
       "gate": "A83",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 20
     },
     {
@@ -1042,7 +1008,7 @@
     {
       "dt": 1791802800.0,
       "time_scheduled": "13:00",
-      "time_estimated": "13:00",
+      "time_estimated": "13:25",
       "flight_no": "EW9672",
       "airline": "Eurowings",
       "city": "Heraklion (Kreta)",
@@ -1054,7 +1020,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1791803400.0,
@@ -1705,7 +1671,7 @@
     {
       "dt": 1791811200.0,
       "time_scheduled": "15:20",
-      "time_estimated": "15:20",
+      "time_estimated": "16:30",
       "flight_no": "NE721",
       "airline": "Nesma Airlines",
       "city": "Hurghada",
@@ -1717,7 +1683,7 @@
       "checkin": "137-139",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 70
     },
     {
       "dt": 1791811500.0,
@@ -2173,6 +2139,23 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C37",
+      "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791817800.0,
+      "time_scheduled": "17:10",
+      "time_estimated": "17:10",
+      "flight_no": "PC1004",
+      "airline": "Pegasus Airlines",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
       "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
