@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 17:35",
+  "updated_at": "12.10.2026 17:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -88,23 +88,6 @@
       "delay": 47
     },
     {
-      "dt": 1791813600.0,
-      "time_scheduled": "16:00",
-      "time_estimated": "16:40",
-      "flight_no": "XC197",
-      "airline": "Corendon Airlines",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C32",
-      "checkin": "171-173",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 40
-    },
-    {
       "dt": 1791814800.0,
       "time_scheduled": "16:20",
       "time_estimated": "17:08",
@@ -120,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 48
-    },
-    {
-      "dt": 1791814800.0,
-      "time_scheduled": "16:20",
-      "time_estimated": "16:36",
-      "flight_no": "XQ989",
-      "airline": "Sun Express",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C53",
-      "checkin": "197-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
     },
     {
       "dt": 1791816300.0,
@@ -356,7 +322,7 @@
       "gate": "A39",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -406,8 +372,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "148-150",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -676,7 +642,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B31",
+      "gate": "B35",
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
