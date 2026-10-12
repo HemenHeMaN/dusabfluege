@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 05:55",
+  "updated_at": "12.10.2026 06:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -50,7 +50,7 @@
       "gate": "B42A",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -202,8 +202,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "265-267",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -220,7 +220,7 @@
       "gate": "B54",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -254,7 +254,7 @@
       "gate": "B52",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -322,7 +322,7 @@
       "gate": "A33",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -373,7 +373,7 @@
       "gate": "B30",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1016,7 +1016,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B79",
+      "gate": "B71",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1033,7 +1033,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C37",
+      "gate": "C36",
       "checkin": "192-195",
       "status": "scheduled",
       "status_text": "",
@@ -1050,7 +1050,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C46",
+      "gate": "C45",
       "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
@@ -1067,7 +1067,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C45",
+      "gate": "C46",
       "checkin": "243-248",
       "status": "scheduled",
       "status_text": "",
@@ -2174,6 +2174,40 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "143-144",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791799200.0,
+      "time_scheduled": "12:00",
+      "time_estimated": "12:00",
+      "flight_no": "4M196",
+      "airline": "Mavi Gök Aviation",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A72",
+      "checkin": "262-264",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791799200.0,
+      "time_scheduled": "12:00",
+      "time_estimated": "12:00",
+      "flight_no": "4M149",
+      "airline": "Mavi Gök Aviation",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A79",
+      "checkin": "265-267",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
