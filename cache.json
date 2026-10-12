@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 11:35",
+  "updated_at": "12.10.2026 11:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -253,8 +253,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 45
     },
     {
@@ -307,23 +307,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 13
-    },
-    {
-      "dt": 1791794400.0,
-      "time_scheduled": "10:40",
-      "time_estimated": "10:40",
-      "flight_no": "BA919",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C52",
-      "checkin": "140-142",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
     },
     {
       "dt": 1791795000.0,
@@ -407,7 +390,7 @@
       "gate": "A81",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 20
     },
     {
@@ -440,8 +423,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 30
     },
     {
@@ -465,23 +448,6 @@
       "dt": 1791796800.0,
       "time_scheduled": "11:20",
       "time_estimated": "11:20",
-      "flight_no": "XQ289",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C53",
-      "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
-    },
-    {
-      "dt": 1791796800.0,
-      "time_scheduled": "11:20",
-      "time_estimated": "11:20",
       "flight_no": "UD838",
       "airline": "UR Airlines",
       "city": "Erbil",
@@ -493,6 +459,23 @@
       "checkin": "",
       "status": "cancelled",
       "status_text": "annulliert",
+      "delay": 0
+    },
+    {
+      "dt": 1791796800.0,
+      "time_scheduled": "11:20",
+      "time_estimated": "11:20",
+      "flight_no": "XQ289",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C53",
+      "checkin": "197-206",
+      "status": "boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -509,7 +492,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -577,7 +560,7 @@
       "gate": "A83",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 20
     },
     {
@@ -730,7 +713,7 @@
       "gate": "B71",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 15
     },
     {
@@ -763,8 +746,8 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "267-271",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -2088,6 +2071,40 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B71",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791819600.0,
+      "time_scheduled": "17:40",
+      "time_estimated": "17:40",
+      "flight_no": "TP543",
+      "airline": "TAP Portugal",
+      "city": "Lissabon",
+      "country": "Portugal",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A42",
+      "checkin": "103-105",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791819600.0,
+      "time_scheduled": "17:40",
+      "time_estimated": "17:40",
+      "flight_no": "EW9784",
+      "airline": "Eurowings",
+      "city": "Budapest",
+      "country": "Ungarn",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A39",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
