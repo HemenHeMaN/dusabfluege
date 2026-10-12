@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 16:10",
+  "updated_at": "12.10.2026 16:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,40 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 87
-    },
-    {
-      "dt": 1791808200.0,
-      "time_scheduled": "14:30",
-      "time_estimated": "15:11",
-      "flight_no": "KL1802",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B72",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 42
-    },
-    {
-      "dt": 1791808800.0,
-      "time_scheduled": "14:40",
-      "time_estimated": "15:13",
-      "flight_no": "EW9636",
-      "airline": "Eurowings",
-      "city": "Kos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 34
     },
     {
       "dt": 1791809400.0,
@@ -151,9 +117,26 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 80
+    },
+    {
+      "dt": 1791810600.0,
+      "time_scheduled": "15:10",
+      "time_estimated": "16:10",
+      "flight_no": "XQ187",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C54",
+      "checkin": "197-206",
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 61
     },
     {
       "dt": 1791810600.0,
@@ -305,7 +288,7 @@
       "gate": "B29",
       "checkin": "103-105",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 120
     },
     {
@@ -328,7 +311,7 @@
     {
       "dt": 1791812100.0,
       "time_scheduled": "15:35",
-      "time_estimated": "15:55",
+      "time_estimated": "16:13",
       "flight_no": "EW9530",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -338,9 +321,9 @@
       "terminal": "B",
       "gate": "B26",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 20
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 38
     },
     {
       "dt": 1791812400.0,
@@ -407,7 +390,7 @@
       "gate": "C40",
       "checkin": "148-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "A",
       "gate": "A72",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 30
     },
     {
@@ -441,7 +424,7 @@
       "gate": "C32",
       "checkin": "171-173",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +509,7 @@
       "gate": "C53",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -679,7 +662,7 @@
       "gate": "C42",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
