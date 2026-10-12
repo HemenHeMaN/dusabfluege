@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 03:30",
+  "updated_at": "12.10.2026 03:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -1341,6 +1341,40 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791790500.0,
+      "time_scheduled": "09:35",
+      "time_estimated": "09:35",
+      "flight_no": "EW4673",
+      "airline": "Eurowings",
+      "city": "Stockholm-Arlanda",
+      "country": "Schweden",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A42",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791790500.0,
+      "time_scheduled": "09:35",
+      "time_estimated": "09:35",
+      "flight_no": "EZY8650",
+      "airline": "Easy Jet",
+      "city": "London-Gatwick",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A80",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
