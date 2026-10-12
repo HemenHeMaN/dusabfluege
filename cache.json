@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 19:15",
+  "updated_at": "12.10.2026 19:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791820500.0,
-      "time_scheduled": "17:55",
-      "time_estimated": "18:18",
-      "flight_no": "VF006",
-      "airline": "A Jet",
-      "city": "Ankara-Esenboğa",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "243-245",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 24
-    },
     {
       "dt": 1791820500.0,
       "time_scheduled": "17:55",
@@ -158,7 +141,7 @@
     {
       "dt": 1791822900.0,
       "time_scheduled": "18:35",
-      "time_estimated": "19:05",
+      "time_estimated": "19:17",
       "flight_no": "EW9038",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -168,9 +151,9 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 30
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 43
     },
     {
       "dt": 1791822900.0,
@@ -192,7 +175,7 @@
     {
       "dt": 1791822900.0,
       "time_scheduled": "18:35",
-      "time_estimated": "18:35",
+      "time_estimated": "19:15",
       "flight_no": "BA923",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -202,9 +185,9 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "139-141",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 40
     },
     {
       "dt": 1791823200.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1791823500.0,
       "time_scheduled": "18:45",
-      "time_estimated": "18:45",
+      "time_estimated": "19:19",
       "flight_no": "EW9244",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -270,9 +253,9 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 34
     },
     {
       "dt": 1791823500.0,
@@ -355,8 +338,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "198-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -441,7 +424,7 @@
       "gate": "C54",
       "checkin": "171-173",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +440,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "104-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -642,7 +625,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A39",
+      "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
