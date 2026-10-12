@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 03:20",
+  "updated_at": "12.10.2026 03:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -1256,6 +1256,23 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791789900.0,
+      "time_scheduled": "09:25",
+      "time_estimated": "09:25",
+      "flight_no": "AF1307",
+      "airline": "Air France",
+      "city": "Paris-Charles de Gaulle",
+      "country": "Frankreich",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B35",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
