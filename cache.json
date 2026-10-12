@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 17:50",
+  "updated_at": "12.10.2026 17:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -105,23 +105,6 @@
       "delay": 16
     },
     {
-      "dt": 1791816600.0,
-      "time_scheduled": "16:50",
-      "time_estimated": "16:54",
-      "flight_no": "EW9754",
-      "airline": "Eurowings",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A50",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 4
-    },
-    {
       "dt": 1791816900.0,
       "time_scheduled": "16:55",
       "time_estimated": "17:21",
@@ -137,23 +120,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 27
-    },
-    {
-      "dt": 1791816900.0,
-      "time_scheduled": "16:55",
-      "time_estimated": "16:55",
-      "flight_no": "DE1516",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B27",
-      "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
     },
     {
       "dt": 1791817200.0,
@@ -226,7 +192,7 @@
     {
       "dt": 1791819300.0,
       "time_scheduled": "17:35",
-      "time_estimated": "17:40",
+      "time_estimated": "17:52",
       "flight_no": "EW9518",
       "airline": "Eurowings",
       "city": "Bilbao",
@@ -236,9 +202,9 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 5
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1791819600.0,
@@ -424,7 +390,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -523,10 +489,10 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C46",
+      "gate": "C40",
       "checkin": "246-248",
       "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status_text": "",
       "delay": 0
     },
     {
@@ -744,7 +710,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A50",
       "checkin": "104-105",
       "status": "scheduled",
       "status_text": "",
@@ -812,7 +778,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A50",
+      "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
