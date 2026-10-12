@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 16:51",
+  "updated_at": "12.10.2026 16:55",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791810000.0,
-      "time_scheduled": "15:00",
-      "time_estimated": "15:54",
-      "flight_no": "X34572",
-      "airline": "Tuifly",
-      "city": "Kos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 55
-    },
     {
       "dt": 1791810600.0,
       "time_scheduled": "15:10",
@@ -66,8 +49,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "137-139",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 85
     },
     {
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 43
-    },
-    {
-      "dt": 1791811500.0,
-      "time_scheduled": "15:25",
-      "time_estimated": "15:52",
-      "flight_no": "EW5518",
-      "airline": "Eurowings",
-      "city": "Monastir",
-      "country": "Tunesien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C57",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 28
     },
     {
       "dt": 1791811800.0,
@@ -373,7 +339,7 @@
       "gate": "B33",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -396,7 +362,7 @@
     {
       "dt": 1791816600.0,
       "time_scheduled": "16:50",
-      "time_estimated": "16:50",
+      "time_estimated": "16:54",
       "flight_no": "EW9754",
       "airline": "Eurowings",
       "city": "Wien",
@@ -406,9 +372,9 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 4
     },
     {
       "dt": 1791816900.0,
@@ -475,7 +441,7 @@
       "gate": "C37",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +492,7 @@
       "gate": "B71",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 5
     },
     {
