@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 11:50",
+  "updated_at": "12.10.2026 11:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -16,7 +16,7 @@
       "gate": "C54",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 190
     },
     {
@@ -226,23 +226,6 @@
     {
       "dt": 1791794400.0,
       "time_scheduled": "10:40",
-      "time_estimated": "10:53",
-      "flight_no": "EW9732",
-      "airline": "Eurowings",
-      "city": "Krakau",
-      "country": "Polen",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B75",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 13
-    },
-    {
-      "dt": 1791794400.0,
-      "time_scheduled": "10:40",
       "time_estimated": "11:47",
       "flight_no": "BA919",
       "airline": "British Airways",
@@ -311,7 +294,7 @@
     {
       "dt": 1791796200.0,
       "time_scheduled": "11:10",
-      "time_estimated": "11:30",
+      "time_estimated": "11:54",
       "flight_no": "EW9424",
       "airline": "Eurowings",
       "city": "Marseille",
@@ -321,9 +304,9 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 20
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 44
     },
     {
       "dt": 1791796500.0,
@@ -339,7 +322,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 30
     },
     {
@@ -372,8 +355,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +389,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -2021,6 +2004,57 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791820500.0,
+      "time_scheduled": "17:55",
+      "time_estimated": "17:55",
+      "flight_no": "EW9764",
+      "airline": "Eurowings",
+      "city": "Zürich",
+      "country": "Schweiz",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791820500.0,
+      "time_scheduled": "17:55",
+      "time_estimated": "17:55",
+      "flight_no": "VF006",
+      "airline": "A Jet",
+      "city": "Ankara-Esenboğa",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "243-245",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791820500.0,
+      "time_scheduled": "17:55",
+      "time_estimated": "17:55",
+      "flight_no": "XR401",
+      "airline": "Corendon Airlines Europe",
+      "city": "Heraklion (Kreta)",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "148-150",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
