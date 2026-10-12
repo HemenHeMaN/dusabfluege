@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 06:10",
+  "updated_at": "12.10.2026 06:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -33,7 +33,7 @@
       "gate": "B42B",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -49,8 +49,8 @@
       "terminal": "B",
       "gate": "B42A",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -73,7 +73,7 @@
     {
       "dt": 1791777000.0,
       "time_scheduled": "05:50",
-      "time_estimated": "05:50",
+      "time_estimated": "06:13",
       "flight_no": "DE1616",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -83,9 +83,9 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 23
     },
     {
       "dt": 1791777000.0,
@@ -117,8 +117,8 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -134,8 +134,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -219,8 +219,8 @@
       "terminal": "B",
       "gate": "B54",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -294,7 +294,7 @@
     {
       "dt": 1791778200.0,
       "time_scheduled": "06:10",
-      "time_estimated": "06:10",
+      "time_estimated": "06:20",
       "flight_no": "LH079",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -305,8 +305,8 @@
       "gate": "A48",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
-      "delay": 0
+      "status_text": "Boarding beendet",
+      "delay": 10
     },
     {
       "dt": 1791778500.0,
@@ -372,8 +372,8 @@
       "terminal": "B",
       "gate": "B30",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -390,7 +390,7 @@
       "gate": "A47",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -440,8 +440,8 @@
       "terminal": "A",
       "gate": "A51",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -491,8 +491,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -747,7 +747,7 @@
       "gate": "A79",
       "checkin": "151-248",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -832,7 +832,7 @@
       "gate": "A52",
       "checkin": "151-248",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1493,7 +1493,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C56",
-      "checkin": "",
+      "checkin": "240-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1595,7 +1595,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B76",
-      "checkin": "",
+      "checkin": "240-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1765,7 +1765,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B78",
-      "checkin": "240-242",
+      "checkin": "240-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -2208,6 +2208,23 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "265-267",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791800100.0,
+      "time_scheduled": "12:15",
+      "time_estimated": "12:15",
+      "flight_no": "EW9580",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A49",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
