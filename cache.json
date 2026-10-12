@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 08:35",
+  "updated_at": "12.10.2026 08:40",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791779700.0,
-      "time_scheduled": "06:35",
-      "time_estimated": "07:35",
-      "flight_no": "EW9782",
-      "airline": "Eurowings",
-      "city": "Budapest",
-      "country": "Ungarn",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A63",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 61
-    },
     {
       "dt": 1791779700.0,
       "time_scheduled": "06:35",
@@ -154,23 +137,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 53
-    },
-    {
-      "dt": 1791781500.0,
-      "time_scheduled": "07:05",
-      "time_estimated": "07:37",
-      "flight_no": "X36568",
-      "airline": "Tuifly",
-      "city": "Djerba",
-      "country": "Tunesien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C32",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 32
     },
     {
       "dt": 1791781500.0,
@@ -390,7 +356,7 @@
       "gate": "C36",
       "checkin": "192-195",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -584,6 +550,23 @@
       "dt": 1791788700.0,
       "time_scheduled": "09:05",
       "time_estimated": "09:05",
+      "flight_no": "ENT60621",
+      "airline": "Enter Air",
+      "city": "Pristina",
+      "country": "Kosovo",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C53",
+      "checkin": "265-267",
+      "status": "boarding",
+      "status_text": "Boarding",
+      "delay": 0
+    },
+    {
+      "dt": 1791788700.0,
+      "time_scheduled": "09:05",
+      "time_estimated": "09:05",
       "flight_no": "ENT60622",
       "airline": "Enter Air",
       "city": "Pristina",
@@ -595,23 +578,6 @@
       "checkin": "",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 0
-    },
-    {
-      "dt": 1791788700.0,
-      "time_scheduled": "09:05",
-      "time_estimated": "09:05",
-      "flight_no": "ENT60621",
-      "airline": "Enter Air",
-      "city": "Pristina",
-      "country": "Kosovo",
-      "type": "Terminal B/C",
-      "type_source": "Flugtyp",
-      "terminal": "",
-      "gate": "",
-      "checkin": "265-267",
-      "status": "cancelled",
-      "status_text": "annulliert",
       "delay": 0
     },
     {
@@ -627,8 +593,8 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -679,7 +645,7 @@
       "gate": "C32",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -747,7 +713,7 @@
       "gate": "A80",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -2242,6 +2208,40 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791808800.0,
+      "time_scheduled": "14:40",
+      "time_estimated": "14:40",
+      "flight_no": "EW9332",
+      "airline": "Eurowings",
+      "city": "Birmingham",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A80",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791808800.0,
+      "time_scheduled": "14:40",
+      "time_estimated": "14:40",
+      "flight_no": "EW9636",
+      "airline": "Eurowings",
+      "city": "Kos",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
