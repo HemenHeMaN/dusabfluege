@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 14:30",
+  "updated_at": "12.10.2026 14:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -103,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 21
-    },
-    {
-      "dt": 1791804000.0,
-      "time_scheduled": "13:20",
-      "time_estimated": "13:31",
-      "flight_no": "EW9734",
-      "airline": "Eurowings",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A63",
-      "checkin": "151-167",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
     },
     {
       "dt": 1791804600.0,
@@ -328,7 +311,7 @@
     {
       "dt": 1791806700.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:20",
+      "time_estimated": "14:40",
       "flight_no": "EW9590",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -340,12 +323,12 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 15
+      "delay": 35
     },
     {
       "dt": 1791807000.0,
       "time_scheduled": "14:10",
-      "time_estimated": "14:10",
+      "time_estimated": "14:31",
       "flight_no": "EW9630",
       "airline": "Eurowings",
       "city": "Rhodos",
@@ -355,9 +338,9 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 21
     },
     {
       "dt": 1791807300.0,
@@ -475,7 +458,7 @@
       "gate": "B74",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +508,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -576,8 +559,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -625,10 +608,10 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C36",
+      "gate": "C42",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status_text": "",
       "delay": 0
     },
     {
@@ -696,7 +679,7 @@
       "gate": "A54",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -897,7 +880,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C42",
+      "gate": "C36",
       "checkin": "145-147",
       "status": "scheduled",
       "status_text": "",
@@ -1936,6 +1919,23 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "192-195",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791830100.0,
+      "time_scheduled": "20:35",
+      "time_estimated": "20:35",
+      "flight_no": "PC1620",
+      "airline": "Pegasus Airlines",
+      "city": "Kayseri",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C36",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
