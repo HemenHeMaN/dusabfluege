@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 09:25",
+  "updated_at": "12.10.2026 09:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 117
-    },
-    {
-      "dt": 1791782400.0,
-      "time_scheduled": "07:20",
-      "time_estimated": "08:25",
-      "flight_no": "EW9868",
-      "airline": "Eurowings",
-      "city": "Cagliari (Sardinien)",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B52",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 66
     },
     {
       "dt": 1791785100.0,
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 26
-    },
-    {
-      "dt": 1791785400.0,
-      "time_scheduled": "08:10",
-      "time_estimated": "08:27",
-      "flight_no": "XQ1351",
-      "airline": "Sun Express",
-      "city": "Samsun",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "243-248",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
     },
     {
       "dt": 1791785700.0,
@@ -237,7 +203,7 @@
       "gate": "C53",
       "checkin": "265-267",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -271,7 +237,7 @@
       "gate": "A73",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -305,7 +271,7 @@
       "gate": "C45",
       "checkin": "262-264",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -328,7 +294,7 @@
     {
       "dt": 1791790200.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
+      "time_estimated": "09:40",
       "flight_no": "LH2005",
       "airline": "Lufthansa",
       "city": "München",
@@ -339,8 +305,8 @@
       "gate": "A50",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
-      "delay": 0
+      "status_text": "Boarding beendet",
+      "delay": 10
     },
     {
       "dt": 1791790200.0,
@@ -356,7 +322,7 @@
       "gate": "C37",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -373,7 +339,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +491,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -917,7 +883,7 @@
       "gate": "C45",
       "checkin": "192-194",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1280,7 +1246,7 @@
     {
       "dt": 1791801000.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:30",
+      "time_estimated": "13:05",
       "flight_no": "DE1428",
       "airline": "Condor",
       "city": "Teneriffa Süd",
@@ -1292,7 +1258,7 @@
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 35
     },
     {
       "dt": 1791801000.0,
@@ -1433,7 +1399,7 @@
     {
       "dt": 1791802800.0,
       "time_scheduled": "13:00",
-      "time_estimated": "13:00",
+      "time_estimated": "13:25",
       "flight_no": "DE1684",
       "airline": "Condor",
       "city": "Larnaca (Zypern)",
@@ -1445,7 +1411,7 @@
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1791802800.0,
@@ -2191,6 +2157,57 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "263-272",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791811800.0,
+      "time_scheduled": "15:30",
+      "time_estimated": "15:30",
+      "flight_no": "LH2017",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A39",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791811800.0,
+      "time_scheduled": "15:30",
+      "time_estimated": "15:30",
+      "flight_no": "XR501",
+      "airline": "Corendon Airlines Europe",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B76",
+      "checkin": "103-105",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791811800.0,
+      "time_scheduled": "15:30",
+      "time_estimated": "15:30",
+      "flight_no": "EW9536",
+      "airline": "Eurowings",
+      "city": "Malaga",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A42",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
