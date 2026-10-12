@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 17:45",
+  "updated_at": "12.10.2026 17:50",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791810600.0,
-      "time_scheduled": "15:10",
-      "time_estimated": "16:45",
-      "flight_no": "LH075",
-      "airline": "Lufthansa",
-      "city": "Frankfurt",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 96
-    },
     {
       "dt": 1791811200.0,
       "time_scheduled": "15:20",
@@ -52,40 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 123
-    },
-    {
-      "dt": 1791813300.0,
-      "time_scheduled": "15:55",
-      "time_estimated": "16:48",
-      "flight_no": "SM2981",
-      "airline": "Air Cairo",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "148-150",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 54
-    },
-    {
-      "dt": 1791813600.0,
-      "time_scheduled": "16:00",
-      "time_estimated": "16:46",
-      "flight_no": "EW9466",
-      "airline": "Eurowings",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A72",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 47
     },
     {
       "dt": 1791814800.0,
@@ -203,7 +152,7 @@
       "gate": "B27",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -253,8 +202,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -304,8 +253,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "103-105",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -321,8 +270,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -338,8 +287,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -356,7 +305,7 @@
       "gate": "C46",
       "checkin": "243-245",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -492,7 +441,7 @@
       "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -577,7 +526,7 @@
       "gate": "C46",
       "checkin": "246-248",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
