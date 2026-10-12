@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 15:55",
+  "updated_at": "12.10.2026 16:02",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791803400.0,
-      "time_scheduled": "13:10",
-      "time_estimated": "14:59",
-      "flight_no": "EW9588",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "151-167",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 110
-    },
     {
       "dt": 1791806700.0,
       "time_scheduled": "14:05",
@@ -37,23 +20,6 @@
       "delay": 87
     },
     {
-      "dt": 1791807300.0,
-      "time_scheduled": "14:15",
-      "time_estimated": "15:01",
-      "flight_no": "EW9086",
-      "airline": "Eurowings",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A66",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 47
-    },
-    {
       "dt": 1791807600.0,
       "time_scheduled": "14:20",
       "time_estimated": "15:04",
@@ -69,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 44
-    },
-    {
-      "dt": 1791807900.0,
-      "time_scheduled": "14:25",
-      "time_estimated": "14:58",
-      "flight_no": "EW9442",
-      "airline": "Eurowings",
-      "city": "Barcelona",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B71",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 33
     },
     {
       "dt": 1791808200.0,
@@ -474,8 +423,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 25
     },
     {
@@ -491,8 +440,8 @@
       "terminal": "B",
       "gate": "B26",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 20
     },
     {
@@ -515,7 +464,7 @@
     {
       "dt": 1791812700.0,
       "time_scheduled": "15:45",
-      "time_estimated": "15:45",
+      "time_estimated": "15:56",
       "flight_no": "DE1010",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -525,9 +474,9 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 12
     },
     {
       "dt": 1791813000.0,
@@ -542,8 +491,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "145-147",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -645,13 +594,13 @@
       "gate": "C45",
       "checkin": "192-196",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
       "dt": 1791814800.0,
       "time_scheduled": "16:20",
-      "time_estimated": "16:20",
+      "time_estimated": "16:45",
       "flight_no": "EW9792",
       "airline": "Eurowings",
       "city": "Bukarest-Otopeni",
@@ -663,7 +612,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1791814800.0,
@@ -1076,7 +1025,7 @@
     {
       "dt": 1791822900.0,
       "time_scheduled": "18:35",
-      "time_estimated": "18:35",
+      "time_estimated": "19:05",
       "flight_no": "EW9038",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -1088,7 +1037,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 30
     },
     {
       "dt": 1791822900.0,
