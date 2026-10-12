@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 07:15",
+  "updated_at": "12.10.2026 07:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791777000.0,
-      "time_scheduled": "05:50",
-      "time_estimated": "06:19",
-      "flight_no": "X32312",
-      "airline": "Tuifly",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B77",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 29
-    },
     {
       "dt": 1791777000.0,
       "time_scheduled": "05:50",
@@ -56,7 +39,7 @@
     {
       "dt": 1791777000.0,
       "time_scheduled": "05:50",
-      "time_estimated": "06:45",
+      "time_estimated": "07:15",
       "flight_no": "DE1514",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -66,9 +49,9 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 55
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 86
     },
     {
       "dt": 1791777300.0,
@@ -222,23 +205,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 23
-    },
-    {
-      "dt": 1791778200.0,
-      "time_scheduled": "06:10",
-      "time_estimated": "06:20",
-      "flight_no": "SK620",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1791778200.0,
@@ -441,7 +407,7 @@
       "gate": "A63",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 30
     },
     {
@@ -634,7 +600,7 @@
     {
       "dt": 1791780900.0,
       "time_scheduled": "06:55",
-      "time_estimated": "06:55",
+      "time_estimated": "07:18",
       "flight_no": "EW9030",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -644,9 +610,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 24
     },
     {
       "dt": 1791780900.0,
@@ -668,7 +634,7 @@
     {
       "dt": 1791780900.0,
       "time_scheduled": "06:55",
-      "time_estimated": "07:00",
+      "time_estimated": "07:19",
       "flight_no": "AF1107",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -678,9 +644,9 @@
       "terminal": "B",
       "gate": "B42A",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 5
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1791781200.0,
@@ -815,7 +781,7 @@
       "gate": "A54",
       "checkin": "102-105",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -849,7 +815,7 @@
       "gate": "A48",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -968,7 +934,7 @@
       "gate": "B71",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -2446,6 +2412,23 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "145-147",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791804000.0,
+      "time_scheduled": "13:20",
+      "time_estimated": "13:20",
+      "flight_no": "EW9734",
+      "airline": "Eurowings",
+      "city": "Warschau",
+      "country": "Polen",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A63",
+      "checkin": "151-167",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
