@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 09:55",
+  "updated_at": "12.10.2026 10:01",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "scheduled",
       "status_text": "",
       "delay": 190
-    },
-    {
-      "dt": 1791786900.0,
-      "time_scheduled": "08:35",
-      "time_estimated": "08:57",
-      "flight_no": "EW8041",
-      "airline": "Eurowings",
-      "city": "Berlin-Brandenburg",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
     },
     {
       "dt": 1791788100.0,
@@ -107,7 +90,7 @@
     {
       "dt": 1791788700.0,
       "time_scheduled": "09:05",
-      "time_estimated": "09:05",
+      "time_estimated": "10:01",
       "flight_no": "ENT60621",
       "airline": "Enter Air",
       "city": "Pristina",
@@ -117,9 +100,9 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "265-267",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 56
     },
     {
       "dt": 1791788700.0,
@@ -141,7 +124,7 @@
     {
       "dt": 1791789000.0,
       "time_scheduled": "09:10",
-      "time_estimated": "09:10",
+      "time_estimated": "09:55",
       "flight_no": "EW9394",
       "airline": "Eurowings",
       "city": "Dublin",
@@ -151,9 +134,9 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 46
     },
     {
       "dt": 1791789900.0,
@@ -339,7 +322,7 @@
       "gate": "A39",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 10
     },
     {
@@ -373,7 +356,7 @@
       "gate": "B31",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 15
     },
     {
@@ -407,7 +390,7 @@
       "gate": "B37",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +440,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -509,7 +492,7 @@
       "gate": "A45",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -576,8 +559,8 @@
       "terminal": "A",
       "gate": "A53",
       "checkin": "104-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -645,7 +628,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -679,7 +662,7 @@
       "gate": "B37",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 45
     },
     {
@@ -696,7 +679,7 @@
       "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -713,7 +696,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 35
     },
     {
@@ -730,7 +713,7 @@
       "gate": "B75",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -747,7 +730,7 @@
       "gate": "C52",
       "checkin": "140-142",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -945,10 +928,10 @@
       "airline": "Eurowings",
       "city": "Venedig-Tessera",
       "country": "Italien",
-      "type": "Terminal B/C",
+      "type": "Terminal A",
       "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
+      "terminal": "A",
+      "gate": "A49",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2208,6 +2191,40 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "148-150",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791813600.0,
+      "time_scheduled": "16:00",
+      "time_estimated": "16:00",
+      "flight_no": "EW9466",
+      "airline": "Eurowings",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A81",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791813600.0,
+      "time_scheduled": "16:00",
+      "time_estimated": "16:00",
+      "flight_no": "XC197",
+      "airline": "Corendon Airlines",
+      "city": "Izmir",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
+      "checkin": "171-173",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
