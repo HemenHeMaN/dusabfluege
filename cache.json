@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 09:10",
+  "updated_at": "12.10.2026 09:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 66
-    },
-    {
-      "dt": 1791782400.0,
-      "time_scheduled": "07:20",
-      "time_estimated": "08:10",
-      "flight_no": "TK1530",
-      "airline": "Turkish Airlines",
-      "city": "Istanbul",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C31",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 51
     },
     {
       "dt": 1791784200.0,
@@ -243,7 +226,7 @@
     {
       "dt": 1791788100.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:55",
+      "time_estimated": "09:10",
       "flight_no": "EW4201",
       "airline": "Eurowings",
       "city": "Prag",
@@ -253,9 +236,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1791788100.0,
@@ -372,8 +355,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "262-264",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -795,7 +778,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A49",
+      "gate": "A48",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -855,7 +838,7 @@
     {
       "dt": 1791793800.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:30",
+      "time_estimated": "11:15",
       "flight_no": "EW9960",
       "airline": "Eurowings",
       "city": "Split",
@@ -867,7 +850,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 45
     },
     {
       "dt": 1791794100.0,
@@ -1127,7 +1110,7 @@
     {
       "dt": 1791797100.0,
       "time_scheduled": "11:25",
-      "time_estimated": "11:25",
+      "time_estimated": "12:15",
       "flight_no": "EW9810",
       "airline": "Eurowings",
       "city": "Venedig-Tessera",
@@ -1139,7 +1122,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 50
     },
     {
       "dt": 1791797100.0,
