@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 04:55",
+  "updated_at": "12.10.2026 05:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -84,7 +84,7 @@
       "gate": "B71",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -864,7 +864,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A54",
-      "checkin": "104-105",
+      "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
