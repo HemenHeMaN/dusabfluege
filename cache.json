@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 07:25",
+  "updated_at": "12.10.2026 07:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,23 +22,6 @@
     {
       "dt": 1791777000.0,
       "time_scheduled": "05:50",
-      "time_estimated": "06:27",
-      "flight_no": "DE1614",
-      "airline": "Condor",
-      "city": "Chania (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B42A",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 38
-    },
-    {
-      "dt": 1791777000.0,
-      "time_scheduled": "05:50",
       "time_estimated": "07:15",
       "flight_no": "DE1514",
       "airline": "Condor",
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 86
-    },
-    {
-      "dt": 1791777600.0,
-      "time_scheduled": "06:00",
-      "time_estimated": "06:26",
-      "flight_no": "X3116",
-      "airline": "Tuifly",
-      "city": "Dalaman",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C37",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 26
     },
     {
       "dt": 1791777600.0,
@@ -103,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 44
-    },
-    {
-      "dt": 1791777600.0,
-      "time_scheduled": "06:00",
-      "time_estimated": "06:29",
-      "flight_no": "DE1434",
-      "airline": "Condor",
-      "city": "Gran Canaria",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B44A",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 30
     },
     {
       "dt": 1791777900.0,
@@ -390,7 +339,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 55
     },
     {
@@ -498,7 +447,7 @@
     {
       "dt": 1791780600.0,
       "time_scheduled": "06:50",
-      "time_estimated": "06:50",
+      "time_estimated": "07:25",
       "flight_no": "EW9412",
       "airline": "Eurowings",
       "city": "Lyon",
@@ -508,14 +457,14 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 35
     },
     {
       "dt": 1791780600.0,
       "time_scheduled": "06:50",
-      "time_estimated": "06:50",
+      "time_estimated": "07:27",
       "flight_no": "EW9516",
       "airline": "Eurowings",
       "city": "Bilbao",
@@ -525,9 +474,9 @@
       "terminal": "B",
       "gate": "B42B",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 37
     },
     {
       "dt": 1791780600.0,
@@ -730,7 +679,7 @@
       "gate": "B54",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -798,7 +747,7 @@
       "gate": "C31",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -899,8 +848,8 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -933,8 +882,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -968,7 +917,7 @@
       "gate": "B33",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -2395,6 +2344,40 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-167",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791804600.0,
+      "time_scheduled": "13:30",
+      "time_estimated": "13:30",
+      "flight_no": "XC103",
+      "airline": "Corendon Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
+      "checkin": "148-150",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791804600.0,
+      "time_scheduled": "13:30",
+      "time_estimated": "13:30",
+      "flight_no": "LH2015",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A49",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
