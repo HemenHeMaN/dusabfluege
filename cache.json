@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 19:40",
+  "updated_at": "12.10.2026 19:45",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791821700.0,
-      "time_scheduled": "18:15",
-      "time_estimated": "18:44",
-      "flight_no": "KL1804",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 30
-    },
     {
       "dt": 1791822000.0,
       "time_scheduled": "18:20",
@@ -288,7 +271,7 @@
       "gate": "B77",
       "checkin": "148-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -328,7 +311,7 @@
     {
       "dt": 1791826200.0,
       "time_scheduled": "19:30",
-      "time_estimated": "19:30",
+      "time_estimated": "19:44",
       "flight_no": "XC105",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -338,9 +321,9 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "171-173",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1791827100.0,
@@ -355,8 +338,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "104-105",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -373,7 +356,7 @@
       "gate": "B30",
       "checkin": "144-145",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -625,7 +608,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B33",
+      "gate": "B29",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -642,7 +625,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B57",
+      "gate": "B71",
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
@@ -679,7 +662,7 @@
       "gate": "C37",
       "checkin": "258-267",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
