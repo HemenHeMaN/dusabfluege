@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 10:15",
+  "updated_at": "12.10.2026 10:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "scheduled",
       "status_text": "",
       "delay": 190
-    },
-    {
-      "dt": 1791788100.0,
-      "time_scheduled": "08:55",
-      "time_estimated": "09:15",
-      "flight_no": "AY1392",
-      "airline": "Finnair",
-      "city": "Helsinki",
-      "country": "Finnland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B29",
-      "checkin": "131-136",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 21
     },
     {
       "dt": 1791788400.0,
@@ -124,7 +107,7 @@
     {
       "dt": 1791790200.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
+      "time_estimated": "10:16",
       "flight_no": "PC5306",
       "airline": "Pegasus Airlines",
       "city": "Izmir",
@@ -134,9 +117,9 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 47
     },
     {
       "dt": 1791790200.0,
@@ -226,7 +209,7 @@
     {
       "dt": 1791791100.0,
       "time_scheduled": "09:45",
-      "time_estimated": "09:45",
+      "time_estimated": "10:15",
       "flight_no": "VY1897",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -236,9 +219,9 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "143-144",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 30
     },
     {
       "dt": 1791791100.0,
@@ -294,7 +277,7 @@
     {
       "dt": 1791791700.0,
       "time_scheduled": "09:55",
-      "time_estimated": "10:10",
+      "time_estimated": "10:18",
       "flight_no": "EW9828",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
@@ -304,9 +287,9 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 15
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 23
     },
     {
       "dt": 1791792000.0,
@@ -321,8 +304,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "240-248",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -373,7 +356,7 @@
       "gate": "C40",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -492,7 +475,7 @@
       "gate": "C42",
       "checkin": "146-261",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -509,7 +492,7 @@
       "gate": "A53",
       "checkin": "104-105",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -642,10 +625,10 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A51",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status_text": "",
       "delay": 35
     },
     {
@@ -661,8 +644,8 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -747,7 +730,7 @@
       "gate": "B80",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -846,7 +829,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C36",
+      "gate": "C53",
       "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
@@ -957,7 +940,7 @@
     {
       "dt": 1791797700.0,
       "time_scheduled": "11:35",
-      "time_estimated": "11:35",
+      "time_estimated": "11:55",
       "flight_no": "AF1607",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -969,7 +952,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1791798900.0,
@@ -1535,7 +1518,7 @@
     {
       "dt": 1791806400.0,
       "time_scheduled": "14:00",
-      "time_estimated": "14:00",
+      "time_estimated": "14:20",
       "flight_no": "DE1756",
       "airline": "Condor",
       "city": "Samos",
@@ -1547,7 +1530,7 @@
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1791806700.0,
@@ -2225,6 +2208,40 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "192-195",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791814800.0,
+      "time_scheduled": "16:20",
+      "time_estimated": "16:20",
+      "flight_no": "EW9792",
+      "airline": "Eurowings",
+      "city": "Bukarest-Otopeni",
+      "country": "Rumänien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A45",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791814800.0,
+      "time_scheduled": "16:20",
+      "time_estimated": "16:20",
+      "flight_no": "XQ989",
+      "airline": "Sun Express",
+      "city": "Izmir",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C53",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
