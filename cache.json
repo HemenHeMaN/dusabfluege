@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 15:50",
+  "updated_at": "12.10.2026 15:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -122,23 +122,6 @@
       "delay": 36
     },
     {
-      "dt": 1791808500.0,
-      "time_scheduled": "14:35",
-      "time_estimated": "14:54",
-      "flight_no": "AF1507",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B74",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
-    },
-    {
       "dt": 1791808800.0,
       "time_scheduled": "14:40",
       "time_estimated": "15:05",
@@ -209,7 +192,7 @@
     {
       "dt": 1791810000.0,
       "time_scheduled": "15:00",
-      "time_estimated": "15:45",
+      "time_estimated": "15:54",
       "flight_no": "X34572",
       "airline": "Tuifly",
       "city": "Kos",
@@ -219,9 +202,9 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 45
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 55
     },
     {
       "dt": 1791810300.0,
@@ -277,7 +260,7 @@
     {
       "dt": 1791810300.0,
       "time_scheduled": "15:05",
-      "time_estimated": "15:05",
+      "time_estimated": "15:51",
       "flight_no": "XQ959",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -287,9 +270,9 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 46
     },
     {
       "dt": 1791810600.0,
@@ -321,8 +304,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -379,7 +362,7 @@
     {
       "dt": 1791811500.0,
       "time_scheduled": "15:25",
-      "time_estimated": "15:25",
+      "time_estimated": "15:55",
       "flight_no": "EW9644",
       "airline": "Eurowings",
       "city": "Faro",
@@ -389,14 +372,14 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
+      "status": "scheduled",
+      "status_text": "rollt",
+      "delay": 30
     },
     {
       "dt": 1791811500.0,
       "time_scheduled": "15:25",
-      "time_estimated": "15:25",
+      "time_estimated": "15:52",
       "flight_no": "EW5518",
       "airline": "Eurowings",
       "city": "Monastir",
@@ -406,9 +389,9 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 28
     },
     {
       "dt": 1791811500.0,
@@ -464,7 +447,7 @@
     {
       "dt": 1791811800.0,
       "time_scheduled": "15:30",
-      "time_estimated": "17:00",
+      "time_estimated": "17:30",
       "flight_no": "XR501",
       "airline": "Corendon Airlines Europe",
       "city": "Palma de Mallorca",
@@ -476,12 +459,12 @@
       "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
-      "delay": 90
+      "delay": 120
     },
     {
       "dt": 1791811800.0,
       "time_scheduled": "15:30",
-      "time_estimated": "15:30",
+      "time_estimated": "15:55",
       "flight_no": "EW9536",
       "airline": "Eurowings",
       "city": "Malaga",
@@ -493,7 +476,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1791812100.0,
@@ -628,7 +611,7 @@
       "gate": "B80",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
