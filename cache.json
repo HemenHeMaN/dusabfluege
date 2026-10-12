@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 11:45",
+  "updated_at": "12.10.2026 11:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -86,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 59
-    },
-    {
-      "dt": 1791793200.0,
-      "time_scheduled": "10:20",
-      "time_estimated": "10:50",
-      "flight_no": "EY134",
-      "airline": "Etihad Airways",
-      "city": "Abu Dhabi",
-      "country": "VAE",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C42",
-      "checkin": "146-261",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 30
     },
     {
       "dt": 1791793500.0,
@@ -192,7 +175,7 @@
     {
       "dt": 1791793800.0,
       "time_scheduled": "10:30",
-      "time_estimated": "11:15",
+      "time_estimated": "11:45",
       "flight_no": "EW9960",
       "airline": "Eurowings",
       "city": "Split",
@@ -202,9 +185,9 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 45
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 75
     },
     {
       "dt": 1791794100.0,
@@ -258,6 +241,23 @@
       "delay": 13
     },
     {
+      "dt": 1791794400.0,
+      "time_scheduled": "10:40",
+      "time_estimated": "11:47",
+      "flight_no": "BA919",
+      "airline": "British Airways",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C52",
+      "checkin": "140-142",
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 67
+    },
+    {
       "dt": 1791795000.0,
       "time_scheduled": "10:50",
       "time_estimated": "11:11",
@@ -273,40 +273,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 21
-    },
-    {
-      "dt": 1791795000.0,
-      "time_scheduled": "10:50",
-      "time_estimated": "10:50",
-      "flight_no": "PC1008",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C32",
-      "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
-    },
-    {
-      "dt": 1791795000.0,
-      "time_scheduled": "10:50",
-      "time_estimated": "10:50",
-      "flight_no": "BJ207",
-      "airline": "Nouvelair",
-      "city": "Tunis",
-      "country": "Tunesien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "192-194",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
     },
     {
       "dt": 1791795300.0,
@@ -338,8 +304,8 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 20
     },
     {
@@ -397,23 +363,6 @@
       "dt": 1791796800.0,
       "time_scheduled": "11:20",
       "time_estimated": "11:20",
-      "flight_no": "UD838",
-      "airline": "UR Airlines",
-      "city": "Erbil",
-      "country": "Irak",
-      "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
-      "checkin": "",
-      "status": "cancelled",
-      "status_text": "annulliert",
-      "delay": 0
-    },
-    {
-      "dt": 1791796800.0,
-      "time_scheduled": "11:20",
-      "time_estimated": "11:20",
       "flight_no": "XQ289",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -425,6 +374,23 @@
       "checkin": "197-206",
       "status": "boarding",
       "status_text": "Boarding beendet",
+      "delay": 0
+    },
+    {
+      "dt": 1791796800.0,
+      "time_scheduled": "11:20",
+      "time_estimated": "11:20",
+      "flight_no": "UD838",
+      "airline": "UR Airlines",
+      "city": "Erbil",
+      "country": "Irak",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "",
+      "status": "cancelled",
+      "status_text": "annulliert",
       "delay": 0
     },
     {
@@ -464,7 +430,7 @@
     {
       "dt": 1791797100.0,
       "time_scheduled": "11:25",
-      "time_estimated": "11:25",
+      "time_estimated": "11:49",
       "flight_no": "DE068",
       "airline": "Condor",
       "city": "Hurghada",
@@ -474,9 +440,9 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1791797400.0,
@@ -492,7 +458,7 @@
       "gate": "C57",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 65
     },
     {
@@ -560,7 +526,7 @@
       "gate": "C42",
       "checkin": "171-172",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -577,7 +543,7 @@
       "gate": "B76",
       "checkin": "143-144",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -679,7 +645,7 @@
       "gate": "B29",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 35
     },
     {
@@ -710,7 +676,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A39",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -747,7 +713,7 @@
       "gate": "B77",
       "checkin": "131-136",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -761,7 +727,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A39",
+      "gate": "A40",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -999,7 +965,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1135,7 +1101,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A50",
+      "gate": "A40",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1407,7 +1373,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1441,7 +1407,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
