@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 18:55",
+  "updated_at": "12.10.2026 19:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 21
-    },
-    {
-      "dt": 1791819600.0,
-      "time_scheduled": "17:40",
-      "time_estimated": "17:56",
-      "flight_no": "EW9784",
-      "airline": "Eurowings",
-      "city": "Budapest",
-      "country": "Ungarn",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1791820500.0,
@@ -192,7 +175,7 @@
     {
       "dt": 1791822300.0,
       "time_scheduled": "18:25",
-      "time_estimated": "18:25",
+      "time_estimated": "18:56",
       "flight_no": "EW9468",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -202,9 +185,9 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 31
     },
     {
       "dt": 1791822600.0,
@@ -254,7 +237,7 @@
       "gate": "A39",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 30
     },
     {
@@ -287,8 +270,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "139-141",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -328,7 +311,7 @@
     {
       "dt": 1791823200.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:40",
+      "time_estimated": "18:55",
       "flight_no": "VL077",
       "airline": "Lufthansa City Airlines",
       "city": "Frankfurt",
@@ -338,9 +321,9 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1791823500.0,
@@ -379,7 +362,7 @@
     {
       "dt": 1791823500.0,
       "time_scheduled": "18:45",
-      "time_estimated": "18:45",
+      "time_estimated": "18:58",
       "flight_no": "AY1396",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -389,9 +372,9 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1791823800.0,
@@ -457,8 +440,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -492,7 +475,7 @@
       "gate": "A25",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -508,8 +491,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -525,8 +508,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "171-173",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
