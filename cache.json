@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 17:25",
+  "updated_at": "12.10.2026 17:31",
   "source": "Dus.com",
   "flights": [
     {
@@ -120,23 +120,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 28
-    },
-    {
-      "dt": 1791813900.0,
-      "time_scheduled": "16:05",
-      "time_estimated": "16:27",
-      "flight_no": "EW9592",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B54",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
     },
     {
       "dt": 1791814800.0,
