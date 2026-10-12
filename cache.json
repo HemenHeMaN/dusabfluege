@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 16:25",
+  "updated_at": "12.10.2026 16:31",
   "source": "Dus.com",
   "flights": [
     {
@@ -84,7 +84,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 80
     },
     {
@@ -356,7 +356,7 @@
       "gate": "A72",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 30
     },
     {
@@ -396,7 +396,7 @@
     {
       "dt": 1791813900.0,
       "time_scheduled": "16:05",
-      "time_estimated": "16:05",
+      "time_estimated": "16:27",
       "flight_no": "EW9592",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -406,9 +406,9 @@
       "terminal": "B",
       "gate": "B54",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791813900.0,
@@ -440,8 +440,8 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 25
     },
     {
@@ -576,8 +576,8 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -593,8 +593,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
