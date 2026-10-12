@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 11:30",
+  "updated_at": "12.10.2026 11:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -15,8 +15,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 190
     },
     {
@@ -52,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 95
-    },
-    {
-      "dt": 1791792000.0,
-      "time_scheduled": "10:00",
-      "time_estimated": "10:31",
-      "flight_no": "EW6895",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B27",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 32
     },
     {
       "dt": 1791792000.0,
@@ -338,8 +321,8 @@
       "terminal": "C",
       "gate": "C52",
       "checkin": "140-142",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -441,7 +424,7 @@
       "gate": "A46",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 20
     },
     {
@@ -559,8 +542,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -611,7 +594,7 @@
       "gate": "A73",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -2089,6 +2072,23 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "146",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791819300.0,
+      "time_scheduled": "17:35",
+      "time_estimated": "17:35",
+      "flight_no": "EW9518",
+      "airline": "Eurowings",
+      "city": "Bilbao",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B71",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
