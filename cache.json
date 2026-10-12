@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 06:05",
+  "updated_at": "12.10.2026 06:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -15,8 +15,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -118,7 +118,7 @@
       "gate": "B29",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -135,7 +135,7 @@
       "gate": "C37",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -287,8 +287,8 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -626,7 +626,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A46",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -643,7 +643,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B42B",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -660,7 +660,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A50",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
       "delay": 0
@@ -677,7 +677,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A26",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -694,7 +694,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A25",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -711,7 +711,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A56",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -730,7 +730,7 @@
       "gate": "B42A",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 5
     },
     {
@@ -745,7 +745,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A79",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -762,7 +762,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A30",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -779,7 +779,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B26",
-      "checkin": "151-170",
+      "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -830,7 +830,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A52",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -847,7 +847,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B54",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -881,7 +881,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B52",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -898,7 +898,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A48",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -932,7 +932,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A44",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -951,7 +951,7 @@
       "gate": "B36",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1000,7 +1000,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B58",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1017,7 +1017,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B71",
-      "checkin": "151-170",
+      "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1085,7 +1085,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B33",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1119,7 +1119,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A66",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1170,7 +1170,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A25",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1187,7 +1187,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A40",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1255,7 +1255,7 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A73",
-      "checkin": "151-170",
+      "checkin": "151-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1493,7 +1493,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C56",
-      "checkin": "246-248",
+      "checkin": "",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1595,7 +1595,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B76",
-      "checkin": "243-245",
+      "checkin": "",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
