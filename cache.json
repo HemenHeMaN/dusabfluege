@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 17:02",
+  "updated_at": "12.10.2026 17:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -389,8 +389,8 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
