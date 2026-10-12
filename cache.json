@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 10:25",
+  "updated_at": "12.10.2026 10:32",
   "source": "Dus.com",
   "flights": [
     {
@@ -16,25 +16,8 @@
       "gate": "C54",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 190
-    },
-    {
-      "dt": 1791788400.0,
-      "time_scheduled": "09:00",
-      "time_estimated": "09:31",
-      "flight_no": "EJU3942",
-      "airline": "Easy Jet Europe",
-      "city": "Mailand-Malpensa",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B57",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 32
     },
     {
       "dt": 1791788700.0,
@@ -294,7 +277,7 @@
     {
       "dt": 1791792000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
+      "time_estimated": "10:29",
       "flight_no": "XC245",
       "airline": "Corendon Airlines",
       "city": "Gazipaşa-Alanya",
@@ -304,14 +287,14 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "240-248",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 30
     },
     {
       "dt": 1791792000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
+      "time_estimated": "10:27",
       "flight_no": "EW9510",
       "airline": "Eurowings",
       "city": "Madrid-Barajas",
@@ -321,14 +304,14 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1791792000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:10",
+      "time_estimated": "10:31",
       "flight_no": "EW6895",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -338,9 +321,9 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 10
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 32
     },
     {
       "dt": 1791792000.0,
@@ -355,8 +338,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -396,7 +379,7 @@
     {
       "dt": 1791792000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:23",
+      "time_estimated": "10:25",
       "flight_no": "XR403",
       "airline": "Corendon Airlines Europe",
       "city": "Heraklion (Kreta)",
@@ -408,7 +391,7 @@
       "checkin": "240-248",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 24
+      "delay": 26
     },
     {
       "dt": 1791792600.0,
@@ -457,8 +440,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -560,7 +543,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -577,7 +560,7 @@
       "gate": "B78",
       "checkin": "240-248",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -729,8 +712,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -832,7 +815,7 @@
       "gate": "C53",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1195,7 +1178,7 @@
     {
       "dt": 1791802200.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:50",
+      "time_estimated": "13:00",
       "flight_no": "A3841",
       "airline": "Aegean Airlines",
       "city": "Athen",
@@ -1207,7 +1190,7 @@
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791802800.0,
