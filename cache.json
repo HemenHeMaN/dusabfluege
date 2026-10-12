@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 20:40",
+  "updated_at": "12.10.2026 20:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 49
-    },
-    {
-      "dt": 1791826200.0,
-      "time_scheduled": "19:30",
-      "time_estimated": "19:44",
-      "flight_no": "XC105",
-      "airline": "Corendon Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C54",
-      "checkin": "171-173",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
     },
     {
       "dt": 1791827100.0,
@@ -277,7 +260,7 @@
     {
       "dt": 1791830100.0,
       "time_scheduled": "20:35",
-      "time_estimated": "20:35",
+      "time_estimated": "20:41",
       "flight_no": "PC1620",
       "airline": "Pegasus Airlines",
       "city": "Kayseri",
@@ -287,14 +270,14 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 7
     },
     {
       "dt": 1791830400.0,
       "time_scheduled": "20:40",
-      "time_estimated": "20:40",
+      "time_estimated": "20:44",
       "flight_no": "A3543",
       "airline": "Aegean Airlines",
       "city": "Thessaloniki",
@@ -304,9 +287,9 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 4
     },
     {
       "dt": 1791831000.0,
@@ -321,8 +304,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "198-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
