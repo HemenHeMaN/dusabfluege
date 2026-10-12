@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 10:01",
+  "updated_at": "12.10.2026 10:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -105,23 +105,6 @@
       "delay": 56
     },
     {
-      "dt": 1791788700.0,
-      "time_scheduled": "09:05",
-      "time_estimated": "09:05",
-      "flight_no": "ENT60622",
-      "airline": "Enter Air",
-      "city": "Pristina",
-      "country": "Kosovo",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C53",
-      "checkin": "",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
-      "delay": 0
-    },
-    {
       "dt": 1791789000.0,
       "time_scheduled": "09:10",
       "time_estimated": "09:55",
@@ -185,8 +168,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -287,14 +270,14 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "143-144",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1791791100.0,
       "time_scheduled": "09:45",
-      "time_estimated": "09:45",
+      "time_estimated": "10:03",
       "flight_no": "DE3784",
       "airline": "Condor",
       "city": "New York-John F. Kennedy",
@@ -304,9 +287,9 @@
       "terminal": "A",
       "gate": "A75",
       "checkin": "173-178",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1791791400.0,
@@ -763,8 +746,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -2225,6 +2208,57 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "171-173",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791813900.0,
+      "time_scheduled": "16:05",
+      "time_estimated": "16:05",
+      "flight_no": "EW9502",
+      "airline": "Eurowings",
+      "city": "Ibiza",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791813900.0,
+      "time_scheduled": "16:05",
+      "time_estimated": "16:05",
+      "flight_no": "EW9592",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B54",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791813900.0,
+      "time_scheduled": "16:05",
+      "time_estimated": "16:05",
+      "flight_no": "RJ130",
+      "airline": "Royal Jordanian",
+      "city": "Amman-Queen Alia",
+      "country": "Jordanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C45",
+      "checkin": "192-195",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
