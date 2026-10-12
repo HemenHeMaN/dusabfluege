@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 14:45",
+  "updated_at": "12.10.2026 14:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -86,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 21
-    },
-    {
-      "dt": 1791804600.0,
-      "time_scheduled": "13:30",
-      "time_estimated": "13:48",
-      "flight_no": "LH2015",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
     },
     {
       "dt": 1791804900.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1791806400.0,
       "time_scheduled": "14:00",
-      "time_estimated": "14:20",
+      "time_estimated": "14:46",
       "flight_no": "DE1756",
       "airline": "Condor",
       "city": "Samos",
@@ -270,9 +253,9 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 20
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 47
     },
     {
       "dt": 1791806700.0,
@@ -355,8 +338,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 30
     },
     {
@@ -441,7 +424,7 @@
       "gate": "A80",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -610,8 +593,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -695,8 +678,8 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1919,6 +1902,23 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "131-136",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791831000.0,
+      "time_scheduled": "20:50",
+      "time_estimated": "20:50",
+      "flight_no": "XQ1321",
+      "airline": "Sun Express",
+      "city": "Kayseri",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
+      "checkin": "198-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
