@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 03:50",
+  "updated_at": "12.10.2026 03:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -1443,6 +1443,40 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791791700.0,
+      "time_scheduled": "09:55",
+      "time_estimated": "09:55",
+      "flight_no": "XQ969",
+      "airline": "Sun Express",
+      "city": "Izmir",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791791700.0,
+      "time_scheduled": "09:55",
+      "time_estimated": "09:55",
+      "flight_no": "EW9828",
+      "airline": "Eurowings",
+      "city": "Mailand-Malpensa",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B31",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
