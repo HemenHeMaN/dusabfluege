@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 05:35",
+  "updated_at": "12.10.2026 05:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -135,7 +135,7 @@
       "gate": "C37",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -236,8 +236,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -270,8 +270,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -287,8 +287,8 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -356,7 +356,7 @@
       "gate": "A45",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -390,7 +390,7 @@
       "gate": "A47",
       "checkin": "151-247",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -424,7 +424,7 @@
       "gate": "B32",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1000,7 +1000,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B58",
-      "checkin": "151-170",
+      "checkin": "",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1017,7 +1017,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B79",
-      "checkin": "151-170",
+      "checkin": "",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1085,7 +1085,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B33",
-      "checkin": "151-170",
+      "checkin": "",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1140,6 +1140,23 @@
       "status": "scheduled",
       "status_text": "",
       "delay": 0
+    },
+    {
+      "dt": 1791786600.0,
+      "time_scheduled": "08:30",
+      "time_estimated": "11:40",
+      "flight_no": "PC1006",
+      "airline": "Pegasus Airlines",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 190
     },
     {
       "dt": 1791786900.0,
@@ -2058,6 +2075,23 @@
       "status": "scheduled",
       "status_text": "",
       "delay": 0
+    },
+    {
+      "dt": 1791797400.0,
+      "time_scheduled": "11:30",
+      "time_estimated": "11:40",
+      "flight_no": "EW9902",
+      "airline": "Eurowings",
+      "city": "Larnaca (Zypern)",
+      "country": "Zypern",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C57",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 10
     },
     {
       "dt": 1791797400.0,
