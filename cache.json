@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 13:15",
+  "updated_at": "12.10.2026 13:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 52
-    },
-    {
-      "dt": 1791798900.0,
-      "time_scheduled": "11:55",
-      "time_estimated": "12:18",
-      "flight_no": "IB1320",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "143-144",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
     },
     {
       "dt": 1791799200.0,
@@ -158,7 +141,7 @@
     {
       "dt": 1791801000.0,
       "time_scheduled": "12:30",
-      "time_estimated": "13:05",
+      "time_estimated": "13:17",
       "flight_no": "DE1428",
       "airline": "Condor",
       "city": "Teneriffa Süd",
@@ -168,9 +151,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 35
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 48
     },
     {
       "dt": 1791801000.0,
@@ -294,7 +277,7 @@
     {
       "dt": 1791802800.0,
       "time_scheduled": "13:00",
-      "time_estimated": "13:00",
+      "time_estimated": "13:16",
       "flight_no": "EW9752",
       "airline": "Eurowings",
       "city": "Wien",
@@ -304,9 +287,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1791802800.0,
@@ -390,7 +373,7 @@
       "gate": "A66",
       "checkin": "145-147",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -407,7 +390,7 @@
       "gate": "A63",
       "checkin": "151-167",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +508,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -594,7 +577,7 @@
       "gate": "B57",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1953,6 +1936,23 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "148-150",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791825600.0,
+      "time_scheduled": "19:20",
+      "time_estimated": "19:20",
+      "flight_no": "SK628",
+      "airline": "Scandinavian Airlines",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A25",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
