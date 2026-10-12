@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 10:40",
+  "updated_at": "12.10.2026 10:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -54,40 +54,6 @@
       "delay": 46
     },
     {
-      "dt": 1791789900.0,
-      "time_scheduled": "09:25",
-      "time_estimated": "09:41",
-      "flight_no": "AF1307",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B35",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
-    },
-    {
-      "dt": 1791790200.0,
-      "time_scheduled": "09:30",
-      "time_estimated": "09:45",
-      "flight_no": "JU361",
-      "airline": "Air Serbia",
-      "city": "Belgrad",
-      "country": "Serbien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "262-264",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
-    },
-    {
       "dt": 1791790200.0,
       "time_scheduled": "09:30",
       "time_estimated": "10:16",
@@ -137,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 20
-    },
-    {
-      "dt": 1791790500.0,
-      "time_scheduled": "09:35",
-      "time_estimated": "09:42",
-      "flight_no": "EW4673",
-      "airline": "Eurowings",
-      "city": "Stockholm-Arlanda",
-      "country": "Schweden",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
     },
     {
       "dt": 1791790500.0,
@@ -254,7 +203,7 @@
       "gate": "C31",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -328,7 +277,7 @@
     {
       "dt": 1791792000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
+      "time_estimated": "10:43",
       "flight_no": "PC5002",
       "airline": "Pegasus Airlines",
       "city": "Antalya",
@@ -338,9 +287,9 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 43
     },
     {
       "dt": 1791792000.0,
@@ -430,7 +379,7 @@
     {
       "dt": 1791793200.0,
       "time_scheduled": "10:20",
-      "time_estimated": "10:20",
+      "time_estimated": "10:41",
       "flight_no": "EW9612",
       "airline": "Eurowings",
       "city": "Korfu",
@@ -440,9 +389,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 21
     },
     {
       "dt": 1791793200.0,
@@ -509,7 +458,7 @@
       "gate": "A48",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -627,8 +576,8 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -1450,7 +1399,7 @@
     {
       "dt": 1791805800.0,
       "time_scheduled": "13:50",
-      "time_estimated": "13:50",
+      "time_estimated": "14:05",
       "flight_no": "DE138",
       "airline": "Condor",
       "city": "Agadir",
@@ -1462,7 +1411,7 @@
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1791806100.0,
@@ -2225,6 +2174,40 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791816300.0,
+      "time_scheduled": "16:45",
+      "time_estimated": "16:45",
+      "flight_no": "VF028",
+      "airline": "A Jet",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "142-144",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791816300.0,
+      "time_scheduled": "16:45",
+      "time_estimated": "16:45",
+      "flight_no": "AF1407",
+      "airline": "Air France",
+      "city": "Paris-Charles de Gaulle",
+      "country": "Frankreich",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
