@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 12:40",
+  "updated_at": "12.10.2026 12:45",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791793800.0,
-      "time_scheduled": "10:30",
-      "time_estimated": "11:45",
-      "flight_no": "EW9960",
-      "airline": "Eurowings",
-      "city": "Split",
-      "country": "Kroatien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 75
-    },
     {
       "dt": 1791794400.0,
       "time_scheduled": "10:40",
@@ -294,7 +277,7 @@
     {
       "dt": 1791799200.0,
       "time_scheduled": "12:00",
-      "time_estimated": "12:00",
+      "time_estimated": "12:40",
       "flight_no": "4M196",
       "airline": "Mavi Gök Aviation",
       "city": "Antalya",
@@ -304,9 +287,9 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "261-263",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 41
     },
     {
       "dt": 1791799200.0,
@@ -328,7 +311,7 @@
     {
       "dt": 1791800100.0,
       "time_scheduled": "12:15",
-      "time_estimated": "12:15",
+      "time_estimated": "12:42",
       "flight_no": "EW9580",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -338,9 +321,9 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1791800700.0,
@@ -373,7 +356,7 @@
       "gate": "B71",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 15
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -464,7 +447,7 @@
     {
       "dt": 1791801900.0,
       "time_scheduled": "12:45",
-      "time_estimated": "12:45",
+      "time_estimated": "13:00",
       "flight_no": "EW9600",
       "airline": "Eurowings",
       "city": "Funchal (Madeira)",
@@ -476,7 +459,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1791802200.0,
@@ -948,7 +931,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B79",
+      "gate": "B72",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1966,9 +1949,9 @@
       "city": "Manchester",
       "country": "Großbritannien",
       "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A81",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2038,6 +2021,57 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791823500.0,
+      "time_scheduled": "18:45",
+      "time_estimated": "18:45",
+      "flight_no": "EW9244",
+      "airline": "Eurowings",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A66",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791823500.0,
+      "time_scheduled": "18:45",
+      "time_estimated": "18:45",
+      "flight_no": "EW9088",
+      "airline": "Eurowings",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A54",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791823500.0,
+      "time_scheduled": "18:45",
+      "time_estimated": "18:45",
+      "flight_no": "AY1396",
+      "airline": "Finnair",
+      "city": "Helsinki",
+      "country": "Finnland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B57",
+      "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
