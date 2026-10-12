@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 19:20",
+  "updated_at": "12.10.2026 19:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -372,14 +372,14 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "148-150",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
       "dt": 1791825600.0,
       "time_scheduled": "19:20",
-      "time_estimated": "19:20",
+      "time_estimated": "19:21",
       "flight_no": "SK628",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -389,9 +389,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 2
     },
     {
       "dt": 1791825900.0,
@@ -457,8 +457,8 @@
       "terminal": "B",
       "gate": "B30",
       "checkin": "144-145",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -474,8 +474,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -577,7 +577,7 @@
       "gate": "B57",
       "checkin": "146-147",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
