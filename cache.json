@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 20:10",
+  "updated_at": "12.10.2026 20:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,23 +37,6 @@
       "delay": 43
     },
     {
-      "dt": 1791822900.0,
-      "time_scheduled": "18:35",
-      "time_estimated": "19:15",
-      "flight_no": "BA923",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C31",
-      "checkin": "139-141",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 40
-    },
-    {
       "dt": 1791823500.0,
       "time_scheduled": "18:45",
       "time_estimated": "19:19",
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 27
-    },
-    {
-      "dt": 1791824700.0,
-      "time_scheduled": "19:05",
-      "time_estimated": "19:12",
-      "flight_no": "LX1025",
-      "airline": "Swiss",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
     },
     {
       "dt": 1791825300.0,
@@ -202,8 +168,8 @@
       "terminal": "B",
       "gate": "B30",
       "checkin": "144-145",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -226,7 +192,7 @@
     {
       "dt": 1791827700.0,
       "time_scheduled": "19:55",
-      "time_estimated": "19:55",
+      "time_estimated": "20:14",
       "flight_no": "XQ281",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -236,9 +202,9 @@
       "terminal": "C",
       "gate": "C52",
       "checkin": "198-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1791828000.0,
@@ -260,7 +226,7 @@
     {
       "dt": 1791828000.0,
       "time_scheduled": "20:00",
-      "time_estimated": "20:00",
+      "time_estimated": "20:10",
       "flight_no": "VY1899",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -270,9 +236,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "142-143",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1791828300.0,
@@ -304,8 +270,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "198-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -355,8 +321,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
