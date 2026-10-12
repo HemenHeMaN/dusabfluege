@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 08:45",
+  "updated_at": "12.10.2026 08:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,57 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 117
-    },
-    {
-      "dt": 1791780600.0,
-      "time_scheduled": "06:50",
-      "time_estimated": "07:46",
-      "flight_no": "EW9654",
-      "airline": "Eurowings",
-      "city": "Thessaloniki",
-      "country": "Griechenland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A50",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 57
-    },
-    {
-      "dt": 1791781200.0,
-      "time_scheduled": "07:00",
-      "time_estimated": "07:47",
-      "flight_no": "EW9462",
-      "airline": "Eurowings",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A79",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 48
-    },
-    {
-      "dt": 1791781200.0,
-      "time_scheduled": "07:00",
-      "time_estimated": "07:45",
-      "flight_no": "EW9242",
-      "airline": "Eurowings",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A30",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 46
     },
     {
       "dt": 1791781200.0,
@@ -258,23 +207,6 @@
       "delay": 49
     },
     {
-      "dt": 1791783000.0,
-      "time_scheduled": "07:30",
-      "time_estimated": "07:49",
-      "flight_no": "LH2035",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A45",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
-    },
-    {
       "dt": 1791784200.0,
       "time_scheduled": "07:50",
       "time_estimated": "08:18",
@@ -413,7 +345,7 @@
     {
       "dt": 1791786600.0,
       "time_scheduled": "08:30",
-      "time_estimated": "08:30",
+      "time_estimated": "08:47",
       "flight_no": "LH2001",
       "airline": "Lufthansa",
       "city": "München",
@@ -423,9 +355,9 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1791786600.0,
@@ -457,8 +389,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +407,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -770,7 +702,7 @@
     {
       "dt": 1791791700.0,
       "time_scheduled": "09:55",
-      "time_estimated": "09:55",
+      "time_estimated": "10:10",
       "flight_no": "EW9828",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
@@ -782,7 +714,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1791792000.0,
@@ -2208,6 +2140,40 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791809400.0,
+      "time_scheduled": "14:50",
+      "time_estimated": "14:50",
+      "flight_no": "LX1019",
+      "airline": "Swiss",
+      "city": "Zürich",
+      "country": "Schweiz",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A63",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791809400.0,
+      "time_scheduled": "14:50",
+      "time_estimated": "14:50",
+      "flight_no": "X34104",
+      "airline": "Tuifly",
+      "city": "Heraklion (Kreta)",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
