@@ -1,24 +1,7 @@
 {
-  "updated_at": "12.10.2026 16:31",
+  "updated_at": "12.10.2026 16:35",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791806700.0,
-      "time_scheduled": "14:05",
-      "time_estimated": "15:32",
-      "flight_no": "EW9590",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A63",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 87
-    },
     {
       "dt": 1791810000.0,
       "time_scheduled": "15:00",
@@ -83,8 +66,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 80
     },
     {
@@ -236,8 +219,8 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 120
     },
     {
@@ -338,8 +321,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "148-150",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -372,14 +355,14 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "171-173",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1791813900.0,
       "time_scheduled": "16:05",
-      "time_estimated": "16:05",
+      "time_estimated": "16:32",
       "flight_no": "EW9502",
       "airline": "Eurowings",
       "city": "Ibiza",
@@ -389,9 +372,9 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 28
     },
     {
       "dt": 1791813900.0,
@@ -491,8 +474,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
