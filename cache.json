@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 04:30",
+  "updated_at": "12.10.2026 04:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -1783,6 +1783,23 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791794100.0,
+      "time_scheduled": "10:35",
+      "time_estimated": "10:35",
+      "flight_no": "LH073",
+      "airline": "Lufthansa",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A42",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
