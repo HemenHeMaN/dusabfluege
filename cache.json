@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 17:15",
+  "updated_at": "12.10.2026 17:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -32,8 +32,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "137-139",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 85
     },
     {
@@ -52,40 +52,6 @@
       "status": "boarding",
       "status_text": "Boarding beendet",
       "delay": 120
-    },
-    {
-      "dt": 1791811800.0,
-      "time_scheduled": "15:30",
-      "time_estimated": "16:15",
-      "flight_no": "EW9536",
-      "airline": "Eurowings",
-      "city": "Malaga",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A65",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 46
-    },
-    {
-      "dt": 1791813000.0,
-      "time_scheduled": "15:50",
-      "time_estimated": "16:17",
-      "flight_no": "SM2983",
-      "airline": "Air Cairo",
-      "city": "Marsa Alam",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "145-147",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
     },
     {
       "dt": 1791813300.0,
@@ -173,23 +139,6 @@
       "delay": 22
     },
     {
-      "dt": 1791813900.0,
-      "time_scheduled": "16:05",
-      "time_estimated": "16:20",
-      "flight_no": "RJ130",
-      "airline": "Royal Jordanian",
-      "city": "Amman-Queen Alia",
-      "country": "Jordanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "192-196",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
-    },
-    {
       "dt": 1791814800.0,
       "time_scheduled": "16:20",
       "time_estimated": "17:08",
@@ -226,7 +175,7 @@
     {
       "dt": 1791816300.0,
       "time_scheduled": "16:45",
-      "time_estimated": "16:45",
+      "time_estimated": "17:17",
       "flight_no": "VF028",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -236,9 +185,9 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "142-144",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 32
     },
     {
       "dt": 1791816300.0,
@@ -328,7 +277,7 @@
     {
       "dt": 1791817200.0,
       "time_scheduled": "17:00",
-      "time_estimated": "17:00",
+      "time_estimated": "17:15",
       "flight_no": "EW9886",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -338,9 +287,9 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1791817500.0,
@@ -389,8 +338,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "146",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -423,8 +372,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -440,8 +389,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
