@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 05:05",
+  "updated_at": "12.10.2026 05:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -1918,6 +1918,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A81",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791796200.0,
+      "time_scheduled": "11:10",
+      "time_estimated": "11:10",
+      "flight_no": "EW9424",
+      "airline": "Eurowings",
+      "city": "Marseille",
+      "country": "Frankreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A46",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
