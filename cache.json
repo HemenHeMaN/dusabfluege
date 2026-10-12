@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 17:05",
+  "updated_at": "12.10.2026 17:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -54,23 +54,6 @@
       "delay": 85
     },
     {
-      "dt": 1791811500.0,
-      "time_scheduled": "15:25",
-      "time_estimated": "16:08",
-      "flight_no": "EW9644",
-      "airline": "Eurowings",
-      "city": "Faro",
-      "country": "Portugal",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A46",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 43
-    },
-    {
       "dt": 1791811800.0,
       "time_scheduled": "15:30",
       "time_estimated": "17:30",
@@ -84,7 +67,7 @@
       "gate": "B29",
       "checkin": "103-105",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 120
     },
     {
@@ -243,7 +226,7 @@
     {
       "dt": 1791814800.0,
       "time_scheduled": "16:20",
-      "time_estimated": "16:45",
+      "time_estimated": "17:08",
       "flight_no": "EW9792",
       "airline": "Eurowings",
       "city": "Bukarest-Otopeni",
@@ -253,9 +236,9 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 25
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 48
     },
     {
       "dt": 1791814800.0,
@@ -294,7 +277,7 @@
     {
       "dt": 1791816300.0,
       "time_scheduled": "16:45",
-      "time_estimated": "16:45",
+      "time_estimated": "17:06",
       "flight_no": "AF1407",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -304,14 +287,14 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791816600.0,
       "time_scheduled": "16:50",
-      "time_estimated": "16:50",
+      "time_estimated": "17:05",
       "flight_no": "EW9046",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -321,9 +304,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1791816600.0,
@@ -355,8 +338,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +389,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -812,7 +795,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B57",
+      "gate": "B31",
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
