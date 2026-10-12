@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 11:25",
+  "updated_at": "12.10.2026 11:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,38 +37,21 @@
       "delay": 74
     },
     {
-      "dt": 1791792000.0,
-      "time_scheduled": "10:00",
-      "time_estimated": "10:29",
-      "flight_no": "XC245",
-      "airline": "Corendon Airlines",
-      "city": "Gazipaşa-Alanya",
+      "dt": 1791791700.0,
+      "time_scheduled": "09:55",
+      "time_estimated": "11:29",
+      "flight_no": "XQ969",
+      "airline": "Sun Express",
+      "city": "Izmir",
       "country": "Türkei",
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C56",
-      "checkin": "240-248",
+      "gate": "C31",
+      "checkin": "197-206",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 30
-    },
-    {
-      "dt": 1791792000.0,
-      "time_scheduled": "10:00",
-      "time_estimated": "10:27",
-      "flight_no": "EW9510",
-      "airline": "Eurowings",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
+      "delay": 95
     },
     {
       "dt": 1791792000.0,
@@ -122,23 +105,6 @@
       "delay": 76
     },
     {
-      "dt": 1791792000.0,
-      "time_scheduled": "10:00",
-      "time_estimated": "10:25",
-      "flight_no": "XR403",
-      "airline": "Corendon Airlines Europe",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "240-248",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 26
-    },
-    {
       "dt": 1791792600.0,
       "time_scheduled": "10:10",
       "time_estimated": "11:09",
@@ -188,6 +154,23 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 30
+    },
+    {
+      "dt": 1791793500.0,
+      "time_scheduled": "10:25",
+      "time_estimated": "11:27",
+      "flight_no": "LO404",
+      "airline": "LOT Polish Airlines",
+      "city": "Warschau",
+      "country": "Polen",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A53",
+      "checkin": "104-105",
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 62
     },
     {
       "dt": 1791793500.0,
@@ -481,7 +464,7 @@
     {
       "dt": 1791796500.0,
       "time_scheduled": "11:15",
-      "time_estimated": "11:15",
+      "time_estimated": "11:25",
       "flight_no": "AY1394",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -491,9 +474,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 10
     },
     {
       "dt": 1791796800.0,
@@ -509,7 +492,7 @@
       "gate": "C53",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -661,8 +644,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "171-172",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -678,8 +661,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "143-144",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -712,8 +695,8 @@
       "terminal": "A",
       "gate": "A72",
       "checkin": "264-266",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -730,7 +713,7 @@
       "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1186,7 +1169,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A54",
+      "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1356,7 +1339,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A66",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1832,7 +1815,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A81",
+      "gate": "A72",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2002,7 +1985,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A68",
+      "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2050,10 +2033,10 @@
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
       "country": "Italien",
-      "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B75",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
