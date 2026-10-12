@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 10:35",
+  "updated_at": "12.10.2026 10:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -373,7 +373,7 @@
       "gate": "C36",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "C46",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -594,7 +594,7 @@
       "gate": "A50",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -628,7 +628,7 @@
       "gate": "B75",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -781,7 +781,7 @@
       "gate": "B29",
       "checkin": "131-136",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1169,7 +1169,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B27",
+      "gate": "B28",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1492,7 +1492,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B76",
+      "gate": "B57",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1628,7 +1628,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B79",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1747,7 +1747,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B27",
+      "gate": "B29",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
