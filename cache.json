@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 19:00",
+  "updated_at": "12.10.2026 19:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,40 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 56
-    },
-    {
-      "dt": 1791819600.0,
-      "time_scheduled": "17:40",
-      "time_estimated": "18:00",
-      "flight_no": "TP543",
-      "airline": "TAP Portugal",
-      "city": "Lissabon",
-      "country": "Portugal",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "103-105",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 21
-    },
-    {
-      "dt": 1791820500.0,
-      "time_scheduled": "17:55",
-      "time_estimated": "18:03",
-      "flight_no": "EW9764",
-      "airline": "Eurowings",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
     },
     {
       "dt": 1791820500.0,
@@ -236,8 +202,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 30
     },
     {
@@ -338,14 +304,14 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1791823500.0,
       "time_scheduled": "18:45",
-      "time_estimated": "18:45",
+      "time_estimated": "19:03",
       "flight_no": "EW9088",
       "airline": "Eurowings",
       "city": "München",
@@ -355,9 +321,9 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1791823500.0,
@@ -379,7 +345,7 @@
     {
       "dt": 1791823800.0,
       "time_scheduled": "18:50",
-      "time_estimated": "18:50",
+      "time_estimated": "19:00",
       "flight_no": "EW9334",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -389,9 +355,9 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1791823800.0,
@@ -424,7 +390,7 @@
       "gate": "C45",
       "checkin": "198-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -576,8 +542,8 @@
       "terminal": "C",
       "gate": "C52",
       "checkin": "198-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -645,7 +611,7 @@
       "gate": "C32",
       "checkin": "198-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
