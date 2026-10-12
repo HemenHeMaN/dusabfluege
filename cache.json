@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 09:15",
+  "updated_at": "12.10.2026 09:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,40 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 66
-    },
-    {
-      "dt": 1791784200.0,
-      "time_scheduled": "07:50",
-      "time_estimated": "08:18",
-      "flight_no": "EW9882",
-      "airline": "Eurowings",
-      "city": "Rom-Fiumicino",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B58",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 29
-    },
-    {
-      "dt": 1791784800.0,
-      "time_scheduled": "08:00",
-      "time_estimated": "08:17",
-      "flight_no": "EW9500",
-      "airline": "Eurowings",
-      "city": "Ibiza",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B71",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1791785100.0,
@@ -243,7 +209,7 @@
     {
       "dt": 1791788100.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:55",
+      "time_estimated": "09:15",
       "flight_no": "AY1392",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -253,9 +219,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 21
     },
     {
       "dt": 1791788400.0,
@@ -271,7 +237,7 @@
       "gate": "B57",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -339,7 +305,7 @@
       "gate": "B35",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +423,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -525,8 +491,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -543,7 +509,7 @@
       "gate": "B31",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 15
     },
     {
@@ -594,7 +560,7 @@
       "gate": "B27",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 10
     },
     {
@@ -611,7 +577,7 @@
       "gate": "C40",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -628,7 +594,7 @@
       "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -661,8 +627,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "240-248",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1025,7 +991,7 @@
     {
       "dt": 1791796500.0,
       "time_scheduled": "11:15",
-      "time_estimated": "11:15",
+      "time_estimated": "11:45",
       "flight_no": "EW9084",
       "airline": "Eurowings",
       "city": "München",
@@ -1037,7 +1003,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 30
     },
     {
       "dt": 1791796500.0,
@@ -2140,6 +2106,40 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791811200.0,
+      "time_scheduled": "15:20",
+      "time_estimated": "15:20",
+      "flight_no": "SK1622",
+      "airline": "Scandinavian Airlines",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A54",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791811200.0,
+      "time_scheduled": "15:20",
+      "time_estimated": "15:20",
+      "flight_no": "NE721",
+      "airline": "Nesma Airlines",
+      "city": "Hurghada",
+      "country": "Ägypten",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A79",
+      "checkin": "137-139",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
