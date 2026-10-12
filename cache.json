@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 14:00",
+  "updated_at": "12.10.2026 14:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 105
-    },
-    {
-      "dt": 1791801000.0,
-      "time_scheduled": "12:30",
-      "time_estimated": "13:03",
-      "flight_no": "EW9582",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B71",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 33
     },
     {
       "dt": 1791801000.0,
@@ -158,7 +141,7 @@
     {
       "dt": 1791802800.0,
       "time_scheduled": "13:00",
-      "time_estimated": "13:45",
+      "time_estimated": "14:01",
       "flight_no": "EW9672",
       "airline": "Eurowings",
       "city": "Heraklion (Kreta)",
@@ -168,9 +151,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 45
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 61
     },
     {
       "dt": 1791803400.0,
@@ -277,7 +260,7 @@
     {
       "dt": 1791804900.0,
       "time_scheduled": "13:35",
-      "time_estimated": "13:35",
+      "time_estimated": "14:04",
       "flight_no": "IV8221",
       "airline": "GP Aviation",
       "city": "Pristina",
@@ -287,14 +270,14 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "168-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 29
     },
     {
       "dt": 1791805200.0,
       "time_scheduled": "13:40",
-      "time_estimated": "13:40",
+      "time_estimated": "14:02",
       "flight_no": "EW9460",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -304,9 +287,9 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 23
     },
     {
       "dt": 1791805500.0,
@@ -373,7 +356,7 @@
       "gate": "A65",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -407,7 +390,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -566,7 +549,7 @@
     {
       "dt": 1791808200.0,
       "time_scheduled": "14:30",
-      "time_estimated": "14:30",
+      "time_estimated": "14:45",
       "flight_no": "EW9822",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
@@ -578,7 +561,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1791808500.0,
@@ -593,8 +576,8 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -645,7 +628,7 @@
       "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -693,7 +676,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A65",
+      "gate": "A49",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -948,7 +931,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A49",
+      "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -982,7 +965,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B74",
+      "gate": "B76",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -1955,6 +1938,40 @@
       "checkin": "",
       "status": "cancelled",
       "status_text": "annulliert",
+      "delay": 0
+    },
+    {
+      "dt": 1791828300.0,
+      "time_scheduled": "20:05",
+      "time_estimated": "20:05",
+      "flight_no": "XQ795",
+      "airline": "Sun Express",
+      "city": "Ankara-Esenboğa",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
+      "checkin": "198-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791828300.0,
+      "time_scheduled": "20:05",
+      "time_estimated": "20:05",
+      "flight_no": "BT234",
+      "airline": "Air Baltic",
+      "city": "Riga",
+      "country": "Lettland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B57",
+      "checkin": "146-147",
+      "status": "scheduled",
+      "status_text": "",
       "delay": 0
     }
   ]
