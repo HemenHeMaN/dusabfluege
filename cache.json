@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 04:20",
+  "updated_at": "12.10.2026 04:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -1664,6 +1664,40 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "146-150",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791793500.0,
+      "time_scheduled": "10:25",
+      "time_estimated": "10:25",
+      "flight_no": "LO404",
+      "airline": "LOT Polish Airlines",
+      "city": "Warschau",
+      "country": "Polen",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "104-105",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791793500.0,
+      "time_scheduled": "10:25",
+      "time_estimated": "10:25",
+      "flight_no": "EI693",
+      "airline": "Aer Lingus",
+      "city": "Dublin",
+      "country": "Irland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C37",
+      "checkin": "195-196",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
