@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 07:40",
+  "updated_at": "12.10.2026 07:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,40 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 86
-    },
-    {
-      "dt": 1791777600.0,
-      "time_scheduled": "06:00",
-      "time_estimated": "06:40",
-      "flight_no": "X32914",
-      "airline": "Tuifly",
-      "city": "Ibiza",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B35",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 41
-    },
-    {
-      "dt": 1791777600.0,
-      "time_scheduled": "06:00",
-      "time_estimated": "06:43",
-      "flight_no": "X32252",
-      "airline": "Tuifly",
-      "city": "Jerez de la Frontera",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 44
     },
     {
       "dt": 1791777900.0,
@@ -124,23 +90,6 @@
     {
       "dt": 1791778800.0,
       "time_scheduled": "06:20",
-      "time_estimated": "06:42",
-      "flight_no": "LH2031",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A45",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
-      "dt": 1791778800.0,
-      "time_scheduled": "06:20",
       "time_estimated": "07:04",
       "flight_no": "EW9684",
       "airline": "Eurowings",
@@ -188,23 +137,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 34
-    },
-    {
-      "dt": 1791779100.0,
-      "time_scheduled": "06:25",
-      "time_estimated": "06:45",
-      "flight_no": "KL1796",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B32",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 20
     },
     {
       "dt": 1791779100.0,
@@ -287,8 +219,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 55
     },
     {
@@ -481,7 +413,7 @@
     {
       "dt": 1791780900.0,
       "time_scheduled": "06:55",
-      "time_estimated": "06:55",
+      "time_estimated": "07:41",
       "flight_no": "EW9760",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -491,9 +423,9 @@
       "terminal": "A",
       "gate": "A56",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 47
     },
     {
       "dt": 1791780900.0,
@@ -627,8 +559,8 @@
       "terminal": "B",
       "gate": "B54",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -678,8 +610,8 @@
       "terminal": "A",
       "gate": "A48",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -736,7 +668,7 @@
     {
       "dt": 1791782700.0,
       "time_scheduled": "07:25",
-      "time_estimated": "07:25",
+      "time_estimated": "07:44",
       "flight_no": "XQ1349",
       "airline": "Sun Express",
       "city": "Balikesir / Edremit",
@@ -746,9 +678,9 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 20
     },
     {
       "dt": 1791783000.0,
@@ -951,7 +883,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1764,7 +1696,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B27",
+      "gate": "B31",
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
@@ -1812,10 +1744,10 @@
       "airline": "Eurowings",
       "city": "Gran Canaria",
       "country": "Spanien",
-      "type": "Terminal B/C",
+      "type": "Terminal A",
       "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B71",
+      "terminal": "A",
+      "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2361,6 +2293,57 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791805500.0,
+      "time_scheduled": "13:45",
+      "time_estimated": "13:45",
+      "flight_no": "SK817",
+      "airline": "Scandinavian Airlines",
+      "city": "Oslo - Gardermoen",
+      "country": "Norwegen",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791805500.0,
+      "time_scheduled": "13:45",
+      "time_estimated": "13:45",
+      "flight_no": "PC1002",
+      "airline": "Pegasus Airlines",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C45",
+      "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791805500.0,
+      "time_scheduled": "13:45",
+      "time_estimated": "13:45",
+      "flight_no": "DE1142",
+      "airline": "Condor",
+      "city": "Lamezia Terme (Kalabrien)",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B79",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
