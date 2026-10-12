@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 04:05",
+  "updated_at": "12.10.2026 04:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -1596,6 +1596,40 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "243-245",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791792600.0,
+      "time_scheduled": "10:10",
+      "time_estimated": "10:10",
+      "flight_no": "SK1630",
+      "airline": "Scandinavian Airlines",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A50",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791792600.0,
+      "time_scheduled": "10:10",
+      "time_estimated": "10:10",
+      "flight_no": "XQ3581",
+      "airline": "Sun Express",
+      "city": "Dalaman",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C57",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
