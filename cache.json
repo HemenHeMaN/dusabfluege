@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 03:00",
+  "updated_at": "12.10.2026 03:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -14,7 +14,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B77",
-      "checkin": "131-136",
+      "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1222,6 +1222,23 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791788700.0,
+      "time_scheduled": "09:05",
+      "time_estimated": "09:05",
+      "flight_no": "ENT60621",
+      "airline": "Enter Air",
+      "city": "Pristina",
+      "country": "Kosovo",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C53",
+      "checkin": "265-266",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
