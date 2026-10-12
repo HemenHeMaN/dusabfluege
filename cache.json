@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 06:25",
+  "updated_at": "12.10.2026 06:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,7 +39,7 @@
     {
       "dt": 1791777000.0,
       "time_scheduled": "05:50",
-      "time_estimated": "05:50",
+      "time_estimated": "06:27",
       "flight_no": "DE1614",
       "airline": "Condor",
       "city": "Chania (Kreta)",
@@ -49,9 +49,9 @@
       "terminal": "B",
       "gate": "B42A",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 38
     },
     {
       "dt": 1791777000.0,
@@ -124,7 +124,7 @@
     {
       "dt": 1791777600.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:00",
+      "time_estimated": "06:26",
       "flight_no": "X3116",
       "airline": "Tuifly",
       "city": "Dalaman",
@@ -134,9 +134,9 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 26
     },
     {
       "dt": 1791777600.0,
@@ -175,7 +175,7 @@
     {
       "dt": 1791777600.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:00",
+      "time_estimated": "06:29",
       "flight_no": "DE1434",
       "airline": "Condor",
       "city": "Gran Canaria",
@@ -185,9 +185,9 @@
       "terminal": "B",
       "gate": "B44A",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 30
     },
     {
       "dt": 1791777900.0,
@@ -236,8 +236,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +475,7 @@
       "gate": "A53",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -508,8 +508,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -644,8 +644,8 @@
       "terminal": "B",
       "gate": "B42B",
       "checkin": "151-248",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -678,8 +678,8 @@
       "terminal": "A",
       "gate": "A26",
       "checkin": "151-248",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -713,7 +713,7 @@
       "gate": "A56",
       "checkin": "151-248",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1407,7 +1407,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B79",
       "checkin": "143-144",
       "status": "scheduled",
       "status_text": "",
@@ -1611,7 +1611,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A50",
+      "gate": "A45",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1679,7 +1679,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A53",
       "checkin": "104-105",
       "status": "scheduled",
       "status_text": "",
@@ -1832,7 +1832,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B35",
+      "gate": "B75",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2036,7 +2036,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B31",
+      "gate": "B71",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2244,6 +2244,40 @@
       "checkin": "",
       "status": "cancelled",
       "status_text": "annulliert",
+      "delay": 0
+    },
+    {
+      "dt": 1791801000.0,
+      "time_scheduled": "12:30",
+      "time_estimated": "12:30",
+      "flight_no": "DE1428",
+      "airline": "Condor",
+      "city": "Teneriffa Süd",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791801000.0,
+      "time_scheduled": "12:30",
+      "time_estimated": "12:30",
+      "flight_no": "4M112",
+      "airline": "Mavi Gök Aviation",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A80",
+      "checkin": "268-272",
+      "status": "scheduled",
+      "status_text": "",
       "delay": 0
     },
     {
