@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 20:45",
+  "updated_at": "12.10.2026 20:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -322,7 +322,7 @@
       "gate": "B29",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -339,7 +339,7 @@
       "gate": "B71",
       "checkin": "131-136",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -356,7 +356,7 @@
       "gate": "C40",
       "checkin": "175-176",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -373,7 +373,7 @@
       "gate": "C37",
       "checkin": "258-267",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
