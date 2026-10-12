@@ -1,5 +1,5 @@
 {
-  "updated_at": "12.10.2026 18:05",
+  "updated_at": "12.10.2026 18:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,23 +37,6 @@
       "delay": 123
     },
     {
-      "dt": 1791814800.0,
-      "time_scheduled": "16:20",
-      "time_estimated": "17:08",
-      "flight_no": "EW9792",
-      "airline": "Eurowings",
-      "city": "Bukarest-Otopeni",
-      "country": "Rumänien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A45",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 48
-    },
-    {
       "dt": 1791816300.0,
       "time_scheduled": "16:45",
       "time_estimated": "17:17",
@@ -71,40 +54,6 @@
       "delay": 32
     },
     {
-      "dt": 1791816300.0,
-      "time_scheduled": "16:45",
-      "time_estimated": "17:06",
-      "flight_no": "AF1407",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
-      "dt": 1791816600.0,
-      "time_scheduled": "16:50",
-      "time_estimated": "17:05",
-      "flight_no": "EW9046",
-      "airline": "Eurowings",
-      "city": "Berlin-Brandenburg",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
-    },
-    {
       "dt": 1791816900.0,
       "time_scheduled": "16:55",
       "time_estimated": "17:21",
@@ -120,6 +69,23 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 27
+    },
+    {
+      "dt": 1791816900.0,
+      "time_scheduled": "16:55",
+      "time_estimated": "18:09",
+      "flight_no": "DE1516",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B27",
+      "checkin": "181-190",
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 74
     },
     {
       "dt": 1791817200.0,
@@ -158,7 +124,7 @@
     {
       "dt": 1791817800.0,
       "time_scheduled": "17:10",
-      "time_estimated": "17:10",
+      "time_estimated": "18:05",
       "flight_no": "PC1004",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -168,9 +134,9 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 56
     },
     {
       "dt": 1791818400.0,
@@ -288,7 +254,7 @@
       "gate": "B33",
       "checkin": "148-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -389,8 +355,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -406,8 +372,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -440,8 +406,8 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -543,7 +509,7 @@
       "gate": "A54",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -560,7 +526,7 @@
       "gate": "B35",
       "checkin": "131-136",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -577,7 +543,7 @@
       "gate": "A79",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
