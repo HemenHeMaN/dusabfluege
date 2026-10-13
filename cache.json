@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 08:10",
+  "updated_at": "13.10.2026 08:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 36
-    },
-    {
-      "dt": 1791866700.0,
-      "time_scheduled": "06:45",
-      "time_estimated": "07:13",
-      "flight_no": "EW5702",
-      "airline": "Eurowings",
-      "city": "Pristina",
-      "country": "Kosovo",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 29
     },
     {
       "dt": 1791867000.0,
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 41
-    },
-    {
-      "dt": 1791867300.0,
-      "time_scheduled": "06:55",
-      "time_estimated": "07:11",
-      "flight_no": "AF1107",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1791867600.0,
@@ -171,23 +137,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 19
-    },
-    {
-      "dt": 1791867600.0,
-      "time_scheduled": "07:00",
-      "time_estimated": "07:15",
-      "flight_no": "EW9030",
-      "airline": "Eurowings",
-      "city": "Hamburg",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A45",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1791867900.0,
@@ -362,7 +311,7 @@
     {
       "dt": 1791870900.0,
       "time_scheduled": "07:55",
-      "time_estimated": "07:55",
+      "time_estimated": "08:13",
       "flight_no": "DE1848",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -372,9 +321,9 @@
       "terminal": "B",
       "gate": "B28",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1791871200.0,
@@ -396,7 +345,7 @@
     {
       "dt": 1791871200.0,
       "time_scheduled": "08:00",
-      "time_estimated": "08:08",
+      "time_estimated": "08:10",
       "flight_no": "XR6813",
       "airline": "Corendon Airlines Europe",
       "city": "Sharm El Sheikh",
@@ -408,12 +357,12 @@
       "checkin": "264-266",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 8
+      "delay": 11
     },
     {
       "dt": 1791871500.0,
       "time_scheduled": "08:05",
-      "time_estimated": "08:05",
+      "time_estimated": "08:12",
       "flight_no": "XQ181",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -423,9 +372,9 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "198-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 7
     },
     {
       "dt": 1791871800.0,
@@ -560,7 +509,7 @@
       "gate": "B35",
       "checkin": "131-136",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -719,7 +668,7 @@
     {
       "dt": 1791877800.0,
       "time_scheduled": "09:50",
-      "time_estimated": "09:50",
+      "time_estimated": "10:15",
       "flight_no": "LX1017",
       "airline": "Swiss",
       "city": "Zürich",
@@ -731,7 +680,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1791878400.0,
