@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 12:05",
+  "updated_at": "13.10.2026 12:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -54,23 +54,6 @@
       "delay": 63
     },
     {
-      "dt": 1791879900.0,
-      "time_scheduled": "10:25",
-      "time_estimated": "11:09",
-      "flight_no": "XR417",
-      "airline": "Corendon Airlines Europe",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "103-105",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 45
-    },
-    {
       "dt": 1791880200.0,
       "time_scheduled": "10:30",
       "time_estimated": "11:14",
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 44
-    },
-    {
-      "dt": 1791880500.0,
-      "time_scheduled": "10:35",
-      "time_estimated": "11:06",
-      "flight_no": "EW9420",
-      "airline": "Eurowings",
-      "city": "Nizza",
-      "country": "Frankreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 31
     },
     {
       "dt": 1791880800.0,
@@ -243,7 +209,7 @@
     {
       "dt": 1791882900.0,
       "time_scheduled": "11:15",
-      "time_estimated": "11:15",
+      "time_estimated": "12:07",
       "flight_no": "ME248",
       "airline": "Middle East Airlines",
       "city": "Beirut",
@@ -253,9 +219,9 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "192-197",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 52
     },
     {
       "dt": 1791882900.0,
@@ -345,7 +311,7 @@
     {
       "dt": 1791884100.0,
       "time_scheduled": "11:35",
-      "time_estimated": "11:35",
+      "time_estimated": "12:09",
       "flight_no": "AF1607",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -355,9 +321,9 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 34
     },
     {
       "dt": 1791884700.0,
@@ -475,7 +441,7 @@
       "gate": "C42",
       "checkin": "260-262",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -542,8 +508,8 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -593,8 +559,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -628,7 +594,7 @@
       "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -693,7 +659,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B74",
+      "gate": "B76",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -914,7 +880,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B76",
+      "gate": "B78",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
