@@ -1,11 +1,11 @@
 {
-  "updated_at": "13.10.2026 13:55",
+  "updated_at": "13.10.2026 14:00",
   "source": "Dus.com",
   "flights": [
     {
       "dt": 1791882300.0,
       "time_scheduled": "11:05",
-      "time_estimated": "13:50",
+      "time_estimated": "14:15",
       "flight_no": "EW9580",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -17,24 +17,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 165
-    },
-    {
-      "dt": 1791887400.0,
-      "time_scheduled": "12:30",
-      "time_estimated": "13:00",
-      "flight_no": "DE1456",
-      "airline": "Condor",
-      "city": "Fuerteventura",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B71",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 30
+      "delay": 190
     },
     {
       "dt": 1791887400.0,
@@ -294,7 +277,7 @@
     {
       "dt": 1791891600.0,
       "time_scheduled": "13:40",
-      "time_estimated": "13:40",
+      "time_estimated": "13:56",
       "flight_no": "EW9460",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -304,9 +287,9 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1791891900.0,
@@ -355,8 +338,8 @@
       "terminal": "A",
       "gate": "A52",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 40
     },
     {
@@ -390,7 +373,7 @@
       "gate": "B78",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -424,7 +407,7 @@
       "gate": "B33",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -441,7 +424,7 @@
       "gate": "C42",
       "checkin": "199-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -458,7 +441,7 @@
       "gate": "A53",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -542,8 +525,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -593,8 +576,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "199-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +594,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -747,7 +730,7 @@
       "gate": "C32",
       "checkin": "199-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
