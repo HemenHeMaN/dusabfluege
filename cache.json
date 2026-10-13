@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 17:55",
+  "updated_at": "13.10.2026 18:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -16,42 +16,8 @@
       "gate": "C40",
       "checkin": "243-245",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 180
-    },
-    {
-      "dt": 1791901200.0,
-      "time_scheduled": "16:20",
-      "time_estimated": "16:59",
-      "flight_no": "XQ989",
-      "airline": "Sun Express",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "201-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 40
-    },
-    {
-      "dt": 1791902400.0,
-      "time_scheduled": "16:40",
-      "time_estimated": "16:57",
-      "flight_no": "DE1010",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B78",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1791902700.0,
@@ -169,7 +135,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 30
     },
     {
@@ -220,13 +186,13 @@
       "gate": "A53",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 30
     },
     {
       "dt": 1791906300.0,
       "time_scheduled": "17:45",
-      "time_estimated": "17:45",
+      "time_estimated": "17:57",
       "flight_no": "EW9784",
       "airline": "Eurowings",
       "city": "Budapest",
@@ -236,9 +202,9 @@
       "terminal": "A",
       "gate": "A68",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 13
     },
     {
       "dt": 1791906600.0,
@@ -277,7 +243,7 @@
     {
       "dt": 1791906900.0,
       "time_scheduled": "17:55",
-      "time_estimated": "17:55",
+      "time_estimated": "18:00",
       "flight_no": "EW9220",
       "airline": "Eurowings",
       "city": "Göteborg-Landvetter",
@@ -287,9 +253,9 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 5
     },
     {
       "dt": 1791906900.0,
@@ -338,8 +304,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -423,8 +389,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -458,7 +424,7 @@
       "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -475,7 +441,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -492,7 +458,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -611,7 +577,7 @@
       "gate": "C51",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1084,7 +1050,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B80",
+      "gate": "B52",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1188,6 +1154,57 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791950400.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "EW9792",
+      "airline": "Eurowings",
+      "city": "Bukarest-Otopeni",
+      "country": "Rumänien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A46",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791950400.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "X32292",
+      "airline": "Tuifly",
+      "city": "Lanzarote-Arrecife",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B76",
+      "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791950400.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "X32312",
+      "airline": "Tuifly",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B74",
+      "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
