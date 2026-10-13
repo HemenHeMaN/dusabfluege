@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 05:00",
+  "updated_at": "13.10.2026 05:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -118,7 +118,7 @@
       "gate": "B33",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3245,6 +3245,23 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791903900.0,
+      "time_scheduled": "17:05",
+      "time_estimated": "17:05",
+      "flight_no": "DE1516",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
