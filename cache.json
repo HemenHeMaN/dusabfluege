@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 16:55",
+  "updated_at": "13.10.2026 17:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -311,7 +311,7 @@
     {
       "dt": 1791901200.0,
       "time_scheduled": "16:20",
-      "time_estimated": "16:20",
+      "time_estimated": "16:59",
       "flight_no": "XQ989",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -321,14 +321,14 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "201-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 40
     },
     {
       "dt": 1791902400.0,
       "time_scheduled": "16:40",
-      "time_estimated": "16:40",
+      "time_estimated": "16:57",
       "flight_no": "DE1010",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -338,9 +338,9 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1791902700.0,
@@ -355,8 +355,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -407,7 +407,7 @@
       "gate": "C36",
       "checkin": "242-244",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -440,8 +440,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -577,7 +577,7 @@
       "gate": "A39",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
