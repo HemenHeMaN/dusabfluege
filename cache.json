@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 03:15",
+  "updated_at": "13.10.2026 03:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -2837,6 +2837,40 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "192-196",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791897600.0,
+      "time_scheduled": "15:20",
+      "time_estimated": "15:20",
+      "flight_no": "EW9570",
+      "airline": "Eurowings",
+      "city": "Jerez de la Frontera",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A25",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791897600.0,
+      "time_scheduled": "15:20",
+      "time_estimated": "15:20",
+      "flight_no": "SK1622",
+      "airline": "Scandinavian Airlines",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A54",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
