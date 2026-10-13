@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 11:05",
+  "updated_at": "13.10.2026 11:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -122,23 +122,6 @@
       "delay": 3
     },
     {
-      "dt": 1791879000.0,
-      "time_scheduled": "10:10",
-      "time_estimated": "10:10",
-      "flight_no": "X36642",
-      "airline": "Tuifly",
-      "city": "Marsa Alam",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C54",
-      "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
-    },
-    {
       "dt": 1791879300.0,
       "time_scheduled": "10:15",
       "time_estimated": "10:32",
@@ -209,7 +192,7 @@
     {
       "dt": 1791879900.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:25",
+      "time_estimated": "11:09",
       "flight_no": "XR417",
       "airline": "Corendon Airlines Europe",
       "city": "Heraklion (Kreta)",
@@ -219,9 +202,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 45
     },
     {
       "dt": 1791879900.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1791880500.0,
       "time_scheduled": "10:35",
-      "time_estimated": "10:35",
+      "time_estimated": "11:06",
       "flight_no": "EW9420",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -270,9 +253,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 31
     },
     {
       "dt": 1791880800.0,
@@ -424,7 +407,7 @@
       "gate": "A63",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -440,8 +423,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "192-197",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -508,8 +491,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "144-146",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -542,8 +525,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +594,7 @@
       "gate": "B29",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1407,7 +1390,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B35",
+      "gate": "B75",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1424,7 +1407,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B31",
+      "gate": "B71",
       "checkin": "142-143",
       "status": "scheduled",
       "status_text": "",
@@ -1645,7 +1628,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B75",
+      "gate": "B35",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1917,7 +1900,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B76",
+      "gate": "B36",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2034,9 +2017,9 @@
       "city": "Wien",
       "country": "Österreich",
       "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A53",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2155,7 +2138,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B37",
+      "gate": "B77",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -2255,9 +2238,9 @@
       "city": "Manchester",
       "country": "Großbritannien",
       "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A82",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2325,7 +2308,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B35",
+      "gate": "B75",
       "checkin": "146-148",
       "status": "scheduled",
       "status_text": "",
