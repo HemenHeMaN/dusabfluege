@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 20:35",
+  "updated_at": "13.10.2026 20:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 59
-    },
-    {
-      "dt": 1791911400.0,
-      "time_scheduled": "19:10",
-      "time_estimated": "19:37",
-      "flight_no": "BJ2345",
-      "airline": "Nouvelair",
-      "city": "Djerba",
-      "country": "Tunesien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C31",
-      "checkin": "240-242",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
     },
     {
       "dt": 1791911700.0,
@@ -219,8 +202,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -321,8 +304,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
