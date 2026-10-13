@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 04:45",
+  "updated_at": "13.10.2026 04:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -84,7 +84,7 @@
       "gate": "B54",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3177,6 +3177,57 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "246-248",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791903000.0,
+      "time_scheduled": "16:50",
+      "time_estimated": "16:50",
+      "flight_no": "EW9754",
+      "airline": "Eurowings",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A65",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791903000.0,
+      "time_scheduled": "16:50",
+      "time_estimated": "16:50",
+      "flight_no": "SM2981",
+      "airline": "Air Cairo",
+      "city": "Hurghada",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C40",
+      "checkin": "242-244",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791903000.0,
+      "time_scheduled": "16:50",
+      "time_estimated": "16:50",
+      "flight_no": "EW9538",
+      "airline": "Eurowings",
+      "city": "Valencia",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B76",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
