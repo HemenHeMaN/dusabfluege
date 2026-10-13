@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 18:55",
+  "updated_at": "13.10.2026 19:01",
   "source": "Dus.com",
   "flights": [
     {
@@ -54,23 +54,6 @@
       "delay": 31
     },
     {
-      "dt": 1791906300.0,
-      "time_scheduled": "17:45",
-      "time_estimated": "17:57",
-      "flight_no": "EW9784",
-      "airline": "Eurowings",
-      "city": "Budapest",
-      "country": "Ungarn",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A68",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 13
-    },
-    {
       "dt": 1791906600.0,
       "time_scheduled": "17:50",
       "time_estimated": "18:03",
@@ -103,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 19
-    },
-    {
-      "dt": 1791906900.0,
-      "time_scheduled": "17:55",
-      "time_estimated": "18:00",
-      "flight_no": "EW9220",
-      "airline": "Eurowings",
-      "city": "Göteborg-Landvetter",
-      "country": "Schweden",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A31",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 5
     },
     {
       "dt": 1791906900.0,
@@ -277,7 +243,7 @@
     {
       "dt": 1791909600.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:40",
+      "time_estimated": "18:59",
       "flight_no": "VL077",
       "airline": "Lufthansa City Airlines",
       "city": "Frankfurt",
@@ -287,9 +253,9 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 20
     },
     {
       "dt": 1791909900.0,
@@ -362,7 +328,7 @@
     {
       "dt": 1791909900.0,
       "time_scheduled": "18:45",
-      "time_estimated": "18:45",
+      "time_estimated": "18:57",
       "flight_no": "AY1396",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -372,9 +338,9 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 12
     },
     {
       "dt": 1791910200.0,
@@ -423,8 +389,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "139-141",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -457,8 +423,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -542,8 +508,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1612,6 +1578,57 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A40",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791954000.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "EW9082",
+      "airline": "Eurowings",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A31",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791954000.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "EW9462",
+      "airline": "Eurowings",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A80",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791954000.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "EW4335",
+      "airline": "Eurowings",
+      "city": "Salzburg",
+      "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A54",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
