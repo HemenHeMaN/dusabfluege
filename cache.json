@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 18:00",
+  "updated_at": "13.10.2026 18:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -185,8 +185,8 @@
       "terminal": "A",
       "gate": "A53",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 30
     },
     {
@@ -209,7 +209,7 @@
     {
       "dt": 1791906600.0,
       "time_scheduled": "17:50",
-      "time_estimated": "17:50",
+      "time_estimated": "18:03",
       "flight_no": "EW9048",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -219,9 +219,9 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 13
     },
     {
       "dt": 1791906900.0,
@@ -236,8 +236,8 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -287,8 +287,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -338,8 +338,8 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -406,8 +406,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -475,7 +475,7 @@
       "gate": "B75",
       "checkin": "146-148",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1050,7 +1050,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B52",
+      "gate": "B80",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1084,7 +1084,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B56",
+      "gate": "B38",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -1205,6 +1205,57 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "131-136",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791950700.0,
+      "time_scheduled": "06:05",
+      "time_estimated": "06:05",
+      "flight_no": "EW9572",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A49",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791950700.0,
+      "time_scheduled": "06:05",
+      "time_estimated": "06:05",
+      "flight_no": "XC101",
+      "airline": "Corendon Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C45",
+      "checkin": "255-257",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791950700.0,
+      "time_scheduled": "06:05",
+      "time_estimated": "06:05",
+      "flight_no": "XR405",
+      "airline": "Corendon Airlines Europe",
+      "city": "Rhodos",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B72",
+      "checkin": "258-260",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
