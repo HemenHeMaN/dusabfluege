@@ -1,24 +1,7 @@
 {
-  "updated_at": "13.10.2026 10:00",
+  "updated_at": "13.10.2026 10:05",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791874200.0,
-      "time_scheduled": "08:50",
-      "time_estimated": "09:01",
-      "flight_no": "EJU3942",
-      "airline": "Easy Jet Europe",
-      "city": "Mailand-Malpensa",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
-    },
     {
       "dt": 1791874500.0,
       "time_scheduled": "08:55",
@@ -220,7 +203,7 @@
       "gate": "C40",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -304,8 +287,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
