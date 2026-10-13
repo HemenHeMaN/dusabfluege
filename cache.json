@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 20:10",
+  "updated_at": "13.10.2026 20:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,40 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 30
-    },
-    {
-      "dt": 1791910500.0,
-      "time_scheduled": "18:55",
-      "time_estimated": "19:11",
-      "flight_no": "BA923",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C56",
-      "checkin": "139-141",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
-    },
-    {
-      "dt": 1791910800.0,
-      "time_scheduled": "19:00",
-      "time_estimated": "19:14",
-      "flight_no": "XQ183",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C51",
-      "checkin": "197-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
     },
     {
       "dt": 1791911100.0,
@@ -345,7 +311,7 @@
     {
       "dt": 1791914700.0,
       "time_scheduled": "20:05",
-      "time_estimated": "20:05",
+      "time_estimated": "20:13",
       "flight_no": "BT234",
       "airline": "Air Baltic",
       "city": "Riga",
@@ -355,9 +321,9 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "143-144",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 9
     },
     {
       "dt": 1791915600.0,
@@ -424,7 +390,7 @@
       "gate": "A66",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -509,7 +475,7 @@
       "gate": "B35",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1545,6 +1511,23 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791958500.0,
+      "time_scheduled": "08:15",
+      "time_estimated": "08:15",
+      "flight_no": "KL1798",
+      "airline": "KLM",
+      "city": "Amsterdam",
+      "country": "Niederlande",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B27",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
