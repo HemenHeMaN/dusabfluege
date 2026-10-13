@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 17:35",
+  "updated_at": "13.10.2026 17:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "boarding",
       "status_text": "Boarding",
       "delay": 180
-    },
-    {
-      "dt": 1791899700.0,
-      "time_scheduled": "15:55",
-      "time_estimated": "16:37",
-      "flight_no": "BJ215",
-      "airline": "Nouvelair",
-      "city": "Monastir",
-      "country": "Tunesien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "148-150",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 43
     },
     {
       "dt": 1791901200.0,
@@ -141,7 +124,7 @@
     {
       "dt": 1791903000.0,
       "time_scheduled": "16:50",
-      "time_estimated": "17:30",
+      "time_estimated": "17:40",
       "flight_no": "EW9538",
       "airline": "Eurowings",
       "city": "Valencia",
@@ -151,9 +134,9 @@
       "terminal": "B",
       "gate": "B36",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 40
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 50
     },
     {
       "dt": 1791903300.0,
@@ -202,8 +185,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -219,8 +202,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 30
     },
     {
@@ -288,7 +271,7 @@
       "gate": "A68",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -305,7 +288,7 @@
       "gate": "A39",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -339,7 +322,7 @@
       "gate": "A31",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -356,7 +339,7 @@
       "gate": "C32",
       "checkin": "142-144",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -424,7 +407,7 @@
       "gate": "A73",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -577,7 +560,7 @@
       "gate": "C45",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
