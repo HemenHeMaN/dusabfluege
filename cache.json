@@ -1,11 +1,11 @@
 {
-  "updated_at": "13.10.2026 14:45",
+  "updated_at": "13.10.2026 14:50",
   "source": "Dus.com",
   "flights": [
     {
       "dt": 1791882300.0,
       "time_scheduled": "11:05",
-      "time_estimated": "14:15",
+      "time_estimated": "14:49",
       "flight_no": "EW9580",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -15,9 +15,9 @@
       "terminal": "B",
       "gate": "B28",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 190
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 224
     },
     {
       "dt": 1791890400.0,
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 75
-    },
-    {
-      "dt": 1791891000.0,
-      "time_scheduled": "13:30",
-      "time_estimated": "13:49",
-      "flight_no": "XC103",
-      "airline": "Corendon Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C31",
-      "checkin": "246-248",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
     },
     {
       "dt": 1791891000.0,
@@ -338,8 +321,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -355,8 +338,8 @@
       "terminal": "B",
       "gate": "B26",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +389,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +458,7 @@
       "gate": "B58",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -508,8 +491,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "141-143",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -628,7 +611,7 @@
       "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -661,8 +644,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "257-267",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
