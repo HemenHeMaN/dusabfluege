@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 19:25",
+  "updated_at": "13.10.2026 19:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 12
-    },
-    {
-      "dt": 1791908700.0,
-      "time_scheduled": "18:25",
-      "time_estimated": "18:29",
-      "flight_no": "EW9468",
-      "airline": "Eurowings",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A73",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 4
     },
     {
       "dt": 1791908700.0,
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 18
-    },
-    {
-      "dt": 1791909000.0,
-      "time_scheduled": "18:30",
-      "time_estimated": "18:28",
-      "flight_no": "OS166",
-      "airline": "Austrian Airlines",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 0
     },
     {
       "dt": 1791909300.0,
@@ -338,8 +304,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -355,8 +321,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -396,7 +362,7 @@
     {
       "dt": 1791912600.0,
       "time_scheduled": "19:30",
-      "time_estimated": "19:30",
+      "time_estimated": "19:28",
       "flight_no": "LH2023",
       "airline": "Lufthansa",
       "city": "München",
@@ -406,8 +372,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
+      "status": "departed",
+      "status_text": "gestartet",
       "delay": 0
     },
     {
@@ -464,7 +430,7 @@
     {
       "dt": 1791914100.0,
       "time_scheduled": "19:55",
-      "time_estimated": "19:55",
+      "time_estimated": "20:00",
       "flight_no": "LX1027",
       "airline": "Swiss",
       "city": "Zürich",
@@ -476,7 +442,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 0
+      "delay": 5
     },
     {
       "dt": 1791914100.0,
@@ -1596,6 +1562,57 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791955800.0,
+      "time_scheduled": "07:30",
+      "time_estimated": "07:30",
+      "flight_no": "EW9440",
+      "airline": "Eurowings",
+      "city": "Barcelona",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A48",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791955800.0,
+      "time_scheduled": "07:30",
+      "time_estimated": "07:30",
+      "flight_no": "LH2035",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A45",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791955800.0,
+      "time_scheduled": "07:30",
+      "time_estimated": "07:30",
+      "flight_no": "KK490",
+      "airline": "LEAV Aviation",
+      "city": "Damaskus",
+      "country": "Syrien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
+      "checkin": "262-264",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
