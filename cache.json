@@ -1,24 +1,7 @@
 {
-  "updated_at": "13.10.2026 09:55",
+  "updated_at": "13.10.2026 10:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791874200.0,
-      "time_scheduled": "08:50",
-      "time_estimated": "08:57",
-      "flight_no": "EW7061",
-      "airline": "Eurowings",
-      "city": "Hamburg",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
-    },
     {
       "dt": 1791874200.0,
       "time_scheduled": "08:50",
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 13
-    },
-    {
-      "dt": 1791874500.0,
-      "time_scheduled": "08:55",
-      "time_estimated": "09:00",
-      "flight_no": "AY1392",
-      "airline": "Finnair",
-      "city": "Helsinki",
-      "country": "Finnland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B35",
-      "checkin": "131-136",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 5
     },
     {
       "dt": 1791875400.0,
@@ -141,7 +107,7 @@
     {
       "dt": 1791876600.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
+      "time_estimated": "09:57",
       "flight_no": "XQ283",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -151,9 +117,9 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "200-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1791876900.0,
@@ -192,7 +158,7 @@
     {
       "dt": 1791877200.0,
       "time_scheduled": "09:40",
-      "time_estimated": "09:40",
+      "time_estimated": "09:58",
       "flight_no": "OS162",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -202,14 +168,14 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1791877500.0,
       "time_scheduled": "09:45",
-      "time_estimated": "09:45",
+      "time_estimated": "10:00",
       "flight_no": "VY1897",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -219,9 +185,9 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "144-145",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1791877800.0,
@@ -237,7 +203,7 @@
       "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 70
     },
     {
@@ -270,8 +236,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "260-262",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -339,7 +305,7 @@
       "gate": "A40",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -474,8 +440,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
