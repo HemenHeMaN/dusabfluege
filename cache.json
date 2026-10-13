@@ -1,24 +1,7 @@
 {
-  "updated_at": "13.10.2026 07:30",
+  "updated_at": "13.10.2026 07:35",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791863400.0,
-      "time_scheduled": "05:50",
-      "time_estimated": "06:32",
-      "flight_no": "DE1620",
-      "airline": "Condor",
-      "city": "Kos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 42
-    },
     {
       "dt": 1791864000.0,
       "time_scheduled": "06:00",
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 29
-    },
-    {
-      "dt": 1791865200.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:35",
-      "flight_no": "IB1326",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B26",
-      "checkin": "140-141",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1791865200.0,
@@ -430,7 +396,7 @@
     {
       "dt": 1791867000.0,
       "time_scheduled": "06:50",
-      "time_estimated": "07:15",
+      "time_estimated": "07:30",
       "flight_no": "EW9680",
       "airline": "Eurowings",
       "city": "Athen",
@@ -440,9 +406,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 25
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 41
     },
     {
       "dt": 1791867300.0,
@@ -515,7 +481,7 @@
     {
       "dt": 1791867600.0,
       "time_scheduled": "07:00",
-      "time_estimated": "07:00",
+      "time_estimated": "07:32",
       "flight_no": "EW9712",
       "airline": "Eurowings",
       "city": "Salzburg",
@@ -525,9 +491,9 @@
       "terminal": "A",
       "gate": "A47",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 32
     },
     {
       "dt": 1791867600.0,
@@ -627,14 +593,14 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "104-105",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1791868800.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:20",
+      "time_estimated": "07:34",
       "flight_no": "EW9872",
       "airline": "Eurowings",
       "city": "Bari",
@@ -644,9 +610,9 @@
       "terminal": "B",
       "gate": "B56",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1791868800.0,
@@ -712,8 +678,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -848,8 +814,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "198-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -866,7 +832,7 @@
       "gate": "C54",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
