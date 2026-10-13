@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 11:30",
+  "updated_at": "13.10.2026 11:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,23 +39,6 @@
     {
       "dt": 1791878400.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:34",
-      "flight_no": "PC5002",
-      "airline": "Pegasus Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 34
-    },
-    {
-      "dt": 1791878400.0,
-      "time_scheduled": "10:00",
       "time_estimated": "10:54",
       "flight_no": "XR6597",
       "airline": "Corendon Airlines Europe",
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 63
-    },
-    {
-      "dt": 1791879300.0,
-      "time_scheduled": "10:15",
-      "time_estimated": "10:32",
-      "flight_no": "LH2007",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A66",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1791879600.0,
@@ -287,8 +253,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "141-143",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -362,7 +328,7 @@
     {
       "dt": 1791882900.0,
       "time_scheduled": "11:15",
-      "time_estimated": "11:15",
+      "time_estimated": "11:30",
       "flight_no": "EW9084",
       "airline": "Eurowings",
       "city": "München",
@@ -372,9 +338,9 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1791882900.0,
@@ -679,7 +645,7 @@
       "gate": "B71",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -696,7 +662,7 @@
       "gate": "B56",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
