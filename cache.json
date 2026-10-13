@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 16:40",
+  "updated_at": "13.10.2026 16:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -56,23 +56,6 @@
     {
       "dt": 1791896700.0,
       "time_scheduled": "15:05",
-      "time_estimated": "15:43",
-      "flight_no": "XQ959",
-      "airline": "Sun Express",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C32",
-      "checkin": "199-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 39
-    },
-    {
-      "dt": 1791896700.0,
-      "time_scheduled": "15:05",
       "time_estimated": "15:50",
       "flight_no": "EW8045",
       "airline": "Eurowings",
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 46
-    },
-    {
-      "dt": 1791897000.0,
-      "time_scheduled": "15:10",
-      "time_estimated": "15:42",
-      "flight_no": "LH075",
-      "airline": "Lufthansa",
-      "city": "Frankfurt",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 32
     },
     {
       "dt": 1791897300.0,
@@ -406,8 +372,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -457,8 +423,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -491,8 +457,8 @@
       "terminal": "B",
       "gate": "B36",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 20
     },
     {
@@ -542,8 +508,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -577,7 +543,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -696,7 +662,7 @@
       "gate": "C32",
       "checkin": "142-144",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
