@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 06:15",
+  "updated_at": "13.10.2026 06:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,7 +73,7 @@
     {
       "dt": 1791863400.0,
       "time_scheduled": "05:50",
-      "time_estimated": "05:50",
+      "time_estimated": "06:18",
       "flight_no": "DE1780",
       "airline": "Condor",
       "city": "Preveza-Aktion",
@@ -83,14 +83,14 @@
       "terminal": "B",
       "gate": "B54",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 28
     },
     {
       "dt": 1791863400.0,
       "time_scheduled": "05:50",
-      "time_estimated": "06:05",
+      "time_estimated": "06:19",
       "flight_no": "DE1616",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -100,14 +100,14 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 15
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 29
     },
     {
       "dt": 1791863700.0,
       "time_scheduled": "05:55",
-      "time_estimated": "05:55",
+      "time_estimated": "06:16",
       "flight_no": "DE1514",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -117,9 +117,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791864000.0,
@@ -253,8 +253,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -277,7 +277,7 @@
     {
       "dt": 1791864600.0,
       "time_scheduled": "06:10",
-      "time_estimated": "06:10",
+      "time_estimated": "06:15",
       "flight_no": "SK620",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -287,9 +287,9 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 5
     },
     {
       "dt": 1791864900.0,
@@ -390,7 +390,7 @@
       "gate": "A51",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -441,7 +441,7 @@
       "gate": "B42B",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -458,7 +458,7 @@
       "gate": "A26",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -475,7 +475,7 @@
       "gate": "B42A",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,8 +491,8 @@
       "terminal": "A",
       "gate": "A83",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -542,8 +542,8 @@
       "terminal": "A",
       "gate": "A53",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -559,8 +559,8 @@
       "terminal": "A",
       "gate": "A56",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -576,8 +576,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -610,8 +610,8 @@
       "terminal": "A",
       "gate": "A48",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -644,8 +644,8 @@
       "terminal": "B",
       "gate": "B44A",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -695,8 +695,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -3466,6 +3466,23 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791908400.0,
+      "time_scheduled": "18:20",
+      "time_estimated": "18:20",
+      "flight_no": "PC5012",
+      "airline": "Pegasus Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
