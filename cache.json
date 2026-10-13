@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 20:05",
+  "updated_at": "13.10.2026 20:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -253,8 +253,8 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "174-176",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -287,8 +287,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 5
     },
     {
@@ -304,8 +304,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -321,8 +321,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 10
     },
     {
@@ -373,7 +373,7 @@
       "gate": "C46",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +457,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "192-195",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1528,6 +1528,23 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791958200.0,
+      "time_scheduled": "08:10",
+      "time_estimated": "08:10",
+      "flight_no": "EW9542",
+      "airline": "Eurowings",
+      "city": "Gran Canaria",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B37",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
