@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 13:30",
+  "updated_at": "13.10.2026 13:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -304,8 +304,8 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -338,8 +338,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 15
     },
     {
@@ -440,8 +440,8 @@
       "terminal": "B",
       "gate": "B72",
       "checkin": "144-146",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -457,8 +457,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -560,7 +560,7 @@
       "gate": "B24",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -778,7 +778,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B33",
+      "gate": "B31",
       "checkin": "141-143",
       "status": "scheduled",
       "status_text": "",
@@ -965,7 +965,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B31",
+      "gate": "B33",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -982,7 +982,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B24",
+      "gate": "B36",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
