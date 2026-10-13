@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 18:15",
+  "updated_at": "13.10.2026 18:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -260,7 +260,7 @@
     {
       "dt": 1791907500.0,
       "time_scheduled": "18:05",
-      "time_estimated": "18:05",
+      "time_estimated": "18:16",
       "flight_no": "EW9834",
       "airline": "Eurowings",
       "city": "Bologna",
@@ -270,9 +270,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 12
     },
     {
       "dt": 1791908100.0,
@@ -304,8 +304,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -322,7 +322,7 @@
       "gate": "A73",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -355,8 +355,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 10
     },
     {
@@ -372,8 +372,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -423,8 +423,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -559,8 +559,8 @@
       "terminal": "C",
       "gate": "C51",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +611,7 @@
       "gate": "C36",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -730,7 +730,7 @@
       "gate": "C57",
       "checkin": "174-176",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1323,6 +1323,91 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B31",
+      "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791951600.0,
+      "time_scheduled": "06:20",
+      "time_estimated": "06:20",
+      "flight_no": "IB1326",
+      "airline": "Iberia",
+      "city": "Madrid-Barajas",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B58",
+      "checkin": "138-139",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791951600.0,
+      "time_scheduled": "06:20",
+      "time_estimated": "06:20",
+      "flight_no": "EW9602",
+      "airline": "Eurowings",
+      "city": "Lissabon",
+      "country": "Portugal",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A65",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791951600.0,
+      "time_scheduled": "06:20",
+      "time_estimated": "06:20",
+      "flight_no": "X37102",
+      "airline": "Tuifly",
+      "city": "Sal (Kapverden)",
+      "country": "Kapverdische Inseln",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791951600.0,
+      "time_scheduled": "06:20",
+      "time_estimated": "06:20",
+      "flight_no": "LH2031",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A48",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791951600.0,
+      "time_scheduled": "06:20",
+      "time_estimated": "06:20",
+      "flight_no": "DE1428",
+      "airline": "Condor",
+      "city": "Teneriffa Süd",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B35",
       "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
