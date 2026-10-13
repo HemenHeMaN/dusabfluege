@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 06:35",
+  "updated_at": "13.10.2026 06:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -124,7 +124,7 @@
     {
       "dt": 1791864000.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:00",
+      "time_estimated": "06:36",
       "flight_no": "EW9572",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -134,9 +134,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 36
     },
     {
       "dt": 1791864000.0,
@@ -192,7 +192,7 @@
     {
       "dt": 1791864300.0,
       "time_scheduled": "06:05",
-      "time_estimated": "06:05",
+      "time_estimated": "06:37",
       "flight_no": "XC101",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -202,9 +202,9 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "145-147",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 33
     },
     {
       "dt": 1791864600.0,
@@ -311,7 +311,7 @@
     {
       "dt": 1791865200.0,
       "time_scheduled": "06:20",
-      "time_estimated": "06:20",
+      "time_estimated": "06:35",
       "flight_no": "IB1326",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -321,9 +321,9 @@
       "terminal": "B",
       "gate": "B26",
       "checkin": "140-141",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1791865200.0,
@@ -362,7 +362,7 @@
     {
       "dt": 1791865500.0,
       "time_scheduled": "06:25",
-      "time_estimated": "06:25",
+      "time_estimated": "06:39",
       "flight_no": "KL1796",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -372,14 +372,14 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1791865500.0,
       "time_scheduled": "06:25",
-      "time_estimated": "06:25",
+      "time_estimated": "06:35",
       "flight_no": "EW9440",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -389,9 +389,9 @@
       "terminal": "A",
       "gate": "A51",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
+      "status": "scheduled",
+      "status_text": "rollt",
+      "delay": 10
     },
     {
       "dt": 1791865500.0,
@@ -474,8 +474,8 @@
       "terminal": "B",
       "gate": "B42A",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -492,7 +492,7 @@
       "gate": "A83",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "A44",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -611,7 +611,7 @@
       "gate": "A48",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -696,7 +696,7 @@
       "gate": "B76",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -814,8 +814,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "137-139",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -849,7 +849,7 @@
       "gate": "A46",
       "checkin": "104-105",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -882,8 +882,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -934,7 +934,7 @@
       "gate": "C45",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -951,7 +951,7 @@
       "gate": "A33",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1322,7 +1322,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1662,7 +1662,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A50",
+      "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1832,7 +1832,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2172,7 +2172,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2223,7 +2223,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A40",
       "checkin": "141-143",
       "status": "scheduled",
       "status_text": "",
@@ -2342,7 +2342,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -2563,7 +2563,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A39",
+      "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2631,7 +2631,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A50",
+      "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2648,7 +2648,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -2784,7 +2784,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A54",
+      "gate": "A39",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2852,7 +2852,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3568,6 +3568,23 @@
       "terminal": "A",
       "gate": "A83",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791909600.0,
+      "time_scheduled": "18:40",
+      "time_estimated": "18:40",
+      "flight_no": "VL077",
+      "airline": "Lufthansa City Airlines",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A42",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
