@@ -1,24 +1,7 @@
 {
-  "updated_at": "13.10.2026 08:00",
+  "updated_at": "13.10.2026 08:05",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791865500.0,
-      "time_scheduled": "06:25",
-      "time_estimated": "07:02",
-      "flight_no": "EW9642",
-      "airline": "Eurowings",
-      "city": "Faro",
-      "country": "Portugal",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 38
-    },
     {
       "dt": 1791866400.0,
       "time_scheduled": "06:40",
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 27
-    },
-    {
-      "dt": 1791866700.0,
-      "time_scheduled": "06:45",
-      "time_estimated": "07:03",
-      "flight_no": "EW9840",
-      "airline": "Eurowings",
-      "city": "Mailand-Linate",
-      "country": "Italien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A53",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
     },
     {
       "dt": 1791866700.0,
@@ -120,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 28
-    },
-    {
-      "dt": 1791867000.0,
-      "time_scheduled": "06:50",
-      "time_estimated": "07:05",
-      "flight_no": "EW9412",
-      "airline": "Eurowings",
-      "city": "Lyon",
-      "country": "Frankreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A48",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1791867000.0,
@@ -328,7 +277,7 @@
     {
       "dt": 1791868200.0,
       "time_scheduled": "07:10",
-      "time_estimated": "07:10",
+      "time_estimated": "08:03",
       "flight_no": "BA925",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -338,9 +287,9 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "137-139",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 54
     },
     {
       "dt": 1791868200.0,
@@ -491,8 +440,8 @@
       "terminal": "B",
       "gate": "B28",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -542,8 +491,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "198-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -577,7 +526,7 @@
       "gate": "B77",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -662,7 +611,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3500,6 +3449,40 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791914700.0,
+      "time_scheduled": "20:05",
+      "time_estimated": "20:05",
+      "flight_no": "XQ795",
+      "airline": "Sun Express",
+      "city": "Ankara-Esenboğa",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C45",
+      "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791914700.0,
+      "time_scheduled": "20:05",
+      "time_estimated": "20:05",
+      "flight_no": "BT234",
+      "airline": "Air Baltic",
+      "city": "Riga",
+      "country": "Lettland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B37",
+      "checkin": "143-144",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
