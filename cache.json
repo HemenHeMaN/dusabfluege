@@ -1,24 +1,7 @@
 {
-  "updated_at": "13.10.2026 09:00",
+  "updated_at": "13.10.2026 09:05",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791868200.0,
-      "time_scheduled": "07:10",
-      "time_estimated": "08:03",
-      "flight_no": "BA925",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C31",
-      "checkin": "137-139",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 54
-    },
     {
       "dt": 1791870900.0,
       "time_scheduled": "07:55",
@@ -175,7 +158,7 @@
     {
       "dt": 1791874200.0,
       "time_scheduled": "08:50",
-      "time_estimated": "08:50",
+      "time_estimated": "09:01",
       "flight_no": "EJU3942",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -185,9 +168,9 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 12
     },
     {
       "dt": 1791874500.0,
@@ -237,7 +220,7 @@
       "gate": "B33",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -304,8 +287,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "200-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -356,7 +339,7 @@
       "gate": "A65",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
