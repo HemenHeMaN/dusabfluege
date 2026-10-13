@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 03:25",
+  "updated_at": "13.10.2026 03:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -2888,6 +2888,23 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "258-267",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791898200.0,
+      "time_scheduled": "15:30",
+      "time_estimated": "15:30",
+      "flight_no": "EW9690",
+      "airline": "Eurowings",
+      "city": "Malta",
+      "country": "Malta",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A66",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
