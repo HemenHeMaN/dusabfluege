@@ -1,24 +1,7 @@
 {
-  "updated_at": "13.10.2026 09:50",
+  "updated_at": "13.10.2026 09:55",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791873000.0,
-      "time_scheduled": "08:30",
-      "time_estimated": "08:52",
-      "flight_no": "PC1006",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C54",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
     {
       "dt": 1791874200.0,
       "time_scheduled": "08:50",
@@ -117,8 +100,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "243-248",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -192,7 +175,7 @@
     {
       "dt": 1791877200.0,
       "time_scheduled": "09:40",
-      "time_estimated": "09:40",
+      "time_estimated": "09:51",
       "flight_no": "EW9612",
       "airline": "Eurowings",
       "city": "Korfu",
@@ -202,9 +185,9 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 12
     },
     {
       "dt": 1791877200.0,
@@ -389,8 +372,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -440,8 +423,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "137-138",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -457,8 +440,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,7 +509,7 @@
       "gate": "C53",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -577,7 +560,7 @@
       "gate": "C32",
       "checkin": "141-143",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -659,7 +642,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A65",
+      "gate": "A63",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -727,7 +710,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C40",
+      "gate": "C36",
       "checkin": "243-245",
       "status": "scheduled",
       "status_text": "",
@@ -795,7 +778,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A73",
+      "gate": "A79",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -965,7 +948,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B58",
+      "gate": "B33",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -982,7 +965,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B72",
+      "gate": "B57",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -1016,7 +999,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B79",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1084,7 +1067,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B33",
+      "gate": "B31",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1467,7 +1450,7 @@
     {
       "dt": 1791894600.0,
       "time_scheduled": "14:30",
-      "time_estimated": "15:00",
+      "time_estimated": "15:30",
       "flight_no": "NE729",
       "airline": "Nesma Airlines",
       "city": "Hurghada",
@@ -1479,7 +1462,7 @@
       "checkin": "243-245",
       "status": "scheduled",
       "status_text": "",
-      "delay": 30
+      "delay": 60
     },
     {
       "dt": 1791894600.0,
@@ -2104,7 +2087,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C31",
+      "gate": "C37",
       "checkin": "246-248",
       "status": "scheduled",
       "status_text": "",
