@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 10:35",
+  "updated_at": "13.10.2026 10:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -373,7 +373,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -593,8 +593,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "243-245",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -645,7 +645,7 @@
       "gate": "B29",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1620,7 +1620,7 @@
     {
       "dt": 1791897300.0,
       "time_scheduled": "15:15",
-      "time_estimated": "15:15",
+      "time_estimated": "15:30",
       "flight_no": "MS734",
       "airline": "Egypt Air",
       "city": "Kairo",
@@ -1632,7 +1632,7 @@
       "checkin": "192-196",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1791897600.0,
