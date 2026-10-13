@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 15:00",
+  "updated_at": "13.10.2026 15:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,23 +37,6 @@
       "delay": 75
     },
     {
-      "dt": 1791891000.0,
-      "time_scheduled": "13:30",
-      "time_estimated": "14:04",
-      "flight_no": "LH2015",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 35
-    },
-    {
       "dt": 1791891300.0,
       "time_scheduled": "13:35",
       "time_estimated": "14:16",
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 41
-    },
-    {
-      "dt": 1791891900.0,
-      "time_scheduled": "13:45",
-      "time_estimated": "14:01",
-      "flight_no": "PC1002",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
     },
     {
       "dt": 1791892200.0,
@@ -322,13 +288,13 @@
       "gate": "B27",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1791895200.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:40",
+      "time_estimated": "15:01",
       "flight_no": "XQ289",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -338,14 +304,14 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "199-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791895500.0,
       "time_scheduled": "14:45",
-      "time_estimated": "14:45",
+      "time_estimated": "15:04",
       "flight_no": "EW9532",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -355,9 +321,9 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1791895800.0,
@@ -508,8 +474,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,7 +492,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 15
     },
     {
@@ -576,8 +542,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -661,8 +627,8 @@
       "terminal": "B",
       "gate": "B36",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -678,8 +644,8 @@
       "terminal": "B",
       "gate": "B22",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -730,7 +696,7 @@
       "gate": "B79",
       "checkin": "138-140",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
