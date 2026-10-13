@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 05:40",
+  "updated_at": "13.10.2026 05:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -50,7 +50,7 @@
       "gate": "B57",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -118,7 +118,7 @@
       "gate": "B33",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -186,7 +186,7 @@
       "gate": "B31",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -339,7 +339,7 @@
       "gate": "A33",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -406,8 +406,8 @@
       "terminal": "B",
       "gate": "B58",
       "checkin": "142-144",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -441,7 +441,7 @@
       "gate": "B42B",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3346,6 +3346,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A42",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791906300.0,
+      "time_scheduled": "17:45",
+      "time_estimated": "17:45",
+      "flight_no": "EW9784",
+      "airline": "Eurowings",
+      "city": "Budapest",
+      "country": "Ungarn",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
