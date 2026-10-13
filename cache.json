@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 11:15",
+  "updated_at": "13.10.2026 11:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -270,8 +270,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -610,8 +610,8 @@
       "terminal": "A",
       "gate": "A72",
       "checkin": "204-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -746,8 +746,8 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "197-203",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
