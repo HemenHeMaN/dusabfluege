@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 09:25",
+  "updated_at": "13.10.2026 09:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -169,7 +169,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -186,7 +186,7 @@
       "gate": "C36",
       "checkin": "200-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
