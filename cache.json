@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 20:50",
+  "updated_at": "13.10.2026 20:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 44
-    },
-    {
-      "dt": 1791912600.0,
-      "time_scheduled": "19:30",
-      "time_estimated": "19:51",
-      "flight_no": "XC105",
-      "airline": "Corendon Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C32",
-      "checkin": "243-245",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
     },
     {
       "dt": 1791913500.0,
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 32
-    },
-    {
-      "dt": 1791914100.0,
-      "time_scheduled": "19:55",
-      "time_estimated": "19:54",
-      "flight_no": "EW4205",
-      "airline": "Eurowings",
-      "city": "Prag",
-      "country": "Tschechien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 0
     },
     {
       "dt": 1791914100.0,
@@ -141,7 +107,7 @@
     {
       "dt": 1791914700.0,
       "time_scheduled": "20:05",
-      "time_estimated": "20:05",
+      "time_estimated": "20:52",
       "flight_no": "XQ795",
       "airline": "Sun Express",
       "city": "Ankara-Esenboğa",
@@ -151,9 +117,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 48
     },
     {
       "dt": 1791914700.0,
@@ -202,8 +168,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 20
     },
     {
@@ -321,8 +287,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -506,7 +472,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B76",
+      "gate": "B74",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -523,7 +489,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B74",
+      "gate": "B72",
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
@@ -574,7 +540,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B72",
+      "gate": "B58",
       "checkin": "258-260",
       "status": "scheduled",
       "status_text": "",
@@ -676,7 +642,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B58",
+      "gate": "B54",
       "checkin": "138-139",
       "status": "scheduled",
       "status_text": "",
@@ -761,7 +727,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B54",
+      "gate": "B56",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -846,7 +812,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B56",
+      "gate": "B52",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -931,7 +897,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B52",
+      "gate": "B76",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1426,6 +1392,23 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791960900.0,
+      "time_scheduled": "08:55",
+      "time_estimated": "08:55",
+      "flight_no": "AY1392",
+      "airline": "Finnair",
+      "city": "Helsinki",
+      "country": "Finnland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B31",
+      "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
