@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 13:15",
+  "updated_at": "13.10.2026 13:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -20,40 +20,6 @@
       "delay": 95
     },
     {
-      "dt": 1791883800.0,
-      "time_scheduled": "11:30",
-      "time_estimated": "12:15",
-      "flight_no": "UD438",
-      "airline": "UR Airlines",
-      "city": "Erbil",
-      "country": "Irak",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "243-245",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 46
-    },
-    {
-      "dt": 1791885000.0,
-      "time_scheduled": "11:50",
-      "time_estimated": "12:18",
-      "flight_no": "EW9668",
-      "airline": "Eurowings",
-      "city": "Kalamata",
-      "country": "Griechenland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 29
-    },
-    {
       "dt": 1791885300.0,
       "time_scheduled": "11:55",
       "time_estimated": "12:29",
@@ -69,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 34
-    },
-    {
-      "dt": 1791885600.0,
-      "time_scheduled": "12:00",
-      "time_estimated": "12:17",
-      "flight_no": "EW9500",
-      "airline": "Eurowings",
-      "city": "Ibiza",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B29",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1791885900.0,
@@ -294,7 +243,7 @@
     {
       "dt": 1791888900.0,
       "time_scheduled": "12:55",
-      "time_estimated": "12:55",
+      "time_estimated": "13:17",
       "flight_no": "EW9860",
       "airline": "Eurowings",
       "city": "Neapel",
@@ -304,9 +253,9 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791889200.0,
@@ -372,8 +321,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "141-143",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -407,7 +356,7 @@
       "gate": "B57",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -474,8 +423,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +560,7 @@
       "gate": "C42",
       "checkin": "199-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
