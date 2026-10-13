@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 03:10",
+  "updated_at": "13.10.2026 03:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -2820,6 +2820,23 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "199-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791897300.0,
+      "time_scheduled": "15:15",
+      "time_estimated": "15:15",
+      "flight_no": "MS734",
+      "airline": "Egypt Air",
+      "city": "Kairo",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C36",
+      "checkin": "192-196",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
