@@ -1,41 +1,7 @@
 {
-  "updated_at": "13.10.2026 08:05",
+  "updated_at": "13.10.2026 08:10",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791866400.0,
-      "time_scheduled": "06:40",
-      "time_estimated": "07:07",
-      "flight_no": "EW9330",
-      "airline": "Eurowings",
-      "city": "Birmingham",
-      "country": "Großbritannien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A83",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 28
-    },
-    {
-      "dt": 1791866400.0,
-      "time_scheduled": "06:40",
-      "time_estimated": "07:06",
-      "flight_no": "EW9664",
-      "airline": "Eurowings",
-      "city": "Preveza-Aktion",
-      "country": "Griechenland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A44",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
-    },
     {
       "dt": 1791866700.0,
       "time_scheduled": "06:45",
@@ -107,23 +73,6 @@
     {
       "dt": 1791867000.0,
       "time_scheduled": "06:50",
-      "time_estimated": "07:09",
-      "flight_no": "EW9636",
-      "airline": "Eurowings",
-      "city": "Kos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B44A",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
-    },
-    {
-      "dt": 1791867000.0,
-      "time_scheduled": "06:50",
       "time_estimated": "07:30",
       "flight_no": "EW9680",
       "airline": "Eurowings",
@@ -137,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 41
-    },
-    {
-      "dt": 1791867300.0,
-      "time_scheduled": "06:55",
-      "time_estimated": "07:10",
-      "flight_no": "EW9760",
-      "airline": "Eurowings",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A50",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
     },
     {
       "dt": 1791867300.0,
@@ -457,14 +389,14 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1791871200.0,
       "time_scheduled": "08:00",
-      "time_estimated": "08:00",
+      "time_estimated": "08:08",
       "flight_no": "XR6813",
       "airline": "Corendon Airlines Europe",
       "city": "Sharm El Sheikh",
@@ -474,9 +406,9 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "264-266",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1791871500.0,
@@ -508,8 +440,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -594,7 +526,7 @@
       "gate": "B31",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
