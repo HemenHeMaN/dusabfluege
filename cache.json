@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 09:05",
+  "updated_at": "13.10.2026 09:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -175,7 +175,7 @@
     {
       "dt": 1791874500.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:55",
+      "time_estimated": "09:08",
       "flight_no": "EW8041",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -185,9 +185,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 13
     },
     {
       "dt": 1791874500.0,
@@ -321,8 +321,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -338,8 +338,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -356,7 +356,7 @@
       "gate": "B79",
       "checkin": "144-145",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -370,7 +370,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A50",
+      "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -407,7 +407,7 @@
       "gate": "C45",
       "checkin": "260-262",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -557,7 +557,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A50",
       "checkin": "137-138",
       "status": "scheduled",
       "status_text": "",
@@ -931,7 +931,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
