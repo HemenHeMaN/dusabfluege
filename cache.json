@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 15:35",
+  "updated_at": "13.10.2026 15:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,26 +37,9 @@
       "delay": 36
     },
     {
-      "dt": 1791893700.0,
-      "time_scheduled": "14:15",
-      "time_estimated": "14:38",
-      "flight_no": "XQ287",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C42",
-      "checkin": "199-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 24
-    },
-    {
       "dt": 1791894000.0,
       "time_scheduled": "14:20",
-      "time_estimated": "15:00",
+      "time_estimated": "15:45",
       "flight_no": "EW9590",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -68,7 +51,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 40
+      "delay": 85
     },
     {
       "dt": 1791894600.0,
@@ -355,8 +338,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -644,8 +627,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1288,7 +1271,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C40",
+      "gate": "C56",
       "checkin": "139-141",
       "status": "scheduled",
       "status_text": "",
@@ -1659,10 +1642,10 @@
       "airline": "Pegasus Airlines",
       "city": "Ankara-Esenboğa",
       "country": "Türkei",
-      "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C56",
       "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
