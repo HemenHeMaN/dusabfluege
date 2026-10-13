@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 04:40",
+  "updated_at": "13.10.2026 04:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -3143,6 +3143,40 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791902700.0,
+      "time_scheduled": "16:45",
+      "time_estimated": "16:45",
+      "flight_no": "EW9854",
+      "airline": "Eurowings",
+      "city": "Brindisi",
+      "country": "Italien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A66",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791902700.0,
+      "time_scheduled": "16:45",
+      "time_estimated": "16:45",
+      "flight_no": "VF028",
+      "airline": "A Jet",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "246-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
