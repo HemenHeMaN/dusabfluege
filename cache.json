@@ -1,24 +1,7 @@
 {
-  "updated_at": "13.10.2026 19:05",
+  "updated_at": "13.10.2026 19:10",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791903000.0,
-      "time_scheduled": "16:50",
-      "time_estimated": "18:08",
-      "flight_no": "SM2981",
-      "airline": "Air Cairo",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "242-244",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 79
-    },
     {
       "dt": 1791904800.0,
       "time_scheduled": "17:20",
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 19
-    },
-    {
-      "dt": 1791906900.0,
-      "time_scheduled": "17:55",
-      "time_estimated": "18:05",
-      "flight_no": "BA915",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C32",
-      "checkin": "142-144",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
     },
     {
       "dt": 1791907500.0,
@@ -355,8 +321,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -440,8 +406,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,7 +492,7 @@
       "gate": "A63",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -1629,6 +1595,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A46",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791954600.0,
+      "time_scheduled": "07:10",
+      "time_estimated": "07:10",
+      "flight_no": "EW9040",
+      "airline": "Eurowings",
+      "city": "Berlin-Brandenburg",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
