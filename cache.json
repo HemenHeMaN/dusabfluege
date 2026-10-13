@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 13:00",
+  "updated_at": "13.10.2026 13:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -389,8 +389,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -441,7 +441,7 @@
       "gate": "A40",
       "checkin": "141-143",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
