@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 07:45",
+  "updated_at": "13.10.2026 07:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -56,23 +56,6 @@
     {
       "dt": 1791865500.0,
       "time_scheduled": "06:25",
-      "time_estimated": "06:48",
-      "flight_no": "EW9440",
-      "airline": "Eurowings",
-      "city": "Barcelona",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A51",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
-    },
-    {
-      "dt": 1791865500.0,
-      "time_scheduled": "06:25",
       "time_estimated": "06:51",
       "flight_no": "XR501",
       "airline": "Corendon Airlines Europe",
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 27
-    },
-    {
-      "dt": 1791865800.0,
-      "time_scheduled": "06:30",
-      "time_estimated": "06:46",
-      "flight_no": "EW9576",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B42B",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1791866100.0,
@@ -120,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 25
-    },
-    {
-      "dt": 1791866100.0,
-      "time_scheduled": "06:35",
-      "time_estimated": "06:49",
-      "flight_no": "EW9638",
-      "airline": "Eurowings",
-      "city": "Samos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B42A",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1791866400.0,
@@ -474,8 +423,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "137-139",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -549,7 +498,7 @@
     {
       "dt": 1791869100.0,
       "time_scheduled": "07:25",
-      "time_estimated": "07:25",
+      "time_estimated": "07:47",
       "flight_no": "EW9640",
       "airline": "Eurowings",
       "city": "Porto",
@@ -559,9 +508,9 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791869100.0,
@@ -645,7 +594,7 @@
       "gate": "B76",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -712,8 +661,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
