@@ -1,41 +1,7 @@
 {
-  "updated_at": "13.10.2026 07:35",
+  "updated_at": "13.10.2026 07:40",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791864000.0,
-      "time_scheduled": "06:00",
-      "time_estimated": "06:36",
-      "flight_no": "EW9572",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 36
-    },
-    {
-      "dt": 1791864300.0,
-      "time_scheduled": "06:05",
-      "time_estimated": "06:37",
-      "flight_no": "XC101",
-      "airline": "Corendon Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C32",
-      "checkin": "145-147",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 33
-    },
     {
       "dt": 1791864600.0,
       "time_scheduled": "06:10",
@@ -103,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 38
-    },
-    {
-      "dt": 1791865500.0,
-      "time_scheduled": "06:25",
-      "time_estimated": "06:39",
-      "flight_no": "KL1796",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B78",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1791865500.0,
@@ -566,7 +515,7 @@
     {
       "dt": 1791868200.0,
       "time_scheduled": "07:10",
-      "time_estimated": "07:10",
+      "time_estimated": "07:37",
       "flight_no": "EW9242",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -576,14 +525,14 @@
       "terminal": "B",
       "gate": "B30",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1791868500.0,
       "time_scheduled": "07:15",
-      "time_estimated": "07:15",
+      "time_estimated": "07:39",
       "flight_no": "LO406",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -593,9 +542,9 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "104-105",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 24
     },
     {
       "dt": 1791868800.0,
@@ -644,8 +593,8 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -685,7 +634,7 @@
     {
       "dt": 1791869400.0,
       "time_scheduled": "07:30",
-      "time_estimated": "07:30",
+      "time_estimated": "07:35",
       "flight_no": "LH2035",
       "airline": "Lufthansa",
       "city": "München",
@@ -695,9 +644,9 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 6
     },
     {
       "dt": 1791870900.0,
@@ -713,7 +662,7 @@
       "gate": "B28",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
