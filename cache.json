@@ -1,41 +1,7 @@
 {
-  "updated_at": "13.10.2026 19:45",
+  "updated_at": "13.10.2026 19:50",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791908700.0,
-      "time_scheduled": "18:25",
-      "time_estimated": "18:46",
-      "flight_no": "EW9846",
-      "airline": "Eurowings",
-      "city": "Mailand-Linate",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
-      "dt": 1791909000.0,
-      "time_scheduled": "18:30",
-      "time_estimated": "18:48",
-      "flight_no": "LH2021",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
-    },
     {
       "dt": 1791909600.0,
       "time_scheduled": "18:40",
@@ -260,7 +226,7 @@
     {
       "dt": 1791912000.0,
       "time_scheduled": "19:20",
-      "time_estimated": "19:20",
+      "time_estimated": "19:46",
       "flight_no": "SK628",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -270,9 +236,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1791912000.0,
@@ -373,7 +339,7 @@
       "gate": "C57",
       "checkin": "174-176",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -406,8 +372,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 5
     },
     {
@@ -475,7 +441,7 @@
       "gate": "B37",
       "checkin": "143-144",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -509,7 +475,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 20
     },
     {
@@ -1596,6 +1562,23 @@
       "terminal": "A",
       "gate": "A52",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791957000.0,
+      "time_scheduled": "07:50",
+      "time_estimated": "07:50",
+      "flight_no": "XQ1341",
+      "airline": "Sun Express",
+      "city": "Trabzon",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C37",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
