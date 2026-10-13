@@ -1,24 +1,7 @@
 {
-  "updated_at": "13.10.2026 08:20",
+  "updated_at": "13.10.2026 08:25",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791866700.0,
-      "time_scheduled": "06:45",
-      "time_estimated": "07:20",
-      "flight_no": "EW9544",
-      "airline": "Eurowings",
-      "city": "La Palma",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A56",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 36
-    },
     {
       "dt": 1791867000.0,
       "time_scheduled": "06:50",
@@ -39,40 +22,6 @@
     {
       "dt": 1791867600.0,
       "time_scheduled": "07:00",
-      "time_estimated": "07:22",
-      "flight_no": "EW9082",
-      "airline": "Eurowings",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A31",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
-      "dt": 1791867600.0,
-      "time_scheduled": "07:00",
-      "time_estimated": "07:23",
-      "flight_no": "EW9902",
-      "airline": "Eurowings",
-      "city": "Larnaca (Zypern)",
-      "country": "Zypern",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A80",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 24
-    },
-    {
-      "dt": 1791867600.0,
-      "time_scheduled": "07:00",
       "time_estimated": "07:32",
       "flight_no": "EW9712",
       "airline": "Eurowings",
@@ -86,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 32
-    },
-    {
-      "dt": 1791867900.0,
-      "time_scheduled": "07:05",
-      "time_estimated": "07:25",
-      "flight_no": "EW9750",
-      "airline": "Eurowings",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 20
     },
     {
       "dt": 1791868200.0,
@@ -277,7 +209,7 @@
     {
       "dt": 1791871200.0,
       "time_scheduled": "08:00",
-      "time_estimated": "08:00",
+      "time_estimated": "08:21",
       "flight_no": "EW9882",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -287,9 +219,9 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791871200.0,
@@ -345,7 +277,7 @@
     {
       "dt": 1791872100.0,
       "time_scheduled": "08:15",
-      "time_estimated": "08:15",
+      "time_estimated": "08:24",
       "flight_no": "KL1798",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -355,9 +287,9 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 9
     },
     {
       "dt": 1791872100.0,
@@ -373,7 +305,7 @@
       "gate": "C36",
       "checkin": "198-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +389,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -543,7 +475,7 @@
       "gate": "C36",
       "checkin": "200-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -617,7 +549,7 @@
     {
       "dt": 1791877800.0,
       "time_scheduled": "09:50",
-      "time_estimated": "10:15",
+      "time_estimated": "11:10",
       "flight_no": "LX1017",
       "airline": "Swiss",
       "city": "Zürich",
@@ -629,7 +561,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
-      "delay": 25
+      "delay": 80
     },
     {
       "dt": 1791878400.0,
@@ -1135,7 +1067,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A50",
+      "gate": "A39",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1677,9 +1609,9 @@
       "city": "Zürich",
       "country": "Schweiz",
       "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A51",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3330,6 +3262,40 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791915900.0,
+      "time_scheduled": "20:25",
+      "time_estimated": "20:25",
+      "flight_no": "EW4677",
+      "airline": "Eurowings",
+      "city": "Stockholm-Arlanda",
+      "country": "Schweden",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A50",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791915900.0,
+      "time_scheduled": "20:25",
+      "time_estimated": "20:25",
+      "flight_no": "JU363",
+      "airline": "Air Serbia",
+      "city": "Belgrad",
+      "country": "Serbien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C36",
+      "checkin": "246-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
