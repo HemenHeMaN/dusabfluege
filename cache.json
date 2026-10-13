@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 05:45",
+  "updated_at": "13.10.2026 05:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -33,7 +33,7 @@
       "gate": "B77",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -84,7 +84,7 @@
       "gate": "B54",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -152,7 +152,7 @@
       "gate": "A54",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -169,7 +169,7 @@
       "gate": "B79",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -271,7 +271,7 @@
       "gate": "B74",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -288,7 +288,7 @@
       "gate": "A45",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -338,8 +338,8 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -458,7 +458,7 @@
       "gate": "A26",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -475,7 +475,7 @@
       "gate": "B42A",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "A44",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1017,7 +1017,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C46",
-      "checkin": "200-206",
+      "checkin": "199-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1068,7 +1068,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C36",
-      "checkin": "200-206",
+      "checkin": "199-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -3363,6 +3363,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A65",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791906600.0,
+      "time_scheduled": "17:50",
+      "time_estimated": "17:50",
+      "flight_no": "EW9048",
+      "airline": "Eurowings",
+      "city": "Berlin-Brandenburg",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A39",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
