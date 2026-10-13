@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 06:55",
+  "updated_at": "13.10.2026 07:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -209,7 +209,7 @@
     {
       "dt": 1791864600.0,
       "time_scheduled": "06:10",
-      "time_estimated": "06:45",
+      "time_estimated": "06:57",
       "flight_no": "EW9974",
       "airline": "Eurowings",
       "city": "Tel Aviv-Ben Gurion",
@@ -219,9 +219,9 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "148-150",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 35
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 47
     },
     {
       "dt": 1791864600.0,
@@ -447,7 +447,7 @@
     {
       "dt": 1791866100.0,
       "time_scheduled": "06:35",
-      "time_estimated": "06:35",
+      "time_estimated": "06:59",
       "flight_no": "EW9782",
       "airline": "Eurowings",
       "city": "Budapest",
@@ -457,9 +457,9 @@
       "terminal": "A",
       "gate": "A26",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1791866100.0,
@@ -498,7 +498,7 @@
     {
       "dt": 1791866400.0,
       "time_scheduled": "06:40",
-      "time_estimated": "06:40",
+      "time_estimated": "06:58",
       "flight_no": "EW9340",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -508,9 +508,9 @@
       "terminal": "A",
       "gate": "A82",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1791866400.0,
@@ -525,8 +525,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -542,8 +542,8 @@
       "terminal": "A",
       "gate": "A53",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -577,7 +577,7 @@
       "gate": "C46",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -610,8 +610,8 @@
       "terminal": "A",
       "gate": "A48",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -678,8 +678,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -713,7 +713,7 @@
       "gate": "A31",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -730,7 +730,7 @@
       "gate": "A80",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -798,7 +798,7 @@
       "gate": "A54",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -832,7 +832,7 @@
       "gate": "B30",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -3721,6 +3721,23 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "139-141",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791910800.0,
+      "time_scheduled": "19:00",
+      "time_estimated": "19:00",
+      "flight_no": "XQ183",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
