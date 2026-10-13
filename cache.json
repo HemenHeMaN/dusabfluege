@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 12:35",
+  "updated_at": "13.10.2026 12:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 119
-    },
-    {
-      "dt": 1791878400.0,
-      "time_scheduled": "10:00",
-      "time_estimated": "11:40",
-      "flight_no": "XC243",
-      "airline": "Corendon Airlines",
-      "city": "Gazipaşa-Alanya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "260-262",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 100
     },
     {
       "dt": 1791881400.0,
@@ -56,7 +39,7 @@
     {
       "dt": 1791882300.0,
       "time_scheduled": "11:05",
-      "time_estimated": "12:10",
+      "time_estimated": "12:40",
       "flight_no": "EW9580",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -68,7 +51,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 65
+      "delay": 95
     },
     {
       "dt": 1791882900.0,
@@ -311,7 +294,7 @@
     {
       "dt": 1791886800.0,
       "time_scheduled": "12:20",
-      "time_estimated": "12:20",
+      "time_estimated": "12:38",
       "flight_no": "EW9584",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -321,9 +304,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1791887100.0,
@@ -355,8 +338,8 @@
       "terminal": "B",
       "gate": "B54",
       "checkin": "149",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +389,8 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "197-203",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -440,8 +423,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -458,7 +441,7 @@
       "gate": "A50",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -474,8 +457,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -525,8 +508,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -542,8 +525,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "263-265",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -914,7 +897,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B24",
+      "gate": "B31",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1033,7 +1016,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B79",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1067,7 +1050,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B71",
+      "gate": "B33",
       "checkin": "142-143",
       "status": "scheduled",
       "status_text": "",
@@ -1271,7 +1254,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B33",
+      "gate": "B32",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1339,7 +1322,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B76",
+      "gate": "B57",
       "checkin": "138-140",
       "status": "scheduled",
       "status_text": "",
