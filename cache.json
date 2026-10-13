@@ -1,41 +1,7 @@
 {
-  "updated_at": "13.10.2026 09:20",
+  "updated_at": "13.10.2026 09:25",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791871200.0,
-      "time_scheduled": "08:00",
-      "time_estimated": "08:21",
-      "flight_no": "EW9882",
-      "airline": "Eurowings",
-      "city": "Rom-Fiumicino",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
-      "dt": 1791872100.0,
-      "time_scheduled": "08:15",
-      "time_estimated": "08:24",
-      "flight_no": "KL1798",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B77",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 9
-    },
     {
       "dt": 1791872100.0,
       "time_scheduled": "08:15",
@@ -141,7 +107,7 @@
     {
       "dt": 1791875400.0,
       "time_scheduled": "09:10",
-      "time_estimated": "09:10",
+      "time_estimated": "09:24",
       "flight_no": "EW9510",
       "airline": "Eurowings",
       "city": "Madrid-Barajas",
@@ -151,9 +117,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1791876000.0,
@@ -185,8 +151,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -237,7 +203,7 @@
       "gate": "A63",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -355,8 +321,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "200-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -424,7 +390,7 @@
       "gate": "C54",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
