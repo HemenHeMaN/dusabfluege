@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 04:35",
+  "updated_at": "13.10.2026 04:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -3126,6 +3126,23 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "201-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791902400.0,
+      "time_scheduled": "16:40",
+      "time_estimated": "16:40",
+      "flight_no": "DE1010",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B78",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
