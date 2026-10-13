@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 14:40",
+  "updated_at": "13.10.2026 14:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -15,8 +15,8 @@
       "terminal": "B",
       "gate": "B28",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 190
     },
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 75
-    },
-    {
-      "dt": 1791890400.0,
-      "time_scheduled": "13:20",
-      "time_estimated": "13:41",
-      "flight_no": "X32852",
-      "airline": "Tuifly",
-      "city": "Funchal (Madeira)",
-      "country": "Portugal",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B57",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
     },
     {
       "dt": 1791891000.0,
@@ -158,7 +141,7 @@
     {
       "dt": 1791892200.0,
       "time_scheduled": "13:50",
-      "time_estimated": "14:30",
+      "time_estimated": "14:42",
       "flight_no": "EW9762",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -168,9 +151,9 @@
       "terminal": "A",
       "gate": "A52",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 40
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 53
     },
     {
       "dt": 1791892800.0,
@@ -192,7 +175,7 @@
     {
       "dt": 1791893100.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:05",
+      "time_estimated": "14:41",
       "flight_no": "EW9630",
       "airline": "Eurowings",
       "city": "Rhodos",
@@ -202,9 +185,9 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 36
     },
     {
       "dt": 1791893400.0,
@@ -277,7 +260,7 @@
     {
       "dt": 1791894000.0,
       "time_scheduled": "14:20",
-      "time_estimated": "14:50",
+      "time_estimated": "15:00",
       "flight_no": "EW9590",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -289,7 +272,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding",
-      "delay": 30
+      "delay": 40
     },
     {
       "dt": 1791894600.0,
@@ -304,8 +287,8 @@
       "terminal": "B",
       "gate": "B24",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -321,8 +304,8 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +389,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "199-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -424,7 +407,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -576,8 +559,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -730,7 +713,7 @@
       "gate": "B36",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -795,7 +778,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B57",
+      "gate": "B79",
       "checkin": "138-140",
       "status": "scheduled",
       "status_text": "",
@@ -900,7 +883,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
