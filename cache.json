@@ -1,41 +1,7 @@
 {
-  "updated_at": "13.10.2026 20:55",
+  "updated_at": "13.10.2026 21:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791911700.0,
-      "time_scheduled": "19:15",
-      "time_estimated": "19:58",
-      "flight_no": "XQ3581",
-      "airline": "Sun Express",
-      "city": "Dalaman",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "197-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 44
-    },
-    {
-      "dt": 1791913500.0,
-      "time_scheduled": "19:45",
-      "time_estimated": "19:55",
-      "flight_no": "LO408",
-      "airline": "LOT Polish Airlines",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A50",
-      "checkin": "104-105",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
-    },
     {
       "dt": 1791913500.0,
       "time_scheduled": "19:45",
@@ -236,8 +202,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "192-195",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -270,8 +236,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "139-140",
-      "status": "scheduled",
-      "status_text": "rollt",
+      "status": "departed",
+      "status_text": "gestartet",
       "delay": 0
     },
     {
@@ -322,7 +288,7 @@
       "gate": "C37",
       "checkin": "258-267",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -1409,6 +1375,23 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "131-136",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791961200.0,
+      "time_scheduled": "09:00",
+      "time_estimated": "09:00",
+      "flight_no": "X36752",
+      "airline": "Tuifly",
+      "city": "Sharm El Sheikh",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C53",
+      "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
