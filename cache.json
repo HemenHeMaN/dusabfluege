@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 03:55",
+  "updated_at": "13.10.2026 04:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -3024,6 +3024,40 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "148-150",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791900000.0,
+      "time_scheduled": "16:00",
+      "time_estimated": "16:00",
+      "flight_no": "EW9466",
+      "airline": "Eurowings",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A81",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791900000.0,
+      "time_scheduled": "16:00",
+      "time_estimated": "16:00",
+      "flight_no": "EZY8650",
+      "airline": "Easy Jet",
+      "city": "London-Gatwick",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A80",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
