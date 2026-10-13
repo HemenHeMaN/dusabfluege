@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 04:00",
+  "updated_at": "13.10.2026 04:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -3058,6 +3058,23 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791900300.0,
+      "time_scheduled": "16:05",
+      "time_estimated": "16:05",
+      "flight_no": "EW9852",
+      "airline": "Eurowings",
+      "city": "Lamezia Terme (Kalabrien)",
+      "country": "Italien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A50",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
