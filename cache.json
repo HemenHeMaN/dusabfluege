@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 13:50",
+  "updated_at": "13.10.2026 13:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 65
-    },
-    {
-      "dt": 1791887400.0,
-      "time_scheduled": "12:30",
-      "time_estimated": "12:50",
-      "flight_no": "4M212",
-      "airline": "Mavi Gök Aviation",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A80",
-      "checkin": "197-203",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 21
     },
     {
       "dt": 1791887700.0,
@@ -287,8 +270,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 15
     },
     {
@@ -328,7 +311,7 @@
     {
       "dt": 1791891900.0,
       "time_scheduled": "13:45",
-      "time_estimated": "13:45",
+      "time_estimated": "13:53",
       "flight_no": "SK817",
       "airline": "Scandinavian Airlines",
       "city": "Oslo - Gardermoen",
@@ -338,9 +321,9 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1791891900.0,
@@ -492,7 +475,7 @@
       "gate": "B35",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -662,7 +645,7 @@
       "gate": "B30",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1407,7 +1390,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A66",
+      "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
