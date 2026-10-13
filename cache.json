@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 19:01",
+  "updated_at": "13.10.2026 19:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 31
-    },
-    {
-      "dt": 1791906600.0,
-      "time_scheduled": "17:50",
-      "time_estimated": "18:03",
-      "flight_no": "EW9048",
-      "airline": "Eurowings",
-      "city": "Berlin-Brandenburg",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 13
     },
     {
       "dt": 1791906900.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1791909900.0,
       "time_scheduled": "18:45",
-      "time_estimated": "18:45",
+      "time_estimated": "19:02",
       "flight_no": "EW9038",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -270,9 +253,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1791909900.0,
@@ -406,8 +389,8 @@
       "terminal": "C",
       "gate": "C51",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -628,7 +611,7 @@
       "gate": "C42",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1629,6 +1612,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A54",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791954300.0,
+      "time_scheduled": "07:05",
+      "time_estimated": "07:05",
+      "flight_no": "EW9750",
+      "airline": "Eurowings",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A46",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
