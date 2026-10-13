@@ -1,40 +1,23 @@
 {
-  "updated_at": "13.10.2026 13:40",
+  "updated_at": "13.10.2026 13:45",
   "source": "Dus.com",
   "flights": [
     {
-      "dt": 1791886200.0,
-      "time_scheduled": "12:10",
-      "time_estimated": "12:41",
-      "flight_no": "VF006",
-      "airline": "A Jet",
-      "city": "Ankara-Esenboğa",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C42",
-      "checkin": "260-262",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 32
-    },
-    {
-      "dt": 1791887100.0,
-      "time_scheduled": "12:25",
-      "time_estimated": "12:44",
-      "flight_no": "KL1800",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
+      "dt": 1791882300.0,
+      "time_scheduled": "11:05",
+      "time_estimated": "13:50",
+      "flight_no": "EW9580",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B72",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
+      "gate": "B28",
+      "checkin": "151-170",
+      "status": "boarding",
+      "status_text": "Boarding beendet",
+      "delay": 165
     },
     {
       "dt": 1791887400.0,
@@ -158,7 +141,7 @@
     {
       "dt": 1791888600.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:50",
+      "time_estimated": "13:40",
       "flight_no": "A3841",
       "airline": "Aegean Airlines",
       "city": "Athen",
@@ -168,9 +151,9 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 50
     },
     {
       "dt": 1791888900.0,
@@ -271,13 +254,13 @@
       "gate": "B29",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
       "dt": 1791890400.0,
       "time_scheduled": "13:20",
-      "time_estimated": "13:20",
+      "time_estimated": "13:41",
       "flight_no": "X32852",
       "airline": "Tuifly",
       "city": "Funchal (Madeira)",
@@ -287,9 +270,9 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791891000.0,
@@ -322,7 +305,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 15
     },
     {
@@ -339,7 +322,7 @@
       "gate": "C36",
       "checkin": "171-173",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -372,8 +355,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -390,7 +373,7 @@
       "gate": "C40",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,8 +474,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "199-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +594,7 @@
       "gate": "B26",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -713,7 +696,7 @@
       "gate": "C46",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -727,7 +710,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B79",
+      "gate": "B58",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -2118,10 +2101,10 @@
       "airline": "Pegasus Airlines",
       "city": "Ankara-Esenboğa",
       "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
       "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
