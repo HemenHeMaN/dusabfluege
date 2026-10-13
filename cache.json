@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 07:05",
+  "updated_at": "13.10.2026 07:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 24
-    },
-    {
-      "dt": 1791863400.0,
-      "time_scheduled": "05:50",
-      "time_estimated": "06:05",
-      "flight_no": "X32312",
-      "airline": "Tuifly",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B77",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
     },
     {
       "dt": 1791863400.0,
@@ -124,23 +107,6 @@
     {
       "dt": 1791864000.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:09",
-      "flight_no": "LH079",
-      "airline": "Lufthansa",
-      "city": "Frankfurt",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 9
-    },
-    {
-      "dt": 1791864000.0,
-      "time_scheduled": "06:00",
       "time_estimated": "06:12",
       "flight_no": "X34428",
       "airline": "Tuifly",
@@ -154,23 +120,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 12
-    },
-    {
-      "dt": 1791864000.0,
-      "time_scheduled": "06:00",
-      "time_estimated": "06:07",
-      "flight_no": "DE1612",
-      "airline": "Condor",
-      "city": "Korfu",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
     },
     {
       "dt": 1791864300.0,
@@ -464,7 +413,7 @@
     {
       "dt": 1791866400.0,
       "time_scheduled": "06:40",
-      "time_estimated": "06:40",
+      "time_estimated": "07:07",
       "flight_no": "EW9330",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -474,9 +423,9 @@
       "terminal": "A",
       "gate": "A83",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 28
     },
     {
       "dt": 1791866400.0,
@@ -498,7 +447,7 @@
     {
       "dt": 1791866400.0,
       "time_scheduled": "06:40",
-      "time_estimated": "06:40",
+      "time_estimated": "07:06",
       "flight_no": "EW9664",
       "airline": "Eurowings",
       "city": "Preveza-Aktion",
@@ -508,9 +457,9 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1791866700.0,
@@ -542,8 +491,8 @@
       "terminal": "A",
       "gate": "A56",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -617,7 +566,7 @@
     {
       "dt": 1791867000.0,
       "time_scheduled": "06:50",
-      "time_estimated": "06:50",
+      "time_estimated": "07:09",
       "flight_no": "EW9636",
       "airline": "Eurowings",
       "city": "Kos",
@@ -627,9 +576,9 @@
       "terminal": "B",
       "gate": "B44A",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1791867000.0,
@@ -746,8 +695,8 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -849,7 +798,7 @@
       "gate": "B56",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -951,7 +900,7 @@
       "gate": "B28",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -968,7 +917,7 @@
       "gate": "B76",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1053,7 +1002,7 @@
       "gate": "C36",
       "checkin": "198-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3738,6 +3687,23 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791911400.0,
+      "time_scheduled": "19:10",
+      "time_estimated": "19:10",
+      "flight_no": "BJ2345",
+      "airline": "Nouvelair",
+      "city": "Djerba",
+      "country": "Tunesien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "240-242",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
