@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 19:35",
+  "updated_at": "13.10.2026 19:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 18
-    },
-    {
-      "dt": 1791909300.0,
-      "time_scheduled": "18:35",
-      "time_estimated": "18:37",
-      "flight_no": "EW9344",
-      "airline": "Eurowings",
-      "city": "Manchester",
-      "country": "Großbritannien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A79",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 2
     },
     {
       "dt": 1791909600.0,
@@ -243,7 +226,7 @@
     {
       "dt": 1791911400.0,
       "time_scheduled": "19:10",
-      "time_estimated": "19:10",
+      "time_estimated": "19:37",
       "flight_no": "BJ2345",
       "airline": "Nouvelair",
       "city": "Djerba",
@@ -253,9 +236,9 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "240-242",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1791911700.0,
@@ -271,7 +254,7 @@
       "gate": "C36",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -338,8 +321,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "243-245",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -389,8 +372,8 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "174-176",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -543,7 +526,7 @@
       "gate": "C36",
       "checkin": "246-248",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -611,7 +594,7 @@
       "gate": "C31",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -679,7 +662,7 @@
       "gate": "C37",
       "checkin": "258-267",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
