@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 05:10",
+  "updated_at": "13.10.2026 05:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -49,8 +49,8 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -66,8 +66,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -83,8 +83,8 @@
       "terminal": "B",
       "gate": "B54",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -169,7 +169,7 @@
       "gate": "B79",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
