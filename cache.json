@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 19:50",
+  "updated_at": "13.10.2026 19:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,23 +39,6 @@
     {
       "dt": 1791909900.0,
       "time_scheduled": "18:45",
-      "time_estimated": "18:53",
-      "flight_no": "EW9088",
-      "airline": "Eurowings",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 9
-    },
-    {
-      "dt": 1791909900.0,
-      "time_scheduled": "18:45",
       "time_estimated": "19:44",
       "flight_no": "GQ891",
       "airline": "Sky Express",
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 59
-    },
-    {
-      "dt": 1791909900.0,
-      "time_scheduled": "18:45",
-      "time_estimated": "18:50",
-      "flight_no": "TK1528",
-      "airline": "Turkish Airlines",
-      "city": "Istanbul",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 6
     },
     {
       "dt": 1791909900.0,
@@ -277,7 +243,7 @@
     {
       "dt": 1791912600.0,
       "time_scheduled": "19:30",
-      "time_estimated": "19:30",
+      "time_estimated": "19:51",
       "flight_no": "XC105",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -287,9 +253,9 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "243-245",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791912600.0,
@@ -345,7 +311,7 @@
     {
       "dt": 1791914100.0,
       "time_scheduled": "19:55",
-      "time_estimated": "19:55",
+      "time_estimated": "19:54",
       "flight_no": "EW4205",
       "airline": "Eurowings",
       "city": "Prag",
@@ -355,8 +321,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
+      "status": "departed",
+      "status_text": "gestartet",
       "delay": 0
     },
     {
@@ -406,8 +372,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -525,8 +491,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
