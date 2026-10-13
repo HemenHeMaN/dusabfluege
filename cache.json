@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 08:55",
+  "updated_at": "13.10.2026 09:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -158,7 +158,7 @@
     {
       "dt": 1791874200.0,
       "time_scheduled": "08:50",
-      "time_estimated": "08:50",
+      "time_estimated": "08:57",
       "flight_no": "EW7061",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -168,9 +168,9 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1791874200.0,
@@ -202,14 +202,14 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1791874500.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:55",
+      "time_estimated": "09:00",
       "flight_no": "AY1392",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -219,9 +219,9 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 5
     },
     {
       "dt": 1791875400.0,
@@ -441,7 +441,7 @@
       "gate": "C46",
       "checkin": "200-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -458,7 +458,7 @@
       "gate": "C52",
       "checkin": "263-265",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3194,6 +3194,57 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791918000.0,
+      "time_scheduled": "21:00",
+      "time_estimated": "21:00",
+      "flight_no": "VY1899",
+      "airline": "Vueling",
+      "city": "Barcelona",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "139-140",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791918000.0,
+      "time_scheduled": "21:00",
+      "time_estimated": "21:00",
+      "flight_no": "EJU3944",
+      "airline": "Easy Jet Europe",
+      "city": "Mailand-Malpensa",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791918000.0,
+      "time_scheduled": "21:00",
+      "time_estimated": "21:00",
+      "flight_no": "VY18991",
+      "airline": "Vueling",
+      "city": "Barcelona",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
