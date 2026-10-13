@@ -1,5 +1,5 @@
 {
-  "updated_at": "13.10.2026 05:30",
+  "updated_at": "13.10.2026 05:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -67,7 +67,7 @@
       "gate": "B76",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -134,8 +134,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -219,8 +219,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "148-150",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -236,8 +236,8 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -322,7 +322,7 @@
       "gate": "B32",
       "checkin": "140-141",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -407,7 +407,7 @@
       "gate": "B58",
       "checkin": "142-144",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -424,7 +424,7 @@
       "gate": "A66",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -696,7 +696,7 @@
       "gate": "B76",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -778,7 +778,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A45",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
