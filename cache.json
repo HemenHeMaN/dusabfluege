@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 21:35",
+  "updated_at": "14.10.2026 21:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,6 +35,23 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 24
+    },
+    {
+      "dt": 1792002000.0,
+      "time_scheduled": "20:20",
+      "time_estimated": "21:35",
+      "flight_no": "TK1522",
+      "airline": "Turkish Airlines",
+      "city": "Istanbul",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "251-254",
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 76
     },
     {
       "dt": 1792002600.0,
@@ -1494,6 +1511,23 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792050000.0,
+      "time_scheduled": "09:40",
+      "time_estimated": "09:40",
+      "flight_no": "OS162",
+      "airline": "Austrian Airlines",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
