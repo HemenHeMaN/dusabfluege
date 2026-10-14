@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 21:50",
+  "updated_at": "14.10.2026 21:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -69,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 26
-    },
-    {
-      "dt": 1792002900.0,
-      "time_scheduled": "20:35",
-      "time_estimated": "20:52",
-      "flight_no": "XQ3581",
-      "airline": "Sun Express",
-      "city": "Dalaman",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C52",
-      "checkin": "196-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1792003800.0,
