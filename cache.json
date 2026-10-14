@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 08:05",
+  "updated_at": "14.10.2026 08:10",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791954600.0,
-      "time_scheduled": "07:10",
-      "time_estimated": "07:10",
-      "flight_no": "EW9040",
-      "airline": "Eurowings",
-      "city": "Berlin-Brandenburg",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
-    },
     {
       "dt": 1791954900.0,
       "time_scheduled": "07:15",
