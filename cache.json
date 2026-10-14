@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 19:45",
+  "updated_at": "14.10.2026 19:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,23 +37,6 @@
       "delay": 36
     },
     {
-      "dt": 1791995100.0,
-      "time_scheduled": "18:25",
-      "time_estimated": "18:49",
-      "flight_no": "EW9038",
-      "airline": "Eurowings",
-      "city": "Hamburg",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 25
-    },
-    {
       "dt": 1791995400.0,
       "time_scheduled": "18:30",
       "time_estimated": "18:51",
@@ -71,23 +54,6 @@
       "delay": 21
     },
     {
-      "dt": 1791995400.0,
-      "time_scheduled": "18:30",
-      "time_estimated": "18:45",
-      "flight_no": "OS166",
-      "airline": "Austrian Airlines",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
-    },
-    {
       "dt": 1791996000.0,
       "time_scheduled": "18:40",
       "time_estimated": "19:05",
@@ -103,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 26
-    },
-    {
-      "dt": 1791996300.0,
-      "time_scheduled": "18:45",
-      "time_estimated": "18:47",
-      "flight_no": "AY1396",
-      "airline": "Finnair",
-      "city": "Helsinki",
-      "country": "Finnland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "131-136",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 2
     },
     {
       "dt": 1791996300.0,
@@ -288,7 +237,7 @@
       "gate": "C40",
       "checkin": "173-175",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -322,7 +271,7 @@
       "gate": "A39",
       "checkin": "104-105",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -423,8 +372,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -492,7 +441,7 @@
       "gate": "B33",
       "checkin": "149-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -508,8 +457,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -577,7 +526,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1698,6 +1647,23 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "262-264",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792043400.0,
+      "time_scheduled": "07:50",
+      "time_estimated": "07:50",
+      "flight_no": "EW9882",
+      "airline": "Eurowings",
+      "city": "Rom-Fiumicino",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
