@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 17:20",
+  "updated_at": "14.10.2026 17:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -71,23 +71,6 @@
       "delay": 65
     },
     {
-      "dt": 1791986400.0,
-      "time_scheduled": "16:00",
-      "time_estimated": "16:23",
-      "flight_no": "XC197",
-      "airline": "Corendon Airlines",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "148-150",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
-    },
-    {
       "dt": 1791986700.0,
       "time_scheduled": "16:05",
       "time_estimated": "16:58",
@@ -120,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 15
-    },
-    {
-      "dt": 1791987600.0,
-      "time_scheduled": "16:20",
-      "time_estimated": "16:21",
-      "flight_no": "EW9734",
-      "airline": "Eurowings",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 1
     },
     {
       "dt": 1791988200.0,
@@ -277,7 +243,7 @@
     {
       "dt": 1791990000.0,
       "time_scheduled": "17:00",
-      "time_estimated": "17:00",
+      "time_estimated": "17:21",
       "flight_no": "DE1516",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -287,9 +253,9 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1791990000.0,
@@ -321,8 +287,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 10
     },
     {
@@ -440,8 +406,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -458,7 +424,7 @@
       "gate": "A50",
       "checkin": "103-105",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -830,7 +796,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C45",
-      "checkin": "199-206",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -974,7 +940,7 @@
     {
       "dt": 1792000500.0,
       "time_scheduled": "19:55",
-      "time_estimated": "19:55",
+      "time_estimated": "20:35",
       "flight_no": "LX1027",
       "airline": "Swiss",
       "city": "Zürich",
@@ -986,7 +952,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 40
     },
     {
       "dt": 1792000500.0,
@@ -1000,7 +966,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C53",
-      "checkin": "199-206",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1017,7 +983,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C36",
-      "checkin": "199-206",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1085,7 +1051,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C57",
-      "checkin": "199-206",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1221,7 +1187,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C56",
-      "checkin": "199-206",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1238,7 +1204,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C52",
-      "checkin": "199-206",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
