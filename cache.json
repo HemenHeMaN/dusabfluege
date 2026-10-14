@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 20:35",
+  "updated_at": "14.10.2026 20:40",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791998700.0,
-      "time_scheduled": "19:25",
-      "time_estimated": "19:40",
-      "flight_no": "AF1007",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B29",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
-    },
     {
       "dt": 1791999000.0,
       "time_scheduled": "19:30",
@@ -355,8 +338,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "196-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
