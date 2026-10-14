@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 21:45",
+  "updated_at": "14.10.2026 21:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -1511,6 +1511,23 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "143-144",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792050600.0,
+      "time_scheduled": "09:50",
+      "time_estimated": "09:50",
+      "flight_no": "LX1017",
+      "airline": "Swiss",
+      "city": "Zürich",
+      "country": "Schweiz",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A50",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
