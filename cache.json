@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 04:55",
+  "updated_at": "14.10.2026 05:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -3125,6 +3125,40 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B27",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791990000.0,
+      "time_scheduled": "17:00",
+      "time_estimated": "17:00",
+      "flight_no": "DE1516",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791990000.0,
+      "time_scheduled": "17:00",
+      "time_estimated": "17:00",
+      "flight_no": "EW9774",
+      "airline": "Eurowings",
+      "city": "Prag",
+      "country": "Tschechien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
