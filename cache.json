@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 19:35",
+  "updated_at": "14.10.2026 19:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 52
-    },
-    {
-      "dt": 1791995100.0,
-      "time_scheduled": "18:25",
-      "time_estimated": "18:37",
-      "flight_no": "EW9022",
-      "airline": "Eurowings",
-      "city": "Dresden",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
     },
     {
       "dt": 1791995100.0,
@@ -120,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 21
-    },
-    {
-      "dt": 1791995400.0,
-      "time_scheduled": "18:30",
-      "time_estimated": "18:38",
-      "flight_no": "LH2021",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 9
     },
     {
       "dt": 1791995400.0,
@@ -441,7 +407,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -474,8 +440,8 @@
       "terminal": "A",
       "gate": "A68",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 30
     },
     {
@@ -611,7 +577,7 @@
       "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -662,7 +628,7 @@
       "gate": "A81",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
