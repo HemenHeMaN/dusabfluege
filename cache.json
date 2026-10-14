@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 16:40",
+  "updated_at": "14.10.2026 16:45",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791982200.0,
-      "time_scheduled": "14:50",
-      "time_estimated": "15:45",
-      "flight_no": "EW9590",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B77",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 55
-    },
     {
       "dt": 1791982200.0,
       "time_scheduled": "14:50",
@@ -105,23 +88,6 @@
       "delay": 38
     },
     {
-      "dt": 1791984000.0,
-      "time_scheduled": "15:20",
-      "time_estimated": "15:43",
-      "flight_no": "SK1622",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A44",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 24
-    },
-    {
       "dt": 1791984300.0,
       "time_scheduled": "15:25",
       "time_estimated": "15:55",
@@ -137,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 31
-    },
-    {
-      "dt": 1791984300.0,
-      "time_scheduled": "15:25",
-      "time_estimated": "15:41",
-      "flight_no": "EK056",
-      "airline": "Emirates",
-      "city": "Dubai",
-      "country": "VAE",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C37",
-      "checkin": "260-271",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1791984600.0,
@@ -304,8 +253,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "192-195",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -390,7 +339,7 @@
       "gate": "B37",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -407,7 +356,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -458,7 +407,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,8 +440,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -508,8 +457,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -525,8 +474,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -559,8 +508,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -577,7 +526,7 @@
       "gate": "A63",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -991,7 +940,7 @@
     {
       "dt": 1791996600.0,
       "time_scheduled": "18:50",
-      "time_estimated": "18:50",
+      "time_estimated": "19:15",
       "flight_no": "EW9244",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -1003,7 +952,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1791997200.0,
