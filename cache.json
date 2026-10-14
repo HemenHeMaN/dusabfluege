@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 04:25",
+  "updated_at": "14.10.2026 04:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -2990,6 +2990,23 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791988200.0,
+      "time_scheduled": "16:30",
+      "time_estimated": "16:30",
+      "flight_no": "SM2985",
+      "airline": "Air Cairo",
+      "city": "Hurghada",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C40",
+      "checkin": "145-147",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
