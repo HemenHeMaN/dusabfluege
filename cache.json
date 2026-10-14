@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 04:50",
+  "updated_at": "14.10.2026 04:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -3108,6 +3108,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A25",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791989700.0,
+      "time_scheduled": "16:55",
+      "time_estimated": "16:55",
+      "flight_no": "EW9444",
+      "airline": "Eurowings",
+      "city": "Barcelona",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B27",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
