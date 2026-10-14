@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 03:20",
+  "updated_at": "14.10.2026 03:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -2735,6 +2735,40 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791984300.0,
+      "time_scheduled": "15:25",
+      "time_estimated": "15:25",
+      "flight_no": "QR086",
+      "airline": "Qatar Airways",
+      "city": "Doha",
+      "country": "Katar",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "243-248",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791984300.0,
+      "time_scheduled": "15:25",
+      "time_estimated": "15:25",
+      "flight_no": "EK056",
+      "airline": "Emirates",
+      "city": "Dubai",
+      "country": "VAE",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C37",
+      "checkin": "262-271",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
