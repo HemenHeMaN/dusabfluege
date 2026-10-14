@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 17:45",
+  "updated_at": "14.10.2026 17:50",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791984600.0,
-      "time_scheduled": "15:30",
-      "time_estimated": "16:47",
-      "flight_no": "XR501",
-      "airline": "Corendon Airlines Europe",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B71",
-      "checkin": "137-139",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 77
-    },
     {
       "dt": 1791986100.0,
       "time_scheduled": "15:55",
@@ -54,21 +37,21 @@
       "delay": 53
     },
     {
-      "dt": 1791988200.0,
-      "time_scheduled": "16:30",
-      "time_estimated": "16:48",
-      "flight_no": "SM2985",
-      "airline": "Air Cairo",
-      "city": "Hurghada",
-      "country": "Ägypten",
+      "dt": 1791989100.0,
+      "time_scheduled": "16:45",
+      "time_estimated": "17:47",
+      "flight_no": "VF028",
+      "airline": "A Jet",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C42",
-      "checkin": "145-147",
+      "gate": "C37",
+      "checkin": "171-174",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 19
+      "delay": 62
     },
     {
       "dt": 1791989100.0,
@@ -271,7 +254,7 @@
       "gate": "A63",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -311,7 +294,7 @@
     {
       "dt": 1791992400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:40",
+      "time_estimated": "17:48",
       "flight_no": "EW9756",
       "airline": "Eurowings",
       "city": "Wien",
@@ -321,9 +304,9 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 9
     },
     {
       "dt": 1791993000.0,
@@ -372,8 +355,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 20
     },
     {
@@ -390,7 +373,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -407,7 +390,7 @@
       "gate": "C36",
       "checkin": "259-261",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -455,10 +438,10 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A82",
+      "gate": "A79",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status_text": "",
       "delay": 25
     },
     {
@@ -481,7 +464,7 @@
     {
       "dt": 1791995100.0,
       "time_scheduled": "18:25",
-      "time_estimated": "18:25",
+      "time_estimated": "18:45",
       "flight_no": "EW9038",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -493,7 +476,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1791995100.0,
@@ -644,8 +627,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "140-142",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -693,7 +676,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A66",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -744,7 +727,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A65",
+      "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1239,6 +1222,91 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "259-268",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036200.0,
+      "time_scheduled": "05:50",
+      "time_estimated": "05:50",
+      "flight_no": "X34588",
+      "airline": "Tuifly",
+      "city": "Rhodos",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B78",
+      "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036200.0,
+      "time_scheduled": "05:50",
+      "time_estimated": "05:50",
+      "flight_no": "X32404",
+      "airline": "Tuifly",
+      "city": "Menorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B76",
+      "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036200.0,
+      "time_scheduled": "05:50",
+      "time_estimated": "05:50",
+      "flight_no": "DE1756",
+      "airline": "Condor",
+      "city": "Samos",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B37",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036200.0,
+      "time_scheduled": "05:50",
+      "time_estimated": "05:50",
+      "flight_no": "DE1616",
+      "airline": "Condor",
+      "city": "Heraklion (Kreta)",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036200.0,
+      "time_scheduled": "05:50",
+      "time_estimated": "05:50",
+      "flight_no": "DE1514",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B27",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
