@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 09:05",
+  "updated_at": "14.10.2026 09:10",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791958200.0,
-      "time_scheduled": "08:10",
-      "time_estimated": "08:10",
-      "flight_no": "EW9542",
-      "airline": "Eurowings",
-      "city": "Gran Canaria",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
-    },
     {
       "dt": 1791958500.0,
       "time_scheduled": "08:15",
