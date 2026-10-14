@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 03:35",
+  "updated_at": "14.10.2026 03:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -2837,6 +2837,23 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791985200.0,
+      "time_scheduled": "15:40",
+      "time_estimated": "15:40",
+      "flight_no": "EW9640",
+      "airline": "Eurowings",
+      "city": "Porto",
+      "country": "Portugal",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A50",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
