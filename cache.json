@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 15:45",
+  "updated_at": "14.10.2026 15:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -122,23 +122,6 @@
       "delay": 54
     },
     {
-      "dt": 1791981000.0,
-      "time_scheduled": "14:30",
-      "time_estimated": "14:49",
-      "flight_no": "EW9822",
-      "airline": "Eurowings",
-      "city": "Mailand-Malpensa",
-      "country": "Italien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A65",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
-    },
-    {
       "dt": 1791981300.0,
       "time_scheduled": "14:35",
       "time_estimated": "15:26",
@@ -192,7 +175,7 @@
     {
       "dt": 1791982200.0,
       "time_scheduled": "14:50",
-      "time_estimated": "15:25",
+      "time_estimated": "15:45",
       "flight_no": "EW9590",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -202,9 +185,9 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 35
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 55
     },
     {
       "dt": 1791982200.0,
@@ -328,7 +311,7 @@
     {
       "dt": 1791983100.0,
       "time_scheduled": "15:05",
-      "time_estimated": "15:05",
+      "time_estimated": "15:47",
       "flight_no": "XQ959",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -338,9 +321,9 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "200-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 42
     },
     {
       "dt": 1791983400.0,
@@ -492,7 +475,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -508,8 +491,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -560,7 +543,7 @@
       "gate": "C46",
       "checkin": "200-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -644,8 +627,8 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -661,8 +644,8 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -696,7 +679,7 @@
       "gate": "C37",
       "checkin": "171-174",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1305,7 +1288,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A81",
+      "gate": "A79",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1679,7 +1662,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A63",
+      "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
