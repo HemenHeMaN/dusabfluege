@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 03:50",
+  "updated_at": "14.10.2026 03:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -2888,6 +2888,23 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "200-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791986100.0,
+      "time_scheduled": "15:55",
+      "time_estimated": "15:55",
+      "flight_no": "NE721",
+      "airline": "Nesma Airlines",
+      "city": "Hurghada",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
+      "checkin": "197-199",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
