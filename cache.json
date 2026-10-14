@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 19:05",
+  "updated_at": "14.10.2026 19:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -86,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 24
-    },
-    {
-      "dt": 1791993300.0,
-      "time_scheduled": "17:55",
-      "time_estimated": "18:07",
-      "flight_no": "EW9764",
-      "airline": "Eurowings",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
     },
     {
       "dt": 1791993300.0,
@@ -294,7 +277,7 @@
     {
       "dt": 1791996000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:50",
+      "time_estimated": "19:05",
       "flight_no": "EW9048",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -304,9 +287,9 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 10
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 26
     },
     {
       "dt": 1791996300.0,
@@ -372,14 +355,14 @@
       "terminal": "A",
       "gate": "A52",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1791996600.0,
       "time_scheduled": "18:50",
-      "time_estimated": "18:50",
+      "time_estimated": "19:07",
       "flight_no": "EW9334",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -389,9 +372,9 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1791996600.0,
@@ -407,7 +390,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 25
     },
     {
@@ -457,8 +440,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +458,7 @@
       "gate": "A50",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,8 +474,8 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -525,8 +508,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +594,7 @@
       "gate": "C53",
       "checkin": "196-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -696,7 +679,7 @@
       "gate": "C57",
       "checkin": "196-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1727,6 +1710,57 @@
       "airline": "Eurowings",
       "city": "Wien",
       "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792041000.0,
+      "time_scheduled": "07:10",
+      "time_estimated": "07:10",
+      "flight_no": "EW9558",
+      "airline": "Eurowings",
+      "city": "Teneriffa Süd",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A31",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792041000.0,
+      "time_scheduled": "07:10",
+      "time_estimated": "07:10",
+      "flight_no": "BA925",
+      "airline": "British Airways",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C45",
+      "checkin": "140-142",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792041000.0,
+      "time_scheduled": "07:10",
+      "time_estimated": "07:10",
+      "flight_no": "EW9242",
+      "airline": "Eurowings",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
       "type": "Terminal A",
       "type_source": "Airline",
       "terminal": "",
