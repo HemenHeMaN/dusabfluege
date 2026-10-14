@@ -1,28 +1,11 @@
 {
-  "updated_at": "14.10.2026 19:20",
+  "updated_at": "14.10.2026 19:25",
   "source": "Dus.com",
   "flights": [
     {
-      "dt": 1791986100.0,
-      "time_scheduled": "15:55",
-      "time_estimated": "18:22",
-      "flight_no": "NE721",
-      "airline": "Nesma Airlines",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C56",
-      "checkin": "197-199",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 148
-    },
-    {
       "dt": 1791991200.0,
       "time_scheduled": "17:20",
-      "time_estimated": "18:40",
+      "time_estimated": "19:23",
       "flight_no": "XQ989",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -32,9 +15,9 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "204-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 80
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 124
     },
     {
       "dt": 1791993000.0,
@@ -338,8 +321,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 25
     },
     {
@@ -353,7 +336,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C31",
+      "gate": "C32",
       "checkin": "246-248",
       "status": "scheduled",
       "status_text": "",
@@ -379,7 +362,7 @@
     {
       "dt": 1791997500.0,
       "time_scheduled": "19:05",
-      "time_estimated": "19:05",
+      "time_estimated": "19:21",
       "flight_no": "LX1025",
       "airline": "Swiss",
       "city": "Zürich",
@@ -389,9 +372,9 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1791998400.0,
@@ -424,7 +407,7 @@
       "gate": "B29",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -458,7 +441,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -577,7 +560,7 @@
       "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1783,6 +1766,23 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792041900.0,
+      "time_scheduled": "07:25",
+      "time_estimated": "07:25",
+      "flight_no": "XQ1349",
+      "airline": "Sun Express",
+      "city": "Balikesir / Edremit",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
+      "checkin": "198-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
