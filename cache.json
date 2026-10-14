@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 05:15",
+  "updated_at": "14.10.2026 05:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -3211,6 +3211,40 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791991200.0,
+      "time_scheduled": "17:20",
+      "time_estimated": "17:20",
+      "flight_no": "VL2019",
+      "airline": "Lufthansa City Airlines",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A63",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791991200.0,
+      "time_scheduled": "17:20",
+      "time_estimated": "17:20",
+      "flight_no": "XQ989",
+      "airline": "Sun Express",
+      "city": "Izmir",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
+      "checkin": "205-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
