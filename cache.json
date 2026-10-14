@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 15:55",
+  "updated_at": "14.10.2026 16:01",
   "source": "Dus.com",
   "flights": [
     {
@@ -362,7 +362,7 @@
     {
       "dt": 1791984000.0,
       "time_scheduled": "15:20",
-      "time_estimated": "15:20",
+      "time_estimated": "15:58",
       "flight_no": "LH075",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -372,9 +372,9 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 38
     },
     {
       "dt": 1791984000.0,
@@ -396,7 +396,7 @@
     {
       "dt": 1791984300.0,
       "time_scheduled": "15:25",
-      "time_estimated": "15:25",
+      "time_estimated": "15:55",
       "flight_no": "QR086",
       "airline": "Qatar Airways",
       "city": "Doha",
@@ -406,9 +406,9 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "243-248",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 31
     },
     {
       "dt": 1791984300.0,
@@ -474,8 +474,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -542,8 +542,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "200-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -576,8 +576,8 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -661,8 +661,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "145-147",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -713,7 +713,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1019,7 +1019,7 @@
       "gate": "C36",
       "checkin": "259-261",
       "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status_text": "",
       "delay": 0
     },
     {
@@ -1059,7 +1059,7 @@
     {
       "dt": 1791995100.0,
       "time_scheduled": "18:25",
-      "time_estimated": "18:25",
+      "time_estimated": "18:50",
       "flight_no": "EW9344",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -1071,7 +1071,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1791995100.0,
