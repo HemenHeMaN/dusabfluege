@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 06:10",
+  "updated_at": "14.10.2026 06:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -3364,6 +3364,23 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "259-261",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791994500.0,
+      "time_scheduled": "18:15",
+      "time_estimated": "18:15",
+      "flight_no": "KL1804",
+      "airline": "KLM",
+      "city": "Amsterdam",
+      "country": "Niederlande",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B27",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
