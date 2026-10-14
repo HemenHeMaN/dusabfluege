@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 18:45",
+  "updated_at": "14.10.2026 18:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 148
-    },
-    {
-      "dt": 1791989100.0,
-      "time_scheduled": "16:45",
-      "time_estimated": "17:47",
-      "flight_no": "VF028",
-      "airline": "A Jet",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C37",
-      "checkin": "171-174",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 62
     },
     {
       "dt": 1791991200.0,
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 14
-    },
-    {
-      "dt": 1791992400.0,
-      "time_scheduled": "17:40",
-      "time_estimated": "17:48",
-      "flight_no": "EW9756",
-      "airline": "Eurowings",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B79",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 9
     },
     {
       "dt": 1791993000.0,
@@ -236,8 +202,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 25
     },
     {
@@ -260,7 +226,7 @@
     {
       "dt": 1791995100.0,
       "time_scheduled": "18:25",
-      "time_estimated": "18:45",
+      "time_estimated": "18:49",
       "flight_no": "EW9038",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -270,9 +236,9 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 20
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1791995100.0,
@@ -328,7 +294,7 @@
     {
       "dt": 1791995400.0,
       "time_scheduled": "18:30",
-      "time_estimated": "18:30",
+      "time_estimated": "18:45",
       "flight_no": "OS166",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -338,9 +304,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1791995400.0,
@@ -396,7 +362,7 @@
     {
       "dt": 1791996300.0,
       "time_scheduled": "18:45",
-      "time_estimated": "18:45",
+      "time_estimated": "18:47",
       "flight_no": "AY1396",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -406,9 +372,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 2
     },
     {
       "dt": 1791996300.0,
@@ -423,8 +389,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "140-142",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -525,8 +491,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -577,7 +543,7 @@
       "gate": "C40",
       "checkin": "173-175",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -594,7 +560,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1629,6 +1595,57 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A56",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792039800.0,
+      "time_scheduled": "06:50",
+      "time_estimated": "06:50",
+      "flight_no": "EW9574",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B36",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792039800.0,
+      "time_scheduled": "06:50",
+      "time_estimated": "06:50",
+      "flight_no": "EW9040",
+      "airline": "Eurowings",
+      "city": "Berlin-Brandenburg",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A25",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792039800.0,
+      "time_scheduled": "06:50",
+      "time_estimated": "06:50",
+      "flight_no": "EW9684",
+      "airline": "Eurowings",
+      "city": "Kavala",
+      "country": "Griechenland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A63",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
