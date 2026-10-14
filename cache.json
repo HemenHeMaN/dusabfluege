@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 16:25",
+  "updated_at": "14.10.2026 16:30",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791981300.0,
-      "time_scheduled": "14:35",
-      "time_estimated": "15:26",
-      "flight_no": "DE1622",
-      "airline": "Condor",
-      "city": "Rhodos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B58",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 52
-    },
     {
       "dt": 1791981900.0,
       "time_scheduled": "14:45",
@@ -243,23 +226,6 @@
     {
       "dt": 1791984600.0,
       "time_scheduled": "15:30",
-      "time_estimated": "15:30",
-      "flight_no": "XR501",
-      "airline": "Corendon Airlines Europe",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B71",
-      "checkin": "137-139",
-      "status": "boarding",
-      "status_text": "Boarding",
-      "delay": 0
-    },
-    {
-      "dt": 1791984600.0,
-      "time_scheduled": "15:30",
       "time_estimated": "16:14",
       "flight_no": "EW9536",
       "airline": "Eurowings",
@@ -321,8 +287,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -474,8 +440,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "171-174",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -508,8 +474,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,7 +492,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -576,8 +542,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -923,7 +889,7 @@
     {
       "dt": 1791995400.0,
       "time_scheduled": "18:30",
-      "time_estimated": "18:30",
+      "time_estimated": "18:45",
       "flight_no": "EW9416",
       "airline": "Eurowings",
       "city": "Lyon",
@@ -935,7 +901,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1791995400.0,
