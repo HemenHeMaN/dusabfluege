@@ -1,41 +1,7 @@
 {
-  "updated_at": "14.10.2026 17:55",
+  "updated_at": "14.10.2026 18:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791986100.0,
-      "time_scheduled": "15:55",
-      "time_estimated": "17:00",
-      "flight_no": "NE721",
-      "airline": "Nesma Airlines",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C56",
-      "checkin": "197-199",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 65
-    },
-    {
-      "dt": 1791986700.0,
-      "time_scheduled": "16:05",
-      "time_estimated": "16:58",
-      "flight_no": "RJ130",
-      "airline": "Royal Jordanian",
-      "city": "Amman-Queen Alia",
-      "country": "Jordanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "192-195",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 53
-    },
     {
       "dt": 1791989100.0,
       "time_scheduled": "16:45",
@@ -311,7 +277,7 @@
     {
       "dt": 1791993000.0,
       "time_scheduled": "17:50",
-      "time_estimated": "17:50",
+      "time_estimated": "18:00",
       "flight_no": "EW9834",
       "airline": "Eurowings",
       "city": "Bologna",
@@ -321,9 +287,9 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1791993000.0,
@@ -372,8 +338,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -389,8 +355,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "259-261",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -458,7 +424,7 @@
       "gate": "B75",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -509,7 +475,7 @@
       "gate": "B71",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 15
     },
     {
@@ -543,7 +509,7 @@
       "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -611,7 +577,7 @@
       "gate": "B33",
       "checkin": "131-136",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -662,7 +628,7 @@
       "gate": "A81",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -855,7 +821,7 @@
     {
       "dt": 1792000500.0,
       "time_scheduled": "19:55",
-      "time_estimated": "20:15",
+      "time_estimated": "20:25",
       "flight_no": "LX1027",
       "airline": "Swiss",
       "city": "Zürich",
@@ -867,7 +833,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
-      "delay": 20
+      "delay": 30
     },
     {
       "dt": 1792000500.0,
@@ -1341,6 +1307,91 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036800.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "LH079",
+      "airline": "Lufthansa",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A42",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036800.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "X32312",
+      "airline": "Tuifly",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B74",
+      "checkin": "131-136",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036800.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "X32914",
+      "airline": "Tuifly",
+      "city": "Ibiza",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036800.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "DE1780",
+      "airline": "Condor",
+      "city": "Preveza-Aktion",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036800.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "DE1612",
+      "airline": "Condor",
+      "city": "Korfu",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B35",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
