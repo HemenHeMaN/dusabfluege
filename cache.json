@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 03:15",
+  "updated_at": "14.10.2026 03:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -2701,6 +2701,40 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791984000.0,
+      "time_scheduled": "15:20",
+      "time_estimated": "15:20",
+      "flight_no": "LH075",
+      "airline": "Lufthansa",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A63",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791984000.0,
+      "time_scheduled": "15:20",
+      "time_estimated": "15:20",
+      "flight_no": "SK1622",
+      "airline": "Scandinavian Airlines",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A46",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
