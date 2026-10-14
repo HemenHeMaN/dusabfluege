@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 21:10",
+  "updated_at": "14.10.2026 21:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -71,23 +71,6 @@
       "delay": 18
     },
     {
-      "dt": 1792000800.0,
-      "time_scheduled": "20:00",
-      "time_estimated": "20:15",
-      "flight_no": "A3543",
-      "airline": "Aegean Airlines",
-      "city": "Thessaloniki",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B75",
-      "checkin": "131-139",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
-    },
-    {
       "dt": 1792001100.0,
       "time_scheduled": "20:05",
       "time_estimated": "20:33",
@@ -103,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 28
-    },
-    {
-      "dt": 1792001100.0,
-      "time_scheduled": "20:05",
-      "time_estimated": "20:12",
-      "flight_no": "BT234",
-      "airline": "Air Baltic",
-      "city": "Riga",
-      "country": "Lettland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "149-150",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 7
     },
     {
       "dt": 1792002000.0,
@@ -294,7 +260,7 @@
     {
       "dt": 1792004400.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:00",
+      "time_estimated": "21:14",
       "flight_no": "VY1899",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -304,9 +270,9 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "141-142",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792004400.0,
@@ -355,8 +321,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "259-267",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
