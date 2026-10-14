@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 07:00",
+  "updated_at": "14.10.2026 07:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,57 +18,6 @@
       "status": "scheduled",
       "status_text": "",
       "delay": 40
-    },
-    {
-      "dt": 1791950700.0,
-      "time_scheduled": "06:05",
-      "time_estimated": "06:05",
-      "flight_no": "EW9572",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
-    },
-    {
-      "dt": 1791950700.0,
-      "time_scheduled": "06:05",
-      "time_estimated": "06:05",
-      "flight_no": "XC101",
-      "airline": "Corendon Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "255-257",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
-    },
-    {
-      "dt": 1791950700.0,
-      "time_scheduled": "06:05",
-      "time_estimated": "06:05",
-      "flight_no": "XR405",
-      "airline": "Corendon Airlines Europe",
-      "city": "Rhodos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B58",
-      "checkin": "258-260",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
     },
     {
       "dt": 1791951000.0,
@@ -3534,6 +3483,23 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "199-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791997500.0,
+      "time_scheduled": "19:05",
+      "time_estimated": "19:05",
+      "flight_no": "LX1025",
+      "airline": "Swiss",
+      "city": "Zürich",
+      "country": "Schweiz",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A65",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
