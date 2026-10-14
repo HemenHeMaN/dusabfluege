@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 05:05",
+  "updated_at": "14.10.2026 05:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -3194,6 +3194,23 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791990600.0,
+      "time_scheduled": "17:10",
+      "time_estimated": "17:10",
+      "flight_no": "PC1004",
+      "airline": "Pegasus Airlines",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
