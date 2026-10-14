@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 15:50",
+  "updated_at": "14.10.2026 15:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -192,7 +192,7 @@
     {
       "dt": 1791982200.0,
       "time_scheduled": "14:50",
-      "time_estimated": "15:15",
+      "time_estimated": "15:52",
       "flight_no": "LX1019",
       "airline": "Swiss",
       "city": "Zürich",
@@ -202,9 +202,9 @@
       "terminal": "A",
       "gate": "A48",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 25
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 63
     },
     {
       "dt": 1791982200.0,
@@ -508,8 +508,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 25
     },
     {
@@ -525,8 +525,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -594,7 +594,7 @@
       "gate": "C36",
       "checkin": "148-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -611,7 +611,7 @@
       "gate": "C40",
       "checkin": "192-195",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -974,7 +974,7 @@
     {
       "dt": 1791993300.0,
       "time_scheduled": "17:55",
-      "time_estimated": "17:55",
+      "time_estimated": "18:15",
       "flight_no": "EW9222",
       "airline": "Eurowings",
       "city": "Göteborg-Landvetter",
@@ -986,7 +986,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1791993300.0,
@@ -1019,7 +1019,7 @@
       "gate": "C36",
       "checkin": "259-261",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1288,7 +1288,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A79",
+      "gate": "A81",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
