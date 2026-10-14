@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 09:00",
+  "updated_at": "14.10.2026 09:05",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791957900.0,
-      "time_scheduled": "08:05",
-      "time_estimated": "08:05",
-      "flight_no": "XQ181",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
-    },
     {
       "dt": 1791958200.0,
       "time_scheduled": "08:10",
@@ -3194,6 +3177,23 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792004700.0,
+      "time_scheduled": "21:05",
+      "time_estimated": "21:05",
+      "flight_no": "EI699",
+      "airline": "Aer Lingus",
+      "city": "Dublin",
+      "country": "Irland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
+      "checkin": "147-148",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
