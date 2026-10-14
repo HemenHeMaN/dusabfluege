@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 15:15",
+  "updated_at": "14.10.2026 15:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,23 +37,6 @@
       "delay": 80
     },
     {
-      "dt": 1791978300.0,
-      "time_scheduled": "13:45",
-      "time_estimated": "14:18",
-      "flight_no": "PC1002",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 33
-    },
-    {
       "dt": 1791978600.0,
       "time_scheduled": "13:50",
       "time_estimated": "15:10",
@@ -73,7 +56,7 @@
     {
       "dt": 1791979500.0,
       "time_scheduled": "14:05",
-      "time_estimated": "15:00",
+      "time_estimated": "15:17",
       "flight_no": "EW9630",
       "airline": "Eurowings",
       "city": "Rhodos",
@@ -83,9 +66,9 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 55
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 72
     },
     {
       "dt": 1791980100.0,
@@ -192,7 +175,7 @@
     {
       "dt": 1791981900.0,
       "time_scheduled": "14:45",
-      "time_estimated": "15:00",
+      "time_estimated": "15:15",
       "flight_no": "EW9504",
       "airline": "Eurowings",
       "city": "Menorca",
@@ -204,7 +187,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 15
+      "delay": 30
     },
     {
       "dt": 1791982200.0,
@@ -254,7 +237,7 @@
       "gate": "A48",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 25
     },
     {
@@ -311,7 +294,7 @@
     {
       "dt": 1791982800.0,
       "time_scheduled": "15:00",
-      "time_estimated": "15:00",
+      "time_estimated": "15:18",
       "flight_no": "VY1895",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -321,14 +304,14 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "140-141",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1791982800.0,
       "time_scheduled": "15:00",
-      "time_estimated": "15:20",
+      "time_estimated": "15:30",
       "flight_no": "EW9588",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -340,7 +323,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 20
+      "delay": 30
     },
     {
       "dt": 1791983100.0,
@@ -406,8 +389,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -458,7 +441,7 @@
       "gate": "C31",
       "checkin": "243-248",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +508,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -543,7 +526,7 @@
       "gate": "B27",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -593,8 +576,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "200-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -696,7 +679,7 @@
       "gate": "A54",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
