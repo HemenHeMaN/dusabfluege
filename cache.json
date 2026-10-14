@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 19:30",
+  "updated_at": "14.10.2026 19:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -277,7 +277,7 @@
     {
       "dt": 1791996600.0,
       "time_scheduled": "18:50",
-      "time_estimated": "19:15",
+      "time_estimated": "19:34",
       "flight_no": "EW9244",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -287,9 +287,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 25
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 44
     },
     {
       "dt": 1791997200.0,
@@ -311,7 +311,7 @@
     {
       "dt": 1791997200.0,
       "time_scheduled": "19:00",
-      "time_estimated": "19:00",
+      "time_estimated": "19:30",
       "flight_no": "XQ183",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -321,9 +321,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "196-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 31
     },
     {
       "dt": 1791997500.0,
@@ -372,8 +372,8 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +406,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -423,8 +423,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "104-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -508,8 +508,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "196-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -628,7 +628,7 @@
       "gate": "C46",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
