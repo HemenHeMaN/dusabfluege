@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 16:50",
+  "updated_at": "14.10.2026 16:55",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791982200.0,
-      "time_scheduled": "14:50",
-      "time_estimated": "15:52",
-      "flight_no": "LX1019",
-      "airline": "Swiss",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A48",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 63
-    },
     {
       "dt": 1791982800.0,
       "time_scheduled": "15:00",
@@ -322,7 +305,7 @@
       "gate": "C37",
       "checkin": "171-174",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -355,8 +338,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +389,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -464,7 +447,7 @@
     {
       "dt": 1791990300.0,
       "time_scheduled": "17:05",
-      "time_estimated": "17:05",
+      "time_estimated": "17:15",
       "flight_no": "EW9886",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -476,7 +459,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791990300.0,
@@ -491,8 +474,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -560,7 +543,7 @@
       "gate": "B71",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
