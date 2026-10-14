@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 04:00",
+  "updated_at": "14.10.2026 04:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -2939,6 +2939,23 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "148-150",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791986700.0,
+      "time_scheduled": "16:05",
+      "time_estimated": "16:05",
+      "flight_no": "RJ130",
+      "airline": "Royal Jordanian",
+      "city": "Amman-Queen Alia",
+      "country": "Jordanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C36",
+      "checkin": "192-195",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
