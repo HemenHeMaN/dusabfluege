@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 07:10",
+  "updated_at": "14.10.2026 07:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "scheduled",
       "status_text": "",
       "delay": 40
-    },
-    {
-      "dt": 1791951300.0,
-      "time_scheduled": "06:15",
-      "time_estimated": "06:15",
-      "flight_no": "DE1426",
-      "airline": "Condor",
-      "city": "La Palma",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
     },
     {
       "dt": 1791951600.0,
