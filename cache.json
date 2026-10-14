@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 09:10",
+  "updated_at": "14.10.2026 09:15",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791958500.0,
-      "time_scheduled": "08:15",
-      "time_estimated": "08:15",
-      "flight_no": "KL1798",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B57",
-      "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
-    },
     {
       "dt": 1791959100.0,
       "time_scheduled": "08:25",
@@ -3177,6 +3160,23 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "147-148",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792005300.0,
+      "time_scheduled": "21:15",
+      "time_estimated": "21:15",
+      "flight_no": "EK058",
+      "airline": "Emirates",
+      "city": "Dubai",
+      "country": "VAE",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C37",
+      "checkin": "259-268",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
