@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 21:05",
+  "updated_at": "14.10.2026 21:10",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791999900.0,
-      "time_scheduled": "19:45",
-      "time_estimated": "20:08",
-      "flight_no": "LO408",
-      "airline": "LOT Polish Airlines",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "104-105",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
-    },
     {
       "dt": 1792000500.0,
       "time_scheduled": "19:55",
@@ -169,7 +152,7 @@
       "gate": "C46",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -294,7 +277,7 @@
     {
       "dt": 1792003800.0,
       "time_scheduled": "20:50",
-      "time_estimated": "20:50",
+      "time_estimated": "21:09",
       "flight_no": "XQ1321",
       "airline": "Sun Express",
       "city": "Kayseri",
@@ -304,9 +287,9 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "192-195",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 20
     },
     {
       "dt": 1792004400.0,
@@ -321,14 +304,14 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "141-142",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792004400.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:00",
+      "time_estimated": "21:07",
       "flight_no": "EJU3944",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -338,9 +321,9 @@
       "terminal": "B",
       "gate": "B38",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1792004700.0,
@@ -1562,6 +1545,23 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "131-136",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792048200.0,
+      "time_scheduled": "09:10",
+      "time_estimated": "09:10",
+      "flight_no": "EJU3942",
+      "airline": "Easy Jet Europe",
+      "city": "Mailand-Malpensa",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
