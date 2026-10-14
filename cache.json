@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 05:45",
+  "updated_at": "14.10.2026 05:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -3279,6 +3279,40 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791993000.0,
+      "time_scheduled": "17:50",
+      "time_estimated": "17:50",
+      "flight_no": "EW9834",
+      "airline": "Eurowings",
+      "city": "Bologna",
+      "country": "Italien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A65",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791993000.0,
+      "time_scheduled": "17:50",
+      "time_estimated": "17:50",
+      "flight_no": "TP543",
+      "airline": "TAP Portugal",
+      "city": "Lissabon",
+      "country": "Portugal",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
