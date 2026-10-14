@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 03:10",
+  "updated_at": "14.10.2026 03:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -2684,6 +2684,23 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "200-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791983700.0,
+      "time_scheduled": "15:15",
+      "time_estimated": "15:15",
+      "flight_no": "EW9036",
+      "airline": "Eurowings",
+      "city": "Hamburg",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A39",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
