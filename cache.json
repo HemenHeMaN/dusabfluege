@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 06:35",
+  "updated_at": "14.10.2026 06:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -3534,6 +3534,23 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791996000.0,
+      "time_scheduled": "18:40",
+      "time_estimated": "18:40",
+      "flight_no": "EW9048",
+      "airline": "Eurowings",
+      "city": "Berlin-Brandenburg",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A25",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
