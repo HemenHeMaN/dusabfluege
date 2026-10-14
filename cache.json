@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 18:00",
+  "updated_at": "14.10.2026 18:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,23 +22,6 @@
     {
       "dt": 1791989100.0,
       "time_scheduled": "16:45",
-      "time_estimated": "17:02",
-      "flight_no": "X32322",
-      "airline": "Tuifly",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
-    },
-    {
-      "dt": 1791989100.0,
-      "time_scheduled": "16:45",
       "time_estimated": "17:07",
       "flight_no": "EW9958",
       "airline": "Eurowings",
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 23
-    },
-    {
-      "dt": 1791989400.0,
-      "time_scheduled": "16:50",
-      "time_estimated": "17:01",
-      "flight_no": "EW9754",
-      "airline": "Eurowings",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
     },
     {
       "dt": 1791989400.0,
@@ -304,8 +270,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -322,7 +288,7 @@
       "gate": "B77",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 20
     },
     {
@@ -407,7 +373,7 @@
       "gate": "A79",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 25
     },
     {
@@ -491,8 +457,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -645,7 +611,7 @@
       "gate": "A66",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 25
     },
     {
@@ -1392,6 +1358,23 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792037100.0,
+      "time_scheduled": "06:05",
+      "time_estimated": "06:05",
+      "flight_no": "X32252",
+      "airline": "Tuifly",
+      "city": "Jerez de la Frontera",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B72",
+      "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
