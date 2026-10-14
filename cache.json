@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 08:20",
+  "updated_at": "14.10.2026 08:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -3126,6 +3126,23 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792002300.0,
+      "time_scheduled": "20:25",
+      "time_estimated": "20:25",
+      "flight_no": "EW4677",
+      "airline": "Eurowings",
+      "city": "Stockholm-Arlanda",
+      "country": "Schweden",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A63",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
