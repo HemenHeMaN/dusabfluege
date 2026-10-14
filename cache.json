@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 05:35",
+  "updated_at": "14.10.2026 05:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -3245,6 +3245,40 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "205-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791992400.0,
+      "time_scheduled": "17:40",
+      "time_estimated": "17:40",
+      "flight_no": "EW9784",
+      "airline": "Eurowings",
+      "city": "Budapest",
+      "country": "Ungarn",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B31",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791992400.0,
+      "time_scheduled": "17:40",
+      "time_estimated": "17:40",
+      "flight_no": "EW9756",
+      "airline": "Eurowings",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B37",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
