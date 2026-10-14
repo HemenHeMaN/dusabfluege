@@ -1,24 +1,7 @@
 {
-  "updated_at": "14.10.2026 16:35",
+  "updated_at": "14.10.2026 16:40",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791981900.0,
-      "time_scheduled": "14:45",
-      "time_estimated": "15:37",
-      "flight_no": "EW9504",
-      "airline": "Eurowings",
-      "city": "Menorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 53
-    },
     {
       "dt": 1791982200.0,
       "time_scheduled": "14:50",
@@ -175,23 +158,6 @@
     {
       "dt": 1791984600.0,
       "time_scheduled": "15:30",
-      "time_estimated": "15:40",
-      "flight_no": "LH2017",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A66",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
-    },
-    {
-      "dt": 1791984600.0,
-      "time_scheduled": "15:30",
       "time_estimated": "16:14",
       "flight_no": "EW9536",
       "airline": "Eurowings",
@@ -243,7 +209,7 @@
     {
       "dt": 1791985500.0,
       "time_scheduled": "15:45",
-      "time_estimated": "15:45",
+      "time_estimated": "16:36",
       "flight_no": "DE1010",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -253,9 +219,9 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 51
     },
     {
       "dt": 1791985500.0,
@@ -389,8 +355,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "145-147",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
