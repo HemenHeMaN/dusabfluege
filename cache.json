@@ -1,5 +1,5 @@
 {
-  "updated_at": "14.10.2026 17:50",
+  "updated_at": "14.10.2026 17:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -277,7 +277,7 @@
     {
       "dt": 1791992400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:40",
+      "time_estimated": "17:53",
       "flight_no": "EW9784",
       "airline": "Eurowings",
       "city": "Budapest",
@@ -287,9 +287,9 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1791992400.0,
@@ -321,8 +321,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +406,8 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -491,8 +491,8 @@
       "terminal": "A",
       "gate": "A72",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -560,7 +560,7 @@
       "gate": "A25",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -855,7 +855,7 @@
     {
       "dt": 1792000500.0,
       "time_scheduled": "19:55",
-      "time_estimated": "20:35",
+      "time_estimated": "20:15",
       "flight_no": "LX1027",
       "airline": "Swiss",
       "city": "Zürich",
@@ -867,7 +867,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
-      "delay": 40
+      "delay": 20
     },
     {
       "dt": 1792000500.0,
@@ -1306,6 +1306,40 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B27",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036500.0,
+      "time_scheduled": "05:55",
+      "time_estimated": "05:55",
+      "flight_no": "DE1516",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792036500.0,
+      "time_scheduled": "05:55",
+      "time_estimated": "05:55",
+      "flight_no": "DE1774",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B31",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
