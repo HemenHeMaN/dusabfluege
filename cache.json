@@ -1,24 +1,7 @@
 {
-  "updated_at": "15.10.2026 21:15",
+  "updated_at": "15.10.2026 21:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792086900.0,
-      "time_scheduled": "19:55",
-      "time_estimated": "20:18",
-      "flight_no": "IB756",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B73",
-      "checkin": "143-145",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
-    },
     {
       "dt": 1792087500.0,
       "time_scheduled": "20:05",
