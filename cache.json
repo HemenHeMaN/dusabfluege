@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 18:00",
+  "updated_at": "15.10.2026 18:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -86,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 27
-    },
-    {
-      "dt": 1792075500.0,
-      "time_scheduled": "16:45",
-      "time_estimated": "17:05",
-      "flight_no": "VF028",
-      "airline": "A Jet",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C42",
-      "checkin": "196-198",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 20
     },
     {
       "dt": 1792075500.0,
@@ -287,8 +270,8 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 30
     },
     {
@@ -355,8 +338,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "101-103",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -458,7 +441,7 @@
       "gate": "A39",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -542,8 +525,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -593,8 +576,8 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -634,7 +617,7 @@
     {
       "dt": 1792082700.0,
       "time_scheduled": "18:45",
-      "time_estimated": "18:45",
+      "time_estimated": "19:05",
       "flight_no": "EW9748",
       "airline": "Eurowings",
       "city": "Genf",
@@ -646,7 +629,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1792082700.0,
@@ -1392,6 +1375,40 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792123500.0,
+      "time_scheduled": "06:05",
+      "time_estimated": "06:05",
+      "flight_no": "SK620",
+      "airline": "Scandinavian Airlines",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A54",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792123500.0,
+      "time_scheduled": "06:05",
+      "time_estimated": "06:05",
+      "flight_no": "XR405",
+      "airline": "Corendon Airlines Europe",
+      "city": "Rhodos",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B58",
+      "checkin": "144-146",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
