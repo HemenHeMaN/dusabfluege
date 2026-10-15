@@ -1,24 +1,7 @@
 {
-  "updated_at": "15.10.2026 20:50",
+  "updated_at": "15.10.2026 20:55",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792083600.0,
-      "time_scheduled": "19:00",
-      "time_estimated": "19:55",
-      "flight_no": "EW9416",
-      "airline": "Eurowings",
-      "city": "Lyon",
-      "country": "Frankreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 55
-    },
     {
       "dt": 1792083600.0,
       "time_scheduled": "19:00",
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 30
-    },
-    {
-      "dt": 1792086000.0,
-      "time_scheduled": "19:40",
-      "time_estimated": "19:51",
-      "flight_no": "EW9022",
-      "airline": "Eurowings",
-      "city": "Dresden",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A65",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
     },
     {
       "dt": 1792086300.0,
@@ -271,7 +237,7 @@
       "gate": "C45",
       "checkin": "240-242",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -294,7 +260,7 @@
     {
       "dt": 1792089000.0,
       "time_scheduled": "20:30",
-      "time_estimated": "20:30",
+      "time_estimated": "20:53",
       "flight_no": "XQ1361",
       "airline": "Sun Express",
       "city": "Diyarbakir",
@@ -304,9 +270,9 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "195-198",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 23
     },
     {
       "dt": 1792089300.0,
@@ -328,7 +294,7 @@
     {
       "dt": 1792089600.0,
       "time_scheduled": "20:40",
-      "time_estimated": "20:40",
+      "time_estimated": "20:51",
       "flight_no": "XQ1371",
       "airline": "Sun Express",
       "city": "Mersin-Çukurova",
@@ -338,9 +304,9 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "200-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792090200.0,
@@ -372,8 +338,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "192-194",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -390,7 +356,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -1613,6 +1579,23 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792133700.0,
+      "time_scheduled": "08:55",
+      "time_estimated": "08:55",
+      "flight_no": "AY1392",
+      "airline": "Finnair",
+      "city": "Helsinki",
+      "country": "Finnland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B31",
+      "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
