@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 04:20",
+  "updated_at": "15.10.2026 04:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -413,7 +413,7 @@
     {
       "dt": 1792038600.0,
       "time_scheduled": "06:30",
-      "time_estimated": "06:30",
+      "time_estimated": "08:05",
       "flight_no": "XR439",
       "airline": "Corendon Airlines Europe",
       "city": "Korfu",
@@ -425,7 +425,7 @@
       "checkin": "145-147",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 95
     },
     {
       "dt": 1792038900.0,
@@ -3160,6 +3160,57 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "200-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792074300.0,
+      "time_scheduled": "16:25",
+      "time_estimated": "16:25",
+      "flight_no": "EW9592",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792074300.0,
+      "time_scheduled": "16:25",
+      "time_estimated": "16:25",
+      "flight_no": "BQ1953",
+      "airline": "Sky Alps",
+      "city": "Bozen",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "139-140",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792074300.0,
+      "time_scheduled": "16:25",
+      "time_estimated": "16:25",
+      "flight_no": "DE1010",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B75",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
