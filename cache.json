@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 19:40",
+  "updated_at": "15.10.2026 19:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,57 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 147
-    },
-    {
-      "dt": 1792081500.0,
-      "time_scheduled": "18:25",
-      "time_estimated": "18:42",
-      "flight_no": "EW9468",
-      "airline": "Eurowings",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A72",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
-    },
-    {
-      "dt": 1792081500.0,
-      "time_scheduled": "18:25",
-      "time_estimated": "18:44",
-      "flight_no": "BA923",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "140-142",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 20
-    },
-    {
-      "dt": 1792081800.0,
-      "time_scheduled": "18:30",
-      "time_estimated": "18:40",
-      "flight_no": "LH2021",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
     },
     {
       "dt": 1792081800.0,
@@ -236,8 +185,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 40
     },
     {
@@ -294,7 +243,7 @@
     {
       "dt": 1792084800.0,
       "time_scheduled": "19:20",
-      "time_estimated": "19:20",
+      "time_estimated": "19:42",
       "flight_no": "SK628",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -304,9 +253,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1792085100.0,
@@ -389,8 +338,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -526,7 +475,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -542,8 +491,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -645,7 +594,7 @@
       "gate": "C36",
       "checkin": "200-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -662,7 +611,7 @@
       "gate": "C32",
       "checkin": "174-176",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
