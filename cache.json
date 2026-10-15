@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 17:15",
+  "updated_at": "15.10.2026 17:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,23 +37,6 @@
       "delay": 74
     },
     {
-      "dt": 1792071900.0,
-      "time_scheduled": "15:45",
-      "time_estimated": "16:18",
-      "flight_no": "EW9814",
-      "airline": "Eurowings",
-      "city": "Catania (Sizilien)",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 33
-    },
-    {
       "dt": 1792072200.0,
       "time_scheduled": "15:50",
       "time_estimated": "16:30",
@@ -84,7 +67,7 @@
       "gate": "C46",
       "checkin": "192-195",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 145
     },
     {
@@ -139,23 +122,6 @@
       "delay": 22
     },
     {
-      "dt": 1792073400.0,
-      "time_scheduled": "16:10",
-      "time_estimated": "16:19",
-      "flight_no": "BJ215",
-      "airline": "Nouvelair",
-      "city": "Monastir",
-      "country": "Tunesien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "246-248",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
-    },
-    {
       "dt": 1792073700.0,
       "time_scheduled": "16:15",
       "time_estimated": "16:36",
@@ -171,23 +137,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 21
-    },
-    {
-      "dt": 1792074000.0,
-      "time_scheduled": "16:20",
-      "time_estimated": "16:20",
-      "flight_no": "XQ989",
-      "airline": "Sun Express",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "200-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
     },
     {
       "dt": 1792074300.0,
@@ -475,7 +424,7 @@
       "gate": "B29",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +474,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -542,8 +491,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -559,8 +508,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -610,8 +559,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "143-145",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
