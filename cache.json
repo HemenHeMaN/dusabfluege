@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 15:30",
+  "updated_at": "15.10.2026 15:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -192,7 +192,7 @@
     {
       "dt": 1792067700.0,
       "time_scheduled": "14:35",
-      "time_estimated": "15:00",
+      "time_estimated": "15:33",
       "flight_no": "AF1507",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -202,9 +202,9 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 25
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 58
     },
     {
       "dt": 1792068300.0,
@@ -339,7 +339,7 @@
       "gate": "C42",
       "checkin": "199-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -747,7 +747,7 @@
       "gate": "B35",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -872,7 +872,7 @@
     {
       "dt": 1792075800.0,
       "time_scheduled": "16:50",
-      "time_estimated": "17:50",
+      "time_estimated": "18:40",
       "flight_no": "EW9444",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -884,7 +884,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 60
+      "delay": 110
     },
     {
       "dt": 1792075800.0,
