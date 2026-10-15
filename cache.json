@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 19:55",
+  "updated_at": "15.10.2026 20:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -71,40 +71,6 @@
       "delay": 34
     },
     {
-      "dt": 1792082700.0,
-      "time_scheduled": "18:45",
-      "time_estimated": "18:57",
-      "flight_no": "AY1396",
-      "airline": "Finnair",
-      "city": "Helsinki",
-      "country": "Finnland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "131-136",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
-    },
-    {
-      "dt": 1792083000.0,
-      "time_scheduled": "18:50",
-      "time_estimated": "19:00",
-      "flight_no": "EW9334",
-      "airline": "Eurowings",
-      "city": "Birmingham",
-      "country": "Großbritannien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A80",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
-    },
-    {
       "dt": 1792083000.0,
       "time_scheduled": "18:50",
       "time_estimated": "19:09",
@@ -141,7 +107,7 @@
     {
       "dt": 1792083600.0,
       "time_scheduled": "19:00",
-      "time_estimated": "19:00",
+      "time_estimated": "19:58",
       "flight_no": "XQ183",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -151,9 +117,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "198-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 59
     },
     {
       "dt": 1792083900.0,
@@ -226,7 +192,7 @@
     {
       "dt": 1792085400.0,
       "time_scheduled": "19:30",
-      "time_estimated": "19:30",
+      "time_estimated": "19:57",
       "flight_no": "XC105",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -236,9 +202,9 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "171-173",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1792085400.0,
@@ -270,8 +236,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 20
     },
     {
@@ -322,7 +288,7 @@
       "gate": "B73",
       "checkin": "143-145",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -338,8 +304,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -372,8 +338,8 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "149-150",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -423,8 +389,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -457,8 +423,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -475,7 +441,7 @@
       "gate": "C45",
       "checkin": "240-242",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -577,7 +543,7 @@
       "gate": "C31",
       "checkin": "192-194",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1664,6 +1630,23 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792130400.0,
+      "time_scheduled": "08:00",
+      "time_estimated": "08:00",
+      "flight_no": "XR6597",
+      "airline": "Corendon Airlines Europe",
+      "city": "Hurghada",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
+      "checkin": "265-267",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
