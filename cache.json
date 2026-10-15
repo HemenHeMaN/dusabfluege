@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 08:40",
+  "updated_at": "15.10.2026 08:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -20,38 +20,21 @@
       "delay": 95
     },
     {
-      "dt": 1792041300.0,
-      "time_scheduled": "07:15",
-      "time_estimated": "07:45",
-      "flight_no": "LO406",
-      "airline": "LOT Polish Airlines",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Terminal A",
+      "dt": 1792041000.0,
+      "time_scheduled": "07:10",
+      "time_estimated": "08:42",
+      "flight_no": "BA925",
+      "airline": "British Airways",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal B/C",
       "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "104-105",
+      "terminal": "C",
+      "gate": "C40",
+      "checkin": "140-142",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 30
-    },
-    {
-      "dt": 1792042200.0,
-      "time_scheduled": "07:30",
-      "time_estimated": "07:44",
-      "flight_no": "EW9440",
-      "airline": "Eurowings",
-      "city": "Barcelona",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A45",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
+      "delay": 92
     },
     {
       "dt": 1792042200.0,
@@ -390,7 +373,7 @@
       "gate": "A63",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -407,7 +390,7 @@
       "gate": "A66",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -795,7 +778,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A80",
+      "gate": "A79",
       "checkin": "151-168",
       "status": "scheduled",
       "status_text": "",
@@ -999,8 +982,8 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C31",
-      "checkin": "204-206",
+      "gate": "C42",
+      "checkin": "203-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1050,7 +1033,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C42",
+      "gate": "C31",
       "checkin": "195-197",
       "status": "scheduled",
       "status_text": "",
