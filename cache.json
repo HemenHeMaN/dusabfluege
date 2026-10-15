@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 06:30",
+  "updated_at": "15.10.2026 06:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -253,8 +253,8 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -287,8 +287,8 @@
       "terminal": "B",
       "gate": "B42B",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -338,8 +338,8 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -372,8 +372,8 @@
       "terminal": "B",
       "gate": "B58",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -458,7 +458,7 @@
       "gate": "A48",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -475,7 +475,7 @@
       "gate": "A52",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "A79",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -729,8 +729,8 @@
       "terminal": "A",
       "gate": "A26",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -746,8 +746,8 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -780,8 +780,8 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -831,8 +831,8 @@
       "terminal": "A",
       "gate": "A28",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -900,7 +900,7 @@
       "gate": "C45",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -951,7 +951,7 @@
       "gate": "A33",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1135,7 +1135,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A49",
+      "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1390,7 +1390,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C40",
+      "gate": "C37",
       "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
@@ -1526,7 +1526,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C37",
+      "gate": "C31",
       "checkin": "192-193",
       "status": "scheduled",
       "status_text": "",
@@ -1611,7 +1611,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C31",
+      "gate": "C40",
       "checkin": "140-142",
       "status": "scheduled",
       "status_text": "",
@@ -3755,6 +3755,23 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792082100.0,
+      "time_scheduled": "18:35",
+      "time_estimated": "18:35",
+      "flight_no": "EW9344",
+      "airline": "Eurowings",
+      "city": "Manchester",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A81",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
