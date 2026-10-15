@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 07:50",
+  "updated_at": "15.10.2026 07:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -20,23 +20,6 @@
       "delay": 52
     },
     {
-      "dt": 1792038000.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:52",
-      "flight_no": "LH2031",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 32
-    },
-    {
       "dt": 1792038600.0,
       "time_scheduled": "06:30",
       "time_estimated": "08:05",
@@ -52,23 +35,6 @@
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
       "delay": 95
-    },
-    {
-      "dt": 1792038900.0,
-      "time_scheduled": "06:35",
-      "time_estimated": "06:54",
-      "flight_no": "EW9860",
-      "airline": "Eurowings",
-      "city": "Neapel",
-      "country": "Italien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A44",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
     },
     {
       "dt": 1792038900.0,
@@ -696,7 +662,7 @@
       "gate": "C52",
       "checkin": "192-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -712,8 +678,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -729,8 +695,8 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -3687,6 +3653,23 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "103-105",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792086900.0,
+      "time_scheduled": "19:55",
+      "time_estimated": "19:55",
+      "flight_no": "IB756",
+      "airline": "Iberia",
+      "city": "Madrid-Barajas",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "143-145",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
