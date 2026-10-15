@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 03:30",
+  "updated_at": "15.10.2026 03:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -64,7 +64,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B79",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -421,7 +421,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B80",
+      "gate": "B30",
       "checkin": "145-147",
       "status": "scheduled",
       "status_text": "",
@@ -710,7 +710,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B78",
+      "gate": "B38",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
