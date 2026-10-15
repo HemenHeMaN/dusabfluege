@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 05:25",
+  "updated_at": "15.10.2026 05:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -134,8 +134,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -219,8 +219,8 @@
       "terminal": "B",
       "gate": "B72",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -271,7 +271,7 @@
       "gate": "A54",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -304,8 +304,8 @@
       "terminal": "A",
       "gate": "A65A",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -373,7 +373,7 @@
       "gate": "B58",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -390,7 +390,7 @@
       "gate": "B26",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -2815,10 +2815,10 @@
       "airline": "Eurowings",
       "city": "Malaga",
       "country": "Spanien",
-      "type": "Terminal B/C",
+      "type": "Terminal A",
       "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B74",
+      "terminal": "A",
+      "gate": "A40",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3175,7 +3175,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A54",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3243,7 +3243,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A54",
+      "gate": "A46",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3464,7 +3464,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A46",
+      "gate": "A45",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
