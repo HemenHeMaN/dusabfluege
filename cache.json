@@ -1,24 +1,7 @@
 {
-  "updated_at": "15.10.2026 19:50",
+  "updated_at": "15.10.2026 19:55",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792073100.0,
-      "time_scheduled": "16:05",
-      "time_estimated": "18:54",
-      "flight_no": "RJ130",
-      "airline": "Royal Jordanian",
-      "city": "Amman-Queen Alia",
-      "country": "Jordanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "192-195",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 169
-    },
     {
       "dt": 1792075800.0,
       "time_scheduled": "16:50",
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 54
-    },
-    {
-      "dt": 1792082700.0,
-      "time_scheduled": "18:45",
-      "time_estimated": "18:53",
-      "flight_no": "EW9088",
-      "airline": "Eurowings",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
     },
     {
       "dt": 1792082700.0,
@@ -158,7 +124,7 @@
     {
       "dt": 1792083600.0,
       "time_scheduled": "19:00",
-      "time_estimated": "19:40",
+      "time_estimated": "19:55",
       "flight_no": "EW9416",
       "airline": "Eurowings",
       "city": "Lyon",
@@ -168,9 +134,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 40
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 55
     },
     {
       "dt": 1792083600.0,
@@ -311,7 +277,7 @@
     {
       "dt": 1792086000.0,
       "time_scheduled": "19:40",
-      "time_estimated": "19:40",
+      "time_estimated": "19:51",
       "flight_no": "EW9022",
       "airline": "Eurowings",
       "city": "Dresden",
@@ -321,9 +287,9 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792086300.0,
@@ -373,7 +339,7 @@
       "gate": "A40",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -389,8 +355,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "200-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -407,7 +373,7 @@
       "gate": "B71",
       "checkin": "149-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -1195,19 +1161,19 @@
     {
       "dt": 1792125600.0,
       "time_scheduled": "06:40",
-      "time_estimated": "06:40",
+      "time_estimated": "07:05",
       "flight_no": "EW9572",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
       "country": "Spanien",
       "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A52",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1792125600.0,
@@ -1254,7 +1220,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A56",
+      "gate": "A48",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1271,7 +1237,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A48",
+      "gate": "A56",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1305,7 +1271,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A33",
+      "gate": "A52",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1337,9 +1303,9 @@
       "city": "Faro",
       "country": "Portugal",
       "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A33",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1681,6 +1647,23 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "261-263",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792130100.0,
+      "time_scheduled": "07:55",
+      "time_estimated": "07:55",
+      "flight_no": "DE1848",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
