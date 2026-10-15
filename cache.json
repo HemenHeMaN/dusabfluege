@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 12:35",
+  "updated_at": "15.10.2026 12:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -226,7 +226,7 @@
     {
       "dt": 1792059300.0,
       "time_scheduled": "12:15",
-      "time_estimated": "12:15",
+      "time_estimated": "12:35",
       "flight_no": "EW9580",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -236,9 +236,9 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 20
     },
     {
       "dt": 1792059300.0,
@@ -304,8 +304,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 20
     },
     {
@@ -389,8 +389,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "A72",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -611,7 +611,7 @@
       "gate": "A73",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1221,7 +1221,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C53",
-      "checkin": "141-143",
+      "checkin": "140-142",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1238,7 +1238,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C56",
-      "checkin": "137-138",
+      "checkin": "146-147",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1272,7 +1272,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C32",
-      "checkin": "144-146",
+      "checkin": "143-145",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -1459,7 +1459,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B80",
-      "checkin": "139-140",
+      "checkin": "137-138",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
