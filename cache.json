@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 11:00",
+  "updated_at": "15.10.2026 11:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 51
-    },
-    {
-      "dt": 1792050300.0,
-      "time_scheduled": "09:45",
-      "time_estimated": "10:01",
-      "flight_no": "VY1897",
-      "airline": "Vueling",
-      "city": "Barcelona",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B57",
-      "checkin": "143-144",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1792050600.0,
@@ -311,7 +294,7 @@
     {
       "dt": 1792053600.0,
       "time_scheduled": "10:40",
-      "time_estimated": "10:40",
+      "time_estimated": "11:02",
       "flight_no": "PC1008",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -321,14 +304,14 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1792053900.0,
       "time_scheduled": "10:45",
-      "time_estimated": "10:45",
+      "time_estimated": "11:00",
       "flight_no": "EW9008",
       "airline": "Eurowings",
       "city": "Sylt (Westerland)",
@@ -338,9 +321,9 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1792053900.0,
@@ -389,8 +372,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-168",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -407,7 +390,7 @@
       "gate": "C31",
       "checkin": "201-203",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +440,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -560,7 +543,7 @@
       "gate": "C40",
       "checkin": "169-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -662,7 +645,7 @@
       "gate": "B78",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
