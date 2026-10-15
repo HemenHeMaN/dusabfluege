@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 18:10",
+  "updated_at": "15.10.2026 18:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -66,26 +66,9 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 55
-    },
-    {
-      "dt": 1792075500.0,
-      "time_scheduled": "16:45",
-      "time_estimated": "17:11",
-      "flight_no": "AF1407",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 26
     },
     {
       "dt": 1792075800.0,
@@ -100,8 +83,8 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 110
     },
     {
@@ -294,7 +277,7 @@
     {
       "dt": 1792079100.0,
       "time_scheduled": "17:45",
-      "time_estimated": "17:45",
+      "time_estimated": "18:11",
       "flight_no": "TP543",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -304,9 +287,9 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "101-103",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1792079700.0,
@@ -389,8 +372,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +389,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -441,7 +424,7 @@
       "gate": "B80",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -644,8 +627,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1460,6 +1443,40 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792124100.0,
+      "time_scheduled": "06:15",
+      "time_estimated": "06:15",
+      "flight_no": "DE1420",
+      "airline": "Condor",
+      "city": "Lanzarote-Arrecife",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B37",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792124100.0,
+      "time_scheduled": "06:15",
+      "time_estimated": "06:15",
+      "flight_no": "DE868",
+      "airline": "Condor",
+      "city": "Beirut",
+      "country": "Libanon",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C36",
+      "checkin": "171-174",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
