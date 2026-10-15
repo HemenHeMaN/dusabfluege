@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 14:45",
+  "updated_at": "15.10.2026 14:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,40 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 47
-    },
-    {
-      "dt": 1792063500.0,
-      "time_scheduled": "13:25",
-      "time_estimated": "13:46",
-      "flight_no": "DE1142",
-      "airline": "Condor",
-      "city": "Lamezia Terme (Kalabrien)",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B28",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
-      "dt": 1792063800.0,
-      "time_scheduled": "13:30",
-      "time_estimated": "13:49",
-      "flight_no": "EW9394",
-      "airline": "Eurowings",
-      "city": "Dublin",
-      "country": "Irland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A72",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
     },
     {
       "dt": 1792063800.0,
@@ -236,8 +202,8 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 35
     },
     {
@@ -396,7 +362,7 @@
     {
       "dt": 1792067400.0,
       "time_scheduled": "14:30",
-      "time_estimated": "14:30",
+      "time_estimated": "14:50",
       "flight_no": "KK226",
       "airline": "LEAV Aviation",
       "city": "Rhodos",
@@ -406,9 +372,9 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "196-198",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 20
     },
     {
       "dt": 1792067700.0,
@@ -441,7 +407,7 @@
       "gate": "B78",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 25
     },
     {
@@ -458,7 +424,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -509,7 +475,7 @@
       "gate": "B77",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +492,7 @@
       "gate": "C36",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -593,8 +559,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -628,7 +594,7 @@
       "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 15
     },
     {
@@ -678,8 +644,8 @@
       "terminal": "A",
       "gate": "A52",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -695,8 +661,8 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -764,7 +730,7 @@
       "gate": "C53",
       "checkin": "137-139",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
