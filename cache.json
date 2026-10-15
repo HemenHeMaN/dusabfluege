@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 20:45",
+  "updated_at": "15.10.2026 20:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -186,13 +186,13 @@
       "gate": "B35",
       "checkin": "131-136",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 40
     },
     {
       "dt": 1792088100.0,
       "time_scheduled": "20:15",
-      "time_estimated": "20:15",
+      "time_estimated": "20:46",
       "flight_no": "VF030",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -202,9 +202,9 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "246-248",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 31
     },
     {
       "dt": 1792088100.0,
@@ -226,7 +226,7 @@
     {
       "dt": 1792088400.0,
       "time_scheduled": "20:20",
-      "time_estimated": "20:20",
+      "time_estimated": "20:47",
       "flight_no": "TK1522",
       "airline": "Turkish Airlines",
       "city": "Istanbul",
@@ -236,9 +236,9 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 28
     },
     {
       "dt": 1792088700.0,
@@ -321,8 +321,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -355,8 +355,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "174-176",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -373,7 +373,7 @@
       "gate": "C31",
       "checkin": "192-194",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -1562,6 +1562,57 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792133400.0,
+      "time_scheduled": "08:50",
+      "time_estimated": "08:50",
+      "flight_no": "EW9042",
+      "airline": "Eurowings",
+      "city": "Berlin-Brandenburg",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A25",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792133400.0,
+      "time_scheduled": "08:50",
+      "time_estimated": "08:50",
+      "flight_no": "EW4335",
+      "airline": "Eurowings",
+      "city": "Salzburg",
+      "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792133400.0,
+      "time_scheduled": "08:50",
+      "time_estimated": "08:50",
+      "flight_no": "EJU3942",
+      "airline": "Easy Jet Europe",
+      "city": "Mailand-Malpensa",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
