@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 05:10",
+  "updated_at": "15.10.2026 05:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -15,8 +15,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -66,8 +66,8 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -100,8 +100,8 @@
       "terminal": "B",
       "gate": "B42A",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -135,7 +135,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3398,6 +3398,23 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792077300.0,
+      "time_scheduled": "17:15",
+      "time_estimated": "17:15",
+      "flight_no": "EW8045",
+      "airline": "Eurowings",
+      "city": "Berlin-Brandenburg",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A39",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
