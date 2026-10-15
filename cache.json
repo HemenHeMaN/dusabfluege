@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 10:35",
+  "updated_at": "15.10.2026 10:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 22
-    },
-    {
-      "dt": 1792049700.0,
-      "time_scheduled": "09:35",
-      "time_estimated": "09:39",
-      "flight_no": "EW4673",
-      "airline": "Eurowings",
-      "city": "Stockholm-Arlanda",
-      "country": "Schweden",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A63",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 5
     },
     {
       "dt": 1792050000.0,
@@ -209,7 +192,7 @@
     {
       "dt": 1792052400.0,
       "time_scheduled": "10:20",
-      "time_estimated": "10:20",
+      "time_estimated": "10:37",
       "flight_no": "EY134",
       "airline": "Etihad Airways",
       "city": "Abu Dhabi",
@@ -219,9 +202,9 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "146-150",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1792052400.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1792052700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:25",
+      "time_estimated": "10:35",
       "flight_no": "LO404",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -270,9 +253,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792052700.0,
@@ -328,7 +311,7 @@
     {
       "dt": 1792053000.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:30",
+      "time_estimated": "10:38",
       "flight_no": "XR503",
       "airline": "Corendon Airlines Europe",
       "city": "Gran Canaria",
@@ -338,9 +321,9 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "173-175",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 9
     },
     {
       "dt": 1792053000.0,
@@ -355,8 +338,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -372,8 +355,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "140-142",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -390,7 +373,7 @@
       "gate": "C53",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +440,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-168",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -474,8 +457,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "201-203",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
