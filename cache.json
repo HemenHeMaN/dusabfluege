@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 17:55",
+  "updated_at": "15.10.2026 18:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -154,23 +154,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 19
-    },
-    {
-      "dt": 1792075800.0,
-      "time_scheduled": "16:50",
-      "time_estimated": "16:57",
-      "flight_no": "EW9754",
-      "airline": "Eurowings",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A50",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 7
     },
     {
       "dt": 1792075800.0,
@@ -345,7 +328,7 @@
     {
       "dt": 1792079100.0,
       "time_scheduled": "17:45",
-      "time_estimated": "17:45",
+      "time_estimated": "17:57",
       "flight_no": "EW9784",
       "airline": "Eurowings",
       "city": "Budapest",
@@ -355,9 +338,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 13
     },
     {
       "dt": 1792079100.0,
@@ -390,7 +373,7 @@
       "gate": "A33",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -406,9 +389,9 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "143-145",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 1
     },
     {
       "dt": 1792080300.0,
@@ -508,8 +491,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -576,8 +559,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -594,7 +577,7 @@
       "gate": "A63",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -781,7 +764,7 @@
       "gate": "B37",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1341,6 +1324,74 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792123200.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "X32116",
+      "airline": "Tuifly",
+      "city": "Fuerteventura",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B74",
+      "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792123200.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "X34104",
+      "airline": "Tuifly",
+      "city": "Heraklion (Kreta)",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B72",
+      "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792123200.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "X32312",
+      "airline": "Tuifly",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792123200.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "X3116",
+      "airline": "Tuifly",
+      "city": "Dalaman",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
