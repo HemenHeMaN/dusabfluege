@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 10:10",
+  "updated_at": "15.10.2026 10:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,7 +22,7 @@
     {
       "dt": 1792048800.0,
       "time_scheduled": "09:20",
-      "time_estimated": "09:20",
+      "time_estimated": "10:11",
       "flight_no": "QR088",
       "airline": "Qatar Airways",
       "city": "Doha",
@@ -32,9 +32,9 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "243-248",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 51
     },
     {
       "dt": 1792049100.0,
@@ -151,14 +151,14 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792051200.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
+      "time_estimated": "10:13",
       "flight_no": "EW9576",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -168,9 +168,9 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792051200.0,
@@ -236,8 +236,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -271,7 +271,7 @@
       "gate": "C42",
       "checkin": "146-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -288,7 +288,7 @@
       "gate": "B31",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -406,8 +406,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -509,7 +509,7 @@
       "gate": "A79",
       "checkin": "151-168",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -560,7 +560,7 @@
       "gate": "B27",
       "checkin": "131-136",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
