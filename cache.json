@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 05:50",
+  "updated_at": "15.10.2026 05:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -50,7 +50,7 @@
       "gate": "B37",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -83,8 +83,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -117,8 +117,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -152,7 +152,7 @@
       "gate": "B74",
       "checkin": "131-136",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -186,7 +186,7 @@
       "gate": "B33",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -203,7 +203,7 @@
       "gate": "B35",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -220,7 +220,7 @@
       "gate": "B72",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "A79",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -560,7 +560,7 @@
       "gate": "A83",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -696,7 +696,7 @@
       "gate": "A47",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1050,7 +1050,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C36",
+      "gate": "C37",
       "checkin": "198-206",
       "status": "scheduled",
       "status_text": "",
@@ -3534,6 +3534,40 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "101-103",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792079700.0,
+      "time_scheduled": "17:55",
+      "time_estimated": "17:55",
+      "flight_no": "EW9764",
+      "airline": "Eurowings",
+      "city": "Zürich",
+      "country": "Schweiz",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792079700.0,
+      "time_scheduled": "17:55",
+      "time_estimated": "17:55",
+      "flight_no": "OU423",
+      "airline": "Croatia Airlines",
+      "city": "Split",
+      "country": "Kroatien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "143-145",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
