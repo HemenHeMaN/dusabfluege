@@ -1,24 +1,7 @@
 {
-  "updated_at": "15.10.2026 12:30",
+  "updated_at": "15.10.2026 12:35",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792052700.0,
-      "time_scheduled": "10:25",
-      "time_estimated": "11:31",
-      "flight_no": "EI693",
-      "airline": "Aer Lingus",
-      "city": "Dublin",
-      "country": "Irland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "192-193",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 66
-    },
     {
       "dt": 1792055400.0,
       "time_scheduled": "11:10",
@@ -492,7 +475,7 @@
       "gate": "C32",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -608,7 +591,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C46",
+      "gate": "C40",
       "checkin": "141-143",
       "status": "scheduled",
       "status_text": "",
@@ -659,7 +642,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C40",
+      "gate": "C46",
       "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
