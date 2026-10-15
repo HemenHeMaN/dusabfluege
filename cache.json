@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 06:15",
+  "updated_at": "15.10.2026 06:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -141,7 +141,7 @@
     {
       "dt": 1792036800.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:00",
+      "time_estimated": "06:17",
       "flight_no": "X32312",
       "airline": "Tuifly",
       "city": "Palma de Mallorca",
@@ -151,9 +151,9 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792036800.0,
@@ -175,7 +175,7 @@
     {
       "dt": 1792036800.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:00",
+      "time_estimated": "06:18",
       "flight_no": "DE1780",
       "airline": "Condor",
       "city": "Preveza-Aktion",
@@ -185,9 +185,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1792036800.0,
@@ -270,8 +270,8 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -294,7 +294,7 @@
     {
       "dt": 1792037400.0,
       "time_scheduled": "06:10",
-      "time_estimated": "06:10",
+      "time_estimated": "06:16",
       "flight_no": "SK620",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -304,9 +304,9 @@
       "terminal": "A",
       "gate": "A65A",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 6
     },
     {
       "dt": 1792038000.0,
@@ -542,8 +542,8 @@
       "terminal": "A",
       "gate": "A53",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -576,8 +576,8 @@
       "terminal": "B",
       "gate": "B52",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -627,8 +627,8 @@
       "terminal": "B",
       "gate": "B36",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -661,8 +661,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -747,7 +747,7 @@
       "gate": "A80",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -781,7 +781,7 @@
       "gate": "A68A",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -849,7 +849,7 @@
       "gate": "A54",
       "checkin": "104-105",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -962,13 +962,13 @@
       "airline": "LEAV Aviation",
       "city": "Aleppo",
       "country": "Syrien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C53",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
       "checkin": "262-264",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "cancelled",
+      "status_text": "annulliert",
       "delay": 0
     },
     {
@@ -2577,10 +2577,10 @@
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
       "country": "Italien",
-      "type": "Terminal B/C",
+      "type": "Terminal A",
       "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B36",
+      "terminal": "A",
+      "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2614,7 +2614,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A83",
+      "gate": "A79",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2699,7 +2699,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B78",
+      "gate": "B73",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2750,7 +2750,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A50",
+      "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -2818,7 +2818,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3090,7 +3090,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A65",
+      "gate": "A49",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3286,7 +3286,7 @@
     {
       "dt": 1792075800.0,
       "time_scheduled": "16:50",
-      "time_estimated": "16:50",
+      "time_estimated": "17:50",
       "flight_no": "EW9444",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -3298,7 +3298,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 60
     },
     {
       "dt": 1792075800.0,
@@ -3636,6 +3636,23 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792081200.0,
+      "time_scheduled": "18:20",
+      "time_estimated": "18:20",
+      "flight_no": "XQ285",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "200-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
