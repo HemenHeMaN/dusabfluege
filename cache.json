@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 09:55",
+  "updated_at": "15.10.2026 10:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -141,7 +141,7 @@
     {
       "dt": 1792050000.0,
       "time_scheduled": "09:40",
-      "time_estimated": "09:40",
+      "time_estimated": "09:55",
       "flight_no": "OS162",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -151,9 +151,9 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1792050300.0,
@@ -203,7 +203,7 @@
       "gate": "B35",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -254,7 +254,7 @@
       "gate": "C45",
       "checkin": "201-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -288,7 +288,7 @@
       "gate": "A40",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -321,8 +321,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -370,10 +370,10 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C31",
+      "gate": "C46",
       "checkin": "192-193",
       "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status_text": "",
       "delay": 0
     },
     {
@@ -406,8 +406,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -474,8 +474,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -492,7 +492,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1339,7 +1339,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B35",
+      "gate": "B27",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1526,7 +1526,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B27",
+      "gate": "B35",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
