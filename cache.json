@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 08:20",
+  "updated_at": "15.10.2026 08:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,40 +18,6 @@
       "status": "boarding",
       "status_text": "Boarding beendet",
       "delay": 95
-    },
-    {
-      "dt": 1792038900.0,
-      "time_scheduled": "06:35",
-      "time_estimated": "07:21",
-      "flight_no": "EW9974",
-      "airline": "Eurowings",
-      "city": "Tel Aviv-Ben Gurion",
-      "country": "Israel",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C56",
-      "checkin": "148-150",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 46
-    },
-    {
-      "dt": 1792040100.0,
-      "time_scheduled": "06:55",
-      "time_estimated": "07:22",
-      "flight_no": "EW9568",
-      "airline": "Eurowings",
-      "city": "Sevilla",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A47",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 28
     },
     {
       "dt": 1792040400.0,
@@ -372,14 +338,14 @@
       "terminal": "C",
       "gate": "C52",
       "checkin": "192-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792044900.0,
       "time_scheduled": "08:15",
-      "time_estimated": "08:15",
+      "time_estimated": "08:23",
       "flight_no": "EW7061",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -389,9 +355,9 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1792044900.0,
@@ -423,8 +389,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -441,7 +407,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -3517,6 +3483,40 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792088700.0,
+      "time_scheduled": "20:25",
+      "time_estimated": "20:25",
+      "flight_no": "EW4677",
+      "airline": "Eurowings",
+      "city": "Stockholm-Arlanda",
+      "country": "Schweden",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A63",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792088700.0,
+      "time_scheduled": "20:25",
+      "time_estimated": "20:25",
+      "flight_no": "JU363",
+      "airline": "Air Serbia",
+      "city": "Belgrad",
+      "country": "Serbien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C57",
+      "checkin": "240-242",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
