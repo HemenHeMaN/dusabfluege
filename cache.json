@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 20:30",
+  "updated_at": "15.10.2026 20:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -253,14 +253,14 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "246-248",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792088100.0,
       "time_scheduled": "20:15",
-      "time_estimated": "20:15",
+      "time_estimated": "20:32",
       "flight_no": "LX1027",
       "airline": "Swiss",
       "city": "Zürich",
@@ -270,9 +270,9 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1792088400.0,
@@ -390,7 +390,7 @@
       "gate": "C36",
       "checkin": "200-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -407,7 +407,7 @@
       "gate": "C32",
       "checkin": "174-176",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -474,8 +474,8 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -491,8 +491,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "259-270",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
