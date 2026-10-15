@@ -1,41 +1,7 @@
 {
-  "updated_at": "15.10.2026 20:55",
+  "updated_at": "15.10.2026 21:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792083600.0,
-      "time_scheduled": "19:00",
-      "time_estimated": "19:58",
-      "flight_no": "XQ183",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "198-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 59
-    },
-    {
-      "dt": 1792085400.0,
-      "time_scheduled": "19:30",
-      "time_estimated": "19:57",
-      "flight_no": "XC105",
-      "airline": "Corendon Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C42",
-      "checkin": "171-173",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
-    },
     {
       "dt": 1792085700.0,
       "time_scheduled": "19:35",
@@ -151,8 +117,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "131-136",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 40
     },
     {
@@ -277,7 +243,7 @@
     {
       "dt": 1792089300.0,
       "time_scheduled": "20:35",
-      "time_estimated": "20:35",
+      "time_estimated": "21:00",
       "flight_no": "PC1666",
       "airline": "Pegasus Airlines",
       "city": "Gaziantep",
@@ -287,9 +253,9 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1792089600.0,
@@ -372,8 +338,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "141-142",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -390,7 +356,7 @@
       "gate": "B74",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -1596,6 +1562,23 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "131-136",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792134000.0,
+      "time_scheduled": "09:00",
+      "time_estimated": "09:00",
+      "flight_no": "XR401",
+      "airline": "Corendon Airlines Europe",
+      "city": "Heraklion (Kreta)",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "173-175",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
