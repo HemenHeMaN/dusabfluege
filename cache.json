@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 10:25",
+  "updated_at": "15.10.2026 10:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 9
-    },
-    {
-      "dt": 1792049400.0,
-      "time_scheduled": "09:30",
-      "time_estimated": "09:30",
-      "flight_no": "LH2005",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
-      "checkin": "",
-      "status": "cancelled",
-      "status_text": "annulliert",
-      "delay": 0
     },
     {
       "dt": 1792049400.0,
@@ -158,7 +141,7 @@
     {
       "dt": 1792051200.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
+      "time_estimated": "10:29",
       "flight_no": "XC243",
       "airline": "Corendon Airlines",
       "city": "Gazipaşa-Alanya",
@@ -168,9 +151,9 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "194-196",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 29
     },
     {
       "dt": 1792051200.0,
@@ -209,7 +192,7 @@
     {
       "dt": 1792051800.0,
       "time_scheduled": "10:10",
-      "time_estimated": "10:10",
+      "time_estimated": "10:27",
       "flight_no": "LH2007",
       "airline": "Lufthansa",
       "city": "München",
@@ -219,9 +202,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792051800.0,
@@ -287,8 +270,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 22
     },
     {
@@ -372,8 +355,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "173-175",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -407,7 +390,7 @@
       "gate": "C40",
       "checkin": "140-142",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -440,8 +423,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -458,7 +441,7 @@
       "gate": "C56",
       "checkin": "201-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +509,7 @@
       "gate": "A49",
       "checkin": "151-168",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1135,7 +1118,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A81",
+      "gate": "A73",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1186,7 +1169,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A63",
+      "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
