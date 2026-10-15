@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 16:35",
+  "updated_at": "15.10.2026 16:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 43
-    },
-    {
-      "dt": 1792069800.0,
-      "time_scheduled": "15:10",
-      "time_estimated": "15:38",
-      "flight_no": "LH075",
-      "airline": "Lufthansa",
-      "city": "Frankfurt",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A63",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 29
     },
     {
       "dt": 1792069800.0,
@@ -122,23 +105,6 @@
       "delay": 42
     },
     {
-      "dt": 1792070400.0,
-      "time_scheduled": "15:20",
-      "time_estimated": "15:36",
-      "flight_no": "EW9726",
-      "airline": "Eurowings",
-      "city": "Graz",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A52",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
-    },
-    {
       "dt": 1792070700.0,
       "time_scheduled": "15:25",
       "time_estimated": "16:06",
@@ -154,23 +120,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 42
-    },
-    {
-      "dt": 1792071000.0,
-      "time_scheduled": "15:30",
-      "time_estimated": "15:39",
-      "flight_no": "LH2017",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792071000.0,
@@ -205,23 +154,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 12
-    },
-    {
-      "dt": 1792071600.0,
-      "time_scheduled": "15:40",
-      "time_estimated": "15:40",
-      "flight_no": "ENT6062",
-      "airline": "Enter Air",
-      "city": "Pristina",
-      "country": "Kosovo",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C56",
-      "checkin": "146-147",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
     },
     {
       "dt": 1792071900.0,
@@ -379,7 +311,7 @@
     {
       "dt": 1792073700.0,
       "time_scheduled": "16:15",
-      "time_estimated": "16:15",
+      "time_estimated": "16:36",
       "flight_no": "EW9640",
       "airline": "Eurowings",
       "city": "Porto",
@@ -389,9 +321,9 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 21
     },
     {
       "dt": 1792074000.0,
@@ -423,8 +355,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -440,8 +372,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "141-142",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -464,7 +396,7 @@
     {
       "dt": 1792074600.0,
       "time_scheduled": "16:30",
-      "time_estimated": "16:30",
+      "time_estimated": "16:39",
       "flight_no": "LH2009",
       "airline": "Lufthansa",
       "city": "München",
@@ -474,9 +406,9 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 10
     },
     {
       "dt": 1792074600.0,
@@ -526,7 +458,7 @@
       "gate": "C42",
       "checkin": "196-198",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -713,7 +645,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -747,7 +679,7 @@
       "gate": "B35",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
