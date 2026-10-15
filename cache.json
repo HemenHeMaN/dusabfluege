@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 03:45",
+  "updated_at": "15.10.2026 03:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -1186,7 +1186,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B79",
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
@@ -1322,7 +1322,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B27",
+      "gate": "B57",
       "checkin": "143-144",
       "status": "scheduled",
       "status_text": "",
@@ -2308,7 +2308,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B79",
       "checkin": "144-146",
       "status": "scheduled",
       "status_text": "",
@@ -3007,6 +3007,23 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "144-146",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792072200.0,
+      "time_scheduled": "15:50",
+      "time_estimated": "15:50",
+      "flight_no": "SM2983",
+      "airline": "Air Cairo",
+      "city": "Marsa Alam",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "173-175",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
