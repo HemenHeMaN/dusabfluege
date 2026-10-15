@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 19:00",
+  "updated_at": "15.10.2026 19:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,7 +39,7 @@
     {
       "dt": 1792075800.0,
       "time_scheduled": "16:50",
-      "time_estimated": "18:50",
+      "time_estimated": "19:00",
       "flight_no": "EW9444",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -49,9 +49,9 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 120
+      "status": "scheduled",
+      "status_text": "rollt",
+      "delay": 130
     },
     {
       "dt": 1792077900.0,
@@ -338,8 +338,8 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "146-148",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -355,8 +355,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 20
     },
     {
@@ -576,8 +576,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1646,6 +1646,23 @@
       "type_source": "Airline",
       "terminal": "",
       "gate": "",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792127100.0,
+      "time_scheduled": "07:05",
+      "time_estimated": "07:05",
+      "flight_no": "EW9750",
+      "airline": "Eurowings",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A47",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
