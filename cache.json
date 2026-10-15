@@ -1,24 +1,7 @@
 {
-  "updated_at": "15.10.2026 16:05",
+  "updated_at": "15.10.2026 16:10",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792061100.0,
-      "time_scheduled": "12:45",
-      "time_estimated": "15:10",
-      "flight_no": "EW9672",
-      "airline": "Eurowings",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 146
-    },
     {
       "dt": 1792066500.0,
       "time_scheduled": "14:15",
@@ -103,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 45
-    },
-    {
-      "dt": 1792068900.0,
-      "time_scheduled": "14:55",
-      "time_estimated": "15:07",
-      "flight_no": "EW9636",
-      "airline": "Eurowings",
-      "city": "Kos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B77",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 13
     },
     {
       "dt": 1792068900.0,
@@ -311,7 +277,7 @@
     {
       "dt": 1792070700.0,
       "time_scheduled": "15:25",
-      "time_estimated": "15:25",
+      "time_estimated": "16:06",
       "flight_no": "EK056",
       "airline": "Emirates",
       "city": "Dubai",
@@ -321,9 +287,9 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "258-268",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 42
     },
     {
       "dt": 1792071000.0,
@@ -345,7 +311,7 @@
     {
       "dt": 1792071000.0,
       "time_scheduled": "15:30",
-      "time_estimated": "15:30",
+      "time_estimated": "16:08",
       "flight_no": "DE1778",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -355,9 +321,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 39
     },
     {
       "dt": 1792071600.0,
@@ -406,8 +372,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -424,7 +390,7 @@
       "gate": "C32",
       "checkin": "143-145",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -542,8 +508,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "246-248",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -593,8 +559,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -644,8 +610,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -661,8 +627,8 @@
       "terminal": "A",
       "gate": "A48",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -678,8 +644,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "270-271",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -778,7 +744,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C46",
+      "gate": "C37",
       "checkin": "148-150",
       "status": "scheduled",
       "status_text": "",
@@ -838,7 +804,7 @@
     {
       "dt": 1792077300.0,
       "time_scheduled": "17:15",
-      "time_estimated": "17:15",
+      "time_estimated": "17:40",
       "flight_no": "EW8045",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -850,7 +816,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1792077600.0,
@@ -1085,7 +1051,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C45",
-      "checkin": "200-206",
+      "checkin": "199-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
