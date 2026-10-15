@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 07:40",
+  "updated_at": "15.10.2026 07:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,23 +22,6 @@
     {
       "dt": 1792037400.0,
       "time_scheduled": "06:10",
-      "time_estimated": "06:42",
-      "flight_no": "EW9534",
-      "airline": "Eurowings",
-      "city": "Malaga",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A33",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 33
-    },
-    {
-      "dt": 1792037400.0,
-      "time_scheduled": "06:10",
       "time_estimated": "06:46",
       "flight_no": "EW9600",
       "airline": "Eurowings",
@@ -56,23 +39,6 @@
     {
       "dt": 1792038000.0,
       "time_scheduled": "06:20",
-      "time_estimated": "06:40",
-      "flight_no": "EW9612",
-      "airline": "Eurowings",
-      "city": "Korfu",
-      "country": "Griechenland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A45",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 21
-    },
-    {
-      "dt": 1792038000.0,
-      "time_scheduled": "06:20",
       "time_estimated": "06:52",
       "flight_no": "LH2031",
       "airline": "Lufthansa",
@@ -86,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 32
-    },
-    {
-      "dt": 1792038000.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:44",
-      "flight_no": "DE1434",
-      "airline": "Condor",
-      "city": "Gran Canaria",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B58",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 24
     },
     {
       "dt": 1792038600.0,
@@ -600,7 +549,7 @@
     {
       "dt": 1792041900.0,
       "time_scheduled": "07:25",
-      "time_estimated": "07:25",
+      "time_estimated": "07:40",
       "flight_no": "XQ1349",
       "airline": "Sun Express",
       "city": "Balikesir / Edremit",
@@ -610,14 +559,14 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "198-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1792042200.0,
       "time_scheduled": "07:30",
-      "time_estimated": "07:30",
+      "time_estimated": "07:44",
       "flight_no": "EW9440",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -627,9 +576,9 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792042200.0,
@@ -3738,6 +3687,23 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792086300.0,
+      "time_scheduled": "19:45",
+      "time_estimated": "19:45",
+      "flight_no": "LO408",
+      "airline": "LOT Polish Airlines",
+      "city": "Warschau",
+      "country": "Polen",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A66",
+      "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
