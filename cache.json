@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 03:55",
+  "updated_at": "15.10.2026 04:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -3024,6 +3024,23 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "173-175",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792072800.0,
+      "time_scheduled": "16:00",
+      "time_estimated": "16:00",
+      "flight_no": "EW9466",
+      "airline": "Eurowings",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A80",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
