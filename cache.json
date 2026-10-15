@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 10:05",
+  "updated_at": "15.10.2026 10:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -186,7 +186,7 @@
       "gate": "C46",
       "checkin": "194-196",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -219,8 +219,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "201-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -322,7 +322,7 @@
       "gate": "A25",
       "checkin": "103-105",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -339,7 +339,7 @@
       "gate": "C46",
       "checkin": "192-193",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -355,8 +355,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -390,7 +390,7 @@
       "gate": "B80",
       "checkin": "173-175",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -895,9 +895,9 @@
       "city": "Larnaca (Zypern)",
       "country": "Zypern",
       "type": "Terminal B/C",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1101,7 +1101,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C46",
+      "gate": "C42",
       "checkin": "192-194",
       "status": "scheduled",
       "status_text": "",
@@ -1186,7 +1186,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C42",
+      "gate": "C45",
       "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
@@ -1356,7 +1356,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C45",
+      "gate": "C46",
       "checkin": "137-139",
       "status": "scheduled",
       "status_text": "",
