@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 18:55",
+  "updated_at": "15.10.2026 19:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,23 +73,6 @@
     {
       "dt": 1792079100.0,
       "time_scheduled": "17:45",
-      "time_estimated": "17:57",
-      "flight_no": "EW9784",
-      "airline": "Eurowings",
-      "city": "Budapest",
-      "country": "Ungarn",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 13
-    },
-    {
-      "dt": 1792079100.0,
-      "time_scheduled": "17:45",
       "time_estimated": "18:11",
       "flight_no": "TP543",
       "airline": "TAP Portugal",
@@ -120,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 33
-    },
-    {
-      "dt": 1792079700.0,
-      "time_scheduled": "17:55",
-      "time_estimated": "17:55",
-      "flight_no": "OU423",
-      "airline": "Croatia Airlines",
-      "city": "Split",
-      "country": "Kroatien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B27",
-      "checkin": "143-145",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 1
     },
     {
       "dt": 1792080300.0,
@@ -396,7 +362,7 @@
     {
       "dt": 1792082700.0,
       "time_scheduled": "18:45",
-      "time_estimated": "18:45",
+      "time_estimated": "18:57",
       "flight_no": "AY1396",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -406,14 +372,14 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 12
     },
     {
       "dt": 1792083000.0,
       "time_scheduled": "18:50",
-      "time_estimated": "18:50",
+      "time_estimated": "19:00",
       "flight_no": "EW9334",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -423,9 +389,9 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792083000.0,
@@ -492,7 +458,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +492,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -542,8 +508,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -642,7 +608,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B79",
+      "gate": "B73",
       "checkin": "143-145",
       "status": "scheduled",
       "status_text": "",
@@ -1613,6 +1579,74 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792126800.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "EW9642",
+      "airline": "Eurowings",
+      "city": "Faro",
+      "country": "Portugal",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792126800.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "EW9082",
+      "airline": "Eurowings",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792126800.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "EW9462",
+      "airline": "Eurowings",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A81",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792126800.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "EW9538",
+      "airline": "Eurowings",
+      "city": "Valencia",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
