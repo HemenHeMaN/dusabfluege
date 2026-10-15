@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 11:35",
+  "updated_at": "15.10.2026 11:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -20,23 +20,6 @@
       "delay": 72
     },
     {
-      "dt": 1792052400.0,
-      "time_scheduled": "10:20",
-      "time_estimated": "10:37",
-      "flight_no": "EY134",
-      "airline": "Etihad Airways",
-      "city": "Abu Dhabi",
-      "country": "VAE",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C42",
-      "checkin": "146-150",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
-    },
-    {
       "dt": 1792052700.0,
       "time_scheduled": "10:25",
       "time_estimated": "10:57",
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 33
-    },
-    {
-      "dt": 1792052700.0,
-      "time_scheduled": "10:25",
-      "time_estimated": "10:35",
-      "flight_no": "LO404",
-      "airline": "LOT Polish Airlines",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "103-105",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
     },
     {
       "dt": 1792052700.0,
@@ -120,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 39
-    },
-    {
-      "dt": 1792053000.0,
-      "time_scheduled": "10:30",
-      "time_estimated": "10:38",
-      "flight_no": "XR503",
-      "airline": "Corendon Airlines Europe",
-      "city": "Gran Canaria",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B80",
-      "checkin": "173-175",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 9
     },
     {
       "dt": 1792053000.0,
@@ -270,14 +219,14 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "201-203",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792055700.0,
       "time_scheduled": "11:15",
-      "time_estimated": "11:50",
+      "time_estimated": "12:00",
       "flight_no": "EW9084",
       "airline": "Eurowings",
       "city": "München",
@@ -289,7 +238,7 @@
       "checkin": "151-168",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 35
+      "delay": 45
     },
     {
       "dt": 1792055700.0,
@@ -338,8 +287,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "198-200",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -356,7 +305,7 @@
       "gate": "B75",
       "checkin": "143-145",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -373,7 +322,7 @@
       "gate": "B33",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 10
     },
     {
@@ -390,7 +339,7 @@
       "gate": "B29",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -458,7 +407,7 @@
       "gate": "C42",
       "checkin": "203-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +474,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -557,7 +506,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B57",
+      "gate": "B79",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -608,10 +557,10 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B27",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
