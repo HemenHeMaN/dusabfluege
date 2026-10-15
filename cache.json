@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 18:35",
+  "updated_at": "15.10.2026 18:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -54,23 +54,6 @@
       "delay": 110
     },
     {
-      "dt": 1792075800.0,
-      "time_scheduled": "16:50",
-      "time_estimated": "17:38",
-      "flight_no": "SM2981",
-      "airline": "Air Cairo",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C37",
-      "checkin": "148-150",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 49
-    },
-    {
       "dt": 1792077000.0,
       "time_scheduled": "17:10",
       "time_estimated": "17:48",
@@ -120,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 36
-    },
-    {
-      "dt": 1792077600.0,
-      "time_scheduled": "17:20",
-      "time_estimated": "17:37",
-      "flight_no": "EW9810",
-      "airline": "Eurowings",
-      "city": "Venedig-Tessera",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B29",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1792077900.0,
@@ -345,7 +311,7 @@
     {
       "dt": 1792081500.0,
       "time_scheduled": "18:25",
-      "time_estimated": "18:25",
+      "time_estimated": "18:36",
       "flight_no": "EW9846",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -355,9 +321,9 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792081500.0,
@@ -440,8 +406,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 50
     },
     {
@@ -457,8 +423,8 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -526,7 +492,7 @@
       "gate": "B33",
       "checkin": "131-136",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -543,7 +509,7 @@
       "gate": "A80",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -662,7 +628,7 @@
       "gate": "B27",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -730,7 +696,7 @@
       "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1578,6 +1544,74 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A50",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792125600.0,
+      "time_scheduled": "06:40",
+      "time_estimated": "06:40",
+      "flight_no": "EW9570",
+      "airline": "Eurowings",
+      "city": "Jerez de la Frontera",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A65",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792125600.0,
+      "time_scheduled": "06:40",
+      "time_estimated": "06:40",
+      "flight_no": "EW9572",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A52",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792125600.0,
+      "time_scheduled": "06:40",
+      "time_estimated": "06:40",
+      "flight_no": "EW9340",
+      "airline": "Eurowings",
+      "city": "Manchester",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A82",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792125600.0,
+      "time_scheduled": "06:40",
+      "time_estimated": "06:40",
+      "flight_no": "EW9330",
+      "airline": "Eurowings",
+      "city": "Birmingham",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A83",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
