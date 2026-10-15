@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 16:20",
+  "updated_at": "15.10.2026 16:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 58
-    },
-    {
-      "dt": 1792068600.0,
-      "time_scheduled": "14:50",
-      "time_estimated": "15:22",
-      "flight_no": "LX1019",
-      "airline": "Swiss",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A48",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 32
     },
     {
       "dt": 1792068600.0,
@@ -423,8 +406,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +458,7 @@
       "gate": "C36",
       "checkin": "200-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -543,7 +526,7 @@
       "gate": "A63",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -560,7 +543,7 @@
       "gate": "A48",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -661,8 +644,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -747,7 +730,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 25
     },
     {
