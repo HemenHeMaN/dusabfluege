@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 20:35",
+  "updated_at": "15.10.2026 20:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -86,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 27
-    },
-    {
-      "dt": 1792085400.0,
-      "time_scheduled": "19:30",
-      "time_estimated": "19:38",
-      "flight_no": "LH2023",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
     },
     {
       "dt": 1792085700.0,
@@ -192,7 +175,7 @@
     {
       "dt": 1792087500.0,
       "time_scheduled": "20:05",
-      "time_estimated": "20:05",
+      "time_estimated": "20:39",
       "flight_no": "XQ795",
       "airline": "Sun Express",
       "city": "Ankara-Esenboğa",
@@ -202,9 +185,9 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "200-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 35
     },
     {
       "dt": 1792087500.0,
@@ -321,14 +304,14 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "240-242",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
       "dt": 1792089000.0,
       "time_scheduled": "20:30",
-      "time_estimated": "20:30",
+      "time_estimated": "20:37",
       "flight_no": "LH2027",
       "airline": "Lufthansa",
       "city": "München",
@@ -338,9 +321,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 7
     },
     {
       "dt": 1792089000.0,
@@ -389,8 +372,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "200-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
