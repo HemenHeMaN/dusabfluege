@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 15:00",
+  "updated_at": "15.10.2026 15:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -32,43 +32,9 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 120
-    },
-    {
-      "dt": 1792062900.0,
-      "time_scheduled": "13:15",
-      "time_estimated": "14:01",
-      "flight_no": "DE1414",
-      "airline": "Condor",
-      "city": "Funchal (Madeira)",
-      "country": "Portugal",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 47
-    },
-    {
-      "dt": 1792064100.0,
-      "time_scheduled": "13:35",
-      "time_estimated": "14:03",
-      "flight_no": "IV8221",
-      "airline": "GP Aviation",
-      "city": "Pristina",
-      "country": "Kosovo",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "141-143",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 28
     },
     {
       "dt": 1792064700.0,
@@ -328,7 +294,7 @@
     {
       "dt": 1792068300.0,
       "time_scheduled": "14:45",
-      "time_estimated": "14:45",
+      "time_estimated": "15:02",
       "flight_no": "EW9046",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -338,9 +304,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792068600.0,
@@ -457,8 +423,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "199-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -475,7 +441,7 @@
       "gate": "A63",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -542,8 +508,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "242-245",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 25
     },
     {
@@ -610,8 +576,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -627,8 +593,8 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -644,8 +610,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "137-139",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -829,7 +795,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B35",
+      "gate": "B27",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -897,7 +863,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B75",
+      "gate": "B77",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -982,7 +948,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B27",
+      "gate": "B35",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1186,7 +1152,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B37",
+      "gate": "B35",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
