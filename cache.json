@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 21:40",
+  "updated_at": "15.10.2026 21:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -1562,6 +1562,23 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792136700.0,
+      "time_scheduled": "09:45",
+      "time_estimated": "09:45",
+      "flight_no": "VY1897",
+      "airline": "Vueling",
+      "city": "Barcelona",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "144-145",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
