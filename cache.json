@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 09:50",
+  "updated_at": "15.10.2026 09:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -66,8 +66,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "243-248",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -107,7 +107,7 @@
     {
       "dt": 1792049400.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
+      "time_estimated": "09:51",
       "flight_no": "XQ283",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -117,9 +117,9 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "199-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1792049700.0,
@@ -390,7 +390,7 @@
       "gate": "A39",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -457,8 +457,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "140-142",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -557,7 +557,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C46",
+      "gate": "C31",
       "checkin": "201-203",
       "status": "scheduled",
       "status_text": "",
