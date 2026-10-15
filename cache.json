@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 17:35",
+  "updated_at": "15.10.2026 17:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -71,23 +71,6 @@
       "delay": 45
     },
     {
-      "dt": 1792073700.0,
-      "time_scheduled": "16:15",
-      "time_estimated": "16:36",
-      "flight_no": "EW9640",
-      "airline": "Eurowings",
-      "city": "Porto",
-      "country": "Portugal",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B27",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 21
-    },
-    {
       "dt": 1792074000.0,
       "time_scheduled": "16:20",
       "time_estimated": "17:28",
@@ -154,23 +137,6 @@
       "status": "boarding",
       "status_text": "Boarding beendet",
       "delay": 55
-    },
-    {
-      "dt": 1792074600.0,
-      "time_scheduled": "16:30",
-      "time_estimated": "16:39",
-      "flight_no": "LH2009",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A63",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792074600.0,
@@ -294,7 +260,7 @@
     {
       "dt": 1792075800.0,
       "time_scheduled": "16:50",
-      "time_estimated": "16:50",
+      "time_estimated": "17:38",
       "flight_no": "SM2981",
       "airline": "Air Cairo",
       "city": "Hurghada",
@@ -304,9 +270,9 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "148-150",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 49
     },
     {
       "dt": 1792076400.0,
@@ -338,8 +304,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 30
     },
     {
@@ -372,14 +338,14 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 25
     },
     {
       "dt": 1792077600.0,
       "time_scheduled": "17:20",
-      "time_estimated": "17:20",
+      "time_estimated": "17:37",
       "flight_no": "EW9810",
       "airline": "Eurowings",
       "city": "Venedig-Tessera",
@@ -389,9 +355,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792077600.0,
@@ -440,8 +406,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -542,8 +508,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -576,8 +542,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -610,8 +576,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "198-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -628,7 +594,7 @@
       "gate": "B80",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -747,7 +713,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1084,7 +1050,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B37",
+      "gate": "B77",
       "checkin": "149-150",
       "status": "scheduled",
       "status_text": "",
@@ -1093,7 +1059,7 @@
     {
       "dt": 1792087800.0,
       "time_scheduled": "20:10",
-      "time_estimated": "20:10",
+      "time_estimated": "20:50",
       "flight_no": "A3843",
       "airline": "Aegean Airlines",
       "city": "Athen",
@@ -1101,11 +1067,11 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B75",
+      "gate": "B35",
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 40
     },
     {
       "dt": 1792088100.0,
