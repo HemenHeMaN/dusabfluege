@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 19:25",
+  "updated_at": "15.10.2026 19:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,23 +37,6 @@
       "delay": 147
     },
     {
-      "dt": 1792079700.0,
-      "time_scheduled": "17:55",
-      "time_estimated": "18:28",
-      "flight_no": "EW9764",
-      "airline": "Eurowings",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A33",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 33
-    },
-    {
       "dt": 1792080300.0,
       "time_scheduled": "18:05",
       "time_estimated": "18:34",
@@ -69,40 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 29
-    },
-    {
-      "dt": 1792080900.0,
-      "time_scheduled": "18:15",
-      "time_estimated": "18:26",
-      "flight_no": "EW9222",
-      "airline": "Eurowings",
-      "city": "Göteborg-Landvetter",
-      "country": "Schweden",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
-    },
-    {
-      "dt": 1792081200.0,
-      "time_scheduled": "18:20",
-      "time_estimated": "18:30",
-      "flight_no": "XQ285",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "198-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792081500.0,
@@ -338,8 +287,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 40
     },
     {
@@ -362,7 +311,7 @@
     {
       "dt": 1792083900.0,
       "time_scheduled": "19:05",
-      "time_estimated": "19:05",
+      "time_estimated": "19:26",
       "flight_no": "LX1025",
       "airline": "Swiss",
       "city": "Zürich",
@@ -372,14 +321,14 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1792084500.0,
       "time_scheduled": "19:15",
-      "time_estimated": "19:15",
+      "time_estimated": "19:30",
       "flight_no": "EW4203",
       "airline": "Eurowings",
       "city": "Prag",
@@ -391,7 +340,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1792084800.0,
@@ -413,7 +362,7 @@
     {
       "dt": 1792085100.0,
       "time_scheduled": "19:25",
-      "time_estimated": "19:25",
+      "time_estimated": "19:29",
       "flight_no": "AF1007",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -423,9 +372,9 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 4
     },
     {
       "dt": 1792085400.0,
@@ -441,7 +390,7 @@
       "gate": "C42",
       "checkin": "171-173",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +406,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -542,8 +491,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1800,6 +1749,57 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "192-195",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792128600.0,
+      "time_scheduled": "07:30",
+      "time_estimated": "07:30",
+      "flight_no": "EW9814",
+      "airline": "Eurowings",
+      "city": "Catania (Sizilien)",
+      "country": "Italien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A44",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792128600.0,
+      "time_scheduled": "07:30",
+      "time_estimated": "07:30",
+      "flight_no": "LH2035",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A46",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792128600.0,
+      "time_scheduled": "07:30",
+      "time_estimated": "07:30",
+      "flight_no": "KK490",
+      "airline": "LEAV Aviation",
+      "city": "Damaskus",
+      "country": "Syrien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C53",
+      "checkin": "261-263",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
