@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 09:15",
+  "updated_at": "15.10.2026 09:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,23 +39,6 @@
     {
       "dt": 1792044000.0,
       "time_scheduled": "08:00",
-      "time_estimated": "08:17",
-      "flight_no": "XQ3181",
-      "airline": "Sun Express",
-      "city": "Bodrum-Milas",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C54",
-      "checkin": "198-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
-    },
-    {
-      "dt": 1792044000.0,
-      "time_scheduled": "08:00",
       "time_estimated": "08:25",
       "flight_no": "XR6441",
       "airline": "Corendon Airlines Europe",
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 25
-    },
-    {
-      "dt": 1792044000.0,
-      "time_scheduled": "08:00",
-      "time_estimated": "08:16",
-      "flight_no": "XR6597",
-      "airline": "Corendon Airlines Europe",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C56",
-      "checkin": "174-176",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1792044300.0,
@@ -243,7 +209,7 @@
     {
       "dt": 1792048200.0,
       "time_scheduled": "09:10",
-      "time_estimated": "09:10",
+      "time_estimated": "09:18",
       "flight_no": "EJU3942",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -253,9 +219,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1792048800.0,
@@ -271,7 +237,7 @@
       "gate": "C31",
       "checkin": "243-248",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -322,7 +288,7 @@
       "gate": "C37",
       "checkin": "199-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
