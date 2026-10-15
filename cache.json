@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 05:15",
+  "updated_at": "15.10.2026 05:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -32,8 +32,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -49,8 +49,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -83,8 +83,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -169,7 +169,7 @@
       "gate": "B44A",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -236,8 +236,8 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -288,7 +288,7 @@
       "gate": "B42B",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -305,7 +305,7 @@
       "gate": "A65A",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3415,6 +3415,40 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792077600.0,
+      "time_scheduled": "17:20",
+      "time_estimated": "17:20",
+      "flight_no": "EW9810",
+      "airline": "Eurowings",
+      "city": "Venedig-Tessera",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792077600.0,
+      "time_scheduled": "17:20",
+      "time_estimated": "17:20",
+      "flight_no": "LH2019",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A49",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
