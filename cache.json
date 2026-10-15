@@ -1,24 +1,7 @@
 {
-  "updated_at": "15.10.2026 17:25",
+  "updated_at": "15.10.2026 17:30",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792066500.0,
-      "time_scheduled": "14:15",
-      "time_estimated": "16:26",
-      "flight_no": "XQ287",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "199-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 131
-    },
     {
       "dt": 1792071600.0,
       "time_scheduled": "15:40",
@@ -54,23 +37,6 @@
       "delay": 98
     },
     {
-      "dt": 1792072200.0,
-      "time_scheduled": "15:50",
-      "time_estimated": "16:30",
-      "flight_no": "SM2983",
-      "airline": "Air Cairo",
-      "city": "Marsa Alam",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "173-175",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 40
-    },
-    {
       "dt": 1792073100.0,
       "time_scheduled": "16:05",
       "time_estimated": "18:30",
@@ -86,23 +52,6 @@
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
       "delay": 145
-    },
-    {
-      "dt": 1792073100.0,
-      "time_scheduled": "16:05",
-      "time_estimated": "16:28",
-      "flight_no": "BT934",
-      "airline": "Air Baltic",
-      "city": "Vilnius",
-      "country": "Litauen",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "104-105",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 24
     },
     {
       "dt": 1792073400.0,
@@ -154,6 +103,23 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 21
+    },
+    {
+      "dt": 1792074000.0,
+      "time_scheduled": "16:20",
+      "time_estimated": "17:28",
+      "flight_no": "XQ989",
+      "airline": "Sun Express",
+      "city": "Izmir",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C36",
+      "checkin": "200-206",
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 69
     },
     {
       "dt": 1792074300.0,
@@ -379,7 +345,7 @@
     {
       "dt": 1792077000.0,
       "time_scheduled": "17:10",
-      "time_estimated": "17:10",
+      "time_estimated": "17:40",
       "flight_no": "EW9886",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -391,7 +357,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding",
-      "delay": 0
+      "delay": 30
     },
     {
       "dt": 1792077000.0,
@@ -440,8 +406,8 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -628,7 +594,7 @@
       "gate": "A44",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -889,7 +855,7 @@
     {
       "dt": 1792083600.0,
       "time_scheduled": "19:00",
-      "time_estimated": "19:00",
+      "time_estimated": "19:40",
       "flight_no": "EW9416",
       "airline": "Eurowings",
       "city": "Lyon",
@@ -901,7 +867,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 40
     },
     {
       "dt": 1792083600.0,
