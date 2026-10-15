@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 15:25",
+  "updated_at": "15.10.2026 15:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -355,8 +355,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 15
     },
     {
@@ -373,7 +373,7 @@
       "gate": "C57",
       "checkin": "199-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -424,7 +424,7 @@
       "gate": "C31",
       "checkin": "242-245",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 25
     },
     {
@@ -447,7 +447,7 @@
     {
       "dt": 1792070400.0,
       "time_scheduled": "15:20",
-      "time_estimated": "15:20",
+      "time_estimated": "15:27",
       "flight_no": "SK1622",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -457,9 +457,9 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1792070700.0,
@@ -491,8 +491,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -509,7 +509,7 @@
       "gate": "B29",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "C53",
       "checkin": "137-139",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -560,7 +560,7 @@
       "gate": "B76",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -610,8 +610,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -645,7 +645,7 @@
       "gate": "B37",
       "checkin": "104-105",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -679,7 +679,7 @@
       "gate": "B33",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
