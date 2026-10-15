@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 08:30",
+  "updated_at": "15.10.2026 08:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,23 +39,6 @@
     {
       "dt": 1792041000.0,
       "time_scheduled": "07:10",
-      "time_estimated": "07:32",
-      "flight_no": "EW9558",
-      "airline": "Eurowings",
-      "city": "Teneriffa Süd",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A46",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
-    },
-    {
-      "dt": 1792041000.0,
-      "time_scheduled": "07:10",
       "time_estimated": "07:36",
       "flight_no": "EW9242",
       "airline": "Eurowings",
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 30
-    },
-    {
-      "dt": 1792041600.0,
-      "time_scheduled": "07:20",
-      "time_estimated": "07:31",
-      "flight_no": "EW9546",
-      "airline": "Eurowings",
-      "city": "Fuerteventura",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
     },
     {
       "dt": 1792041600.0,
@@ -294,7 +260,7 @@
     {
       "dt": 1792044900.0,
       "time_scheduled": "08:15",
-      "time_estimated": "08:15",
+      "time_estimated": "08:32",
       "flight_no": "KL1798",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -304,14 +270,14 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1792045200.0,
       "time_scheduled": "08:20",
-      "time_estimated": "08:20",
+      "time_estimated": "08:31",
       "flight_no": "DE1848",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -321,9 +287,9 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792045800.0,
@@ -441,7 +407,7 @@
       "gate": "B77",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3483,6 +3449,23 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "195-198",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792089300.0,
+      "time_scheduled": "20:35",
+      "time_estimated": "20:35",
+      "flight_no": "PC1666",
+      "airline": "Pegasus Airlines",
+      "city": "Gaziantep",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C40",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
