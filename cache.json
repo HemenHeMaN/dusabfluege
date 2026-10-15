@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 05:30",
+  "updated_at": "15.10.2026 05:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -253,8 +253,8 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -287,8 +287,8 @@
       "terminal": "B",
       "gate": "B42B",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -322,7 +322,7 @@
       "gate": "B54",
       "checkin": "143-144",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1252,12 +1252,12 @@
       "city": "München",
       "country": "Deutschland",
       "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A65",
-      "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "",
+      "status": "cancelled",
+      "status_text": "annulliert",
       "delay": 0
     },
     {
@@ -3465,6 +3465,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A45",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792078500.0,
+      "time_scheduled": "17:35",
+      "time_estimated": "17:35",
+      "flight_no": "EW9834",
+      "airline": "Eurowings",
+      "city": "Bologna",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B37",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
