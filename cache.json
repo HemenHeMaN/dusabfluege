@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 06:20",
+  "updated_at": "15.10.2026 06:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -124,7 +124,7 @@
     {
       "dt": 1792036800.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:00",
+      "time_estimated": "06:21",
       "flight_no": "LH079",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -134,9 +134,9 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 21
     },
     {
       "dt": 1792036800.0,
@@ -158,7 +158,7 @@
     {
       "dt": 1792036800.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:00",
+      "time_estimated": "06:24",
       "flight_no": "X32914",
       "airline": "Tuifly",
       "city": "Ibiza",
@@ -168,9 +168,9 @@
       "terminal": "B",
       "gate": "B44A",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1792036800.0,
@@ -192,7 +192,7 @@
     {
       "dt": 1792036800.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:00",
+      "time_estimated": "06:23",
       "flight_no": "DE1612",
       "airline": "Condor",
       "city": "Korfu",
@@ -202,14 +202,14 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 23
     },
     {
       "dt": 1792037100.0,
       "time_scheduled": "06:05",
-      "time_estimated": "06:05",
+      "time_estimated": "06:20",
       "flight_no": "X32252",
       "airline": "Tuifly",
       "city": "Jerez de la Frontera",
@@ -219,9 +219,9 @@
       "terminal": "B",
       "gate": "B72",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1792037400.0,
@@ -254,7 +254,7 @@
       "gate": "A33",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -321,8 +321,8 @@
       "terminal": "B",
       "gate": "B54",
       "checkin": "143-144",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -339,7 +339,7 @@
       "gate": "A45",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -373,7 +373,7 @@
       "gate": "B58",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -610,8 +610,8 @@
       "terminal": "A",
       "gate": "A56",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -644,8 +644,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -695,8 +695,8 @@
       "terminal": "A",
       "gate": "A47",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -712,8 +712,8 @@
       "terminal": "B",
       "gate": "B38",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -832,7 +832,7 @@
       "gate": "A28",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -866,7 +866,7 @@
       "gate": "B32",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1762,9 +1762,9 @@
       "city": "Hurghada",
       "country": "Ägypten",
       "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -2920,7 +2920,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A49",
+      "gate": "A50",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -3172,10 +3172,10 @@
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
       "country": "Spanien",
-      "type": "Terminal A",
+      "type": "Terminal B/C",
       "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
+      "terminal": "B",
+      "gate": "B33",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3243,7 +3243,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A46",
+      "gate": "A54",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3294,7 +3294,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B33",
+      "gate": "B76",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3464,7 +3464,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A45",
+      "gate": "A46",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3498,7 +3498,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A54",
+      "gate": "A45",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3549,7 +3549,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A54",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3617,7 +3617,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A46",
+      "gate": "A44",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3653,6 +3653,57 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "200-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792081500.0,
+      "time_scheduled": "18:25",
+      "time_estimated": "18:25",
+      "flight_no": "EW9846",
+      "airline": "Eurowings",
+      "city": "Mailand-Linate",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792081500.0,
+      "time_scheduled": "18:25",
+      "time_estimated": "18:25",
+      "flight_no": "EW9468",
+      "airline": "Eurowings",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A79",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792081500.0,
+      "time_scheduled": "18:25",
+      "time_estimated": "18:25",
+      "flight_no": "BA923",
+      "airline": "British Airways",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C40",
+      "checkin": "140-142",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
