@@ -1,11 +1,11 @@
 {
-  "updated_at": "15.10.2026 16:25",
+  "updated_at": "15.10.2026 16:30",
   "source": "Dus.com",
   "flights": [
     {
       "dt": 1792066500.0,
       "time_scheduled": "14:15",
-      "time_estimated": "15:40",
+      "time_estimated": "16:26",
       "flight_no": "XQ287",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -15,9 +15,9 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "199-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 85
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 131
     },
     {
       "dt": 1792067700.0,
@@ -173,23 +173,6 @@
       "delay": 17
     },
     {
-      "dt": 1792070400.0,
-      "time_scheduled": "15:20",
-      "time_estimated": "15:27",
-      "flight_no": "SK1622",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A46",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
-    },
-    {
       "dt": 1792070700.0,
       "time_scheduled": "15:25",
       "time_estimated": "16:06",
@@ -311,7 +294,7 @@
     {
       "dt": 1792072200.0,
       "time_scheduled": "15:50",
-      "time_estimated": "15:50",
+      "time_estimated": "16:30",
       "flight_no": "SM2983",
       "airline": "Air Cairo",
       "city": "Marsa Alam",
@@ -321,9 +304,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "173-175",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 40
     },
     {
       "dt": 1792072800.0,
@@ -362,7 +345,7 @@
     {
       "dt": 1792073100.0,
       "time_scheduled": "16:05",
-      "time_estimated": "16:05",
+      "time_estimated": "16:28",
       "flight_no": "BT934",
       "airline": "Air Baltic",
       "city": "Vilnius",
@@ -372,9 +355,9 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "104-105",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 24
     },
     {
       "dt": 1792073400.0,
@@ -440,8 +423,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +458,7 @@
       "gate": "B35",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +508,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -593,8 +576,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +594,7 @@
       "gate": "B79",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 110
     },
     {
@@ -627,8 +610,8 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -676,10 +659,10 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A39",
+      "gate": "A66",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status_text": "",
       "delay": 0
     },
     {
@@ -696,7 +679,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -897,7 +880,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A66",
+      "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -999,7 +982,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A79",
+      "gate": "A72",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
