@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 12:00",
+  "updated_at": "15.10.2026 12:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -54,23 +54,6 @@
       "delay": 39
     },
     {
-      "dt": 1792053600.0,
-      "time_scheduled": "10:40",
-      "time_estimated": "11:02",
-      "flight_no": "PC1008",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C53",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
       "dt": 1792055100.0,
       "time_scheduled": "11:05",
       "time_estimated": "11:15",
@@ -117,8 +100,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-168",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 45
     },
     {
@@ -192,7 +175,7 @@
     {
       "dt": 1792056900.0,
       "time_scheduled": "11:35",
-      "time_estimated": "11:45",
+      "time_estimated": "12:03",
       "flight_no": "AF1607",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -202,14 +185,14 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 10
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 28
     },
     {
       "dt": 1792057200.0,
       "time_scheduled": "11:40",
-      "time_estimated": "11:40",
+      "time_estimated": "12:00",
       "flight_no": "EW9578",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -219,9 +202,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 21
     },
     {
       "dt": 1792057500.0,
@@ -322,7 +305,7 @@
       "gate": "A72",
       "checkin": "267-269",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
