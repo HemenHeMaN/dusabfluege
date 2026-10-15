@@ -1,5 +1,5 @@
 {
-  "updated_at": "15.10.2026 18:45",
+  "updated_at": "15.10.2026 18:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "boarding",
       "status_text": "Boarding",
       "delay": 120
-    },
-    {
-      "dt": 1792077000.0,
-      "time_scheduled": "17:10",
-      "time_estimated": "17:48",
-      "flight_no": "EW9886",
-      "airline": "Eurowings",
-      "city": "Rom-Fiumicino",
-      "country": "Italien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 39
     },
     {
       "dt": 1792077300.0,
@@ -379,7 +362,7 @@
     {
       "dt": 1792082100.0,
       "time_scheduled": "18:35",
-      "time_estimated": "18:35",
+      "time_estimated": "18:46",
       "flight_no": "EW9344",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -389,9 +372,9 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 12
     },
     {
       "dt": 1792082700.0,
@@ -424,7 +407,7 @@
       "gate": "B75",
       "checkin": "146-148",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +440,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "131-136",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -474,8 +457,8 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -492,7 +475,7 @@
       "gate": "C36",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -542,8 +525,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -628,7 +611,7 @@
       "gate": "A39",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1595,6 +1578,40 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A56",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792126200.0,
+      "time_scheduled": "06:50",
+      "time_estimated": "06:50",
+      "flight_no": "EW9782",
+      "airline": "Eurowings",
+      "city": "Budapest",
+      "country": "Ungarn",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A48",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792126200.0,
+      "time_scheduled": "06:50",
+      "time_estimated": "06:50",
+      "flight_no": "EW9424",
+      "airline": "Eurowings",
+      "city": "Marseille",
+      "country": "Frankreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A51",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
