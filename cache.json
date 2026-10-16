@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 09:55",
+  "updated_at": "16.10.2026 10:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -226,7 +226,7 @@
     {
       "dt": 1792136700.0,
       "time_scheduled": "09:45",
-      "time_estimated": "09:45",
+      "time_estimated": "09:59",
       "flight_no": "VY1897",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -236,9 +236,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "144-145",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792137000.0,
@@ -253,8 +253,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -270,8 +270,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -321,8 +321,8 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -356,7 +356,7 @@
       "gate": "C32",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -509,7 +509,7 @@
       "gate": "A39",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "B76",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 10
     },
     {
