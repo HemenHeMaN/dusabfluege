@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 04:15",
+  "updated_at": "16.10.2026 04:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -3227,6 +3227,40 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A42",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792160400.0,
+      "time_scheduled": "16:20",
+      "time_estimated": "16:20",
+      "flight_no": "XQ989",
+      "airline": "Sun Express",
+      "city": "Izmir",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C53",
+      "checkin": "201-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792160400.0,
+      "time_scheduled": "16:20",
+      "time_estimated": "16:20",
+      "flight_no": "EW9960",
+      "airline": "Eurowings",
+      "city": "Split",
+      "country": "Kroatien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A46",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
