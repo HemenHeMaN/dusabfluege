@@ -1,7 +1,24 @@
 {
-  "updated_at": "16.10.2026 12:35",
+  "updated_at": "16.10.2026 12:40",
   "source": "Dus.com",
   "flights": [
+    {
+      "dt": 1792133400.0,
+      "time_scheduled": "08:50",
+      "time_estimated": "12:36",
+      "flight_no": "EJU3942",
+      "airline": "Easy Jet Europe",
+      "city": "Mailand-Malpensa",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B34",
+      "checkin": "181-190",
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 227
+    },
     {
       "dt": 1792140300.0,
       "time_scheduled": "10:45",
@@ -424,7 +441,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -576,8 +593,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +628,7 @@
       "gate": "A81",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -889,7 +906,7 @@
     {
       "dt": 1792154100.0,
       "time_scheduled": "14:35",
-      "time_estimated": "14:35",
+      "time_estimated": "15:15",
       "flight_no": "EW9416",
       "airline": "Eurowings",
       "city": "Lyon",
@@ -901,7 +918,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 40
     },
     {
       "dt": 1792154100.0,
@@ -1195,7 +1212,7 @@
     {
       "dt": 1792156500.0,
       "time_scheduled": "15:15",
-      "time_estimated": "15:15",
+      "time_estimated": "15:50",
       "flight_no": "H7404",
       "airline": "Hi Sky",
       "city": "Chisinau",
@@ -1207,7 +1224,7 @@
       "checkin": "168-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 35
     },
     {
       "dt": 1792156800.0,
