@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 07:20",
+  "updated_at": "16.10.2026 07:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,53 +22,19 @@
     {
       "dt": 1792123500.0,
       "time_scheduled": "06:05",
-      "time_estimated": "06:22",
-      "flight_no": "SK620",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Terminal A",
+      "time_estimated": "07:23",
+      "flight_no": "XR405",
+      "airline": "Corendon Airlines Europe",
+      "city": "Rhodos",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
       "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "111-120",
+      "terminal": "B",
+      "gate": "B28",
+      "checkin": "144-146",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 18
-    },
-    {
-      "dt": 1792123800.0,
-      "time_scheduled": "06:10",
-      "time_estimated": "06:23",
-      "flight_no": "EW9534",
-      "airline": "Eurowings",
-      "city": "Malaga",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
-    },
-    {
-      "dt": 1792123800.0,
-      "time_scheduled": "06:10",
-      "time_estimated": "06:21",
-      "flight_no": "EW9500",
-      "airline": "Eurowings",
-      "city": "Ibiza",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
+      "delay": 78
     },
     {
       "dt": 1792123800.0,
@@ -120,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 19
-    },
-    {
-      "dt": 1792124100.0,
-      "time_scheduled": "06:15",
-      "time_estimated": "06:24",
-      "flight_no": "DE868",
-      "airline": "Condor",
-      "city": "Beirut",
-      "country": "Libanon",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "171-174",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792124400.0,
@@ -464,7 +413,7 @@
     {
       "dt": 1792126800.0,
       "time_scheduled": "07:00",
-      "time_estimated": "07:00",
+      "time_estimated": "07:21",
       "flight_no": "EW9642",
       "airline": "Eurowings",
       "city": "Faro",
@@ -474,9 +423,9 @@
       "terminal": "B",
       "gate": "B42B",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1792126800.0,
@@ -549,7 +498,7 @@
     {
       "dt": 1792127400.0,
       "time_scheduled": "07:10",
-      "time_estimated": "07:10",
+      "time_estimated": "07:24",
       "flight_no": "EW9242",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -559,9 +508,9 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792127400.0,
@@ -627,8 +576,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -644,8 +593,8 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "104-105",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -729,8 +678,8 @@
       "terminal": "A",
       "gate": "A68",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -747,7 +696,7 @@
       "gate": "B78",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -3891,6 +3840,40 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792171500.0,
+      "time_scheduled": "19:25",
+      "time_estimated": "19:25",
+      "flight_no": "PC5306",
+      "airline": "Pegasus Airlines",
+      "city": "Izmir",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792171500.0,
+      "time_scheduled": "19:25",
+      "time_estimated": "19:25",
+      "flight_no": "AF1007",
+      "airline": "Air France",
+      "city": "Paris-Charles de Gaulle",
+      "country": "Frankreich",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B57",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
