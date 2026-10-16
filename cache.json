@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 17:50",
+  "updated_at": "16.10.2026 18:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 78
-    },
-    {
-      "dt": 1792158600.0,
-      "time_scheduled": "15:50",
-      "time_estimated": "16:58",
-      "flight_no": "XR417",
-      "airline": "Corendon Airlines Europe",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B26",
-      "checkin": "195-197",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 69
     },
     {
       "dt": 1792159200.0,
@@ -139,23 +122,6 @@
       "delay": 39
     },
     {
-      "dt": 1792161900.0,
-      "time_scheduled": "16:45",
-      "time_estimated": "16:53",
-      "flight_no": "AF1407",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B78",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
-    },
-    {
       "dt": 1792162200.0,
       "time_scheduled": "16:50",
       "time_estimated": "17:29",
@@ -171,6 +137,23 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 39
+    },
+    {
+      "dt": 1792162200.0,
+      "time_scheduled": "16:50",
+      "time_estimated": "17:58",
+      "flight_no": "SM2981",
+      "airline": "Air Cairo",
+      "city": "Hurghada",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C37",
+      "checkin": "242-244",
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 69
     },
     {
       "dt": 1792162200.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1792163400.0,
       "time_scheduled": "17:10",
-      "time_estimated": "17:10",
+      "time_estimated": "18:00",
       "flight_no": "DE1516",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -270,9 +253,9 @@
       "terminal": "B",
       "gate": "B72",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 51
     },
     {
       "dt": 1792163700.0,
@@ -287,8 +270,8 @@
       "terminal": "B",
       "gate": "B26",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 60
     },
     {
@@ -304,8 +287,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -328,7 +311,7 @@
     {
       "dt": 1792164300.0,
       "time_scheduled": "17:25",
-      "time_estimated": "17:25",
+      "time_estimated": "17:50",
       "flight_no": "EW9886",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -338,9 +321,9 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 26
     },
     {
       "dt": 1792165200.0,
@@ -356,13 +339,13 @@
       "gate": "A31",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
       "dt": 1792165200.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:40",
+      "time_estimated": "17:54",
       "flight_no": "EW9756",
       "airline": "Eurowings",
       "city": "Wien",
@@ -372,14 +355,14 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1792165500.0,
       "time_scheduled": "17:45",
-      "time_estimated": "17:45",
+      "time_estimated": "17:56",
       "flight_no": "EW9784",
       "airline": "Eurowings",
       "city": "Budapest",
@@ -389,9 +372,9 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 12
     },
     {
       "dt": 1792165500.0,
@@ -407,7 +390,7 @@
       "gate": "A50",
       "checkin": "103-105",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "148-150",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -440,8 +423,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "260-262",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -491,8 +474,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "246-248",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -508,8 +491,8 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 20
     },
     {
@@ -542,8 +525,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -559,8 +542,8 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -576,8 +559,8 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -645,7 +628,7 @@
       "gate": "A25",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -678,8 +661,8 @@
       "terminal": "A",
       "gate": "A83",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -764,7 +747,7 @@
       "gate": "B31",
       "checkin": "145-147",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -798,7 +781,7 @@
       "gate": "A66",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1511,6 +1494,74 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792209600.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "EW9572",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A45",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792209600.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "LH079",
+      "airline": "Lufthansa",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A44",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792209600.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "X32116",
+      "airline": "Tuifly",
+      "city": "Fuerteventura",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792209600.0,
+      "time_scheduled": "06:00",
+      "time_estimated": "06:00",
+      "flight_no": "DE1684",
+      "airline": "Condor",
+      "city": "Larnaca (Zypern)",
+      "country": "Zypern",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C36",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
