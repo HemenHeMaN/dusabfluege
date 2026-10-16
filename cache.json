@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 10:45",
+  "updated_at": "16.10.2026 10:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,40 +37,6 @@
       "delay": 49
     },
     {
-      "dt": 1792135500.0,
-      "time_scheduled": "09:25",
-      "time_estimated": "09:48",
-      "flight_no": "AF1307",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B27",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
-    },
-    {
-      "dt": 1792135800.0,
-      "time_scheduled": "09:30",
-      "time_estimated": "09:46",
-      "flight_no": "JU361",
-      "airline": "Air Serbia",
-      "city": "Belgrad",
-      "country": "Serbien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C56",
-      "checkin": "263-265",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
-    },
-    {
       "dt": 1792136100.0,
       "time_scheduled": "09:35",
       "time_estimated": "10:01",
@@ -86,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 26
-    },
-    {
-      "dt": 1792136400.0,
-      "time_scheduled": "09:40",
-      "time_estimated": "09:49",
-      "flight_no": "OS162",
-      "airline": "Austrian Airlines",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A63",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792136700.0,
@@ -362,7 +311,7 @@
     {
       "dt": 1792140000.0,
       "time_scheduled": "10:40",
-      "time_estimated": "10:40",
+      "time_estimated": "10:48",
       "flight_no": "PC1008",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -372,14 +321,14 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1792140000.0,
       "time_scheduled": "10:40",
-      "time_estimated": "10:40",
+      "time_estimated": "10:49",
       "flight_no": "LH073",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -389,9 +338,9 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 10
     },
     {
       "dt": 1792140300.0,
@@ -491,14 +440,14 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 10
     },
     {
       "dt": 1792142100.0,
       "time_scheduled": "11:15",
-      "time_estimated": "12:30",
+      "time_estimated": "13:05",
       "flight_no": "EW9884",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -510,7 +459,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 75
+      "delay": 110
     },
     {
       "dt": 1792142100.0,
@@ -525,8 +474,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "171-175",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -846,7 +795,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B57",
+      "gate": "B79",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -931,7 +880,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B27",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -1220,7 +1169,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B27",
+      "gate": "B29",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1441,7 +1390,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B78",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
@@ -1730,7 +1679,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B78",
+      "gate": "B29",
       "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
