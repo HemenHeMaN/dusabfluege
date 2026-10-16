@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 15:40",
+  "updated_at": "16.10.2026 15:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -243,7 +243,7 @@
     {
       "dt": 1792155900.0,
       "time_scheduled": "15:05",
-      "time_estimated": "15:35",
+      "time_estimated": "15:40",
       "flight_no": "EW9008",
       "airline": "Eurowings",
       "city": "Sylt (Westerland)",
@@ -253,9 +253,9 @@
       "terminal": "A",
       "gate": "A52",
       "checkin": "151-167",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 30
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 35
     },
     {
       "dt": 1792155900.0,
@@ -345,7 +345,7 @@
     {
       "dt": 1792156500.0,
       "time_scheduled": "15:15",
-      "time_estimated": "15:15",
+      "time_estimated": "15:41",
       "flight_no": "MS734",
       "airline": "Egypt Air",
       "city": "Kairo",
@@ -355,9 +355,9 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "146-150",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1792156500.0,
@@ -423,8 +423,8 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -457,8 +457,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 10
     },
     {
@@ -695,8 +695,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "201-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -712,8 +712,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1594,7 +1594,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A49",
+      "gate": "A63",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
