@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 03:25",
+  "updated_at": "16.10.2026 03:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -2990,6 +2990,40 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "257-267",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792157400.0,
+      "time_scheduled": "15:30",
+      "time_estimated": "15:30",
+      "flight_no": "LH2017",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A65",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792157400.0,
+      "time_scheduled": "15:30",
+      "time_estimated": "15:30",
+      "flight_no": "XR501",
+      "airline": "Corendon Airlines Europe",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
