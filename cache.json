@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 09:50",
+  "updated_at": "16.10.2026 09:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -67,25 +67,8 @@
       "gate": "B34",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 70
-    },
-    {
-      "dt": 1792133700.0,
-      "time_scheduled": "08:55",
-      "time_estimated": "08:54",
-      "flight_no": "AY1392",
-      "airline": "Finnair",
-      "city": "Helsinki",
-      "country": "Finnland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "131-136",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 0
     },
     {
       "dt": 1792134000.0,
@@ -107,7 +90,7 @@
     {
       "dt": 1792134300.0,
       "time_scheduled": "09:05",
-      "time_estimated": "09:05",
+      "time_estimated": "09:54",
       "flight_no": "ENT6062",
       "airline": "Enter Air",
       "city": "Pristina",
@@ -117,9 +100,9 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "259-260",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 49
     },
     {
       "dt": 1792135500.0,
@@ -390,7 +373,7 @@
       "gate": "A31",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -492,7 +475,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
