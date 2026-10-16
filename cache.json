@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 03:50",
+  "updated_at": "16.10.2026 03:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -3109,6 +3109,40 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "195-197",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792158900.0,
+      "time_scheduled": "15:55",
+      "time_estimated": "15:55",
+      "flight_no": "EW9510",
+      "airline": "Eurowings",
+      "city": "Madrid-Barajas",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B78",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792158900.0,
+      "time_scheduled": "15:55",
+      "time_estimated": "15:55",
+      "flight_no": "BJ2341",
+      "airline": "Nouvelair",
+      "city": "Djerba",
+      "country": "Tunesien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C40",
+      "checkin": "140-142",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
