@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 15:20",
+  "updated_at": "16.10.2026 15:25",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792151400.0,
-      "time_scheduled": "13:50",
-      "time_estimated": "14:21",
-      "flight_no": "EW9612",
-      "airline": "Eurowings",
-      "city": "Korfu",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B29",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 32
-    },
     {
       "dt": 1792151400.0,
       "time_scheduled": "13:50",
@@ -185,8 +168,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -277,7 +260,7 @@
     {
       "dt": 1792155900.0,
       "time_scheduled": "15:05",
-      "time_estimated": "15:05",
+      "time_estimated": "15:21",
       "flight_no": "EW9602",
       "airline": "Eurowings",
       "city": "Lissabon",
@@ -287,9 +270,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-167",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792155900.0,
@@ -475,7 +458,7 @@
       "gate": "B29",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,14 +474,14 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "256-267",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792157400.0,
       "time_scheduled": "15:30",
-      "time_estimated": "15:30",
+      "time_estimated": "15:40",
       "flight_no": "LH2017",
       "airline": "Lufthansa",
       "city": "München",
@@ -510,7 +493,7 @@
       "checkin": "111-120",
       "status": "boarding",
       "status_text": "Boarding",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1792157400.0,
@@ -525,8 +508,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -678,14 +661,14 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "143-146",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
       "dt": 1792160100.0,
       "time_scheduled": "16:15",
-      "time_estimated": "16:50",
+      "time_estimated": "17:05",
       "flight_no": "EW8045",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -697,7 +680,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 35
+      "delay": 50
     },
     {
       "dt": 1792160100.0,
@@ -1118,7 +1101,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C45",
+      "gate": "C42",
       "checkin": "260-262",
       "status": "scheduled",
       "status_text": "",
@@ -1152,7 +1135,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
