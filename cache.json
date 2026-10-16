@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 07:40",
+  "updated_at": "16.10.2026 07:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -593,8 +593,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "192-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -617,7 +617,7 @@
     {
       "dt": 1792128600.0,
       "time_scheduled": "07:30",
-      "time_estimated": "07:30",
+      "time_estimated": "07:44",
       "flight_no": "LH2035",
       "airline": "Lufthansa",
       "city": "München",
@@ -627,9 +627,9 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792128600.0,
@@ -662,7 +662,7 @@
       "gate": "B80",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -729,8 +729,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -804,7 +804,7 @@
     {
       "dt": 1792133400.0,
       "time_scheduled": "08:50",
-      "time_estimated": "08:50",
+      "time_estimated": "09:40",
       "flight_no": "EJU3942",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -816,7 +816,7 @@
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 50
     },
     {
       "dt": 1792133700.0,
@@ -3806,6 +3806,23 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792172700.0,
+      "time_scheduled": "19:45",
+      "time_estimated": "19:45",
+      "flight_no": "LO408",
+      "airline": "LOT Polish Airlines",
+      "city": "Warschau",
+      "country": "Polen",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A42",
+      "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
