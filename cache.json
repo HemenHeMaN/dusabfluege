@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 03:30",
+  "updated_at": "16.10.2026 03:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -3024,6 +3024,23 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "103-105",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792157700.0,
+      "time_scheduled": "15:35",
+      "time_estimated": "15:35",
+      "flight_no": "XC197",
+      "airline": "Corendon Airlines",
+      "city": "Izmir",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C52",
+      "checkin": "268-270",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
