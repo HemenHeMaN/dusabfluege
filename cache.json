@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 03:10",
+  "updated_at": "16.10.2026 03:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -2888,6 +2888,40 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "198-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792156500.0,
+      "time_scheduled": "15:15",
+      "time_estimated": "15:15",
+      "flight_no": "MS734",
+      "airline": "Egypt Air",
+      "city": "Kairo",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C36",
+      "checkin": "146-150",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792156500.0,
+      "time_scheduled": "15:15",
+      "time_estimated": "15:15",
+      "flight_no": "H7404",
+      "airline": "Hi Sky",
+      "city": "Chisinau",
+      "country": "Moldawien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C56",
+      "checkin": "168-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
