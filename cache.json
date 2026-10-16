@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 16:10",
+  "updated_at": "16.10.2026 16:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,7 +22,7 @@
     {
       "dt": 1792154100.0,
       "time_scheduled": "14:35",
-      "time_estimated": "16:00",
+      "time_estimated": "16:14",
       "flight_no": "EW9416",
       "airline": "Eurowings",
       "city": "Lyon",
@@ -32,14 +32,14 @@
       "terminal": "A",
       "gate": "A53",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 85
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 100
     },
     {
       "dt": 1792154100.0,
       "time_scheduled": "14:35",
-      "time_estimated": "15:15",
+      "time_estimated": "16:11",
       "flight_no": "EW9676",
       "airline": "Eurowings",
       "city": "Chania (Kreta)",
@@ -49,9 +49,9 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 40
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 96
     },
     {
       "dt": 1792154100.0,
@@ -69,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 74
-    },
-    {
-      "dt": 1792154100.0,
-      "time_scheduled": "14:35",
-      "time_estimated": "15:12",
-      "flight_no": "AF1507",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 37
     },
     {
       "dt": 1792154700.0,
@@ -137,23 +120,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 17
-    },
-    {
-      "dt": 1792155900.0,
-      "time_scheduled": "15:05",
-      "time_estimated": "15:13",
-      "flight_no": "EW4675",
-      "airline": "Eurowings",
-      "city": "Stockholm-Arlanda",
-      "country": "Schweden",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "151-167",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 9
     },
     {
       "dt": 1792155900.0,
@@ -458,7 +424,7 @@
       "gate": "B27",
       "checkin": "171-173",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -492,7 +458,7 @@
       "gate": "B26",
       "checkin": "195-197",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -508,8 +474,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -611,7 +577,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -628,7 +594,7 @@
       "gate": "C53",
       "checkin": "201-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -695,8 +661,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -795,7 +761,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B27",
+      "gate": "B75",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -846,7 +812,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B35",
+      "gate": "B27",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -1059,7 +1025,7 @@
     {
       "dt": 1792166700.0,
       "time_scheduled": "18:05",
-      "time_estimated": "18:05",
+      "time_estimated": "18:25",
       "flight_no": "EW9048",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -1071,7 +1037,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1792167300.0,
