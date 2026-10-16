@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 07:30",
+  "updated_at": "16.10.2026 07:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,40 +37,6 @@
       "delay": 57
     },
     {
-      "dt": 1792123800.0,
-      "time_scheduled": "06:10",
-      "time_estimated": "06:35",
-      "flight_no": "EW9530",
-      "airline": "Eurowings",
-      "city": "Alicante",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A45",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 25
-    },
-    {
-      "dt": 1792124100.0,
-      "time_scheduled": "06:15",
-      "time_estimated": "06:33",
-      "flight_no": "DE1420",
-      "airline": "Condor",
-      "city": "Lanzarote-Arrecife",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
-    },
-    {
       "dt": 1792124400.0,
       "time_scheduled": "06:20",
       "time_estimated": "06:37",
@@ -86,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 17
-    },
-    {
-      "dt": 1792124400.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:31",
-      "flight_no": "IB1326",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B24",
-      "checkin": "137-138",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
     },
     {
       "dt": 1792124400.0,
@@ -549,7 +498,7 @@
     {
       "dt": 1792127700.0,
       "time_scheduled": "07:15",
-      "time_estimated": "07:15",
+      "time_estimated": "07:33",
       "flight_no": "LO406",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -559,9 +508,9 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "104-105",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1792128000.0,
@@ -627,14 +576,14 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792128300.0,
       "time_scheduled": "07:25",
-      "time_estimated": "07:25",
+      "time_estimated": "07:31",
       "flight_no": "EW9574",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -644,9 +593,9 @@
       "terminal": "A",
       "gate": "A68",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 6
     },
     {
       "dt": 1792128300.0,
@@ -679,7 +628,7 @@
       "gate": "C31",
       "checkin": "192-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -712,8 +661,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -832,7 +781,7 @@
       "gate": "B73",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1050,7 +999,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B75",
+      "gate": "B72",
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
@@ -1135,7 +1084,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C40",
+      "gate": "C54",
       "checkin": "242-244",
       "status": "scheduled",
       "status_text": "",
@@ -1254,7 +1203,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A45",
       "checkin": "142-143",
       "status": "scheduled",
       "status_text": "",
@@ -1271,7 +1220,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B37",
+      "gate": "B28",
       "checkin": "194-196",
       "status": "scheduled",
       "status_text": "",
