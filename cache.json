@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 05:00",
+  "updated_at": "16.10.2026 05:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -101,7 +101,7 @@
       "gate": "B71",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -203,7 +203,7 @@
       "gate": "B28",
       "checkin": "144-146",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -322,7 +322,7 @@
       "gate": "C36",
       "checkin": "171-174",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -2835,7 +2835,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C57",
+      "gate": "C53",
       "checkin": "198-206",
       "status": "scheduled",
       "status_text": "",
@@ -2886,7 +2886,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C53",
+      "gate": "C57",
       "checkin": "198-206",
       "status": "scheduled",
       "status_text": "",
