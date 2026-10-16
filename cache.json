@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 10:15",
+  "updated_at": "16.10.2026 10:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -192,7 +192,7 @@
     {
       "dt": 1792137300.0,
       "time_scheduled": "09:55",
-      "time_estimated": "09:55",
+      "time_estimated": "10:16",
       "flight_no": "XQ969",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -202,9 +202,9 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1792137300.0,
@@ -270,8 +270,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -304,8 +304,8 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -321,8 +321,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "146-150",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -372,8 +372,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "192-193",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -407,7 +407,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -474,8 +474,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,13 +526,13 @@
       "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
       "dt": 1792142100.0,
       "time_scheduled": "11:15",
-      "time_estimated": "11:15",
+      "time_estimated": "11:25",
       "flight_no": "EW9844",
       "airline": "Eurowings",
       "city": "Olbia (Sardinien)",
@@ -544,7 +544,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1792142100.0,
