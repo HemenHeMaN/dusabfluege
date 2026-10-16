@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 05:55",
+  "updated_at": "16.10.2026 06:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -32,8 +32,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -90,7 +90,7 @@
     {
       "dt": 1792122600.0,
       "time_scheduled": "05:50",
-      "time_estimated": "05:50",
+      "time_estimated": "06:00",
       "flight_no": "DE1514",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -100,9 +100,9 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 10
     },
     {
       "dt": 1792123200.0,
@@ -118,7 +118,7 @@
       "gate": "B74",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -152,7 +152,7 @@
       "gate": "B29",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -168,8 +168,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -288,7 +288,7 @@
       "gate": "A45",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -423,8 +423,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -491,8 +491,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -560,7 +560,7 @@
       "gate": "A83",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -577,7 +577,7 @@
       "gate": "A48",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -645,7 +645,7 @@
       "gate": "B76",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -999,7 +999,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C37",
+      "gate": "C56",
       "checkin": "261-263",
       "status": "scheduled",
       "status_text": "",
