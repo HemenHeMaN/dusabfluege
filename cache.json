@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 21:00",
+  "updated_at": "16.10.2026 21:12",
   "source": "Dus.com",
   "flights": [
     {
@@ -71,23 +71,6 @@
       "delay": 32
     },
     {
-      "dt": 1792173300.0,
-      "time_scheduled": "19:55",
-      "time_estimated": "20:06",
-      "flight_no": "IB756",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B29",
-      "checkin": "140-141",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
-    },
-    {
       "dt": 1792173600.0,
       "time_scheduled": "20:00",
       "time_estimated": "20:24",
@@ -103,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 25
-    },
-    {
-      "dt": 1792173600.0,
-      "time_scheduled": "20:00",
-      "time_estimated": "20:09",
-      "flight_no": "A3543",
-      "airline": "Aegean Airlines",
-      "city": "Thessaloniki",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "131-136",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792173900.0,
@@ -220,7 +186,7 @@
       "gate": "C31",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -277,7 +243,7 @@
     {
       "dt": 1792176000.0,
       "time_scheduled": "20:40",
-      "time_estimated": "20:40",
+      "time_estimated": "21:03",
       "flight_no": "BQ1953",
       "airline": "Sky Alps",
       "city": "Bozen",
@@ -287,9 +253,9 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "101-102",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 24
     },
     {
       "dt": 1792176300.0,
@@ -304,8 +270,8 @@
       "terminal": "C",
       "gate": "C52",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -362,7 +328,7 @@
     {
       "dt": 1792177200.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:00",
+      "time_estimated": "21:06",
       "flight_no": "VY1899",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -372,9 +338,9 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "104-107",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 7
     },
     {
       "dt": 1792177200.0,
@@ -396,7 +362,7 @@
     {
       "dt": 1792177500.0,
       "time_scheduled": "21:05",
-      "time_estimated": "21:05",
+      "time_estimated": "21:11",
       "flight_no": "EI699",
       "airline": "Aer Lingus",
       "city": "Dublin",
@@ -406,9 +372,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "177-178",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 7
     },
     {
       "dt": 1792178100.0,
@@ -1579,6 +1545,23 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "259-265",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792220700.0,
+      "time_scheduled": "09:05",
+      "time_estimated": "09:05",
+      "flight_no": "ENT6062",
+      "airline": "Enter Air",
+      "city": "Pristina",
+      "country": "Kosovo",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C57",
+      "checkin": "192-193",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
