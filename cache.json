@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 03:40",
+  "updated_at": "16.10.2026 03:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -3058,6 +3058,40 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "137-139",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792158300.0,
+      "time_scheduled": "15:45",
+      "time_estimated": "15:45",
+      "flight_no": "KK116",
+      "airline": "LEAV Aviation",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B27",
+      "checkin": "171-173",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792158300.0,
+      "time_scheduled": "15:45",
+      "time_estimated": "15:45",
+      "flight_no": "KK320",
+      "airline": "LEAV Aviation",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
+      "checkin": "192-194",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
