@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 21:12",
+  "updated_at": "16.10.2026 21:21",
   "source": "Dus.com",
   "flights": [
     {
@@ -20,23 +20,6 @@
       "delay": 129
     },
     {
-      "dt": 1792170300.0,
-      "time_scheduled": "19:05",
-      "time_estimated": "20:12",
-      "flight_no": "EW4205",
-      "airline": "Eurowings",
-      "city": "Prag",
-      "country": "Tschechien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 68
-    },
-    {
       "dt": 1792171200.0,
       "time_scheduled": "19:20",
       "time_estimated": "20:26",
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 66
-    },
-    {
-      "dt": 1792172700.0,
-      "time_scheduled": "19:45",
-      "time_estimated": "20:16",
-      "flight_no": "LO408",
-      "airline": "LOT Polish Airlines",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "103-105",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 32
     },
     {
       "dt": 1792173600.0,
@@ -103,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 25
-    },
-    {
-      "dt": 1792173900.0,
-      "time_scheduled": "20:05",
-      "time_estimated": "20:20",
-      "flight_no": "XQ795",
-      "airline": "Sun Express",
-      "city": "Ankara-Esenboğa",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "197-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1792173900.0,
@@ -171,23 +120,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 33
-    },
-    {
-      "dt": 1792174800.0,
-      "time_scheduled": "20:20",
-      "time_estimated": "20:20",
-      "flight_no": "TK1522",
-      "airline": "Turkish Airlines",
-      "city": "Istanbul",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C31",
-      "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
     },
     {
       "dt": 1792175100.0,
@@ -260,7 +192,7 @@
     {
       "dt": 1792176300.0,
       "time_scheduled": "20:45",
-      "time_estimated": "20:45",
+      "time_estimated": "21:16",
       "flight_no": "PC1654",
       "airline": "Pegasus Airlines",
       "city": "Trabzon",
@@ -270,9 +202,9 @@
       "terminal": "C",
       "gate": "C52",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 31
     },
     {
       "dt": 1792176300.0,
@@ -390,7 +322,7 @@
       "gate": "C37",
       "checkin": "258-268",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -1562,6 +1494,23 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "192-193",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792221600.0,
+      "time_scheduled": "09:20",
+      "time_estimated": "09:20",
+      "flight_no": "QR088",
+      "airline": "Qatar Airways",
+      "city": "Doha",
+      "country": "Katar",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C37",
+      "checkin": "243-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
