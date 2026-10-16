@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 16:45",
+  "updated_at": "16.10.2026 16:50",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792153800.0,
-      "time_scheduled": "14:30",
-      "time_estimated": "15:50",
-      "flight_no": "EW9822",
-      "airline": "Eurowings",
-      "city": "Mailand-Malpensa",
-      "country": "Italien",
-      "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
-      "checkin": "151-170",
-      "status": "cancelled",
-      "status_text": "annulliert",
-      "delay": 80
-    },
     {
       "dt": 1792154100.0,
       "time_scheduled": "14:35",
@@ -52,40 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 96
-    },
-    {
-      "dt": 1792154100.0,
-      "time_scheduled": "14:35",
-      "time_estimated": "15:49",
-      "flight_no": "DE1622",
-      "airline": "Condor",
-      "city": "Rhodos",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 74
-    },
-    {
-      "dt": 1792155900.0,
-      "time_scheduled": "15:05",
-      "time_estimated": "15:48",
-      "flight_no": "OS164",
-      "airline": "Austrian Airlines",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 44
     },
     {
       "dt": 1792155900.0,
@@ -171,23 +120,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 32
-    },
-    {
-      "dt": 1792157100.0,
-      "time_scheduled": "15:25",
-      "time_estimated": "15:46",
-      "flight_no": "EK056",
-      "airline": "Emirates",
-      "city": "Dubai",
-      "country": "VAE",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C37",
-      "checkin": "256-267",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 21
     },
     {
       "dt": 1792157400.0,
@@ -292,23 +224,6 @@
       "delay": 75
     },
     {
-      "dt": 1792158600.0,
-      "time_scheduled": "15:50",
-      "time_estimated": "15:50",
-      "flight_no": "XR417",
-      "airline": "Corendon Airlines Europe",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B26",
-      "checkin": "195-197",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
-    },
-    {
       "dt": 1792158900.0,
       "time_scheduled": "15:55",
       "time_estimated": "16:22",
@@ -356,13 +271,13 @@
       "gate": "A73",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 60
     },
     {
       "dt": 1792159500.0,
       "time_scheduled": "16:05",
-      "time_estimated": "16:05",
+      "time_estimated": "16:47",
       "flight_no": "RJ130",
       "airline": "Royal Jordanian",
       "city": "Amman-Queen Alia",
@@ -372,9 +287,9 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "143-146",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 43
     },
     {
       "dt": 1792160100.0,
@@ -679,7 +594,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
