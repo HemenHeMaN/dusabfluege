@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 20:00",
+  "updated_at": "16.10.2026 20:12",
   "source": "Dus.com",
   "flights": [
     {
@@ -16,7 +16,7 @@
       "gate": "A63",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 110
     },
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 46
-    },
-    {
-      "dt": 1792169100.0,
-      "time_scheduled": "18:45",
-      "time_estimated": "19:10",
-      "flight_no": "EW9088",
-      "airline": "Eurowings",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 25
     },
     {
       "dt": 1792169100.0,
@@ -105,23 +88,6 @@
       "delay": 55
     },
     {
-      "dt": 1792169700.0,
-      "time_scheduled": "18:55",
-      "time_estimated": "19:02",
-      "flight_no": "EW9244",
-      "airline": "Eurowings",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A66",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
-    },
-    {
       "dt": 1792170000.0,
       "time_scheduled": "19:00",
       "time_estimated": "19:30",
@@ -151,8 +117,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 45
     },
     {
@@ -186,7 +152,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 35
     },
     {
@@ -321,14 +287,14 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "103-105",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792173300.0,
       "time_scheduled": "19:55",
-      "time_estimated": "19:55",
+      "time_estimated": "20:06",
       "flight_no": "IB756",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -338,14 +304,14 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "140-141",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792173300.0,
       "time_scheduled": "19:55",
-      "time_estimated": "19:55",
+      "time_estimated": "20:00",
       "flight_no": "XQ281",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -355,9 +321,9 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 6
     },
     {
       "dt": 1792173600.0,
@@ -373,13 +339,13 @@
       "gate": "A66",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
       "dt": 1792173600.0,
       "time_scheduled": "20:00",
-      "time_estimated": "20:00",
+      "time_estimated": "20:09",
       "flight_no": "A3543",
       "airline": "Aegean Airlines",
       "city": "Thessaloniki",
@@ -389,9 +355,9 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 10
     },
     {
       "dt": 1792173900.0,
@@ -407,7 +373,7 @@
       "gate": "C40",
       "checkin": "246-248",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -423,8 +389,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -440,8 +406,8 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "145-147",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +441,7 @@
       "gate": "C51",
       "checkin": "148-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +491,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -610,8 +576,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "174-176",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -656,13 +622,13 @@
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
       "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
+      "type": "Terminal A",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "cancelled",
+      "status_text": "annulliert",
       "delay": 0
     },
     {
@@ -679,7 +645,7 @@
       "gate": "C45",
       "checkin": "177-178",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1647,6 +1613,57 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "192-195",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792217100.0,
+      "time_scheduled": "08:05",
+      "time_estimated": "08:05",
+      "flight_no": "EW9578",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B37",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792217100.0,
+      "time_scheduled": "08:05",
+      "time_estimated": "08:05",
+      "flight_no": "XQ1391",
+      "airline": "Sun Express",
+      "city": "Gaziantep",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792217100.0,
+      "time_scheduled": "08:05",
+      "time_estimated": "08:05",
+      "flight_no": "XQ181",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C45",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
