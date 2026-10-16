@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 12:55",
+  "updated_at": "16.10.2026 13:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792140300.0,
-      "time_scheduled": "10:45",
-      "time_estimated": "11:57",
-      "flight_no": "EW9828",
-      "airline": "Eurowings",
-      "city": "Mailand-Malpensa",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 72
-    },
     {
       "dt": 1792142100.0,
       "time_scheduled": "11:15",
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 40
-    },
-    {
-      "dt": 1792143900.0,
-      "time_scheduled": "11:45",
-      "time_estimated": "11:55",
-      "flight_no": "EW9516",
-      "airline": "Eurowings",
-      "city": "Bilbao",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
     },
     {
       "dt": 1792144500.0,
@@ -345,7 +311,7 @@
     {
       "dt": 1792147500.0,
       "time_scheduled": "12:45",
-      "time_estimated": "12:45",
+      "time_estimated": "12:59",
       "flight_no": "EW5072",
       "airline": "Eurowings",
       "city": "Heraklion (Kreta)",
@@ -355,9 +321,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792147800.0,
@@ -389,8 +355,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -458,7 +424,7 @@
       "gate": "C45",
       "checkin": "192-194",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -560,7 +526,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -594,7 +560,7 @@
       "gate": "A54",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -628,7 +594,7 @@
       "gate": "B33",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1033,7 +999,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1084,7 +1050,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -2051,12 +2017,12 @@
       "city": "Frankfurt",
       "country": "Deutschland",
       "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "",
+      "status": "cancelled",
+      "status_text": "annulliert",
       "delay": 0
     },
     {
@@ -2589,7 +2555,7 @@
     {
       "dt": 1792175400.0,
       "time_scheduled": "20:30",
-      "time_estimated": "20:30",
+      "time_estimated": "21:45",
       "flight_no": "LH2027",
       "airline": "Lufthansa",
       "city": "München",
@@ -2601,7 +2567,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 75
     },
     {
       "dt": 1792176000.0,
