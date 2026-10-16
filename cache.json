@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 17:35",
+  "updated_at": "16.10.2026 17:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,7 +73,7 @@
     {
       "dt": 1792160100.0,
       "time_scheduled": "16:15",
-      "time_estimated": "17:25",
+      "time_estimated": "17:36",
       "flight_no": "EW8045",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -83,26 +83,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 70
-    },
-    {
-      "dt": 1792160100.0,
-      "time_scheduled": "16:15",
-      "time_estimated": "16:39",
-      "flight_no": "EZY8650",
-      "airline": "Easy Jet",
-      "city": "London-Gatwick",
-      "country": "Großbritannien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A72",
-      "checkin": "181-190",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 25
+      "delay": 82
     },
     {
       "dt": 1792160400.0,
@@ -120,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 48
-    },
-    {
-      "dt": 1792160400.0,
-      "time_scheduled": "16:20",
-      "time_estimated": "16:37",
-      "flight_no": "EW9960",
-      "airline": "Eurowings",
-      "city": "Split",
-      "country": "Kroatien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A44",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1792161300.0,
@@ -336,10 +302,10 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B27",
+      "gate": "B26",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status_text": "",
       "delay": 60
     },
     {
@@ -362,7 +328,7 @@
     {
       "dt": 1792164000.0,
       "time_scheduled": "17:20",
-      "time_estimated": "17:20",
+      "time_estimated": "17:38",
       "flight_no": "EW9734",
       "airline": "Eurowings",
       "city": "Warschau",
@@ -372,9 +338,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1792164300.0,
@@ -389,8 +355,8 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +441,7 @@
       "gate": "C40",
       "checkin": "148-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -509,7 +475,7 @@
       "gate": "A45",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 45
     },
     {
@@ -628,7 +594,7 @@
       "gate": "A73",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -645,7 +611,7 @@
       "gate": "B80",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 20
     },
     {
@@ -662,7 +628,7 @@
       "gate": "A80",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -747,7 +713,7 @@
       "gate": "B35",
       "checkin": "174-176",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -832,7 +798,7 @@
       "gate": "C36",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1441,7 +1407,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B30",
+      "gate": "B27",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
