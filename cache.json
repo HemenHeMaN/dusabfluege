@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 14:45",
+  "updated_at": "16.10.2026 14:50",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792147200.0,
-      "time_scheduled": "12:40",
-      "time_estimated": "13:47",
-      "flight_no": "VL2013",
-      "airline": "Lufthansa City Airlines",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 67
-    },
     {
       "dt": 1792149300.0,
       "time_scheduled": "13:15",
@@ -35,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 51
-    },
-    {
-      "dt": 1792149300.0,
-      "time_scheduled": "13:15",
-      "time_estimated": "13:45",
-      "flight_no": "TP541",
-      "airline": "TAP Portugal",
-      "city": "Lissabon",
-      "country": "Portugal",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "141-143",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 31
     },
     {
       "dt": 1792150200.0,
@@ -253,8 +219,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "198-200",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -355,8 +321,8 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -458,7 +424,7 @@
       "gate": "B37",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -661,8 +627,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "146-150",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -695,8 +661,8 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
