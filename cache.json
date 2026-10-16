@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 04:30",
+  "updated_at": "16.10.2026 04:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -949,7 +949,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C31",
-      "checkin": "192-194",
+      "checkin": "192-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -3261,6 +3261,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A46",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792161300.0,
+      "time_scheduled": "16:35",
+      "time_estimated": "16:35",
+      "flight_no": "EW9592",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B77",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
