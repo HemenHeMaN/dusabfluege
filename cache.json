@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 19:00",
+  "updated_at": "16.10.2026 19:12",
   "source": "Dus.com",
   "flights": [
     {
@@ -71,40 +71,6 @@
       "delay": 55
     },
     {
-      "dt": 1792165500.0,
-      "time_scheduled": "17:45",
-      "time_estimated": "18:07",
-      "flight_no": "BA923",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "148-150",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
-      "dt": 1792165800.0,
-      "time_scheduled": "17:50",
-      "time_estimated": "18:09",
-      "flight_no": "TU527",
-      "airline": "Tunisair",
-      "city": "Tunis",
-      "country": "Tunesien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "260-262",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
-    },
-    {
       "dt": 1792166100.0,
       "time_scheduled": "17:55",
       "time_estimated": "18:49",
@@ -139,23 +105,6 @@
       "delay": 20
     },
     {
-      "dt": 1792166100.0,
-      "time_scheduled": "17:55",
-      "time_estimated": "18:11",
-      "flight_no": "VF006",
-      "airline": "A Jet",
-      "city": "Ankara-Esenboğa",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "246-248",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
-    },
-    {
       "dt": 1792166700.0,
       "time_scheduled": "18:05",
       "time_estimated": "18:56",
@@ -186,7 +135,7 @@
       "gate": "A63",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 110
     },
     {
@@ -379,7 +328,7 @@
     {
       "dt": 1792169100.0,
       "time_scheduled": "18:45",
-      "time_estimated": "19:05",
+      "time_estimated": "19:10",
       "flight_no": "EW9088",
       "airline": "Eurowings",
       "city": "München",
@@ -389,9 +338,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 20
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1792169100.0,
@@ -423,8 +372,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "145-147",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -447,7 +396,7 @@
     {
       "dt": 1792169700.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:55",
+      "time_estimated": "19:02",
       "flight_no": "EW9244",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -457,9 +406,9 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1792170000.0,
@@ -492,7 +441,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 45
     },
     {
@@ -526,7 +475,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 35
     },
     {
@@ -560,7 +509,7 @@
       "gate": "C57",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -594,7 +543,7 @@
       "gate": "B78",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -645,7 +594,7 @@
       "gate": "C31",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -662,7 +611,7 @@
       "gate": "A39",
       "checkin": "103-105",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -679,7 +628,7 @@
       "gate": "B29",
       "checkin": "140-141",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -695,8 +644,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -747,7 +696,7 @@
       "gate": "C40",
       "checkin": "246-248",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1698,6 +1647,57 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792213500.0,
+      "time_scheduled": "07:05",
+      "time_estimated": "07:05",
+      "flight_no": "EW9750",
+      "airline": "Eurowings",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A68",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792213800.0,
+      "time_scheduled": "07:10",
+      "time_estimated": "07:10",
+      "flight_no": "EW9654",
+      "airline": "Eurowings",
+      "city": "Thessaloniki",
+      "country": "Griechenland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A54",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792213800.0,
+      "time_scheduled": "07:10",
+      "time_estimated": "07:10",
+      "flight_no": "BA925",
+      "airline": "British Airways",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "139-141",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
