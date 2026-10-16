@@ -1,41 +1,7 @@
 {
-  "updated_at": "16.10.2026 18:51",
+  "updated_at": "16.10.2026 19:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792162200.0,
-      "time_scheduled": "16:50",
-      "time_estimated": "17:58",
-      "flight_no": "SM2981",
-      "airline": "Air Cairo",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C37",
-      "checkin": "242-244",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 69
-    },
-    {
-      "dt": 1792163400.0,
-      "time_scheduled": "17:10",
-      "time_estimated": "18:00",
-      "flight_no": "DE1516",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B72",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 51
-    },
     {
       "dt": 1792163700.0,
       "time_scheduled": "17:15",
@@ -86,40 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 49
-    },
-    {
-      "dt": 1792165200.0,
-      "time_scheduled": "17:40",
-      "time_estimated": "17:54",
-      "flight_no": "EW9756",
-      "airline": "Eurowings",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A66",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
-    },
-    {
-      "dt": 1792165500.0,
-      "time_scheduled": "17:45",
-      "time_estimated": "17:56",
-      "flight_no": "EW9784",
-      "airline": "Eurowings",
-      "city": "Budapest",
-      "country": "Ungarn",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A46",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
     },
     {
       "dt": 1792165500.0,
@@ -226,7 +158,7 @@
     {
       "dt": 1792166700.0,
       "time_scheduled": "18:05",
-      "time_estimated": "18:25",
+      "time_estimated": "18:56",
       "flight_no": "EW9048",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -236,9 +168,9 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 20
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 51
     },
     {
       "dt": 1792167300.0,
@@ -294,7 +226,7 @@
     {
       "dt": 1792167600.0,
       "time_scheduled": "18:20",
-      "time_estimated": "18:20",
+      "time_estimated": "18:52",
       "flight_no": "EW9364",
       "airline": "Eurowings",
       "city": "Edinburgh",
@@ -304,14 +236,14 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 32
     },
     {
       "dt": 1792167900.0,
       "time_scheduled": "18:25",
-      "time_estimated": "18:45",
+      "time_estimated": "18:54",
       "flight_no": "EW9846",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -321,9 +253,9 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 20
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 29
     },
     {
       "dt": 1792167900.0,
@@ -345,7 +277,7 @@
     {
       "dt": 1792168200.0,
       "time_scheduled": "18:30",
-      "time_estimated": "18:40",
+      "time_estimated": "18:59",
       "flight_no": "EW9834",
       "airline": "Eurowings",
       "city": "Bologna",
@@ -355,9 +287,9 @@
       "terminal": "B",
       "gate": "B73",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 10
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 30
     },
     {
       "dt": 1792168200.0,
@@ -413,7 +345,7 @@
     {
       "dt": 1792168500.0,
       "time_scheduled": "18:35",
-      "time_estimated": "18:35",
+      "time_estimated": "18:57",
       "flight_no": "GQ891",
       "airline": "Sky Express",
       "city": "Athen",
@@ -423,9 +355,9 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "174-176",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 23
     },
     {
       "dt": 1792168800.0,
@@ -441,7 +373,7 @@
       "gate": "C42",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -458,7 +390,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 20
     },
     {
@@ -474,8 +406,8 @@
       "terminal": "B",
       "gate": "B79",
       "checkin": "131-136",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -525,8 +457,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -576,8 +508,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 20
     },
     {
@@ -610,8 +542,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -661,8 +593,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -696,7 +628,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 10
     },
     {
@@ -764,7 +696,7 @@
       "gate": "C56",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -832,7 +764,7 @@
       "gate": "C45",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1664,6 +1596,108 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792212900.0,
+      "time_scheduled": "06:55",
+      "time_estimated": "06:55",
+      "flight_no": "EW9760",
+      "airline": "Eurowings",
+      "city": "Zürich",
+      "country": "Schweiz",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A53",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792212900.0,
+      "time_scheduled": "06:55",
+      "time_estimated": "06:55",
+      "flight_no": "X32252",
+      "airline": "Tuifly",
+      "city": "Jerez de la Frontera",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B74",
+      "checkin": "234-239",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792212900.0,
+      "time_scheduled": "06:55",
+      "time_estimated": "06:55",
+      "flight_no": "AF1107",
+      "airline": "Air France",
+      "city": "Paris-Charles de Gaulle",
+      "country": "Frankreich",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B76",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792213200.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "EW9330",
+      "airline": "Eurowings",
+      "city": "Birmingham",
+      "country": "Großbritannien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A83",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792213200.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "EW9962",
+      "airline": "Eurowings",
+      "city": "Rijeka",
+      "country": "Kroatien",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A31",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792213200.0,
+      "time_scheduled": "07:00",
+      "time_estimated": "07:00",
+      "flight_no": "X34428",
+      "airline": "Tuifly",
+      "city": "Korfu",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B78",
+      "checkin": "234-239",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
