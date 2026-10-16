@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 14:20",
+  "updated_at": "16.10.2026 14:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -86,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 28
-    },
-    {
-      "dt": 1792149000.0,
-      "time_scheduled": "13:10",
-      "time_estimated": "13:24",
-      "flight_no": "VF026",
-      "airline": "A Jet",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C45",
-      "checkin": "192-194",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1792149300.0,
@@ -311,7 +294,7 @@
     {
       "dt": 1792151400.0,
       "time_scheduled": "13:50",
-      "time_estimated": "13:50",
+      "time_estimated": "14:21",
       "flight_no": "EW9612",
       "airline": "Eurowings",
       "city": "Korfu",
@@ -321,9 +304,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 32
     },
     {
       "dt": 1792151400.0,
@@ -338,8 +321,8 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 30
     },
     {
@@ -406,8 +389,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -440,8 +423,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 30
     },
     {
@@ -525,8 +508,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -542,8 +525,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -576,8 +559,8 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -696,7 +679,7 @@
       "gate": "C53",
       "checkin": "198-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -713,7 +696,7 @@
       "gate": "B33",
       "checkin": "151-167",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1552,7 +1535,7 @@
     {
       "dt": 1792167300.0,
       "time_scheduled": "18:15",
-      "time_estimated": "18:15",
+      "time_estimated": "20:05",
       "flight_no": "EW7067",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -1564,7 +1547,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 110
     },
     {
       "dt": 1792167300.0,
@@ -1713,7 +1696,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A73",
+      "gate": "A83",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
