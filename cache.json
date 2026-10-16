@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 06:35",
+  "updated_at": "16.10.2026 06:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -277,7 +277,7 @@
     {
       "dt": 1792123800.0,
       "time_scheduled": "06:10",
-      "time_estimated": "06:10",
+      "time_estimated": "06:35",
       "flight_no": "EW9530",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -287,9 +287,9 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1792124100.0,
@@ -328,7 +328,7 @@
     {
       "dt": 1792124400.0,
       "time_scheduled": "06:20",
-      "time_estimated": "06:20",
+      "time_estimated": "06:37",
       "flight_no": "EW9640",
       "airline": "Eurowings",
       "city": "Porto",
@@ -338,9 +338,9 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792124400.0,
@@ -413,7 +413,7 @@
     {
       "dt": 1792124700.0,
       "time_scheduled": "06:25",
-      "time_estimated": "06:25",
+      "time_estimated": "06:39",
       "flight_no": "KL1796",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -423,9 +423,9 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1792125000.0,
@@ -440,8 +440,8 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -457,8 +457,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -491,8 +491,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -611,7 +611,7 @@
       "gate": "A52",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -628,7 +628,7 @@
       "gate": "A56",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -645,7 +645,7 @@
       "gate": "B76",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -763,8 +763,8 @@
       "terminal": "B",
       "gate": "B44A",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -866,7 +866,7 @@
       "gate": "B72",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -933,8 +933,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1492,7 +1492,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A31",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -3874,6 +3874,23 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "174-176",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792168800.0,
+      "time_scheduled": "18:40",
+      "time_estimated": "18:40",
+      "flight_no": "PC5012",
+      "airline": "Pegasus Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
