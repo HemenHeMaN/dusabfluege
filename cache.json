@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 14:30",
+  "updated_at": "16.10.2026 14:35",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792142100.0,
-      "time_scheduled": "11:15",
-      "time_estimated": "13:33",
-      "flight_no": "EW9884",
-      "airline": "Eurowings",
-      "city": "Rom-Fiumicino",
-      "country": "Italien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A33",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 138
-    },
     {
       "dt": 1792147200.0,
       "time_scheduled": "12:40",
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 31
-    },
-    {
-      "dt": 1792149900.0,
-      "time_scheduled": "13:25",
-      "time_estimated": "13:31",
-      "flight_no": "PC1688",
-      "airline": "Pegasus Airlines",
-      "city": "Ankara-Esenboğa",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C53",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 7
     },
     {
       "dt": 1792150200.0,
@@ -441,7 +407,7 @@
       "gate": "B75",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 10
     },
     {
@@ -508,8 +474,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -679,7 +645,7 @@
       "gate": "A40",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -730,7 +696,7 @@
       "gate": "C56",
       "checkin": "168-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 35
     },
     {
@@ -1492,7 +1458,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A39",
+      "gate": "A33",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2181,7 +2147,7 @@
     {
       "dt": 1792175400.0,
       "time_scheduled": "20:30",
-      "time_estimated": "21:45",
+      "time_estimated": "20:30",
       "flight_no": "LH2027",
       "airline": "Lufthansa",
       "city": "München",
@@ -2193,7 +2159,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
-      "delay": 75
+      "delay": 0
     },
     {
       "dt": 1792176000.0,
