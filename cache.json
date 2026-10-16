@@ -1,41 +1,7 @@
 {
-  "updated_at": "16.10.2026 07:15",
+  "updated_at": "16.10.2026 07:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792122600.0,
-      "time_scheduled": "05:50",
-      "time_estimated": "06:16",
-      "flight_no": "DE1616",
-      "airline": "Condor",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 26
-    },
-    {
-      "dt": 1792123200.0,
-      "time_scheduled": "06:00",
-      "time_estimated": "06:18",
-      "flight_no": "X32116",
-      "airline": "Tuifly",
-      "city": "Fuerteventura",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B74",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
-    },
     {
       "dt": 1792123200.0,
       "time_scheduled": "06:00",
@@ -103,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 12
-    },
-    {
-      "dt": 1792123800.0,
-      "time_scheduled": "06:10",
-      "time_estimated": "06:20",
-      "flight_no": "LH079",
-      "airline": "Lufthansa",
-      "city": "Frankfurt",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A63",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792123800.0,
@@ -379,7 +328,7 @@
     {
       "dt": 1792125600.0,
       "time_scheduled": "06:40",
-      "time_estimated": "07:05",
+      "time_estimated": "07:20",
       "flight_no": "EW9572",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -389,9 +338,9 @@
       "terminal": "B",
       "gate": "B56",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 25
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 40
     },
     {
       "dt": 1792125600.0,
@@ -430,7 +379,7 @@
     {
       "dt": 1792125900.0,
       "time_scheduled": "06:45",
-      "time_estimated": "06:45",
+      "time_estimated": "07:25",
       "flight_no": "EW9840",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -442,7 +391,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 0
+      "delay": 40
     },
     {
       "dt": 1792126200.0,
@@ -566,7 +515,7 @@
     {
       "dt": 1792126800.0,
       "time_scheduled": "07:00",
-      "time_estimated": "07:00",
+      "time_estimated": "07:16",
       "flight_no": "EW9538",
       "airline": "Eurowings",
       "city": "Valencia",
@@ -576,14 +525,14 @@
       "terminal": "B",
       "gate": "B22",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1792127100.0,
       "time_scheduled": "07:05",
-      "time_estimated": "07:05",
+      "time_estimated": "07:18",
       "flight_no": "EW9750",
       "airline": "Eurowings",
       "city": "Wien",
@@ -593,9 +542,9 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792127400.0,
@@ -764,7 +713,7 @@
       "gate": "C42",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -781,7 +730,7 @@
       "gate": "A68",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -849,7 +798,7 @@
       "gate": "A44",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -899,8 +848,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "265-267",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -933,8 +882,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -3891,6 +3840,57 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792171200.0,
+      "time_scheduled": "19:20",
+      "time_estimated": "19:20",
+      "flight_no": "EW9022",
+      "airline": "Eurowings",
+      "city": "Dresden",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A39",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792171200.0,
+      "time_scheduled": "19:20",
+      "time_estimated": "19:20",
+      "flight_no": "SK628",
+      "airline": "Scandinavian Airlines",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A65",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792171200.0,
+      "time_scheduled": "19:20",
+      "time_estimated": "19:20",
+      "flight_no": "XQ3181",
+      "airline": "Sun Express",
+      "city": "Bodrum-Milas",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C57",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
