@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 11:55",
+  "updated_at": "16.10.2026 12:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,7 +73,7 @@
     {
       "dt": 1792140300.0,
       "time_scheduled": "10:45",
-      "time_estimated": "11:35",
+      "time_estimated": "11:57",
       "flight_no": "EW9828",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
@@ -83,9 +83,9 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 50
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 72
     },
     {
       "dt": 1792140900.0,
@@ -260,7 +260,7 @@
     {
       "dt": 1792143300.0,
       "time_scheduled": "11:35",
-      "time_estimated": "11:35",
+      "time_estimated": "12:00",
       "flight_no": "EW9502",
       "airline": "Eurowings",
       "city": "Ibiza",
@@ -272,7 +272,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1792143300.0,
@@ -294,7 +294,7 @@
     {
       "dt": 1792143900.0,
       "time_scheduled": "11:45",
-      "time_estimated": "11:45",
+      "time_estimated": "11:55",
       "flight_no": "EW9516",
       "airline": "Eurowings",
       "city": "Bilbao",
@@ -304,9 +304,9 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792144500.0,
@@ -338,8 +338,8 @@
       "terminal": "B",
       "gate": "B32",
       "checkin": "148-149",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +406,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "204-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -457,8 +457,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -577,7 +577,7 @@
       "gate": "A49",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -594,7 +594,7 @@
       "gate": "B37",
       "checkin": "131-136",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 10
     },
     {
