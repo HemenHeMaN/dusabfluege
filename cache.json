@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 03:45",
+  "updated_at": "16.10.2026 03:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -3092,6 +3092,23 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "192-194",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792158600.0,
+      "time_scheduled": "15:50",
+      "time_estimated": "15:50",
+      "flight_no": "XR417",
+      "airline": "Corendon Airlines Europe",
+      "city": "Heraklion (Kreta)",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B31",
+      "checkin": "195-197",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
