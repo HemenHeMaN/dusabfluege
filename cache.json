@@ -1,11 +1,11 @@
 {
-  "updated_at": "16.10.2026 20:21",
+  "updated_at": "16.10.2026 20:30",
   "source": "Dus.com",
   "flights": [
     {
       "dt": 1792167300.0,
       "time_scheduled": "18:15",
-      "time_estimated": "20:05",
+      "time_estimated": "20:23",
       "flight_no": "EW7067",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -15,26 +15,9 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 110
-    },
-    {
-      "dt": 1792168800.0,
-      "time_scheduled": "18:40",
-      "time_estimated": "19:26",
-      "flight_no": "PC5012",
-      "airline": "Pegasus Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C42",
-      "checkin": "251-254",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 46
+      "delay": 129
     },
     {
       "dt": 1792169400.0,
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 55
-    },
-    {
-      "dt": 1792170000.0,
-      "time_scheduled": "19:00",
-      "time_estimated": "19:30",
-      "flight_no": "XQ183",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C53",
-      "checkin": "197-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 30
     },
     {
       "dt": 1792170300.0,
@@ -107,7 +73,7 @@
     {
       "dt": 1792171200.0,
       "time_scheduled": "19:20",
-      "time_estimated": "19:55",
+      "time_estimated": "20:26",
       "flight_no": "EW9022",
       "airline": "Eurowings",
       "city": "Dresden",
@@ -117,9 +83,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 35
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 66
     },
     {
       "dt": 1792171200.0,
@@ -294,7 +260,7 @@
     {
       "dt": 1792173600.0,
       "time_scheduled": "20:00",
-      "time_estimated": "20:00",
+      "time_estimated": "20:24",
       "flight_no": "OS168",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -304,9 +270,9 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1792173600.0,
@@ -328,7 +294,7 @@
     {
       "dt": 1792173900.0,
       "time_scheduled": "20:05",
-      "time_estimated": "20:05",
+      "time_estimated": "20:29",
       "flight_no": "IV8223",
       "airline": "GP Aviation",
       "city": "Pristina",
@@ -338,9 +304,9 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "246-248",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1792173900.0,
@@ -362,7 +328,7 @@
     {
       "dt": 1792173900.0,
       "time_scheduled": "20:05",
-      "time_estimated": "20:05",
+      "time_estimated": "20:21",
       "flight_no": "BT234",
       "airline": "Air Baltic",
       "city": "Riga",
@@ -372,9 +338,9 @@
       "terminal": "B",
       "gate": "B71",
       "checkin": "145-147",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1792174500.0,
@@ -440,8 +406,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -457,8 +423,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +441,7 @@
       "gate": "C36",
       "checkin": "192-195",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,8 +457,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "101-102",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -543,7 +509,7 @@
       "gate": "C32",
       "checkin": "174-176",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -576,8 +542,8 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "104-107",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1715,6 +1681,40 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792218600.0,
+      "time_scheduled": "08:30",
+      "time_estimated": "08:30",
+      "flight_no": "PC1006",
+      "airline": "Pegasus Airlines",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792218600.0,
+      "time_scheduled": "08:30",
+      "time_estimated": "08:30",
+      "flight_no": "TK3365",
+      "airline": "Turkish Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C54",
+      "checkin": "267-269",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
