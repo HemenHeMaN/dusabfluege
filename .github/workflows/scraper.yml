@@ -27,12 +27,23 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Pakete installieren
+        run: pip install google-auth requests
+
       - name: Scraper ausführen
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
           python scraper.py
 
-      - name: Änderungen committen und pushen
+      - name: Änderungen committen und pushen (nur alle 10 Minuten)
         run: |
+          MIN=$((10#$(date +%M)))
+          if [ $((MIN % 10)) -ge 3 ] && [ "$GITHUB_EVENT_NAME" != "workflow_dispatch" ]; then
+            echo "Commit diesmal übersprungen (nur alle 10 Minuten)."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
