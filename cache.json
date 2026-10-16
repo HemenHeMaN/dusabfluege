@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 16:05",
+  "updated_at": "16.10.2026 16:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -260,7 +260,7 @@
     {
       "dt": 1792156200.0,
       "time_scheduled": "15:10",
-      "time_estimated": "15:30",
+      "time_estimated": "16:09",
       "flight_no": "XQ187",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -270,9 +270,9 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "198-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 20
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 60
     },
     {
       "dt": 1792156500.0,
@@ -304,8 +304,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "168-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 35
     },
     {
@@ -475,7 +475,7 @@
       "gate": "C32",
       "checkin": "192-194",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 75
     },
     {
@@ -525,14 +525,14 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "140-142",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792159200.0,
       "time_scheduled": "16:00",
-      "time_estimated": "16:30",
+      "time_estimated": "17:00",
       "flight_no": "EW9466",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -544,7 +544,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 30
+      "delay": 60
     },
     {
       "dt": 1792159500.0,
@@ -566,7 +566,7 @@
     {
       "dt": 1792160100.0,
       "time_scheduled": "16:15",
-      "time_estimated": "17:05",
+      "time_estimated": "17:25",
       "flight_no": "EW8045",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -578,7 +578,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 50
+      "delay": 70
     },
     {
       "dt": 1792160100.0,
@@ -645,7 +645,7 @@
       "gate": "A44",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -678,8 +678,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "198-201",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -780,8 +780,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -815,7 +815,7 @@
       "gate": "C31",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1288,7 +1288,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A54",
+      "gate": "A63",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1399,7 +1399,7 @@
     {
       "dt": 1792170300.0,
       "time_scheduled": "19:05",
-      "time_estimated": "19:05",
+      "time_estimated": "19:15",
       "flight_no": "LX1025",
       "airline": "Swiss",
       "city": "Zürich",
@@ -1411,7 +1411,7 @@
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1792171200.0,
@@ -1424,7 +1424,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A39",
+      "gate": "A63",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1526,7 +1526,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A63",
+      "gate": "A39",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
