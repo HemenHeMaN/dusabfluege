@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 07:45",
+  "updated_at": "16.10.2026 07:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,40 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 57
-    },
-    {
-      "dt": 1792124400.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:47",
-      "flight_no": "EW9878",
-      "airline": "Eurowings",
-      "city": "Monastir",
-      "country": "Tunesien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C37",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
-    },
-    {
-      "dt": 1792124400.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:45",
-      "flight_no": "LH2031",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 26
     },
     {
       "dt": 1792125000.0,
@@ -120,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 27
-    },
-    {
-      "dt": 1792125300.0,
-      "time_scheduled": "06:35",
-      "time_estimated": "06:49",
-      "flight_no": "EW9526",
-      "airline": "Eurowings",
-      "city": "Malaga",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A50",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
     },
     {
       "dt": 1792125600.0,
@@ -209,7 +158,7 @@
     {
       "dt": 1792125900.0,
       "time_scheduled": "06:45",
-      "time_estimated": "07:25",
+      "time_estimated": "08:00",
       "flight_no": "EW9840",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -221,7 +170,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 40
+      "delay": 75
     },
     {
       "dt": 1792126200.0,
@@ -498,7 +447,7 @@
     {
       "dt": 1792128000.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:20",
+      "time_estimated": "07:50",
       "flight_no": "EW9882",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -510,7 +459,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 0
+      "delay": 30
     },
     {
       "dt": 1792128000.0,
@@ -525,14 +474,14 @@
       "terminal": "B",
       "gate": "B28",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 30
     },
     {
       "dt": 1792128000.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:20",
+      "time_estimated": "07:46",
       "flight_no": "TK1530",
       "airline": "Turkish Airlines",
       "city": "Istanbul",
@@ -542,9 +491,9 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 26
     },
     {
       "dt": 1792128300.0,
@@ -696,7 +645,7 @@
       "gate": "A31",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -778,7 +727,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A33",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1645,7 +1594,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A40",
+      "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
