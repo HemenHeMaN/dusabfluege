@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 13:40",
+  "updated_at": "16.10.2026 13:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 138
-    },
-    {
-      "dt": 1792145100.0,
-      "time_scheduled": "12:05",
-      "time_estimated": "12:43",
-      "flight_no": "XQ285",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "204-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 39
     },
     {
       "dt": 1792146300.0,
@@ -304,8 +287,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "171-173",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -338,8 +321,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -355,8 +338,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "195-197",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -600,7 +583,7 @@
     {
       "dt": 1792154100.0,
       "time_scheduled": "14:35",
-      "time_estimated": "15:15",
+      "time_estimated": "16:00",
       "flight_no": "EW9416",
       "airline": "Eurowings",
       "city": "Lyon",
@@ -612,7 +595,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 40
+      "delay": 85
     },
     {
       "dt": 1792154100.0,
@@ -730,7 +713,7 @@
       "gate": "C40",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
