@@ -31,7 +31,7 @@ from zoneinfo import ZoneInfo
 API_URL = "https://www.dus.com/api/sitecore/flightapi/SearchFlightsWithOutParams"
 REFERER = "https://www.dus.com/de-de/fliegen/abflug"
 CACHE_FILE = "cache.json"
-FIREBASE_URL = "https://dus-airport-default-rtdb.europe-west1.firebasedatabase.app/abfluege.json"
+FIREBASE_URL = "https://abfluege-default-rtdb.europe-west1.firebasedatabase.app/cache.json"
 
 TZ = ZoneInfo("Europe/Berlin")
 
