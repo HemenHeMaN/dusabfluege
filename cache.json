@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 13:55",
+  "updated_at": "16.10.2026 14:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -86,23 +86,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 21
-    },
-    {
-      "dt": 1792147500.0,
-      "time_scheduled": "12:45",
-      "time_estimated": "12:59",
-      "flight_no": "EW5072",
-      "airline": "Eurowings",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
     },
     {
       "dt": 1792147800.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1792150200.0,
       "time_scheduled": "13:30",
-      "time_estimated": "13:30",
+      "time_estimated": "13:57",
       "flight_no": "XC103",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -270,14 +253,14 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "171-173",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 27
     },
     {
       "dt": 1792150200.0,
       "time_scheduled": "13:30",
-      "time_estimated": "13:30",
+      "time_estimated": "13:59",
       "flight_no": "EW9338",
       "airline": "Eurowings",
       "city": "Newcastle",
@@ -287,9 +270,9 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 29
     },
     {
       "dt": 1792150200.0,
@@ -356,7 +339,7 @@
       "gate": "A79",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -379,7 +362,7 @@
     {
       "dt": 1792151100.0,
       "time_scheduled": "13:45",
-      "time_estimated": "13:45",
+      "time_estimated": "13:55",
       "flight_no": "SK817",
       "airline": "Scandinavian Airlines",
       "city": "Oslo - Gardermoen",
@@ -389,9 +372,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 10
     },
     {
       "dt": 1792151100.0,
@@ -424,7 +407,7 @@
       "gate": "B29",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +440,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "198-200",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -508,8 +491,8 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,7 +509,7 @@
       "gate": "A80",
       "checkin": "174-176",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -645,7 +628,7 @@
       "gate": "B78",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
