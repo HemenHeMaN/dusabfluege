@@ -1,11 +1,11 @@
 {
-  "updated_at": "16.10.2026 13:30",
+  "updated_at": "16.10.2026 13:35",
   "source": "Dus.com",
   "flights": [
     {
       "dt": 1792142100.0,
       "time_scheduled": "11:15",
-      "time_estimated": "13:15",
+      "time_estimated": "13:33",
       "flight_no": "EW9884",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -15,9 +15,9 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 120
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 138
     },
     {
       "dt": 1792145100.0,
@@ -37,23 +37,6 @@
       "delay": 39
     },
     {
-      "dt": 1792146000.0,
-      "time_scheduled": "12:20",
-      "time_estimated": "12:34",
-      "flight_no": "EW9636",
-      "airline": "Eurowings",
-      "city": "Kos",
-      "country": "Griechenland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A42",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
-    },
-    {
       "dt": 1792146300.0,
       "time_scheduled": "12:25",
       "time_estimated": "12:46",
@@ -69,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 21
-    },
-    {
-      "dt": 1792146300.0,
-      "time_scheduled": "12:25",
-      "time_estimated": "12:32",
-      "flight_no": "EW9732",
-      "airline": "Eurowings",
-      "city": "Krakau",
-      "country": "Polen",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A31",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
     },
     {
       "dt": 1792146600.0,
@@ -328,7 +294,7 @@
     {
       "dt": 1792149900.0,
       "time_scheduled": "13:25",
-      "time_estimated": "13:25",
+      "time_estimated": "13:31",
       "flight_no": "PC1688",
       "airline": "Pegasus Airlines",
       "city": "Ankara-Esenboğa",
@@ -338,9 +304,9 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 7
     },
     {
       "dt": 1792150200.0,
@@ -356,7 +322,7 @@
       "gate": "C42",
       "checkin": "171-173",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -424,7 +390,7 @@
       "gate": "A54",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -440,8 +406,8 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -458,7 +424,7 @@
       "gate": "B33",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -492,7 +458,7 @@
       "gate": "C36",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -508,8 +474,8 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -559,8 +525,8 @@
       "terminal": "A",
       "gate": "A83",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -657,9 +623,9 @@
       "city": "Lyon",
       "country": "Frankreich",
       "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A53",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -713,7 +679,7 @@
       "gate": "B76",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1036,7 +1002,7 @@
       "gate": "C37",
       "checkin": "256-267",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
