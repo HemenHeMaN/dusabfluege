@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 13:25",
+  "updated_at": "16.10.2026 13:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,23 +22,6 @@
     {
       "dt": 1792145100.0,
       "time_scheduled": "12:05",
-      "time_estimated": "12:27",
-      "flight_no": "AT697",
-      "airline": "Royal Air Maroc",
-      "city": "Nador",
-      "country": "Marokko",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C56",
-      "checkin": "243-245",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
-      "dt": 1792145100.0,
-      "time_scheduled": "12:05",
       "time_estimated": "12:43",
       "flight_no": "XQ285",
       "airline": "Sun Express",
@@ -52,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 39
-    },
-    {
-      "dt": 1792146000.0,
-      "time_scheduled": "12:20",
-      "time_estimated": "12:30",
-      "flight_no": "DE1428",
-      "airline": "Condor",
-      "city": "Teneriffa Süd",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792146000.0,
@@ -243,7 +209,7 @@
     {
       "dt": 1792148100.0,
       "time_scheduled": "12:55",
-      "time_estimated": "12:55",
+      "time_estimated": "13:29",
       "flight_no": "DE1456",
       "airline": "Condor",
       "city": "Fuerteventura",
@@ -253,14 +219,14 @@
       "terminal": "B",
       "gate": "B27",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 35
     },
     {
       "dt": 1792148400.0,
       "time_scheduled": "13:00",
-      "time_estimated": "13:00",
+      "time_estimated": "13:26",
       "flight_no": "EW9586",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -270,9 +236,9 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 26
     },
     {
       "dt": 1792148400.0,
@@ -304,8 +270,8 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -441,7 +407,7 @@
       "gate": "C46",
       "checkin": "195-197",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -560,7 +526,7 @@
       "gate": "A46",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 30
     },
     {
@@ -611,7 +577,7 @@
       "gate": "A50",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -691,9 +657,9 @@
       "city": "Lyon",
       "country": "Frankreich",
       "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A66",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1526,7 +1492,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B76",
+      "gate": "B72",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
