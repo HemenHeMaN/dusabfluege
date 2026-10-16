@@ -855,12 +855,41 @@ toTop.addEventListener('click', () => {
 updateToTop();
 
 /* ---------- Flugdaten Laden & Filtern ---------- */
-function loadData() {
-    fetch('cache.json?t=' + Date.now(), { cache: 'no-store' })
-        .then(response => response.json())
+const FIREBASE_URL = 'https://dus-airport-default-rtdb.europe-west1.firebasedatabase.app/abfluege.json';
+
+function parseUpdated(s) {
+    const m = String(s).match(/(\d+)\.(\d+)\.(\d+) (\d+):(\d+)/);
+    return m ? new Date(+m[3], m[2] - 1, +m[1], +m[4], +m[5]) : null;
+}
+
+function fetchData(url) {
+    return fetch(url, { cache: 'no-store' })
+        .then(response => {
+            if (!response.ok) throw new Error('HTTP ' + response.status);
+            return response.json();
+        })
         .then(data => {
-            const updateInfo = document.getElementById('updateInfo');
-            updateInfo.innerHTML = `Letztes Update: <b>${data.updated_at} Uhr</b> (${data.source})<br>${data.flights.length} Abflüge`;
+            if (!data || !data.updated_at) throw new Error('Keine Daten');
+            data.flights = Array.isArray(data.flights) ? data.flights : Object.values(data.flights || {});
+            return data;
+        });
+}
+
+function loadData() {
+    // Zuerst Firebase, bei Fehler die cache.json aus dem Repo als Reserve
+    fetchData(FIREBASE_URL)
+        .catch(() => fetchData('cache.json?t=' + Date.now()))
+        .then(data => {
+            const upd = parseUpdated(data.updated_at);
+            const ageMin = upd ? (Date.now() - upd.getTime()) / 60000 : 0;
+            const hour = Math.floor(berlinMin() / 60);
+            let info = `${data.flights.length} Abflüge`;
+            if (ageMin > 30) {
+                info = (hour >= 22 || hour < 3)
+                    ? 'Nachtpause, Updates ab ca. 03:00 Uhr'
+                    : `Achtung: Daten sind ${Math.round(ageMin)} Min. alt`;
+            }
+            document.getElementById('updateInfo').innerHTML = `Letztes Update: <b>${data.updated_at} Uhr</b> (${data.source})<br>${info}`;
 
             if (JSON.stringify(data.flights) === JSON.stringify(allFlights)) return;
 
@@ -869,8 +898,8 @@ function loadData() {
         })
         .catch(() => {
             if (allFlights.length === 0) {
-                document.getElementById('flightList').innerHTML = '<div class="no-flights">Fehler beim Laden der cache.json</div>';
-                document.getElementById('tfBody').innerHTML = '<div class="tf-empty">Fehler beim Laden der cache.json</div>';
+                document.getElementById('flightList').innerHTML = '<div class="no-flights">Fehler beim Laden der Flugdaten</div>';
+                document.getElementById('tfBody').innerHTML = '<div class="tf-empty">Fehler beim Laden der Flugdaten</div>';
             }
         });
 }
