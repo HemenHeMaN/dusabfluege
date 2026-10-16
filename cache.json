@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 13:10",
+  "updated_at": "16.10.2026 13:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -16,7 +16,7 @@
       "gate": "A33",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 120
     },
     {
@@ -35,40 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 62
-    },
-    {
-      "dt": 1792143300.0,
-      "time_scheduled": "11:35",
-      "time_estimated": "12:14",
-      "flight_no": "EW9502",
-      "airline": "Eurowings",
-      "city": "Ibiza",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A45",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 40
-    },
-    {
-      "dt": 1792144500.0,
-      "time_scheduled": "11:55",
-      "time_estimated": "12:13",
-      "flight_no": "IB1320",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B32",
-      "checkin": "148-149",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
     },
     {
       "dt": 1792144800.0,
@@ -441,7 +407,7 @@
       "gate": "C53",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -475,7 +441,7 @@
       "gate": "A81",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,8 +457,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -611,7 +577,7 @@
       "gate": "B29",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -645,7 +611,7 @@
       "gate": "C32",
       "checkin": "198-200",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -770,7 +736,7 @@
     {
       "dt": 1792154100.0,
       "time_scheduled": "14:35",
-      "time_estimated": "14:35",
+      "time_estimated": "14:45",
       "flight_no": "EW9676",
       "airline": "Eurowings",
       "city": "Chania (Kreta)",
@@ -782,7 +748,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1792154100.0,
