@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 18:10",
+  "updated_at": "16.10.2026 18:12",
   "source": "Dus.com",
   "flights": [
     {
@@ -396,7 +396,7 @@
     {
       "dt": 1792166100.0,
       "time_scheduled": "17:55",
-      "time_estimated": "17:55",
+      "time_estimated": "18:11",
       "flight_no": "VF006",
       "airline": "A Jet",
       "city": "Ankara-Esenboğa",
@@ -406,9 +406,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "246-248",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1792166700.0,
@@ -662,7 +662,7 @@
       "gate": "B79",
       "checkin": "131-136",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1509,7 +1509,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B56",
+      "gate": "B58",
       "checkin": "148-150",
       "status": "scheduled",
       "status_text": "",
@@ -1611,7 +1611,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B58",
+      "gate": "B54",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
