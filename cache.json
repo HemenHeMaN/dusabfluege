@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 08:25",
+  "updated_at": "16.10.2026 08:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,57 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 88
-    },
-    {
-      "dt": 1792127400.0,
-      "time_scheduled": "07:10",
-      "time_estimated": "07:25",
-      "flight_no": "EW9654",
-      "airline": "Eurowings",
-      "city": "Thessaloniki",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B44A",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
-    },
-    {
-      "dt": 1792127400.0,
-      "time_scheduled": "07:10",
-      "time_estimated": "07:27",
-      "flight_no": "EW9792",
-      "airline": "Eurowings",
-      "city": "Bukarest-Otopeni",
-      "country": "Rumänien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
-    },
-    {
-      "dt": 1792127400.0,
-      "time_scheduled": "07:10",
-      "time_estimated": "07:26",
-      "flight_no": "BA925",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "140-142",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1792127700.0,
@@ -236,8 +185,8 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 40
     },
     {
@@ -372,8 +321,8 @@
       "terminal": "B",
       "gate": "B73",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +355,8 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -441,7 +390,7 @@
       "gate": "B34",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 50
     },
     {
@@ -457,8 +406,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "131-136",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -3636,6 +3585,23 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792175400.0,
+      "time_scheduled": "20:30",
+      "time_estimated": "20:30",
+      "flight_no": "LH2027",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A49",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
