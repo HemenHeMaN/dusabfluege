@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 17:20",
+  "updated_at": "16.10.2026 17:25",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792156500.0,
-      "time_scheduled": "15:15",
-      "time_estimated": "16:20",
-      "flight_no": "H7404",
-      "airline": "Hi Sky",
-      "city": "Chisinau",
-      "country": "Moldawien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C56",
-      "checkin": "168-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 66
-    },
     {
       "dt": 1792157400.0,
       "time_scheduled": "15:30",
@@ -105,23 +88,6 @@
       "delay": 69
     },
     {
-      "dt": 1792158900.0,
-      "time_scheduled": "15:55",
-      "time_estimated": "16:22",
-      "flight_no": "EW9510",
-      "airline": "Eurowings",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A39",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 28
-    },
-    {
       "dt": 1792159200.0,
       "time_scheduled": "16:00",
       "time_estimated": "17:00",
@@ -135,7 +101,7 @@
       "gate": "A82",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 60
     },
     {
@@ -169,7 +135,7 @@
       "gate": "A25",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 70
     },
     {
@@ -260,7 +226,7 @@
     {
       "dt": 1792161900.0,
       "time_scheduled": "16:45",
-      "time_estimated": "16:45",
+      "time_estimated": "17:23",
       "flight_no": "VF028",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -270,9 +236,9 @@
       "terminal": "A",
       "gate": "A79",
       "checkin": "198-201",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 39
     },
     {
       "dt": 1792161900.0,
@@ -764,7 +730,7 @@
       "gate": "A80",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
