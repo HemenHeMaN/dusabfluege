@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 18:12",
+  "updated_at": "16.10.2026 18:21",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792152900.0,
-      "time_scheduled": "14:15",
-      "time_estimated": "17:48",
-      "flight_no": "0S8131",
-      "airline": "Sky Vision Airlines",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A80",
-      "checkin": "174-176",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 214
-    },
     {
       "dt": 1792159200.0,
       "time_scheduled": "16:00",
@@ -105,23 +88,6 @@
       "delay": 69
     },
     {
-      "dt": 1792162200.0,
-      "time_scheduled": "16:50",
-      "time_estimated": "17:12",
-      "flight_no": "DE1010",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
-    },
-    {
       "dt": 1792162500.0,
       "time_scheduled": "16:55",
       "time_estimated": "17:25",
@@ -137,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 31
-    },
-    {
-      "dt": 1792163400.0,
-      "time_scheduled": "17:10",
-      "time_estimated": "17:17",
-      "flight_no": "EW9518",
-      "airline": "Eurowings",
-      "city": "Bilbao",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B75",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 8
     },
     {
       "dt": 1792163400.0,
@@ -203,13 +152,13 @@
       "gate": "B26",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 60
     },
     {
       "dt": 1792164000.0,
       "time_scheduled": "17:20",
-      "time_estimated": "17:20",
+      "time_estimated": "18:13",
       "flight_no": "VL2019",
       "airline": "Lufthansa City Airlines",
       "city": "München",
@@ -219,9 +168,9 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 53
     },
     {
       "dt": 1792164000.0,
@@ -270,8 +219,8 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -379,7 +328,7 @@
     {
       "dt": 1792166100.0,
       "time_scheduled": "17:55",
-      "time_estimated": "17:55",
+      "time_estimated": "18:14",
       "flight_no": "EW9764",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -389,9 +338,9 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 20
     },
     {
       "dt": 1792166100.0,
@@ -424,7 +373,7 @@
       "gate": "A33",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 20
     },
     {
@@ -458,7 +407,7 @@
       "gate": "B77",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -475,7 +424,7 @@
       "gate": "A81",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -610,8 +559,8 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "174-176",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -628,7 +577,7 @@
       "gate": "C42",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -798,7 +747,7 @@
       "gate": "A65",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -815,7 +764,7 @@
       "gate": "C57",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -880,7 +829,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A63",
+      "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -914,7 +863,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A42",
+      "gate": "A63",
       "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
@@ -1626,10 +1575,61 @@
       "city": "Korfu",
       "country": "Griechenland",
       "type": "Terminal B/C",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
+      "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792210800.0,
+      "time_scheduled": "06:20",
+      "time_estimated": "06:20",
+      "flight_no": "EW9716",
+      "airline": "Eurowings",
+      "city": "Salzburg",
+      "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A44",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792210800.0,
+      "time_scheduled": "06:20",
+      "time_estimated": "06:20",
+      "flight_no": "IB1326",
+      "airline": "Iberia",
+      "city": "Madrid-Barajas",
+      "country": "Spanien",
+      "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B52",
-      "checkin": "251-254",
+      "gate": "B56",
+      "checkin": "145-146",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792210800.0,
+      "time_scheduled": "06:20",
+      "time_estimated": "06:20",
+      "flight_no": "LH2031",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A48",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
