@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 15:55",
+  "updated_at": "16.10.2026 16:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792152000.0,
-      "time_scheduled": "14:00",
-      "time_estimated": "14:56",
-      "flight_no": "NE721",
-      "airline": "Nesma Airlines",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C32",
-      "checkin": "198-200",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 56
-    },
     {
       "dt": 1792153800.0,
       "time_scheduled": "14:30",
@@ -28,30 +11,13 @@
       "city": "Mailand-Malpensa",
       "country": "Italien",
       "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A44",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "cancelled",
+      "status_text": "annulliert",
       "delay": 80
-    },
-    {
-      "dt": 1792153800.0,
-      "time_scheduled": "14:30",
-      "time_estimated": "14:58",
-      "flight_no": "KL1802",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B74",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 28
     },
     {
       "dt": 1792154100.0,
@@ -67,7 +33,7 @@
       "gate": "A53",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 85
     },
     {
@@ -413,7 +379,7 @@
     {
       "dt": 1792157100.0,
       "time_scheduled": "15:25",
-      "time_estimated": "15:25",
+      "time_estimated": "15:56",
       "flight_no": "X34762",
       "airline": "Tuifly",
       "city": "Patras / Araxos",
@@ -423,9 +389,9 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "234-239",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 32
     },
     {
       "dt": 1792157100.0,
@@ -577,7 +543,7 @@
       "gate": "A39",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -764,7 +730,7 @@
       "gate": "B78",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
