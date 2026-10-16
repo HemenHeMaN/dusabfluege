@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 16:35",
+  "updated_at": "16.10.2026 16:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -69,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 74
-    },
-    {
-      "dt": 1792155900.0,
-      "time_scheduled": "15:05",
-      "time_estimated": "15:40",
-      "flight_no": "EW9008",
-      "airline": "Eurowings",
-      "city": "Sylt (Westerland)",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A52",
-      "checkin": "151-167",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 35
     },
     {
       "dt": 1792155900.0,
@@ -171,23 +154,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 66
-    },
-    {
-      "dt": 1792156800.0,
-      "time_scheduled": "15:20",
-      "time_estimated": "15:37",
-      "flight_no": "SK1622",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1792157100.0,
@@ -339,7 +305,7 @@
       "gate": "C32",
       "checkin": "192-194",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 75
     },
     {
@@ -447,7 +413,7 @@
     {
       "dt": 1792160100.0,
       "time_scheduled": "16:15",
-      "time_estimated": "16:15",
+      "time_estimated": "16:39",
       "flight_no": "EZY8650",
       "airline": "Easy Jet",
       "city": "London-Gatwick",
@@ -457,9 +423,9 @@
       "terminal": "A",
       "gate": "A72",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1792160100.0,
@@ -498,7 +464,7 @@
     {
       "dt": 1792160400.0,
       "time_scheduled": "16:20",
-      "time_estimated": "16:20",
+      "time_estimated": "16:37",
       "flight_no": "EW9960",
       "airline": "Eurowings",
       "city": "Split",
@@ -508,9 +474,9 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792161300.0,
@@ -695,8 +661,8 @@
       "terminal": "B",
       "gate": "B72",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -798,7 +764,7 @@
       "gate": "A66",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -948,7 +914,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A39",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -968,7 +934,7 @@
       "gate": "B77",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1390,7 +1356,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A39",
+      "gate": "A49",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -1628,7 +1594,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A49",
+      "gate": "A65",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
