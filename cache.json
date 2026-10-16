@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 16:25",
+  "updated_at": "16.10.2026 16:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -71,40 +71,6 @@
       "delay": 74
     },
     {
-      "dt": 1792154700.0,
-      "time_scheduled": "14:45",
-      "time_estimated": "15:30",
-      "flight_no": "X34968",
-      "airline": "Tuifly",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B78",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 45
-    },
-    {
-      "dt": 1792154700.0,
-      "time_scheduled": "14:45",
-      "time_estimated": "15:28",
-      "flight_no": "DE1778",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 43
-    },
-    {
       "dt": 1792155900.0,
       "time_scheduled": "15:05",
       "time_estimated": "15:40",
@@ -154,23 +120,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 48
-    },
-    {
-      "dt": 1792156200.0,
-      "time_scheduled": "15:10",
-      "time_estimated": "15:26",
-      "flight_no": "EW9536",
-      "airline": "Eurowings",
-      "city": "Malaga",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "151-167",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1792156200.0,
@@ -326,26 +275,9 @@
       "delay": 25
     },
     {
-      "dt": 1792157400.0,
-      "time_scheduled": "15:30",
-      "time_estimated": "15:30",
-      "flight_no": "XR501",
-      "airline": "Corendon Airlines Europe",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B80",
-      "checkin": "103-105",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
-    },
-    {
       "dt": 1792157700.0,
       "time_scheduled": "15:35",
-      "time_estimated": "15:35",
+      "time_estimated": "16:26",
       "flight_no": "XC197",
       "airline": "Corendon Airlines",
       "city": "Izmir",
@@ -355,9 +287,9 @@
       "terminal": "C",
       "gate": "C52",
       "checkin": "268-270",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 51
     },
     {
       "dt": 1792158000.0,
@@ -532,7 +464,7 @@
     {
       "dt": 1792160100.0,
       "time_scheduled": "16:15",
-      "time_estimated": "16:15",
+      "time_estimated": "16:27",
       "flight_no": "EW9726",
       "airline": "Eurowings",
       "city": "Graz",
@@ -542,9 +474,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 12
     },
     {
       "dt": 1792160400.0,
@@ -576,8 +508,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -628,7 +560,7 @@
       "gate": "B78",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -746,8 +678,8 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
