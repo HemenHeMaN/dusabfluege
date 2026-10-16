@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 11:05",
+  "updated_at": "16.10.2026 11:10",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792137000.0,
-      "time_scheduled": "09:50",
-      "time_estimated": "10:07",
-      "flight_no": "LX1017",
-      "airline": "Swiss",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A65",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
-    },
     {
       "dt": 1792137300.0,
       "time_scheduled": "09:55",
@@ -35,6 +18,23 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 22
+    },
+    {
+      "dt": 1792137300.0,
+      "time_scheduled": "09:55",
+      "time_estimated": "11:09",
+      "flight_no": "BJ215",
+      "airline": "Nouvelair",
+      "city": "Monastir",
+      "country": "Tunesien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C54",
+      "checkin": "242-244",
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 74
     },
     {
       "dt": 1792137600.0,
@@ -56,7 +56,7 @@
     {
       "dt": 1792137900.0,
       "time_scheduled": "10:05",
-      "time_estimated": "10:50",
+      "time_estimated": "11:05",
       "flight_no": "EW9576",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -66,9 +66,9 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 45
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 60
     },
     {
       "dt": 1792138200.0,
@@ -243,7 +243,7 @@
     {
       "dt": 1792140300.0,
       "time_scheduled": "10:45",
-      "time_estimated": "10:55",
+      "time_estimated": "11:15",
       "flight_no": "EW9828",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
@@ -255,7 +255,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 10
+      "delay": 30
     },
     {
       "dt": 1792140900.0,
@@ -304,8 +304,8 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 35
     },
     {
@@ -321,8 +321,8 @@
       "terminal": "A",
       "gate": "A50",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -339,7 +339,7 @@
       "gate": "B80",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 10
     },
     {
@@ -390,7 +390,7 @@
       "gate": "B29",
       "checkin": "131-136",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -457,8 +457,8 @@
       "terminal": "B",
       "gate": "B77",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -753,7 +753,7 @@
     {
       "dt": 1792147800.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:50",
+      "time_estimated": "13:00",
       "flight_no": "A3841",
       "airline": "Aegean Airlines",
       "city": "Athen",
@@ -765,7 +765,7 @@
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1792148100.0,
