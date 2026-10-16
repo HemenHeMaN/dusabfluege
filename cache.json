@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 04:00",
+  "updated_at": "16.10.2026 04:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -1455,10 +1455,10 @@
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
       "country": "Spanien",
-      "type": "Terminal B/C",
+      "type": "Terminal A",
       "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B80",
+      "terminal": "A",
+      "gate": "A66",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3160,6 +3160,23 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792159500.0,
+      "time_scheduled": "16:05",
+      "time_estimated": "16:05",
+      "flight_no": "RJ130",
+      "airline": "Royal Jordanian",
+      "city": "Amman-Queen Alia",
+      "country": "Jordanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "143-146",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
