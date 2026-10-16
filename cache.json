@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 20:30",
+  "updated_at": "16.10.2026 20:42",
   "source": "Dus.com",
   "flights": [
     {
@@ -88,40 +88,6 @@
       "delay": 66
     },
     {
-      "dt": 1792171200.0,
-      "time_scheduled": "19:20",
-      "time_estimated": "19:35",
-      "flight_no": "SK628",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A65",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
-    },
-    {
-      "dt": 1792171200.0,
-      "time_scheduled": "19:20",
-      "time_estimated": "19:33",
-      "flight_no": "XQ3181",
-      "airline": "Sun Express",
-      "city": "Bodrum-Milas",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C57",
-      "checkin": "197-206",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
-    },
-    {
       "dt": 1792171500.0,
       "time_scheduled": "19:25",
       "time_estimated": "19:53",
@@ -137,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 28
-    },
-    {
-      "dt": 1792171500.0,
-      "time_scheduled": "19:25",
-      "time_estimated": "19:38",
-      "flight_no": "AF1007",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B78",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 13
     },
     {
       "dt": 1792171800.0,
@@ -345,7 +294,7 @@
     {
       "dt": 1792174500.0,
       "time_scheduled": "20:15",
-      "time_estimated": "20:15",
+      "time_estimated": "20:32",
       "flight_no": "VF030",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -355,9 +304,9 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "142-144",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1792174500.0,
@@ -372,8 +321,8 @@
       "terminal": "C",
       "gate": "C51",
       "checkin": "148-150",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -396,7 +345,7 @@
     {
       "dt": 1792175100.0,
       "time_scheduled": "20:25",
-      "time_estimated": "20:25",
+      "time_estimated": "20:34",
       "flight_no": "EW4677",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -406,14 +355,14 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 9
     },
     {
       "dt": 1792175400.0,
       "time_scheduled": "20:30",
-      "time_estimated": "20:30",
+      "time_estimated": "20:38",
       "flight_no": "LH2027",
       "airline": "Lufthansa",
       "city": "München",
@@ -423,9 +372,9 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 8
     },
     {
       "dt": 1792176000.0,
@@ -440,8 +389,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "192-195",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -458,7 +407,7 @@
       "gate": "B76",
       "checkin": "101-102",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -475,13 +424,13 @@
       "gate": "C52",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
       "dt": 1792176300.0,
       "time_scheduled": "20:45",
-      "time_estimated": "20:45",
+      "time_estimated": "20:41",
       "flight_no": "XQ1335",
       "airline": "Sun Express",
       "city": "Elazig",
@@ -491,8 +440,8 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "departed",
+      "status_text": "gestartet",
       "delay": 0
     },
     {
@@ -576,8 +525,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "177-178",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -593,8 +542,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "258-268",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1050,7 +999,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A48",
+      "gate": "A44",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1067,7 +1016,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A44",
+      "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1118,7 +1067,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A52",
+      "gate": "A48",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1135,7 +1084,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A33",
+      "gate": "A52",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1169,7 +1118,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A53",
+      "gate": "A31",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1237,7 +1186,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A31",
+      "gate": "A33",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1322,7 +1271,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A56",
+      "gate": "A53",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1339,7 +1288,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A47",
+      "gate": "A56",
       "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
@@ -1356,7 +1305,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A51",
+      "gate": "A47",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1371,9 +1320,9 @@
       "city": "Rom-Fiumicino",
       "country": "Italien",
       "type": "Terminal A",
-      "type_source": "Airline",
-      "terminal": "",
-      "gate": "",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A51",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -1577,7 +1526,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C31",
+      "gate": "C45",
       "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
@@ -1594,7 +1543,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C45",
+      "gate": "C31",
       "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
