@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 07:35",
+  "updated_at": "16.10.2026 07:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,23 +39,6 @@
     {
       "dt": 1792124400.0,
       "time_scheduled": "06:20",
-      "time_estimated": "06:37",
-      "flight_no": "EW9640",
-      "airline": "Eurowings",
-      "city": "Porto",
-      "country": "Portugal",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A66",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
-    },
-    {
-      "dt": 1792124400.0,
-      "time_scheduled": "06:20",
       "time_estimated": "06:47",
       "flight_no": "EW9878",
       "airline": "Eurowings",
@@ -86,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 26
-    },
-    {
-      "dt": 1792124700.0,
-      "time_scheduled": "06:25",
-      "time_estimated": "06:39",
-      "flight_no": "KL1796",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B80",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1792125000.0,
@@ -481,7 +447,7 @@
     {
       "dt": 1792127700.0,
       "time_scheduled": "07:15",
-      "time_estimated": "07:15",
+      "time_estimated": "07:36",
       "flight_no": "EW5702",
       "airline": "Eurowings",
       "city": "Pristina",
@@ -491,9 +457,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1792127700.0,
@@ -600,7 +566,7 @@
     {
       "dt": 1792128300.0,
       "time_scheduled": "07:25",
-      "time_estimated": "07:25",
+      "time_estimated": "07:38",
       "flight_no": "EW9542",
       "airline": "Eurowings",
       "city": "Gran Canaria",
@@ -610,9 +576,9 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 13
     },
     {
       "dt": 1792128300.0,
@@ -678,8 +644,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "261-263",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 30
     },
     {
