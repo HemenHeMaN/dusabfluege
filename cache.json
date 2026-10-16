@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 04:25",
+  "updated_at": "16.10.2026 04:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -949,7 +949,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C31",
-      "checkin": "192-195",
+      "checkin": "192-194",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
