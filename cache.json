@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 05:20",
+  "updated_at": "16.10.2026 05:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -202,8 +202,8 @@
       "terminal": "B",
       "gate": "B28",
       "checkin": "144-146",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -254,7 +254,7 @@
       "gate": "A63",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -305,7 +305,7 @@
       "gate": "B37",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -356,7 +356,7 @@
       "gate": "B24",
       "checkin": "137-138",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -407,7 +407,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1169,7 +1169,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B29",
+      "gate": "B33",
       "checkin": "181-190",
       "status": "scheduled",
       "status_text": "",
@@ -3499,6 +3499,23 @@
       "type_source": "Gate",
       "terminal": "A",
       "gate": "A54",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792164300.0,
+      "time_scheduled": "17:25",
+      "time_estimated": "17:25",
+      "flight_no": "EW9886",
+      "airline": "Eurowings",
+      "city": "Rom-Fiumicino",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B71",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
