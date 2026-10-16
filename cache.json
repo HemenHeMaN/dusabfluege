@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 15:01",
+  "updated_at": "16.10.2026 15:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,23 +22,6 @@
     {
       "dt": 1792150800.0,
       "time_scheduled": "13:40",
-      "time_estimated": "14:01",
-      "flight_no": "EW9036",
-      "airline": "Eurowings",
-      "city": "Hamburg",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A54",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 21
-    },
-    {
-      "dt": 1792150800.0,
-      "time_scheduled": "13:40",
       "time_estimated": "14:19",
       "flight_no": "EW9460",
       "airline": "Eurowings",
@@ -52,40 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 40
-    },
-    {
-      "dt": 1792150800.0,
-      "time_scheduled": "13:40",
-      "time_estimated": "14:02",
-      "flight_no": "EW9672",
-      "airline": "Eurowings",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
-    },
-    {
-      "dt": 1792151100.0,
-      "time_scheduled": "13:45",
-      "time_estimated": "14:04",
-      "flight_no": "PC1002",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 20
     },
     {
       "dt": 1792151400.0,
@@ -304,8 +253,8 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -345,7 +294,7 @@
     {
       "dt": 1792155000.0,
       "time_scheduled": "14:50",
-      "time_estimated": "14:50",
+      "time_estimated": "15:03",
       "flight_no": "LX1019",
       "airline": "Swiss",
       "city": "Zürich",
@@ -355,9 +304,9 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 13
     },
     {
       "dt": 1792155300.0,
@@ -406,8 +355,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-167",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -424,7 +373,7 @@
       "gate": "A49",
       "checkin": "151-167",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -458,7 +407,7 @@
       "gate": "A42",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -492,7 +441,7 @@
       "gate": "B33",
       "checkin": "151-167",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -559,8 +508,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "168-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 35
     },
     {
@@ -764,7 +713,7 @@
       "gate": "A39",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
