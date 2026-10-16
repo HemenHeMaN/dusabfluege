@@ -1,24 +1,7 @@
 {
-  "updated_at": "16.10.2026 07:25",
+  "updated_at": "16.10.2026 07:30",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792123200.0,
-      "time_scheduled": "06:00",
-      "time_estimated": "06:26",
-      "flight_no": "X34104",
-      "airline": "Tuifly",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B72",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
-    },
     {
       "dt": 1792123500.0,
       "time_scheduled": "06:05",
@@ -120,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 12
-    },
-    {
-      "dt": 1792124400.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:29",
-      "flight_no": "EW9504",
-      "airline": "Eurowings",
-      "city": "Menorca",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A44",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792124400.0,
@@ -515,7 +481,7 @@
     {
       "dt": 1792127400.0,
       "time_scheduled": "07:10",
-      "time_estimated": "07:10",
+      "time_estimated": "07:25",
       "flight_no": "EW9654",
       "airline": "Eurowings",
       "city": "Thessaloniki",
@@ -525,14 +491,14 @@
       "terminal": "B",
       "gate": "B44A",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1792127400.0,
       "time_scheduled": "07:10",
-      "time_estimated": "07:10",
+      "time_estimated": "07:27",
       "flight_no": "EW9792",
       "airline": "Eurowings",
       "city": "Bukarest-Otopeni",
@@ -542,14 +508,14 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1792127400.0,
       "time_scheduled": "07:10",
-      "time_estimated": "07:10",
+      "time_estimated": "07:26",
       "flight_no": "BA925",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -559,9 +525,9 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "140-142",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792127700.0,
@@ -634,7 +600,7 @@
     {
       "dt": 1792128000.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:20",
+      "time_estimated": "07:50",
       "flight_no": "EW9420",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -646,7 +612,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 0
+      "delay": 30
     },
     {
       "dt": 1792128000.0,
@@ -695,8 +661,8 @@
       "terminal": "B",
       "gate": "B78",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -814,8 +780,8 @@
       "terminal": "A",
       "gate": "A31",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -849,7 +815,7 @@
       "gate": "B77",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -883,7 +849,7 @@
       "gate": "C40",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3874,6 +3840,57 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792171800.0,
+      "time_scheduled": "19:30",
+      "time_estimated": "19:30",
+      "flight_no": "XC105",
+      "airline": "Corendon Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
+      "checkin": "171-173",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792171800.0,
+      "time_scheduled": "19:30",
+      "time_estimated": "19:30",
+      "flight_no": "LH2023",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A49",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792171800.0,
+      "time_scheduled": "19:30",
+      "time_estimated": "19:30",
+      "flight_no": "XQ289",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
