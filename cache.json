@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 09:40",
+  "updated_at": "16.10.2026 09:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 96
-    },
-    {
-      "dt": 1792131900.0,
-      "time_scheduled": "08:25",
-      "time_estimated": "08:41",
-      "flight_no": "EW9532",
-      "airline": "Eurowings",
-      "city": "Alicante",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B73",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
     },
     {
       "dt": 1792132200.0,
@@ -209,7 +192,7 @@
     {
       "dt": 1792135800.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
+      "time_estimated": "09:45",
       "flight_no": "LH2005",
       "airline": "Lufthansa",
       "city": "München",
@@ -219,14 +202,14 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1792135800.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
+      "time_estimated": "09:43",
       "flight_no": "XQ283",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -236,14 +219,14 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792136100.0,
       "time_scheduled": "09:35",
-      "time_estimated": "09:35",
+      "time_estimated": "09:42",
       "flight_no": "EW4673",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -253,9 +236,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 7
     },
     {
       "dt": 1792136100.0,
@@ -270,8 +253,8 @@
       "terminal": "B",
       "gate": "B72",
       "checkin": "131-136",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -287,8 +270,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -322,7 +305,7 @@
       "gate": "A65",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -356,7 +339,7 @@
       "gate": "C54",
       "checkin": "242-244",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,8 +474,8 @@
       "terminal": "B",
       "gate": "B28",
       "checkin": "194-196",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -691,9 +674,9 @@
       "city": "Rom-Fiumicino",
       "country": "Italien",
       "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
+      "type_source": "Airline",
+      "terminal": "",
+      "gate": "",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
