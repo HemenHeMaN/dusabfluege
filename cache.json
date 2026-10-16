@@ -1,5 +1,5 @@
 {
-  "updated_at": "16.10.2026 20:12",
+  "updated_at": "16.10.2026 20:21",
   "source": "Dus.com",
   "flights": [
     {
@@ -15,8 +15,8 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 110
     },
     {
@@ -35,40 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 46
-    },
-    {
-      "dt": 1792169100.0,
-      "time_scheduled": "18:45",
-      "time_estimated": "19:14",
-      "flight_no": "AY1396",
-      "airline": "Finnair",
-      "city": "Helsinki",
-      "country": "Finnland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B79",
-      "checkin": "131-136",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 30
-    },
-    {
-      "dt": 1792169100.0,
-      "time_scheduled": "18:45",
-      "time_estimated": "19:18",
-      "flight_no": "AP1038",
-      "airline": "Alba Star",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "145-147",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 33
     },
     {
       "dt": 1792169400.0,
@@ -107,7 +73,7 @@
     {
       "dt": 1792170300.0,
       "time_scheduled": "19:05",
-      "time_estimated": "19:50",
+      "time_estimated": "20:12",
       "flight_no": "EW4205",
       "airline": "Eurowings",
       "city": "Prag",
@@ -117,9 +83,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 45
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 68
     },
     {
       "dt": 1792170300.0,
@@ -151,8 +117,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 35
     },
     {
@@ -277,7 +243,7 @@
     {
       "dt": 1792172700.0,
       "time_scheduled": "19:45",
-      "time_estimated": "19:45",
+      "time_estimated": "20:16",
       "flight_no": "LO408",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -287,9 +253,9 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 32
     },
     {
       "dt": 1792173300.0,
@@ -338,8 +304,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -372,14 +338,14 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "246-248",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792173900.0,
       "time_scheduled": "20:05",
-      "time_estimated": "20:05",
+      "time_estimated": "20:20",
       "flight_no": "XQ795",
       "airline": "Sun Express",
       "city": "Ankara-Esenboğa",
@@ -389,9 +355,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1792173900.0,
@@ -423,8 +389,8 @@
       "terminal": "A",
       "gate": "A80",
       "checkin": "142-144",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -492,7 +458,7 @@
       "gate": "A65",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +492,7 @@
       "gate": "B76",
       "checkin": "101-102",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -542,8 +508,8 @@
       "terminal": "C",
       "gate": "C52",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -560,7 +526,7 @@
       "gate": "C57",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -594,7 +560,7 @@
       "gate": "C54",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -611,7 +577,7 @@
       "gate": "B75",
       "checkin": "104-107",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1664,6 +1630,91 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792217700.0,
+      "time_scheduled": "08:15",
+      "time_estimated": "08:15",
+      "flight_no": "EW9854",
+      "airline": "Eurowings",
+      "city": "Brindisi",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792217700.0,
+      "time_scheduled": "08:15",
+      "time_estimated": "08:15",
+      "flight_no": "KL1798",
+      "airline": "KLM",
+      "city": "Amsterdam",
+      "country": "Niederlande",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792217700.0,
+      "time_scheduled": "08:15",
+      "time_estimated": "08:15",
+      "flight_no": "EW9690",
+      "airline": "Eurowings",
+      "city": "Malta",
+      "country": "Malta",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A54",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792217700.0,
+      "time_scheduled": "08:15",
+      "time_estimated": "08:15",
+      "flight_no": "TK3367",
+      "airline": "Turkish Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C52",
+      "checkin": "263-266",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792217700.0,
+      "time_scheduled": "08:15",
+      "time_estimated": "08:15",
+      "flight_no": "EW9636",
+      "airline": "Eurowings",
+      "city": "Kos",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B78",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
