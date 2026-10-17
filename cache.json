@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 10:21",
+  "updated_at": "17.10.2026 10:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -107,23 +107,6 @@
     {
       "dt": 1792222200.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
-      "flight_no": "NP856",
-      "airline": "Nile Air",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C52",
-      "checkin": "168-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
-    },
-    {
-      "dt": 1792222200.0,
-      "time_scheduled": "09:30",
       "time_estimated": "10:07",
       "flight_no": "XQ283",
       "airline": "Sun Express",
@@ -141,7 +124,7 @@
     {
       "dt": 1792222500.0,
       "time_scheduled": "09:35",
-      "time_estimated": "09:35",
+      "time_estimated": "10:30",
       "flight_no": "EW4673",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -151,9 +134,9 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
+      "status": "scheduled",
+      "status_text": "rollt",
+      "delay": 55
     },
     {
       "dt": 1792222800.0,
@@ -175,7 +158,7 @@
     {
       "dt": 1792223100.0,
       "time_scheduled": "09:45",
-      "time_estimated": "09:45",
+      "time_estimated": "10:27",
       "flight_no": "VY1897",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -185,9 +168,9 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "171-172",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 42
     },
     {
       "dt": 1792223400.0,
@@ -311,7 +294,7 @@
     {
       "dt": 1792224000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
+      "time_estimated": "10:21",
       "flight_no": "XC243",
       "airline": "Corendon Airlines",
       "city": "Gazipaşa-Alanya",
@@ -321,14 +304,14 @@
       "terminal": "C",
       "gate": "C51",
       "checkin": "139-146",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1792224300.0,
       "time_scheduled": "10:05",
-      "time_estimated": "10:05",
+      "time_estimated": "10:29",
       "flight_no": "EW9814",
       "airline": "Eurowings",
       "city": "Catania (Sizilien)",
@@ -338,9 +321,9 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 24
     },
     {
       "dt": 1792224300.0,
@@ -372,8 +355,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -396,7 +379,7 @@
     {
       "dt": 1792224600.0,
       "time_scheduled": "10:10",
-      "time_estimated": "10:10",
+      "time_estimated": "10:23",
       "flight_no": "DE234",
       "airline": "Condor",
       "city": "Hurghada",
@@ -406,9 +389,9 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 13
     },
     {
       "dt": 1792225200.0,
@@ -474,8 +457,8 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "139-146",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -492,7 +475,7 @@
       "gate": "C46",
       "checkin": "240-241",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -509,7 +492,7 @@
       "gate": "C54",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +509,7 @@
       "gate": "B31",
       "checkin": "103-105",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -577,7 +560,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -617,7 +600,7 @@
     {
       "dt": 1792227000.0,
       "time_scheduled": "10:50",
-      "time_estimated": "10:50",
+      "time_estimated": "11:05",
       "flight_no": "EW9554",
       "airline": "Eurowings",
       "city": "Lanzarote-Arrecife",
@@ -629,7 +612,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "Gatetafel Gesetzt",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1792227000.0,
@@ -906,7 +889,7 @@
     {
       "dt": 1792230600.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:50",
+      "time_estimated": "12:20",
       "flight_no": "EW9582",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -918,7 +901,7 @@
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 30
     },
     {
       "dt": 1792230600.0,
@@ -1102,7 +1085,7 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C54",
-      "checkin": "246-248",
+      "checkin": "245-248",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
