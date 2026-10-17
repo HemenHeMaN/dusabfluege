@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 05:00",
+  "updated_at": "17.10.2026 05:12",
   "source": "Dus.com",
   "flights": [
     {
@@ -16,7 +16,7 @@
       "gate": "B72",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -33,7 +33,7 @@
       "gate": "B78",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -50,7 +50,7 @@
       "gate": "B74",
       "checkin": "131-136",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -67,7 +67,7 @@
       "gate": "B75",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -100,8 +100,8 @@
       "terminal": "B",
       "gate": "B36",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -152,7 +152,7 @@
       "gate": "A46",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -203,7 +203,7 @@
       "gate": "B58",
       "checkin": "147-150",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -220,7 +220,7 @@
       "gate": "B52",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -322,7 +322,7 @@
       "gate": "B42A",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3483,6 +3483,57 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792249500.0,
+      "time_scheduled": "17:05",
+      "time_estimated": "17:05",
+      "flight_no": "DE1778",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B33",
+      "checkin": "181-190",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792249800.0,
+      "time_scheduled": "17:10",
+      "time_estimated": "17:10",
+      "flight_no": "EW9868",
+      "airline": "Eurowings",
+      "city": "Cagliari (Sardinien)",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B27",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792249800.0,
+      "time_scheduled": "17:10",
+      "time_estimated": "17:10",
+      "flight_no": "PC1004",
+      "airline": "Pegasus Airlines",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C37",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
