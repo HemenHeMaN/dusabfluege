@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 06:42",
+  "updated_at": "17.10.2026 06:51",
   "source": "Dus.com",
   "flights": [
     {
@@ -175,7 +175,7 @@
     {
       "dt": 1792209600.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:00",
+      "time_estimated": "06:44",
       "flight_no": "DE1684",
       "airline": "Condor",
       "city": "Larnaca (Zypern)",
@@ -185,9 +185,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 44
     },
     {
       "dt": 1792209900.0,
@@ -294,7 +294,7 @@
     {
       "dt": 1792210200.0,
       "time_scheduled": "06:10",
-      "time_estimated": "06:10",
+      "time_estimated": "06:50",
       "flight_no": "DE1774",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -304,9 +304,9 @@
       "terminal": "B",
       "gate": "B24",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 41
     },
     {
       "dt": 1792210200.0,
@@ -389,8 +389,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -413,7 +413,7 @@
     {
       "dt": 1792211400.0,
       "time_scheduled": "06:30",
-      "time_estimated": "06:30",
+      "time_estimated": "06:45",
       "flight_no": "EW9642",
       "airline": "Eurowings",
       "city": "Faro",
@@ -425,12 +425,12 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1792211400.0,
       "time_scheduled": "06:30",
-      "time_estimated": "06:30",
+      "time_estimated": "06:46",
       "flight_no": "EW9852",
       "airline": "Eurowings",
       "city": "Lamezia Terme (Kalabrien)",
@@ -440,14 +440,14 @@
       "terminal": "A",
       "gate": "A48",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 16
     },
     {
       "dt": 1792211400.0,
       "time_scheduled": "06:30",
-      "time_estimated": "06:30",
+      "time_estimated": "06:48",
       "flight_no": "EW9952",
       "airline": "Eurowings",
       "city": "Dubrovnik",
@@ -457,9 +457,9 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1792211400.0,
@@ -474,8 +474,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -492,7 +492,7 @@
       "gate": "A63",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -525,8 +525,8 @@
       "terminal": "A",
       "gate": "A33",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -560,7 +560,7 @@
       "gate": "A53",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -577,7 +577,7 @@
       "gate": "B74",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -611,7 +611,7 @@
       "gate": "A83",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -645,7 +645,7 @@
       "gate": "B38",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -729,8 +729,8 @@
       "terminal": "A",
       "gate": "A56",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -780,8 +780,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -797,8 +797,8 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -815,7 +815,7 @@
       "gate": "A44",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1119,7 +1119,7 @@
       "type_source": "Gate",
       "terminal": "B",
       "gate": "B35",
-      "checkin": "174-176",
+      "checkin": "173-176",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
@@ -3721,6 +3721,57 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792255500.0,
+      "time_scheduled": "18:45",
+      "time_estimated": "18:45",
+      "flight_no": "GQ891",
+      "airline": "Sky Express",
+      "city": "Athen",
+      "country": "Griechenland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B35",
+      "checkin": "142-144",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792255500.0,
+      "time_scheduled": "18:45",
+      "time_estimated": "18:45",
+      "flight_no": "AY1396",
+      "airline": "Finnair",
+      "city": "Helsinki",
+      "country": "Finnland",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "131-136",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792255800.0,
+      "time_scheduled": "18:50",
+      "time_estimated": "18:50",
+      "flight_no": "TK1528",
+      "airline": "Turkish Airlines",
+      "city": "Istanbul",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C31",
+      "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
