@@ -986,14 +986,16 @@ function renderFlights(flights) {
         return;
     }
 
-    const statusMap = {
-        "scheduled": "Geplant",
-        "checkin": "Check-in offen",
-        "boarding": "Boarding",
-        "departed": "Gestartet",
-        "cancelled": "Annulliert",
-        "incident": "Störung",
-        "diverted": "Umgeleitet"
+     const statusMap = {
+    "scheduled": "Geplant",
+    "checkin": "Geplant",
+    "boarding": "Boarding",
+    "boarding_beendet": "Boarding Beendet",
+    "rollt": "Rollt",
+    "departed": "Gestartet",
+    "cancelled": "Annulliert",
+    "incident": "Störung",
+    "diverted": "Umgeleitet"
     };
 
     flights.forEach(f => {
@@ -1122,12 +1124,27 @@ function berlinMin() {
 
 function tfStatus(f) {
     const s = String(f.status).toLowerCase();
-    if (s === 'departed') return { cls: 's-gestartet', label: 'Gestartet' };
-    if (s === 'boarding') return { cls: 's-boarding', label: 'Boarding' };
-    if (s === 'checkin') return { cls: 's-checkin', label: 'Check-in' };
-    if (s === 'cancelled') return { cls: 's-annulliert', label: 'Annulliert' };
-    if (s === 'diverted') return { cls: 's-annulliert', label: 'Umgeleitet' };
-    if (s === 'incident') return { cls: 's-annulliert', label: 'Störung' };
+    const rawText = String(f.status_text || "").toLowerCase();
+
+    if (s === 'departed') {
+        return { cls: 's-gestartet', label: 'Gestartet' };
+    }
+    // "Rollt" separat behandeln
+    if (s === 'rollt' || rawText.includes('rollt') || rawText.includes('taxi')) {
+        return { cls: 's-checkin', label: 'Rollt' };
+    }
+    // Boarding beendet -> "Boarding Beendet"
+    if (rawText.includes('beendet')) {
+        return { cls: 's-boarding', label: 'Boarding Beendet' };
+    }
+    // Normales Boarding -> "Boarding"
+    if (s === 'boarding' || rawText.includes('boarding') || rawText.includes('final call')) {
+        return { cls: 's-boarding', label: 'Boarding' };
+    }
+    if (s === 'cancelled' || s === 'diverted' || s === 'incident') {
+        return { cls: 's-annulliert', label: 'Annulliert' };
+    }
+    // Noch nicht gestartet / Check-in -> Geplant
     return { cls: 's-checkin', label: 'Geplant' };
 }
 
