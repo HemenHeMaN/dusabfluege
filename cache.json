@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 05:51",
+  "updated_at": "17.10.2026 06:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -83,14 +83,14 @@
       "terminal": "B",
       "gate": "B37",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792209000.0,
       "time_scheduled": "05:50",
-      "time_estimated": "05:50",
+      "time_estimated": "06:00",
       "flight_no": "DE1616",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -100,9 +100,9 @@
       "terminal": "B",
       "gate": "B36",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 10
     },
     {
       "dt": 1792209000.0,
@@ -152,7 +152,7 @@
       "gate": "A46",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -169,7 +169,7 @@
       "gate": "B33",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -355,8 +355,8 @@
       "terminal": "B",
       "gate": "B56",
       "checkin": "145-146",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -389,8 +389,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -406,8 +406,8 @@
       "terminal": "B",
       "gate": "B80",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -440,8 +440,8 @@
       "terminal": "A",
       "gate": "A48",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -474,8 +474,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -508,8 +508,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,7 +526,7 @@
       "gate": "A33",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -543,7 +543,7 @@
       "gate": "B29",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -594,7 +594,7 @@
       "gate": "B72",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 20
     },
     {
@@ -948,7 +948,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B37",
+      "gate": "B26",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2665,7 +2665,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A66",
+      "gate": "A25",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2764,10 +2764,10 @@
       "airline": "Eurowings",
       "city": "Heraklion (Kreta)",
       "country": "Griechenland",
-      "type": "Terminal B/C",
+      "type": "Terminal A",
       "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B76",
+      "terminal": "A",
+      "gate": "A63",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2832,10 +2832,10 @@
       "airline": "Eurowings",
       "city": "Malaga",
       "country": "Spanien",
-      "type": "Terminal B/C",
+      "type": "Terminal A",
       "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B37",
+      "terminal": "A",
+      "gate": "A54",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2988,7 +2988,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A54",
+      "gate": "A46",
       "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
@@ -3585,6 +3585,74 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "103-105",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792252500.0,
+      "time_scheduled": "17:55",
+      "time_estimated": "17:55",
+      "flight_no": "VF006",
+      "airline": "A Jet",
+      "city": "Ankara-Esenboğa",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C45",
+      "checkin": "246-248",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792252500.0,
+      "time_scheduled": "17:55",
+      "time_estimated": "17:55",
+      "flight_no": "NP6491",
+      "airline": "Nile Air",
+      "city": "Hurghada",
+      "country": "Ägypten",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C32",
+      "checkin": "171-173",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792252800.0,
+      "time_scheduled": "18:00",
+      "time_estimated": "18:00",
+      "flight_no": "EW9422",
+      "airline": "Eurowings",
+      "city": "Nizza",
+      "country": "Frankreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A39",
+      "checkin": "151-170",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792252800.0,
+      "time_scheduled": "18:00",
+      "time_estimated": "18:00",
+      "flight_no": "EW9432",
+      "airline": "Eurowings",
+      "city": "Bastia (Korsika)",
+      "country": "Frankreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A25",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
