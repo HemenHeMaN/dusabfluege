@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 10:12",
+  "updated_at": "17.10.2026 10:21",
   "source": "Dus.com",
   "flights": [
     {
@@ -118,7 +118,7 @@
       "gate": "C52",
       "checkin": "168-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -185,8 +185,8 @@
       "terminal": "B",
       "gate": "B57",
       "checkin": "171-172",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -209,7 +209,7 @@
     {
       "dt": 1792223400.0,
       "time_scheduled": "09:50",
-      "time_estimated": "09:50",
+      "time_estimated": "10:12",
       "flight_no": "LX1017",
       "airline": "Swiss",
       "city": "Zürich",
@@ -219,9 +219,9 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 22
     },
     {
       "dt": 1792223400.0,
@@ -260,7 +260,7 @@
     {
       "dt": 1792223700.0,
       "time_scheduled": "09:55",
-      "time_estimated": "09:55",
+      "time_estimated": "10:14",
       "flight_no": "XQ969",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -270,14 +270,14 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1792224000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
+      "time_estimated": "10:16",
       "flight_no": "XR401",
       "airline": "Corendon Airlines Europe",
       "city": "Heraklion (Kreta)",
@@ -287,14 +287,14 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "139-146",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792224000.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
+      "time_estimated": "10:19",
       "flight_no": "XQ189",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -304,9 +304,9 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1792224000.0,
@@ -321,8 +321,8 @@
       "terminal": "C",
       "gate": "C51",
       "checkin": "139-146",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -338,14 +338,14 @@
       "terminal": "B",
       "gate": "B76",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792224300.0,
       "time_scheduled": "10:05",
-      "time_estimated": "10:05",
+      "time_estimated": "10:15",
       "flight_no": "EW9958",
       "airline": "Eurowings",
       "city": "Split",
@@ -355,9 +355,9 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 10
     },
     {
       "dt": 1792224600.0,
@@ -373,7 +373,7 @@
       "gate": "A49",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -423,8 +423,8 @@
       "terminal": "C",
       "gate": "C42",
       "checkin": "146-150",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -441,7 +441,7 @@
       "gate": "C56",
       "checkin": "259-265",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -644,8 +644,8 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -679,7 +679,7 @@
       "gate": "B80",
       "checkin": "140-143",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -730,7 +730,7 @@
       "gate": "C57",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -747,7 +747,7 @@
       "gate": "C40",
       "checkin": "242-245",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
