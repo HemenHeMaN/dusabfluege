@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 10:00",
+  "updated_at": "17.10.2026 10:12",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,19 +22,19 @@
     {
       "dt": 1792219500.0,
       "time_scheduled": "08:45",
-      "time_estimated": "09:03",
-      "flight_no": "BJ2875",
-      "airline": "Nouvelair",
-      "city": "Djerba",
-      "country": "Tunesien",
+      "time_estimated": "10:04",
+      "flight_no": "QS4665",
+      "airline": "Smartwings",
+      "city": "Rhodos",
+      "country": "Griechenland",
       "type": "Terminal B/C",
       "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C36",
-      "checkin": "259-265",
+      "terminal": "B",
+      "gate": "B35",
+      "checkin": "173-176",
       "status": "departed",
       "status_text": "gestartet",
-      "delay": 18
+      "delay": 80
     },
     {
       "dt": 1792220700.0,
@@ -124,7 +124,7 @@
     {
       "dt": 1792222200.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
+      "time_estimated": "10:07",
       "flight_no": "XQ283",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -134,9 +134,9 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 38
     },
     {
       "dt": 1792222500.0,
@@ -192,7 +192,7 @@
     {
       "dt": 1792223400.0,
       "time_scheduled": "09:50",
-      "time_estimated": "09:50",
+      "time_estimated": "10:02",
       "flight_no": "EW9844",
       "airline": "Eurowings",
       "city": "Olbia (Sardinien)",
@@ -202,9 +202,9 @@
       "terminal": "B",
       "gate": "B30",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 13
     },
     {
       "dt": 1792223400.0,
@@ -226,7 +226,7 @@
     {
       "dt": 1792223400.0,
       "time_scheduled": "09:50",
-      "time_estimated": "09:50",
+      "time_estimated": "10:09",
       "flight_no": "PC5002",
       "airline": "Pegasus Airlines",
       "city": "Antalya",
@@ -236,14 +236,14 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1792223700.0,
       "time_scheduled": "09:55",
-      "time_estimated": "09:55",
+      "time_estimated": "10:06",
       "flight_no": "BJ2909",
       "airline": "Nouvelair",
       "city": "Monastir",
@@ -253,9 +253,9 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "259-265",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792223700.0,
@@ -270,8 +270,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -287,8 +287,8 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "139-146",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -339,7 +339,7 @@
       "gate": "B76",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -355,8 +355,8 @@
       "terminal": "A",
       "gate": "A40",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -406,8 +406,8 @@
       "terminal": "A",
       "gate": "A73",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -424,7 +424,7 @@
       "gate": "C42",
       "checkin": "146-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -491,8 +491,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "240-241",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -508,8 +508,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -525,8 +525,8 @@
       "terminal": "B",
       "gate": "B31",
       "checkin": "103-105",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -559,8 +559,8 @@
       "terminal": "A",
       "gate": "A25",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -576,8 +576,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -610,8 +610,8 @@
       "terminal": "B",
       "gate": "B33",
       "checkin": "181-190",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -696,7 +696,7 @@
       "gate": "A81",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -815,7 +815,7 @@
       "gate": "A73",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
