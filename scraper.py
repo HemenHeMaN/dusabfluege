@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
 DUS-Abflüge Scraper (dus.com Flug-API)
-Läuft zwischen 05:25 und 00:35 (Europe/Berlin), Takt über Cron/Scheduler.
+Läuft zwischen 03:00 und 22:00 (Europe/Berlin), Takt über Cron/Scheduler.
 Aufruf mit --force ignoriert das Zeitfenster (zum Testen).
 Aufruf mit --debug gibt die rohen API-Felder der ersten Abflüge aus
 (praktisch, um die Feldnamen für Gate und Check-in zu prüfen).
 
 Pro Abflug werden Gate und Check-in-Schalter direkt von dus.com übernommen.
+
+Ausgabe: departure.json (lokal) und derselbe Inhalt in Firebase (Projekt dus-airport).
 
 Terminal-Zuordnung (Feld "type", Reihenfolge):
   1. Gate    : Gate mit A = "Terminal A", Gate mit B oder C = "Terminal B/C"
@@ -30,8 +32,16 @@ from zoneinfo import ZoneInfo
 # ---------------------------------------------------------------- Konfiguration
 API_URL = "https://www.dus.com/api/sitecore/flightapi/SearchFlightsWithOutParams"
 REFERER = "https://www.dus.com/de-de/fliegen/abflug"
-CACHE_FILE = "cache.json"
-FIREBASE_URL = "https://abfluege-default-rtdb.europe-west1.firebasedatabase.app/cache.json"
+CACHE_FILE = "departure.json"
+
+# Realtime Database im Firebase-Projekt "dus-airport".
+# Die genaue URL steht in der Firebase-Konsole oben auf der Seite "Realtime Database".
+# Alternativ per Umgebungsvariable FIREBASE_DATABASE_URL setzen (ohne Pfad am Ende).
+FIREBASE_DATABASE_URL = os.environ.get(
+    "FIREBASE_DATABASE_URL",
+    "https://dus-airport-default-rtdb.europe-west1.firebasedatabase.app",
+).rstrip("/")
+FIREBASE_URL = f"{FIREBASE_DATABASE_URL}/{CACHE_FILE}"
 
 TZ = ZoneInfo("Europe/Berlin")
 
@@ -73,7 +83,7 @@ AIRPORT_NAME_OVERRIDES = {
     "OLB": "Olbia (Sardinien)", "CAG": "Cagliari (Sardinien)",
     "TFS": "Teneriffa Süd", "TFN": "Teneriffa Nord", "LPA": "Gran Canaria",
     "XRY": "Jerez de la Frontera", "PVK": "Preveza-Aktion",
-    "COV": "Çukurova", "ESB": "Ankara-Esenboğa",
+    "COV": "Mersin-Çukurova", "ESB": "Ankara-Esenboğa",
     "SAW": "Istanbul-Sabiha Gökçen", "GZP": "Gazipaşa-Alanya",
     "HEL": "Helsinki",
 }
@@ -402,10 +412,10 @@ def main():
         raw = fetch_flights(now)
     except Exception as e:
         print(f"Fehler beim Abruf: {e}")
-        print("cache.json bleibt unverändert.")
+        print(f"{CACHE_FILE} bleibt unverändert.")
         sys.exit(1)
     if not raw:
-        print("API lieferte keine Flüge, cache.json bleibt unverändert.")
+        print(f"API lieferte keine Flüge, {CACHE_FILE} bleibt unverändert.")
         sys.exit(1)
 
     if "--debug" in sys.argv:
@@ -426,7 +436,7 @@ def main():
         "source": "Dus.com",
         "flights": unique,
     })
-    print(f"cache.json aktualisiert: {len(unique)} Flüge.")
+    print(f"{CACHE_FILE} aktualisiert: {len(unique)} Flüge.")
 
     # Zusätzlich direkt nach Firebase (schnell, ohne Cache)
     push_to_firebase()
