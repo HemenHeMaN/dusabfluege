@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 5
 
     permissions:
-      contents: write
+      contents: read
 
     steps:
       - name: Repository auschecken
@@ -35,25 +35,9 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           DUSFLUGDATENKEY: ${{ secrets.DUSFLUGDATENKEY }}
         run: |
-          python scraper.py
-
-      - name: Änderungen committen und pushen (nur alle 10 Minuten)
-        run: |
-          MIN=$((10#$(date +%M)))
-          if [ $((MIN % 10)) -ge 3 ] && [ "$GITHUB_EVENT_NAME" != "workflow_dispatch" ]; then
-            echo "Commit diesmal übersprungen (nur alle 10 Minuten)."
-            exit 0
-          fi
-
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add departure.json
-
-          if git diff --staged --quiet; then
-            echo "Keine Änderungen an departure.json."
+          # Manueller Start pusht sofort ins Daten-Repo, der Cronjob nur alle 10 Minuten
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            python scraper.py --force
           else
-            git commit -m "Update departure.json (dus.com Abflüge)"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push
+            python scraper.py
           fi
