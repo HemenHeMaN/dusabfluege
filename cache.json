@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 05:42",
+  "updated_at": "17.10.2026 05:51",
   "source": "Dus.com",
   "flights": [
     {
@@ -33,7 +33,7 @@
       "gate": "B78",
       "checkin": "234-239",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -50,7 +50,7 @@
       "gate": "B74",
       "checkin": "131-136",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -66,8 +66,8 @@
       "terminal": "B",
       "gate": "B75",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -100,8 +100,8 @@
       "terminal": "B",
       "gate": "B36",
       "checkin": "181-190",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -118,7 +118,7 @@
       "gate": "B27",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -135,7 +135,7 @@
       "gate": "A31",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -186,7 +186,7 @@
       "gate": "C45",
       "checkin": "251-254",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -203,7 +203,7 @@
       "gate": "B58",
       "checkin": "147-150",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -220,7 +220,7 @@
       "gate": "B52",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -288,7 +288,7 @@
       "gate": "A45",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -338,8 +338,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -372,8 +372,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -390,7 +390,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -424,7 +424,7 @@
       "gate": "A42",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -509,7 +509,7 @@
       "gate": "B31",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -577,7 +577,7 @@
       "gate": "B74",
       "checkin": "234-239",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -914,7 +914,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C53",
+      "gate": "C54",
       "checkin": "192-197",
       "status": "scheduled",
       "status_text": "",
@@ -1696,7 +1696,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C52",
+      "gate": "C54",
       "checkin": "251-254",
       "status": "scheduled",
       "status_text": "",
@@ -2206,7 +2206,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C53",
+      "gate": "C54",
       "checkin": "246-248",
       "status": "scheduled",
       "status_text": "",
@@ -2461,7 +2461,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A65",
+      "gate": "A66",
       "checkin": "151-167",
       "status": "scheduled",
       "status_text": "",
@@ -2699,7 +2699,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A63",
+      "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -2832,10 +2832,10 @@
       "airline": "Eurowings",
       "city": "Malaga",
       "country": "Spanien",
-      "type": "Terminal A",
+      "type": "Terminal B/C",
       "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A25",
+      "terminal": "B",
+      "gate": "B37",
       "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
@@ -3568,6 +3568,23 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792251900.0,
+      "time_scheduled": "17:45",
+      "time_estimated": "17:45",
+      "flight_no": "TP543",
+      "airline": "TAP Portugal",
+      "city": "Lissabon",
+      "country": "Portugal",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
