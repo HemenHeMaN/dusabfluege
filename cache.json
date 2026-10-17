@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 07:30",
+  "updated_at": "17.10.2026 07:42",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,23 +22,6 @@
     {
       "dt": 1792210200.0,
       "time_scheduled": "06:10",
-      "time_estimated": "06:36",
-      "flight_no": "EW9534",
-      "airline": "Eurowings",
-      "city": "Malaga",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A50",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 26
-    },
-    {
-      "dt": 1792210200.0,
-      "time_scheduled": "06:10",
       "time_estimated": "06:50",
       "flight_no": "DE1774",
       "airline": "Condor",
@@ -52,57 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 41
-    },
-    {
-      "dt": 1792210800.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:31",
-      "flight_no": "EW9716",
-      "airline": "Eurowings",
-      "city": "Salzburg",
-      "country": "Österreich",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A44",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
-    },
-    {
-      "dt": 1792210800.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:42",
-      "flight_no": "IB1326",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B56",
-      "checkin": "145-146",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 22
-    },
-    {
-      "dt": 1792210800.0,
-      "time_scheduled": "06:20",
-      "time_estimated": "06:33",
-      "flight_no": "LH2031",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A49",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
     },
     {
       "dt": 1792211100.0,
@@ -120,23 +52,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 34
-    },
-    {
-      "dt": 1792211100.0,
-      "time_scheduled": "06:25",
-      "time_estimated": "06:38",
-      "flight_no": "KL1796",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B80",
-      "checkin": "111-120",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 13
     },
     {
       "dt": 1792211400.0,
@@ -209,7 +124,7 @@
     {
       "dt": 1792211400.0,
       "time_scheduled": "06:30",
-      "time_estimated": "07:00",
+      "time_estimated": "07:34",
       "flight_no": "EW9542",
       "airline": "Eurowings",
       "city": "Gran Canaria",
@@ -219,9 +134,9 @@
       "terminal": "A",
       "gate": "A63",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 30
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 64
     },
     {
       "dt": 1792211700.0,
@@ -379,7 +294,7 @@
     {
       "dt": 1792213500.0,
       "time_scheduled": "07:05",
-      "time_estimated": "07:25",
+      "time_estimated": "07:40",
       "flight_no": "EW9750",
       "airline": "Eurowings",
       "city": "Wien",
@@ -391,7 +306,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 20
+      "delay": 35
     },
     {
       "dt": 1792213800.0,
@@ -413,7 +328,7 @@
     {
       "dt": 1792213800.0,
       "time_scheduled": "07:10",
-      "time_estimated": "07:10",
+      "time_estimated": "07:35",
       "flight_no": "BA925",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -423,14 +338,14 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "139-141",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1792214100.0,
       "time_scheduled": "07:15",
-      "time_estimated": "07:15",
+      "time_estimated": "07:32",
       "flight_no": "EW9680",
       "airline": "Eurowings",
       "city": "Athen",
@@ -440,9 +355,9 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792214100.0,
@@ -457,14 +372,14 @@
       "terminal": "A",
       "gate": "A56",
       "checkin": "103-105",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
       "dt": 1792214400.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:20",
+      "time_estimated": "07:37",
       "flight_no": "EW9770",
       "airline": "Eurowings",
       "city": "Prag",
@@ -474,14 +389,14 @@
       "terminal": "A",
       "gate": "A47",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 17
     },
     {
       "dt": 1792214400.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:20",
+      "time_estimated": "07:30",
       "flight_no": "EW9882",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -491,9 +406,9 @@
       "terminal": "A",
       "gate": "A51",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 11
     },
     {
       "dt": 1792214400.0,
@@ -515,7 +430,7 @@
     {
       "dt": 1792214400.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:20",
+      "time_estimated": "07:39",
       "flight_no": "EW9008",
       "airline": "Eurowings",
       "city": "Sylt (Westerland)",
@@ -525,9 +440,9 @@
       "terminal": "A",
       "gate": "A45",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 19
     },
     {
       "dt": 1792215000.0,
@@ -542,8 +457,8 @@
       "terminal": "A",
       "gate": "A44",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -559,8 +474,8 @@
       "terminal": "A",
       "gate": "A39",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -594,7 +509,7 @@
       "gate": "A81",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -763,8 +678,8 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -780,8 +695,8 @@
       "terminal": "C",
       "gate": "C52",
       "checkin": "263-266",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -797,8 +712,8 @@
       "terminal": "B",
       "gate": "B38",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -815,7 +730,7 @@
       "gate": "C40",
       "checkin": "251-254",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -831,8 +746,8 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "267-269",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -1288,7 +1203,7 @@
       "type": "Terminal A",
       "type_source": "Gate",
       "terminal": "A",
-      "gate": "A25",
+      "gate": "A45",
       "checkin": "101-102",
       "status": "scheduled",
       "status_text": "",
@@ -1356,7 +1271,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "B",
-      "gate": "B31",
+      "gate": "B24",
       "checkin": "103-105",
       "status": "scheduled",
       "status_text": "",
@@ -1577,7 +1492,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C46",
+      "gate": "C40",
       "checkin": "242-245",
       "status": "scheduled",
       "status_text": "",
@@ -1781,7 +1696,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C37",
+      "gate": "C46",
       "checkin": "266-267",
       "status": "scheduled",
       "status_text": "",
@@ -1832,7 +1747,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C40",
+      "gate": "C37",
       "checkin": "259-262",
       "status": "scheduled",
       "status_text": "",
@@ -2206,7 +2121,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C57",
+      "gate": "C46",
       "checkin": "168-170",
       "status": "scheduled",
       "status_text": "",
@@ -3568,6 +3483,40 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "240-242",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792258800.0,
+      "time_scheduled": "19:40",
+      "time_estimated": "19:40",
+      "flight_no": "VL2023",
+      "airline": "Lufthansa City Airlines",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A40",
+      "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792258800.0,
+      "time_scheduled": "19:40",
+      "time_estimated": "19:40",
+      "flight_no": "BQ1953",
+      "airline": "Sky Alps",
+      "city": "Bozen",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B80",
+      "checkin": "105",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
