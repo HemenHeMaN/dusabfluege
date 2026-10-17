@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 09:51",
+  "updated_at": "17.10.2026 10:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,40 +18,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 103
-    },
-    {
-      "dt": 1792218600.0,
-      "time_scheduled": "08:30",
-      "time_estimated": "08:57",
-      "flight_no": "PC1006",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "251-254",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
-    },
-    {
-      "dt": 1792218600.0,
-      "time_scheduled": "08:30",
-      "time_estimated": "08:52",
-      "flight_no": "TK3365",
-      "airline": "Turkish Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C57",
-      "checkin": "267-269",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
     },
     {
       "dt": 1792219500.0,
@@ -90,7 +56,7 @@
     {
       "dt": 1792221600.0,
       "time_scheduled": "09:20",
-      "time_estimated": "09:20",
+      "time_estimated": "09:58",
       "flight_no": "QR088",
       "airline": "Qatar Airways",
       "city": "Doha",
@@ -100,9 +66,9 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "243-248",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 38
     },
     {
       "dt": 1792222200.0,
@@ -168,8 +134,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -192,7 +158,7 @@
     {
       "dt": 1792222800.0,
       "time_scheduled": "09:40",
-      "time_estimated": "09:40",
+      "time_estimated": "09:54",
       "flight_no": "OS162",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -202,9 +168,9 @@
       "terminal": "A",
       "gate": "A65",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 15
     },
     {
       "dt": 1792223100.0,
@@ -220,7 +186,7 @@
       "gate": "B57",
       "checkin": "171-172",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -253,8 +219,8 @@
       "terminal": "A",
       "gate": "A66",
       "checkin": "111-120",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -287,8 +253,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "259-265",
-      "status": "boarding",
-      "status_text": "Boarding",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -339,7 +305,7 @@
       "gate": "C32",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -356,7 +322,7 @@
       "gate": "C51",
       "checkin": "139-146",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -390,7 +356,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -406,8 +372,8 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -424,7 +390,7 @@
       "gate": "A31",
       "checkin": "111-120",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -441,7 +407,7 @@
       "gate": "A73",
       "checkin": "181-190",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -576,8 +542,8 @@
       "terminal": "C",
       "gate": "C37",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -594,7 +560,7 @@
       "gate": "A25",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -627,8 +593,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -662,7 +628,7 @@
       "gate": "B79",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -679,7 +645,7 @@
       "gate": "A65",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1263,7 +1229,7 @@
     {
       "dt": 1792233600.0,
       "time_scheduled": "12:40",
-      "time_estimated": "12:40",
+      "time_estimated": "12:55",
       "flight_no": "A3541",
       "airline": "Aegean Airlines",
       "city": "Thessaloniki",
@@ -1275,7 +1241,7 @@
       "checkin": "131-136",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1792233600.0,
