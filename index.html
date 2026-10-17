@@ -859,7 +859,7 @@ toTop.addEventListener('click', () => {
 updateToTop();
 
 /* ---------- Flugdaten Laden & Filtern ---------- */
-const FIREBASE_URL = 'https://abfluege-default-rtdb.europe-west1.firebasedatabase.app/cache.json';
+const FIREBASE_URL = 'https://dus-airport-default-rtdb.europe-west1.firebasedatabase.app/departure.json';
 
 function parseUpdated(s) {
     const m = String(s).match(/(\d+)\.(\d+)\.(\d+) (\d+):(\d+)/);
@@ -880,9 +880,9 @@ function fetchData(url) {
 }
 
 function loadData() {
-    // Zuerst Firebase, bei Fehler die cache.json aus dem Repo als Reserve
+    // Zuerst Firebase, bei Fehler die departure.json aus dem Repo als Reserve
     fetchData(FIREBASE_URL)
-        .catch(() => fetchData('cache.json?t=' + Date.now()))
+        .catch(() => fetchData('departure.json?t=' + Date.now()))
         .then(data => {
             const upd = parseUpdated(data.updated_at);
             const ageMin = upd ? (Date.now() - upd.getTime()) / 60000 : 0;
