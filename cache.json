@@ -1,24 +1,7 @@
 {
-  "updated_at": "17.10.2026 07:51",
+  "updated_at": "17.10.2026 08:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792211100.0,
-      "time_scheduled": "06:25",
-      "time_estimated": "06:59",
-      "flight_no": "EW9576",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A40",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 34
-    },
     {
       "dt": 1792211400.0,
       "time_scheduled": "06:30",
@@ -39,23 +22,6 @@
     {
       "dt": 1792211400.0,
       "time_scheduled": "06:30",
-      "time_estimated": "06:55",
-      "flight_no": "EW9440",
-      "airline": "Eurowings",
-      "city": "Barcelona",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A65",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 25
-    },
-    {
-      "dt": 1792211400.0,
-      "time_scheduled": "06:30",
       "time_estimated": "07:34",
       "flight_no": "EW9542",
       "airline": "Eurowings",
@@ -69,23 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 64
-    },
-    {
-      "dt": 1792211700.0,
-      "time_scheduled": "06:35",
-      "time_estimated": "06:52",
-      "flight_no": "EW9860",
-      "airline": "Eurowings",
-      "city": "Neapel",
-      "country": "Italien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B31",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
     },
     {
       "dt": 1792212300.0,
@@ -226,7 +175,7 @@
     {
       "dt": 1792213500.0,
       "time_scheduled": "07:05",
-      "time_estimated": "07:40",
+      "time_estimated": "07:51",
       "flight_no": "EW9750",
       "airline": "Eurowings",
       "city": "Wien",
@@ -236,9 +185,9 @@
       "terminal": "A",
       "gate": "A68",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 35
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 47
     },
     {
       "dt": 1792213800.0,
@@ -413,7 +362,7 @@
     {
       "dt": 1792215600.0,
       "time_scheduled": "07:40",
-      "time_estimated": "07:40",
+      "time_estimated": "07:53",
       "flight_no": "EW9462",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -423,9 +372,9 @@
       "terminal": "A",
       "gate": "A82",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 14
     },
     {
       "dt": 1792216200.0,
@@ -440,8 +389,8 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -475,7 +424,7 @@
       "gate": "B58",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -526,7 +475,7 @@
       "gate": "B26",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -560,7 +509,7 @@
       "gate": "C37",
       "checkin": "197-206",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -611,7 +560,7 @@
       "gate": "A54",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -645,7 +594,7 @@
       "gate": "B38",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -661,8 +610,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -713,7 +662,7 @@
       "gate": "C36",
       "checkin": "259-265",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -747,7 +696,7 @@
       "gate": "C31",
       "checkin": "243-248",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -2019,7 +1968,7 @@
       "type": "Terminal B/C",
       "type_source": "Gate",
       "terminal": "C",
-      "gate": "C46",
+      "gate": "C56",
       "checkin": "142-144",
       "status": "scheduled",
       "status_text": "",
@@ -3466,6 +3415,57 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "103-104",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792259700.0,
+      "time_scheduled": "19:55",
+      "time_estimated": "19:55",
+      "flight_no": "IB756",
+      "airline": "Iberia",
+      "city": "Madrid-Barajas",
+      "country": "Spanien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "145-147",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792259700.0,
+      "time_scheduled": "19:55",
+      "time_estimated": "19:55",
+      "flight_no": "XQ281",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C53",
+      "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792260000.0,
+      "time_scheduled": "20:00",
+      "time_estimated": "20:00",
+      "flight_no": "OS168",
+      "airline": "Austrian Airlines",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Terminal A",
+      "type_source": "Gate",
+      "terminal": "A",
+      "gate": "A49",
+      "checkin": "111-120",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
