@@ -1,24 +1,7 @@
 {
-  "updated_at": "17.10.2026 08:30",
+  "updated_at": "17.10.2026 08:42",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792211400.0,
-      "time_scheduled": "06:30",
-      "time_estimated": "07:34",
-      "flight_no": "EW9542",
-      "airline": "Eurowings",
-      "city": "Gran Canaria",
-      "country": "Spanien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A63",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 64
-    },
     {
       "dt": 1792212900.0,
       "time_scheduled": "06:55",
@@ -54,40 +37,6 @@
       "delay": 47
     },
     {
-      "dt": 1792213800.0,
-      "time_scheduled": "07:10",
-      "time_estimated": "07:35",
-      "flight_no": "BA925",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C46",
-      "checkin": "139-141",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 25
-    },
-    {
-      "dt": 1792214100.0,
-      "time_scheduled": "07:15",
-      "time_estimated": "07:32",
-      "flight_no": "EW9680",
-      "airline": "Eurowings",
-      "city": "Athen",
-      "country": "Griechenland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A46",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
-    },
-    {
       "dt": 1792214100.0,
       "time_scheduled": "07:15",
       "time_estimated": "07:49",
@@ -107,40 +56,6 @@
     {
       "dt": 1792214400.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:37",
-      "flight_no": "EW9770",
-      "airline": "Eurowings",
-      "city": "Prag",
-      "country": "Tschechien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A47",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 17
-    },
-    {
-      "dt": 1792214400.0,
-      "time_scheduled": "07:20",
-      "time_estimated": "07:30",
-      "flight_no": "EW9882",
-      "airline": "Eurowings",
-      "city": "Rom-Fiumicino",
-      "country": "Italien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A51",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 11
-    },
-    {
-      "dt": 1792214400.0,
-      "time_scheduled": "07:20",
       "time_estimated": "07:43",
       "flight_no": "TK1530",
       "airline": "Turkish Airlines",
@@ -154,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 24
-    },
-    {
-      "dt": 1792214400.0,
-      "time_scheduled": "07:20",
-      "time_estimated": "07:39",
-      "flight_no": "EW9008",
-      "airline": "Eurowings",
-      "city": "Sylt (Westerland)",
-      "country": "Deutschland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A45",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 19
     },
     {
       "dt": 1792215000.0,
@@ -254,7 +152,7 @@
       "gate": "C46",
       "checkin": "240-242",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -294,7 +192,7 @@
     {
       "dt": 1792216800.0,
       "time_scheduled": "08:00",
-      "time_estimated": "08:00",
+      "time_estimated": "08:34",
       "flight_no": "XR6597",
       "airline": "Corendon Airlines Europe",
       "city": "Hurghada",
@@ -304,9 +202,9 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "192-197",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 35
     },
     {
       "dt": 1792217100.0,
@@ -379,7 +277,7 @@
     {
       "dt": 1792217700.0,
       "time_scheduled": "08:15",
-      "time_estimated": "08:15",
+      "time_estimated": "08:40",
       "flight_no": "KL1798",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -389,14 +287,14 @@
       "terminal": "B",
       "gate": "B73",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 25
     },
     {
       "dt": 1792217700.0,
       "time_scheduled": "08:15",
-      "time_estimated": "08:15",
+      "time_estimated": "08:37",
       "flight_no": "EW9690",
       "airline": "Eurowings",
       "city": "Malta",
@@ -406,9 +304,9 @@
       "terminal": "A",
       "gate": "A54",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 23
     },
     {
       "dt": 1792217700.0,
@@ -457,8 +355,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "251-254",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -474,8 +372,8 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "267-269",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -525,8 +423,8 @@
       "terminal": "C",
       "gate": "C56",
       "checkin": "192-194",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -560,7 +458,7 @@
       "gate": "C40",
       "checkin": "194-196",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -594,7 +492,7 @@
       "gate": "C52",
       "checkin": "168-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -610,8 +508,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -3414,6 +3312,40 @@
       "type_source": "Gate",
       "terminal": "C",
       "gate": "C57",
+      "checkin": "197-206",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792262100.0,
+      "time_scheduled": "20:35",
+      "time_estimated": "20:35",
+      "flight_no": "PC1620",
+      "airline": "Pegasus Airlines",
+      "city": "Kayseri",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C46",
+      "checkin": "251-254",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792262400.0,
+      "time_scheduled": "20:40",
+      "time_estimated": "20:40",
+      "flight_no": "XQ1371",
+      "airline": "Sun Express",
+      "city": "Çukurova",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C36",
       "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
