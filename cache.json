@@ -1,24 +1,7 @@
 {
-  "updated_at": "17.10.2026 09:00",
+  "updated_at": "17.10.2026 09:12",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792216200.0,
-      "time_scheduled": "07:50",
-      "time_estimated": "08:08",
-      "flight_no": "EW9394",
-      "airline": "Eurowings",
-      "city": "Dublin",
-      "country": "Irland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A81",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 18
-    },
     {
       "dt": 1792216800.0,
       "time_scheduled": "08:00",
@@ -253,14 +236,14 @@
       "terminal": "B",
       "gate": "B35",
       "checkin": "173-176",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
       "dt": 1792219500.0,
       "time_scheduled": "08:45",
-      "time_estimated": "08:45",
+      "time_estimated": "09:03",
       "flight_no": "BJ2875",
       "airline": "Nouvelair",
       "city": "Djerba",
@@ -270,9 +253,9 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "259-265",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1792220700.0,
@@ -321,8 +304,8 @@
       "terminal": "C",
       "gate": "C40",
       "checkin": "194-196",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -407,7 +390,7 @@
       "gate": "A65",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -440,8 +423,8 @@
       "terminal": "B",
       "gate": "B30",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -458,7 +441,7 @@
       "gate": "A66",
       "checkin": "111-120",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -474,8 +457,8 @@
       "terminal": "C",
       "gate": "C57",
       "checkin": "251-254",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -491,8 +474,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "259-265",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -508,8 +491,8 @@
       "terminal": "C",
       "gate": "C53",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -526,7 +509,7 @@
       "gate": "B74",
       "checkin": "139-146",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -543,7 +526,7 @@
       "gate": "C32",
       "checkin": "197-206",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -559,8 +542,8 @@
       "terminal": "C",
       "gate": "C51",
       "checkin": "139-146",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -594,7 +577,7 @@
       "gate": "A40",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -645,7 +628,7 @@
       "gate": "A73",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3262,6 +3245,23 @@
       "terminal": "B",
       "gate": "B29",
       "checkin": "137-138",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792263900.0,
+      "time_scheduled": "21:05",
+      "time_estimated": "21:05",
+      "flight_no": "BA915",
+      "airline": "British Airways",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C53",
+      "checkin": "148-150",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
