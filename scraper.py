@@ -26,6 +26,8 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import subprocess
+import shutil
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -42,6 +44,11 @@ FIREBASE_DATABASE_URL = os.environ.get(
     "https://dus-airport-default-rtdb.europe-west1.firebasedatabase.app",
 ).rstrip("/")
 FIREBASE_URL = f"{FIREBASE_DATABASE_URL}/{CACHE_FILE}"
+
+# Daten-Repo (GitHub-Reserve) nur alle X Minuten aktualisieren
+DATA_REPO_EVERY_MIN = 10
+DATA_REPO_USER = "HemenHeMaN"
+DATA_REPO_NAME = "dusflugdaten"
 
 TZ = ZoneInfo("Europe/Berlin")
 
@@ -368,6 +375,59 @@ def build_flights(raw, now):
     return unique, unknown_status
 
 
+def run_git(data_dir, *args, check=True):
+    return subprocess.run(["git", "-C", data_dir, *args],
+                          check=check, capture_output=True, text=True)
+
+
+def push_to_data_repo():
+    """Legt CACHE_FILE als Reserve im Daten-Repo ab.
+    Holt vorher den aktuellen Stand und pusht ohne Force, damit sich
+    arrival.json und departure.json im selben Repo nicht gegenseitig löschen."""
+    token = os.environ.get("DUSFLUGDATENKEY")
+    if not token:
+        print("DUSFLUGDATENKEY fehlt, Daten-Repo wird übersprungen.")
+        return
+
+    repo_url = f"https://{token}@github.com/{DATA_REPO_USER}/{DATA_REPO_NAME}.git"
+    data_dir = ".git_dus_data"
+
+    try:
+        os.makedirs(data_dir, exist_ok=True)
+        if not os.path.exists(os.path.join(data_dir, ".git")):
+            run_git(data_dir, "init")
+            run_git(data_dir, "remote", "add", "origin", repo_url)
+        else:
+            run_git(data_dir, "remote", "set-url", "origin", repo_url)
+        run_git(data_dir, "config", "user.name", "DUS Scraper Bot")
+        run_git(data_dir, "config", "user.email", "bot@dus.local")
+
+        for attempt in range(3):
+            fetch = run_git(data_dir, "fetch", "--depth", "1", "origin", "main", check=False)
+            if fetch.returncode == 0:
+                run_git(data_dir, "checkout", "-B", "main", "FETCH_HEAD")
+            else:
+                run_git(data_dir, "checkout", "-B", "main")
+
+            shutil.copy(CACHE_FILE, os.path.join(data_dir, CACHE_FILE))
+            run_git(data_dir, "add", CACHE_FILE)
+
+            if run_git(data_dir, "diff", "--cached", "--quiet", check=False).returncode == 0:
+                print("Keine neuen Flugdaten-Änderungen, kein Push nötig.")
+                return
+
+            run_git(data_dir, "commit", "-m", f"Auto-update {CACHE_FILE}")
+            push = run_git(data_dir, "push", "origin", "main", check=False)
+            if push.returncode == 0:
+                print(f"{CACHE_FILE} erfolgreich ins Daten-Repo gepusht!")
+                return
+            # Meist Kollision mit dem Ankunfts-Scraper: kurz warten, neu holen, nochmal
+            time.sleep(2 + attempt * 2)
+        print("Push ins Daten-Repo nach 3 Versuchen fehlgeschlagen.")
+    except Exception as e:
+        print(f"Fehler beim Pushen ins Daten-Repo: {str(e).replace(token, '***')}")
+
+
 def push_to_firebase():
     sa_text = os.environ.get("FIREBASE_SERVICE_ACCOUNT")
     if not sa_text:
@@ -438,8 +498,14 @@ def main():
     })
     print(f"{CACHE_FILE} aktualisiert: {len(unique)} Flüge.")
 
-    # Zusätzlich direkt nach Firebase (schnell, ohne Cache)
+    # Zuerst Firebase (schnell, ohne Cache), dann das Daten-Repo als Reserve
     push_to_firebase()
+
+    # Reserve im Daten-Repo nur alle 10 Minuten (erste 3 Minuten jedes 10er-Blocks)
+    if "--force" in sys.argv or now.minute % DATA_REPO_EVERY_MIN < 3:
+        push_to_data_repo()
+    else:
+        print("Daten-Repo: diesmal übersprungen (nur alle 10 Minuten).")
 
 
 if __name__ == "__main__":
