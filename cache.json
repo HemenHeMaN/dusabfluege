@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 08:00",
+  "updated_at": "17.10.2026 08:12",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,40 +35,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 64
-    },
-    {
-      "dt": 1792212300.0,
-      "time_scheduled": "06:45",
-      "time_estimated": "07:01",
-      "flight_no": "EW9686",
-      "airline": "Eurowings",
-      "city": "Volos",
-      "country": "Griechenland",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A33",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
-    },
-    {
-      "dt": 1792212600.0,
-      "time_scheduled": "06:50",
-      "time_estimated": "07:04",
-      "flight_no": "DE1848",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B29",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 15
     },
     {
       "dt": 1792212900.0,
@@ -124,23 +90,6 @@
     {
       "dt": 1792213200.0,
       "time_scheduled": "07:00",
-      "time_estimated": "07:10",
-      "flight_no": "EW9330",
-      "airline": "Eurowings",
-      "city": "Birmingham",
-      "country": "Großbritannien",
-      "type": "Terminal A",
-      "type_source": "Gate",
-      "terminal": "A",
-      "gate": "A83",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
-    },
-    {
-      "dt": 1792213200.0,
-      "time_scheduled": "07:00",
       "time_estimated": "07:18",
       "flight_no": "EW9962",
       "airline": "Eurowings",
@@ -154,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 18
-    },
-    {
-      "dt": 1792213200.0,
-      "time_scheduled": "07:00",
-      "time_estimated": "07:11",
-      "flight_no": "X34428",
-      "airline": "Tuifly",
-      "city": "Korfu",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B38",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 12
     },
     {
       "dt": 1792213500.0,
@@ -379,7 +311,7 @@
     {
       "dt": 1792216200.0,
       "time_scheduled": "07:50",
-      "time_estimated": "07:50",
+      "time_estimated": "08:08",
       "flight_no": "EW9394",
       "airline": "Eurowings",
       "city": "Dublin",
@@ -389,9 +321,9 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1792216500.0,
@@ -406,8 +338,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "240-242",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -423,8 +355,8 @@
       "terminal": "B",
       "gate": "B58",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -440,8 +372,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "192-197",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -491,8 +423,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "197-206",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -526,7 +458,7 @@
       "gate": "B80",
       "checkin": "151-170",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -542,8 +474,8 @@
       "terminal": "B",
       "gate": "B73",
       "checkin": "111-120",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -577,7 +509,7 @@
       "gate": "C52",
       "checkin": "263-266",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -628,7 +560,7 @@
       "gate": "C57",
       "checkin": "267-269",
       "status": "boarding",
-      "status_text": "Boarding",
+      "status_text": "Boarding beendet",
       "delay": 0
     },
     {
@@ -645,7 +577,7 @@
       "gate": "B35",
       "checkin": "173-176",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -661,8 +593,8 @@
       "terminal": "C",
       "gate": "C36",
       "checkin": "259-265",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -3466,6 +3398,40 @@
       "terminal": "A",
       "gate": "A49",
       "checkin": "111-120",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792260300.0,
+      "time_scheduled": "20:05",
+      "time_estimated": "20:05",
+      "flight_no": "IV8223",
+      "airline": "GP Aviation",
+      "city": "Pristina",
+      "country": "Kosovo",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C40",
+      "checkin": "246-248",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792260300.0,
+      "time_scheduled": "20:05",
+      "time_estimated": "20:05",
+      "flight_no": "XQ795",
+      "airline": "Sun Express",
+      "city": "Ankara-Esenboğa",
+      "country": "Türkei",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "C",
+      "gate": "C42",
+      "checkin": "197-206",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
