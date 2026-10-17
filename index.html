@@ -909,7 +909,7 @@ function loadData() {
 }
 
 function emptyText() {
-    if (currentFilter === 'boarding') return 'Gerade kein Boarding.';
+    if (currentFilter === 'boarding') return 'Gerade kein Boarding oder Rollen.';
     if (currentFilter === 'departed') return 'Noch keine gestarteten Flüge.';
     return 'Keine Flüge gefunden.';
 }
@@ -918,7 +918,8 @@ function getFilteredList() {
     let list = allFlights;
 
     if (currentFilter === 'boarding') {
-        list = list.filter(f => String(f.status).toLowerCase() === 'boarding');
+        // Boarding-Reiter: Boarding, Boarding beendet und Rollt
+        list = list.filter(f => String(f.status).toLowerCase() === 'boarding' || flightPhase(f) !== null);
     } else if (currentFilter === 'departed') {
         list = list.filter(f => String(f.status).toLowerCase() === 'departed');
     } else if (currentFilter !== 'all') {
