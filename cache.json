@@ -1,5 +1,5 @@
 {
-  "updated_at": "17.10.2026 04:51",
+  "updated_at": "17.10.2026 05:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -84,7 +84,7 @@
       "gate": "B37",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -101,7 +101,7 @@
       "gate": "B36",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -118,7 +118,7 @@
       "gate": "B27",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -305,7 +305,7 @@
       "gate": "B24",
       "checkin": "181-190",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -3466,6 +3466,23 @@
       "terminal": "C",
       "gate": "C31",
       "checkin": "148-150",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1792248900.0,
+      "time_scheduled": "16:55",
+      "time_estimated": "16:55",
+      "flight_no": "EW9872",
+      "airline": "Eurowings",
+      "city": "Bari",
+      "country": "Italien",
+      "type": "Terminal B/C",
+      "type_source": "Gate",
+      "terminal": "B",
+      "gate": "B29",
+      "checkin": "151-170",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
