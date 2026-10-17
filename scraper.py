@@ -73,7 +73,7 @@ AIRPORT_NAME_OVERRIDES = {
     "OLB": "Olbia (Sardinien)", "CAG": "Cagliari (Sardinien)",
     "TFS": "Teneriffa Süd", "TFN": "Teneriffa Nord", "LPA": "Gran Canaria",
     "XRY": "Jerez de la Frontera", "PVK": "Preveza-Aktion",
-    "COV": "Mersin-Çukurova", "ESB": "Ankara-Esenboğa",
+    "COV": "Çukurova", "ESB": "Ankara-Esenboğa",
     "SAW": "Istanbul-Sabiha Gökçen", "GZP": "Gazipaşa-Alanya",
     "HEL": "Helsinki",
 }
