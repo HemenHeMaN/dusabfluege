@@ -265,6 +265,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 
 .status-icon { font-size: 1.5rem; line-height: 1; flex-shrink: 0; margin-left: 4px; }
 .status-icon.blink { animation: plane-blink 1s ease-in-out infinite; }
+.status-icon.blink-slow { animation: plane-blink 2s ease-in-out infinite; }
 @keyframes plane-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.1; } }
 
 .card-details { margin-top: 10px; font-size: 0.95rem; color: var(--text-color); }
@@ -305,6 +306,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .tf-body .tf-row > :not(.tf-bar) { position: relative; z-index: 1; }
 .tf-body .tf-row.s-boarding { border-left-color: var(--tf-ok); }
 .tf-body .tf-row.s-checkin { border-left-color: var(--tf-warn); }
+.tf-body .tf-row.s-rollt { border-left-color: var(--tf-warn); }
 .tf-body .tf-row.s-annulliert { border-left-color: var(--tf-bad); }
 .tf-body .tf-row.s-gestartet { border-left-color: var(--tf-dim); }
 
@@ -350,11 +352,13 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .tf-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--tf-dim); flex: none; }
 .s-boarding .tf-dot { background: var(--tf-ok); animation: tf-pulse 1.2s steps(2, jump-none) infinite; }
 .s-checkin .tf-dot { background: var(--tf-warn); }
+.s-rollt .tf-dot { background: var(--tf-warn); animation: tf-pulse 2s steps(2, jump-none) infinite; }
 .s-annulliert .tf-dot { background: var(--tf-bad); }
 .s-gestartet .tf-dot { background: var(--tf-dim); }
 .s-annulliert .tf-status { color: var(--tf-bad); }
 .s-boarding .tf-status { color: var(--tf-ok); }
 .s-checkin .tf-status { color: var(--tf-warn); }
+.s-rollt .tf-status { color: var(--tf-warn); }
 .s-gestartet .tf-status { color: var(--tf-dim); }
 @keyframes tf-pulse { 50% { opacity: .2; } }
 
@@ -597,7 +601,7 @@ let showFlag = true;
 function getFlagCode(country) {
     if (!country) return 'de';
     const map = {
-                'ägypten': 'eg', 'egypt': 'eg',
+        'ägypten': 'eg', 'egypt': 'eg',
         'albanien': 'al', 'albania': 'al',
         'barbados': 'bb',
         'belgien': 'be', 'belgium': 'be',
@@ -976,6 +980,25 @@ function applyFilter() {
     renderBoard(filtered);
 }
 
+/* ---------- Gemeinsame Phasen-Erkennung (Detail + Tafel) ----------
+   Liefert 'taxi' (Rollt), 'boardend' (Boarding beendet) oder null.
+   Prüft status UND status_text, damit es egal ist, wo der Scraper den Wert ablegt. */
+function flightPhase(f) {
+    const s = String(f.status || '').toLowerCase().replace(/[\s-]+/g, '_');
+    const t = String(f.status_text || '').toLowerCase();
+    if (s === 'departed' || s === 'cancelled' || s === 'diverted' || s === 'incident') return null;
+
+    if (s === 'rollt' || s === 'taxi' || s === 'taxiing' ||
+        t.includes('rollt') || t.includes('taxi') || t.includes('zur startbahn')) {
+        return 'taxi';
+    }
+    if (s === 'boarding_beendet' || s === 'boarding_closed' || s === 'gate_closed' ||
+        t.includes('beendet') || t.includes('gate geschlossen') || t.includes('gate closed')) {
+        return 'boardend';
+    }
+    return null;
+}
+
 /* ---------- Rendering Ansicht 1 (Detail-Karten) ---------- */
 function renderFlights(flights) {
     const container = document.getElementById('flightList');
@@ -986,20 +1009,21 @@ function renderFlights(flights) {
         return;
     }
 
-     const statusMap = {
-    "scheduled": "Geplant",
-    "checkin": "Geplant",
-    "boarding": "Boarding",
-    "boarding_beendet": "Boarding Beendet",
-    "rollt": "Rollt",
-    "departed": "Gestartet",
-    "cancelled": "Annulliert",
-    "incident": "Störung",
-    "diverted": "Umgeleitet"
+    const statusMap = {
+        "scheduled": "Geplant",
+        "checkin": "Geplant",
+        "boarding": "Boarding",
+        "boarding_beendet": "Boarding Beendet",
+        "rollt": "Rollt",
+        "departed": "Gestartet",
+        "cancelled": "Annulliert",
+        "incident": "Störung",
+        "diverted": "Umgeleitet"
     };
 
     flights.forEach(f => {
         const st = String(f.status).toLowerCase();
+        const phase = flightPhase(f);
         const isCancelled = st === 'cancelled' || st === 'diverted' || st === 'incident';
         const isCharter = f.type === "Terminal B/C" || f.type === "Charter";
 
@@ -1026,6 +1050,10 @@ function renderFlights(flights) {
             statusText = statusMap[st] || "Annulliert";
         } else if (st === 'departed') {
             statusText = 'Gestartet' + (hasEst ? ` ${est} Uhr${diffTxt}` : '');
+        } else if (phase === 'taxi') {
+            statusText = 'Rollt' + (hasEst ? `, Abflug ${est} Uhr${diffTxt}` : '');
+        } else if (phase === 'boardend') {
+            statusText = 'Boarding beendet' + (hasEst ? `, Abflug ${est} Uhr${diffTxt}` : '');
         } else if (st === 'boarding') {
             statusText = 'Boarding' + (hasEst ? `, Abflug ${est} Uhr${diffTxt}` : '');
         } else if (st === 'checkin') {
@@ -1042,7 +1070,11 @@ function renderFlights(flights) {
         const checkinTxt = f.checkin ? esc(f.checkin) : '–';
 
         let iconHtml = '';
-        if (st === 'boarding') {
+        if (phase === 'taxi') {
+            iconHtml = '<span class="status-icon blink-slow" title="Rollt">🛫</span>';
+        } else if (phase === 'boardend') {
+            iconHtml = '<span class="status-icon blink" title="Boarding beendet">✈️</span>';
+        } else if (st === 'boarding') {
             iconHtml = '<span class="status-icon blink" title="Boarding">✈️</span>';
         } else if (st === 'departed') {
             iconHtml = '<span class="status-icon" title="Gestartet">✈️</span>';
@@ -1124,25 +1156,25 @@ function berlinMin() {
 
 function tfStatus(f) {
     const s = String(f.status).toLowerCase();
-    const rawText = String(f.status_text || "").toLowerCase();
 
     if (s === 'departed') {
         return { cls: 's-gestartet', label: 'Gestartet' };
     }
-    // "Rollt" separat behandeln
-    if (s === 'rollt' || rawText.includes('rollt') || rawText.includes('taxi')) {
-        return { cls: 's-checkin', label: 'Rollt' };
-    }
-    // Boarding beendet -> "Boarding Beendet"
-    if (rawText.includes('beendet')) {
-        return { cls: 's-boarding', label: 'Boarding Beendet' };
-    }
-    // Normales Boarding -> "Boarding"
-    if (s === 'boarding' || rawText.includes('boarding') || rawText.includes('final call')) {
-        return { cls: 's-boarding', label: 'Boarding' };
-    }
     if (s === 'cancelled' || s === 'diverted' || s === 'incident') {
         return { cls: 's-annulliert', label: 'Annulliert' };
+    }
+
+    const phase = flightPhase(f);
+    if (phase === 'taxi') {
+        return { cls: 's-rollt', label: 'Rollt' };
+    }
+    if (phase === 'boardend') {
+        return { cls: 's-boarding', label: 'Boarding Beendet' };
+    }
+
+    const rawText = String(f.status_text || '').toLowerCase();
+    if (s === 'boarding' || rawText.includes('boarding') || rawText.includes('final call')) {
+        return { cls: 's-boarding', label: 'Boarding' };
     }
     // Noch nicht gestartet / Check-in -> Geplant
     return { cls: 's-checkin', label: 'Geplant' };
