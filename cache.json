@@ -1,58 +1,7 @@
 {
-  "updated_at": "17.10.2026 07:12",
+  "updated_at": "17.10.2026 07:21",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1792209000.0,
-      "time_scheduled": "05:50",
-      "time_estimated": "06:13",
-      "flight_no": "X32322",
-      "airline": "Tuifly",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B72",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 23
-    },
-    {
-      "dt": 1792209000.0,
-      "time_scheduled": "05:50",
-      "time_estimated": "06:17",
-      "flight_no": "X32312",
-      "airline": "Tuifly",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B78",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 27
-    },
-    {
-      "dt": 1792209000.0,
-      "time_scheduled": "05:50",
-      "time_estimated": "06:14",
-      "flight_no": "DE1514",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B27",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 24
-    },
     {
       "dt": 1792209600.0,
       "time_scheduled": "06:00",
@@ -90,23 +39,6 @@
     {
       "dt": 1792209600.0,
       "time_scheduled": "06:00",
-      "time_estimated": "06:15",
-      "flight_no": "X32116",
-      "airline": "Tuifly",
-      "city": "Fuerteventura",
-      "country": "Spanien",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B33",
-      "checkin": "234-239",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 16
-    },
-    {
-      "dt": 1792209600.0,
-      "time_scheduled": "06:00",
       "time_estimated": "06:44",
       "flight_no": "DE1684",
       "airline": "Condor",
@@ -137,23 +69,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 18
-    },
-    {
-      "dt": 1792209900.0,
-      "time_scheduled": "06:05",
-      "time_estimated": "06:18",
-      "flight_no": "DE1614",
-      "airline": "Condor",
-      "city": "Chania (Kreta)",
-      "country": "Griechenland",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "B",
-      "gate": "B52",
-      "checkin": "181-190",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 14
     },
     {
       "dt": 1792210200.0,
@@ -188,23 +103,6 @@
       "status": "departed",
       "status_text": "gestartet",
       "delay": 19
-    },
-    {
-      "dt": 1792210200.0,
-      "time_scheduled": "06:10",
-      "time_estimated": "06:20",
-      "flight_no": "EW9920",
-      "airline": "Eurowings",
-      "city": "Mostar",
-      "country": "Bosnien und Herzegowina",
-      "type": "Terminal B/C",
-      "type_source": "Gate",
-      "terminal": "C",
-      "gate": "C40",
-      "checkin": "151-170",
-      "status": "departed",
-      "status_text": "gestartet",
-      "delay": 10
     },
     {
       "dt": 1792210200.0,
@@ -355,8 +253,8 @@
       "terminal": "A",
       "gate": "A42",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 45
     },
     {
@@ -481,7 +379,7 @@
     {
       "dt": 1792212900.0,
       "time_scheduled": "06:55",
-      "time_estimated": "06:55",
+      "time_estimated": "07:16",
       "flight_no": "EW9760",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -491,9 +389,9 @@
       "terminal": "A",
       "gate": "A53",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 21
     },
     {
       "dt": 1792212900.0,
@@ -508,8 +406,8 @@
       "terminal": "B",
       "gate": "B74",
       "checkin": "234-239",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -549,7 +447,7 @@
     {
       "dt": 1792213200.0,
       "time_scheduled": "07:00",
-      "time_estimated": "07:00",
+      "time_estimated": "07:18",
       "flight_no": "EW9962",
       "airline": "Eurowings",
       "city": "Rijeka",
@@ -559,9 +457,9 @@
       "terminal": "A",
       "gate": "A52",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "rollt",
-      "delay": 0
+      "status": "departed",
+      "status_text": "gestartet",
+      "delay": 18
     },
     {
       "dt": 1792213200.0,
@@ -583,7 +481,7 @@
     {
       "dt": 1792213500.0,
       "time_scheduled": "07:05",
-      "time_estimated": "07:05",
+      "time_estimated": "07:25",
       "flight_no": "EW9750",
       "airline": "Eurowings",
       "city": "Wien",
@@ -595,7 +493,7 @@
       "checkin": "151-170",
       "status": "boarding",
       "status_text": "Boarding beendet",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1792213800.0,
@@ -627,8 +525,8 @@
       "terminal": "C",
       "gate": "C46",
       "checkin": "139-141",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -644,8 +542,8 @@
       "terminal": "A",
       "gate": "A46",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -695,8 +593,8 @@
       "terminal": "A",
       "gate": "A51",
       "checkin": "151-170",
-      "status": "boarding",
-      "status_text": "Boarding beendet",
+      "status": "scheduled",
+      "status_text": "rollt",
       "delay": 0
     },
     {
@@ -797,8 +695,8 @@
       "terminal": "A",
       "gate": "A81",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -831,8 +729,8 @@
       "terminal": "B",
       "gate": "B58",
       "checkin": "151-170",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -848,8 +746,8 @@
       "terminal": "C",
       "gate": "C54",
       "checkin": "192-197",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -865,8 +763,8 @@
       "terminal": "C",
       "gate": "C32",
       "checkin": "192-197",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -883,7 +781,7 @@
       "gate": "B26",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -899,8 +797,8 @@
       "terminal": "C",
       "gate": "C45",
       "checkin": "197-206",
-      "status": "scheduled",
-      "status_text": "Gatetafel Gesetzt",
+      "status": "boarding",
+      "status_text": "Boarding",
       "delay": 0
     },
     {
@@ -934,7 +832,7 @@
       "gate": "B80",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
@@ -1002,7 +900,7 @@
       "gate": "B38",
       "checkin": "151-170",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Gatetafel Gesetzt",
       "delay": 0
     },
     {
