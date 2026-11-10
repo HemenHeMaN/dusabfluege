@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DUS Abflüge</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800&family=Barlow+Condensed:wght@500;700&family=B612+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+:root { 
+    --base-font-size: 18px; 
+    --font: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+    /* Hellmodus (Standard) */
+    --bg-color: #f4f4f9;
+    --card-bg: #fff;
+    --text-color: #111;
+    --heading-color: #002244;
+    --update-color: #333;
+    --border-color: rgba(0,0,0,0.15);
+
+    --card-linie-bg: #eaf3ff;
+    --card-linie-border: #0d47a1;
+    --badge-linie-bg: #cfe5ff;
+    --badge-linie-color: #08306b;
+
+    --card-charter-bg: #fff3e6;
+    --card-charter-border: #e65100;
+    --badge-charter-bg: #ffdcb8;
+    --badge-charter-color: #8a3000;
+
+    /* Annulliert-Farben (Hellmodus) */
+    --card-cancelled-bg: #fde8e8;
+    --card-cancelled-border: #b3261e;
+
+    --filter-bg: #dcdce8;
+    --filter-active-all: #003366;
+    --filter-active-linie: #0d47a1;
+    --filter-active-charter: #e65100;
+    --filter-active-boarding: #2e7d32;
+    --filter-active-departed: #546e7a;
+
+    --slider-bg: #fff;
+    --size-btn-bg: #003366;
+    --size-btn-hover: #00224a;
+    --reset-btn-bg: #e4e4ed;
+
+    --success-green: #22c55e;
+
+    /* Flugtafel (Hellmodus: helle Tafel) */
+    --tf-top: #e3ecfb;
+    --tf-bottom: #cfdcf5;
+    --tf-row: rgba(255, 255, 255, .75);
+    --tf-flap: #17409f;
+    --tf-line: #8fa8dc;
+    --tf-amber: #b36b00;
+    --tf-flap-text: #ffc43a;
+    --tf-text: #0b1b4d;
+    --tf-dim: #4f6191;
+    --tf-ok: #137a3a;
+    --tf-warn: #9a6a00;
+    --tf-bad: #b3261e;
+    --tf-bar-linie: rgba(13, 110, 200, .28);
+    --tf-bar-linie-edge: #1976d2;
+    --tf-bar-charter: rgba(230, 110, 0, .30);
+    --tf-bar-charter-edge: #e65100;
+    --tf-bar-cancelled: rgba(179, 38, 30, .32);
+    --tf-bar-cancelled-edge: #b3261e;
+    --tf-tint-linie: rgba(13, 110, 200, .16);
+    --tf-tint-charter: rgba(230, 110, 0, .18);
+    --tf-tint-cancelled: rgba(179, 38, 30, .16);
+    --tf-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+    --tf-data: "B612 Mono", ui-monospace, "Courier New", monospace;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #e0e0e0;
+    --heading-color: #64b5f6;
+    --update-color: #aaa;
+    --border-color: rgba(255,255,255,0.15);
+
+    --card-linie-bg: #16243b;
+    --card-linie-border: #42a5f5;
+    --badge-linie-bg: #0d3b66;
+    --badge-linie-color: #90caf9;
+
+    --card-charter-bg: #3b2316;
+    --card-charter-border: #ffb74d;
+    --badge-charter-bg: #5c2d0c;
+    --badge-charter-color: #ffe0b2;
+
+    /* Annulliert-Farben (Dunkelmodus) */
+    --card-cancelled-bg: #3c1a1a;
+    --card-cancelled-border: #ff5252;
+
+    --filter-bg: #2a2a2a;
+    --filter-active-all: #1565c0;
+    --filter-active-linie: #1976d2;
+    --filter-active-charter: #f57c00;
+    --filter-active-boarding: #388e3c;
+    --filter-active-departed: #78909c;
+
+    --slider-bg: #1e1e1e;
+    --size-btn-bg: #1565c0;
+    --size-btn-hover: #0d47a1;
+    --reset-btn-bg: #333;
+
+    /* Flugtafel (Dunkelmodus: blaue Tafel) */
+    --tf-top: #17409f;
+    --tf-bottom: #0b2373;
+    --tf-row: rgba(6, 20, 78, .62);
+    --tf-flap: #0a1c63;
+    --tf-line: #2f56b8;
+    --tf-amber: #ffc43a;
+    --tf-flap-text: #ffc43a;
+    --tf-text: #eef2fb;
+    --tf-dim: #9fb4e6;
+    --tf-ok: #86ffae;
+    --tf-warn: #ffd24d;
+    --tf-bad: #ff9082;
+    --tf-bar-linie: rgba(96, 190, 255, .46);
+    --tf-bar-linie-edge: #8fd3ff;
+    --tf-bar-charter: rgba(255, 138, 28, .52);
+    --tf-bar-charter-edge: #ffa24d;
+    --tf-bar-cancelled: rgba(255, 144, 130, .44);
+    --tf-bar-cancelled-edge: #ff5252;
+    --tf-tint-linie: rgba(96, 190, 255, .26);
+    --tf-tint-charter: rgba(255, 138, 28, .30);
+    --tf-tint-cancelled: rgba(255, 144, 130, .26);
+}
+
+html { font-size: var(--base-font-size); }
+* { box-sizing: border-box; }
+body {
+    font-family: var(--font);
+    font-size: 1rem; line-height: 1.4;
+    margin: 0; padding: 12px; background: var(--bg-color); color: var(--text-color);
+    transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.no-anim, .no-anim *, .no-anim *::before, .no-anim *::after { transition: none !important; }
+
+/* Kopfzeile */
+.top-bar { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 6px; }
+h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
+.header-controls { display: flex; align-items: center; gap: 8px; }
+
+.size-btn {
+    background: var(--size-btn-bg); color: #fff; border: none; border-radius: 8px;
+    padding: 8px 12px; font-size: 0.9rem; font-weight: bold; cursor: pointer; white-space: nowrap;
+    transition: background 0.3s ease;
+    display: inline-flex; align-items: center; justify-content: center;
+}
+.size-btn:active { background: var(--size-btn-hover); }
+.menu-btn { padding: 8px 10px; }
+.menu-btn svg { display: block; width: 22px; height: 22px; }
+
+/* Verstecktes Menü (3 Striche) */
+.menu-box {
+    display: none; flex-direction: column; gap: 10px;
+    background: var(--slider-bg); padding: 12px; border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12); margin-bottom: 12px;
+    border: 1px solid var(--border-color);
+}
+.menu-box.active { display: flex; }
+.menu-label { display: block; font-size: 0.75rem; font-weight: bold; color: var(--update-color); margin-bottom: 4px; text-transform: uppercase; letter-spacing: .04em; }
+
+/* Vertikales Stunden-Scrollrad im Menü (Kompakt) */
+.hour-wheel-menu-container {
+    position: relative; width: 100%; height: 105px;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--filter-bg); border-radius: 6px; overflow: hidden;
+}
+.hour-wheel-center-highlight {
+    position: absolute; width: 90%; height: 30px; border-radius: 4px;
+    background: var(--size-btn-bg); pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); z-index: 1;
+}
+.hour-wheel-vert {
+    display: flex; flex-direction: column; align-items: center;
+    overflow-y: auto; scroll-snap-type: y mandatory; scroll-behavior: smooth;
+    width: 100%; height: 100%; scrollbar-width: none; -ms-overflow-style: none; z-index: 2;
+}
+.hour-wheel-vert::-webkit-scrollbar { display: none; }
+.hour-item-v {
+    flex: 0 0 30px; width: 100%; scroll-snap-align: center;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: bold; font-size: 0.85rem; color: var(--text-color);
+    cursor: pointer; user-select: none; opacity: 0.6;
+}
+.hour-item-v.active { color: #fff; opacity: 1; font-size: 0.95rem; }
+.hour-wheel-spacer-v { flex: 0 0 37px; }
+
+/* Zielland übereinander stapeln */
+.country-stack { display: flex; flex-direction: column; gap: 6px; height: 105px; justify-content: space-between; }
+.country-stack .seg { display: flex; flex-direction: column; flex: 1; }
+.country-stack .seg-btn { flex: 1; padding: 4px 6px; font-size: 0.8rem; }
+
+.size-row { display: flex; align-items: flex-start; gap: 8px; }
+.size-row .small-a, .size-row .big-a, .size-row .size-value { line-height: 30px; }
+.size-row .small-a { font-size: 0.75rem; font-weight: bold; }
+.size-row .big-a { font-size: 1.1rem; font-weight: bold; }
+.size-row .size-value { min-width: 3em; text-align: right; font-weight: bold; color: var(--heading-color); font-size: 0.9rem; }
+
+/* Stufen-Schieberegler (S / M / L / XL / XXL) */
+.size-ctl { flex: 1; min-width: 0; padding: 0 10px; }
+.step-slider {
+    position: relative; height: 30px; cursor: pointer; touch-action: none;
+    -webkit-tap-highlight-color: transparent; outline: none; user-select: none;
+}
+.step-track {
+    position: absolute; left: 0; right: 0; top: 50%; height: 6px; transform: translateY(-50%);
+    border-radius: 999px; background: var(--filter-bg);
+}
+.step-fill {
+    position: absolute; left: 0; top: 0; bottom: 0; width: 25%;
+    border-radius: 999px; background: var(--size-btn-bg);
+}
+.step-dot {
+    position: absolute; top: 50%; width: 5px; height: 5px; margin: -2.5px 0 0 -2.5px;
+    border-radius: 50%; background: var(--card-bg); opacity: .8; pointer-events: none;
+}
+.step-thumb {
+    position: absolute; top: 50%; left: 25%; width: 22px; height: 22px; margin: -11px 0 0 -11px;
+    border-radius: 50%; background: #fff; border: 2px solid var(--size-btn-bg);
+    box-shadow: 0 2px 4px rgba(0,0,0,.3); pointer-events: none;
+    transition: left .15s ease;
+}
+.step-labels { position: relative; height: 1.4rem; }
+.step-label {
+    position: absolute; top: 0; transform: translateX(-50%); min-width: 1.8em; padding: 2px 1px;
+    border: none; background: transparent; cursor: pointer; font-family: var(--font);
+    font-size: 0.75rem; font-weight: 700; color: var(--update-color); text-align: center;
+}
+.step-label.active { color: var(--heading-color); font-size: 0.85rem; }
+.seg { display: flex; gap: 4px; }
+.seg-btn {
+    flex: 1; padding: 7px 4px; border: none; border-radius: 6px; cursor: pointer;
+    font-weight: bold; font-size: 0.82rem; font-family: var(--font);
+    background: var(--filter-bg); color: var(--text-color);
+}
+.seg-btn.active { background: var(--filter-active-all); color: #fff; }
+.seg.stack { flex-direction: column; gap: 6px; }
+.menu-grid-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.menu-col { display: flex; flex-direction: column; }
+.seg-btn.view-btn { background: var(--filter-bg); color: var(--text-color); padding: 7px 4px; font-size: 0.82rem; }
+.seg-btn.view-btn.active { background: var(--filter-active-all); color: #fff; }
+
+.update-info { font-size: 0.85rem; color: var(--update-color); margin-bottom: 12px; line-height: 1.5; }
+
+/* Reiter / Design-Switch Bar */
+.view-switcher {
+    display: flex; gap: 8px; margin-bottom: 12px; background: var(--card-bg);
+    padding: 6px; border-radius: 8px; border: 1px solid var(--border-color);
+}
+.view-btn {
+    flex: 1; background: transparent; border: none; padding: 8px 6px; font-family: var(--font);
+    font-weight: 700; font-size: 0.9rem; color: var(--text-color); border-radius: 6px; cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+.view-btn.active { background: var(--size-btn-bg); color: #fff; }
+
+.view-section { display: none; }
+.view-section.active-view { display: block; }
+
+/* Suchfeld mit Clear-Button */
+.search-container { margin-bottom: 12px; position: relative; display: flex; align-items: center; }
+.search-input {
+    width: 100%; padding: 10px 38px 10px 14px; font-size: 1rem; font-family: var(--font);
+    background: var(--card-bg); color: var(--text-color); border: 1px solid var(--border-color);
+    border-radius: 8px; outline: none; transition: border-color 0.3s ease;
+}
+.search-input:focus { border-color: var(--size-btn-bg); }
+
+.clear-search-btn {
+    position: absolute; right: 10px; background: transparent; border: none; color: var(--update-color);
+    font-size: 1.2rem; font-weight: bold; cursor: pointer; padding: 4px 8px; display: none;
+    align-items: center; justify-content: center; border-radius: 4px;
+}
+.clear-search-btn:hover { color: var(--text-color); background: var(--border-color); }
+.search-container.has-text .clear-search-btn { display: flex; }
+
+/* Filter */
+.filter-container { margin-bottom: 15px; display: flex; gap: 5px; }
+.filter-btn {
+    flex: 1; min-width: 0; padding: 10px 4px; border: none; border-radius: 8px; cursor: pointer;
+    font-weight: bold; font-size: 0.82rem; text-align: center; background: var(--filter-bg); color: var(--text-color);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.btn-all.active { background: var(--filter-active-all); color: #fff; }
+.btn-linie.active { background: var(--filter-active-linie); color: #fff; }
+.btn-charter.active { background: var(--filter-active-charter); color: #fff; }
+.btn-boarding.active { background: var(--filter-active-boarding); color: #fff; }
+.btn-departed.active { background: var(--filter-active-departed); color: #fff; }
+
+/* Flugkarten (Design 1) */
+.flight-card {
+    border-radius: 8px; padding: 12px; margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15); border-left: 6px solid #ccc; background: var(--card-bg);
+}
+.flight-card.card-linie { background: var(--card-linie-bg); border-left-color: var(--card-linie-border); }
+.flight-card.card-charter { background: var(--card-charter-bg); border-left-color: var(--card-charter-border); }
+.flight-card.card-cancelled { background: var(--card-cancelled-bg); border-left-color: var(--card-cancelled-border); }
+
+.card-header { display: flex; align-items: center; justify-content: space-between; }
+.time-col { font-size: 1.35rem; font-weight: bold; color: var(--heading-color); min-width: 4.2em; }
+.flight-time { display: block; }
+.main-info { flex-grow: 1; padding: 0 10px; min-width: 0; }
+.city-name { font-size: 1.1rem; font-weight: bold; color: var(--text-color); margin-bottom: 4px; overflow-wrap: anywhere; }
+.country { font-weight: normal; font-size: 0.95rem; color: var(--update-color); }
+
+.badge-linie, .badge-charter {
+    padding: 3px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; display: inline-block;
+}
+.badge-linie { background: var(--badge-linie-bg); color: var(--badge-linie-color); }
+.badge-charter { background: var(--badge-charter-bg); color: var(--badge-charter-color); }
+
+.delay-badge {
+    display: inline-block; margin-top: 3px; padding: 2px 6px; border-radius: 4px;
+    background: #ffd6d6; color: #a00000; font-size: 0.8rem; font-weight: bold;
+}
+[data-theme="dark"] .delay-badge { background: #5c1d1d; color: #ff8080; }
+.delay-badge.early-badge { background: #d6f5e0; color: #11602d; }
+[data-theme="dark"] .delay-badge.early-badge { background: #12391f; color: #86ffae; }
+
+.status-icon { font-size: 1.5rem; line-height: 1; flex-shrink: 0; margin-left: 4px; }
+.status-icon.blink { animation: plane-blink 1s ease-in-out infinite; }
+.status-icon.blink-slow { animation: plane-blink 2s ease-in-out infinite; }
+@keyframes plane-blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.1; } }
+
+.card-details { margin-top: 10px; font-size: 0.95rem; color: var(--text-color); }
+.detail-divider { border: none; border-top: 1px solid var(--border-color); margin: 8px 0; }
+.detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.detail-grid > div { overflow-wrap: anywhere; }
+.no-flights { text-align: center; padding: 20px; color: var(--text-color); background: var(--card-bg); border-radius: 8px; }
+
+/* --- Ansicht 3: Flughafentafel --- */
+.tf-board {
+    background: linear-gradient(to bottom, var(--tf-top), var(--tf-bottom));
+    border: 1px solid var(--tf-line); border-radius: 6px; padding: 14px 12px 12px;
+    color: var(--tf-text); font-family: var(--tf-data);
+    transition: background .6s ease, color .3s ease;
+}
+.tf-header {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    padding-bottom: 12px; border-bottom: 2px solid var(--tf-amber);
+}
+.tf-title {
+    margin: 0; font-family: var(--tf-display); font-weight: 700; color: var(--tf-text);
+    font-size: clamp(1.9rem, 6vw, 3rem); letter-spacing: .06em; text-transform: uppercase; line-height: 1;
+}
+.tf-row {
+    display: grid; align-items: center; column-gap: 12px;
+    grid-template-columns: 6.5rem minmax(0, 1fr) 5rem 5.5rem 7rem 8.5rem;
+    padding: 10px 12px;
+}
+.tf-head {
+    color: var(--tf-dim); font-size: .62rem; letter-spacing: .14em; text-transform: uppercase;
+    padding-block: 8px 6px;
+}
+.tf-body { display: flex; flex-direction: column; gap: 4px; }
+.tf-body .tf-row {
+    position: relative; overflow: hidden; background: var(--tf-row);
+    border-left: 4px solid var(--tf-line);
+}
+.tf-body .tf-row > :not(.tf-bar) { position: relative; z-index: 1; }
+.tf-body .tf-row.s-boarding { border-left-color: var(--tf-ok); }
+.tf-body .tf-row.s-checkin { border-left-color: var(--tf-warn); }
+.tf-body .tf-row.s-rollt { border-left-color: var(--tf-warn); }
+.tf-body .tf-row.s-annulliert { border-left-color: var(--tf-bad); }
+.tf-body .tf-row.s-gestartet { border-left-color: var(--tf-dim); }
+
+/* Grundfarbe je Terminal, immer sichtbar; der Balken füllt sie beim Näherrücken kräftiger */
+.tf-body .tf-row.art-linie { background: linear-gradient(var(--tf-tint-linie), var(--tf-tint-linie)), var(--tf-row); }
+.tf-body .tf-row.art-charter { background: linear-gradient(var(--tf-tint-charter), var(--tf-tint-charter)), var(--tf-row); }
+.tf-body .tf-row.art-cancelled { background: linear-gradient(var(--tf-tint-cancelled), var(--tf-tint-cancelled)), var(--tf-row); }
+
+.tf-bar {
+    position: absolute; z-index: 0; left: 0; top: 0; bottom: 0; width: 0; pointer-events: none;
+    transition: width 1.4s cubic-bezier(.2, .7, .2, 1);
+}
+.tf-bar.linie { background: var(--tf-bar-linie); box-shadow: inset -3px 0 0 var(--tf-bar-linie-edge); }
+.tf-bar.charter { background: var(--tf-bar-charter); box-shadow: inset -3px 0 0 var(--tf-bar-charter-edge); }
+.tf-bar.cancelled { background: var(--tf-bar-cancelled); box-shadow: inset -3px 0 0 var(--tf-bar-cancelled-edge); }
+@media (prefers-reduced-motion: reduce) { .tf-bar { transition: none; } }
+
+.tf-flight { font-weight: 700; font-size: .8rem; letter-spacing: .04em; overflow-wrap: anywhere; }
+.tf-flight small { display: block; font-weight: 400; font-size: .62rem; color: var(--tf-dim); letter-spacing: .02em; }
+.tf-city {
+    font-family: var(--tf-display); font-size: 1.45rem; font-weight: 500; letter-spacing: .04em;
+    text-transform: uppercase; min-width: 0; overflow-wrap: anywhere; line-height: 1.1;
+}
+.tf-city small { font-family: var(--tf-data); font-size: .62rem; color: var(--tf-dim); letter-spacing: .08em; margin-left: 6px; }
+.tf-flag {
+    height: .7em; width: auto; margin-left: 8px; vertical-align: baseline;
+    border: 1px solid rgba(0,0,0,.25); border-radius: 2px;
+}
+.tf-time {
+    justify-self: start; background: var(--tf-flap); color: var(--tf-flap-text); font-weight: 700; font-size: 1rem;
+    padding: 4px 8px; border-radius: 2px; font-variant-numeric: tabular-nums; letter-spacing: .06em;
+    background-image: linear-gradient(to bottom, transparent calc(50% - 1px), rgba(0,0,0,.6) calc(50% - 1px), rgba(0,0,0,.6) calc(50% + 1px), transparent calc(50% + 1px));
+}
+.tf-row.cancelled .tf-time { opacity: .6; text-decoration: line-through; }
+.tf-exit { font-weight: 700; font-size: .85rem; overflow-wrap: anywhere; }
+.tf-kind { font-size: .85rem; font-weight: 700; letter-spacing: .04em; overflow-wrap: anywhere; }
+.tf-lbl { display: none; color: var(--tf-dim); font-weight: 400; }
+.tf-status {
+    display: flex; align-items: center; gap: 8px; font-size: .68rem; font-weight: 700;
+    letter-spacing: .06em; text-transform: uppercase;
+}
+.tf-delay { display: block; font-weight: 400; font-size: .62rem; letter-spacing: .04em; color: var(--tf-bad); }
+.tf-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--tf-dim); flex: none; }
+.s-boarding .tf-dot { background: var(--tf-ok); animation: tf-pulse 1.2s steps(2, jump-none) infinite; }
+.s-checkin .tf-dot { background: var(--tf-warn); }
+.s-rollt .tf-dot { background: var(--tf-warn); animation: tf-pulse 2s steps(2, jump-none) infinite; }
+.s-annulliert .tf-dot { background: var(--tf-bad); }
+.s-gestartet .tf-dot { background: var(--tf-dim); }
+.s-annulliert .tf-status { color: var(--tf-bad); }
+.s-boarding .tf-status { color: var(--tf-ok); }
+.s-checkin .tf-status { color: var(--tf-warn); }
+.s-rollt .tf-status { color: var(--tf-warn); }
+.s-gestartet .tf-status { color: var(--tf-dim); }
+@keyframes tf-pulse { 50% { opacity: .2; } }
+
+.tf-empty { padding: 24px 14px; color: var(--tf-dim); background: var(--tf-row); text-align: center; }
+.tf-footer { margin-top: 12px; color: var(--tf-dim); font-size: .62rem; line-height: 1.6; max-width: 62ch; }
+
+@media (max-width: 720px) {
+    .tf-head { display: none; }
+    .tf-row {
+        grid-template-columns: 1fr auto auto;
+        grid-template-areas: "flight flight time" "city city city" "exit kind status";
+        row-gap: 8px;
+    }
+    .tf-flight { grid-area: flight; }
+    .tf-time { grid-area: time; justify-self: end; }
+    .tf-city { grid-area: city; font-size: 1.6rem; }
+    .tf-exit { grid-area: exit; font-size: .75rem; }
+    .tf-kind { grid-area: kind; justify-self: start; }
+    .tf-status { grid-area: status; justify-self: end; }
+    .tf-lbl { display: inline; }
+}
+
+/* --- Nach-oben-Button (Overlay) --- */
+.to-top {
+    position: fixed; right: 16px; bottom: 16px; z-index: 100;
+    width: 48px; height: 48px; border: none; border-radius: 50%; cursor: pointer;
+    background: var(--size-btn-bg); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,.35);
+    opacity: 0; transform: translateY(12px); pointer-events: none;
+    transition: opacity .25s ease, transform .25s ease, background .3s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+.to-top.show { opacity: 1; transform: none; pointer-events: auto; }
+.to-top:active { background: var(--size-btn-hover); }
+.to-top svg { width: 24px; height: 24px; display: block; }
+
+/* --- Taxi Dachzeichen Switch CSS --- */
+.tx-input { display: none; }
+.tx {
+    display: inline-block; font-size: 6.5px; line-height: 1; cursor: pointer; border-radius: 6em; -webkit-tap-highlight-color: transparent;
+}
+.track {
+    position: relative; display: block; width: 17.625em; height: 5.75em; border: .125em solid rgba(26, 33, 48, .18); border-radius: 6em; overflow: hidden;
+    background: linear-gradient(180deg, #cfe2f4, #f2f7fc);
+    box-shadow: inset 0 .25em .6em rgba(20, 30, 50, .18), 0 .35em 1em rgba(20, 30, 50, .16);
+    transition: border-color .6s ease;
+}
+[data-theme="dark"] .track { border-color: rgba(255, 255, 255, .14); }
+.track::before {
+    content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, #060919, #1b2250); opacity: 0; transition: opacity .6s ease;
+}
+.tx-input:checked + label .track::before { opacity: 1; }
+.t {
+    position: absolute; z-index: 1; top: 50%; transform: translateY(-50%); font: 600 1.15em/1 var(--font); letter-spacing: .02em; transition: opacity .4s ease;
+}
+.t-night { right: 1.5em; color: #52627c; }
+.t-day   { left: 1.6em;  color: #93a3d2; opacity: 0; }
+.tx-input:checked + label .track .t-night { opacity: 0; }
+.tx-input:checked + label .track .t-day   { opacity: 1; }
+.stars { position: absolute; inset: 0; z-index: 1; opacity: 0; transition: opacity .3s ease; }
+.tx-input:checked + label .track .stars { opacity: 1; transition: opacity .6s ease .25s; }
+.stars i {
+    position: absolute; display: block; width: var(--s); height: var(--s); background: #fff;
+    clip-path: polygon(50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%, 40% 40%);
+    animation: twinkle 2.6s ease-in-out var(--d) infinite;
+}
+@keyframes twinkle { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.7); } }
+.knob { position: absolute; z-index: 2; top: .75em; left: .75em; width: 7.5em; height: 4em; transition: transform .75s cubic-bezier(.6, -.15, .25, 1.15); }
+.tx-input:checked + label .track .knob { transform: translateX(8.375em); }
+.glow {
+    position: absolute; z-index: 0; inset: -2.6em -3em;
+    background: radial-gradient(closest-side, rgba(255, 206, 72, .7), rgba(255, 206, 72, 0));
+    opacity: 0; transform: scale(.5); pointer-events: none; transition: opacity .3s ease, transform .4s ease;
+}
+.tx-input:checked + label .track .glow {
+    opacity: 1; transform: none; transition: opacity .5s ease .3s, transform .6s ease .3s; animation: ignite .9s ease .55s both;
+}
+.sign { position: relative; z-index: 1; display: block; width: 100%; height: 100%; overflow: visible; transition: filter .3s ease; }
+.tx-input:checked + label .track .sign { filter: drop-shadow(0 0 .45em rgba(255, 214, 90, .85)); transition: filter .5s ease .5s; }
+.bar, .foot { fill: #454b5c; }
+.gloss { fill: #fff; opacity: .35; }
+.lit { opacity: 0; transition: opacity .25s ease; }
+.tx-input:checked + label .track .lit { opacity: 1; animation: ignite .9s ease .55s both; }
+.txt { fill: #4b4a42; font-family: var(--font); font-weight: 800; font-size: 26px; transition: fill .3s ease; }
+.tx-input:checked + label .track .txt { fill: #17130a; transition: fill .3s ease .55s; }
+@keyframes ignite { 0% { opacity: 0; } 12% { opacity: 1; } 20% { opacity: .15; } 34% { opacity: 1; } 44% { opacity: .4; } 58%, 100% { opacity: 1; } }
+</style>
+</head>
+<body class="no-anim">
+
+<div class="top-bar">
+    <h1>DUS Abflüge</h1>
+    <div class="header-controls">
+        <input type="checkbox" id="themeSwitch" class="tx-input" role="switch" aria-label="Nachtmodus umschalten">
+        <label class="tx" for="themeSwitch" title="Design umschalten">
+            <span class="track">
+                <span class="stars" aria-hidden="true">
+                    <i style="left:1.0em; top:1.0em; --s:.55em; --d:0s"></i>
+                    <i style="left:4.6em; top:.9em;  --s:.4em;  --d:.7s"></i>
+                    <i style="left:6.4em; top:1.9em; --s:.35em; --d:1.3s"></i>
+                    <i style="left:.9em;  top:4.2em; --s:.35em; --d:.4s"></i>
+                    <i style="left:3.9em; top:4.4em; --s:.3em;  --d:1.8s"></i>
+                    <i style="left:6.0em; top:4.1em; --s:.45em; --d:1.0s"></i>
+                </span>
+                <span class="t t-night" aria-hidden="true">Nachtfahrer</span>
+                <span class="t t-day" aria-hidden="true">Tagfahrer</span>
+                <span class="knob">
+                    <span class="glow"></span>
+                    <svg class="sign" viewBox="0 0 120 64" aria-hidden="true">
+                        <defs>
+                            <linearGradient id="offgrad" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0" stop-color="#e4e0cd"/>
+                                <stop offset="1" stop-color="#c6c2ac"/>
+                            </linearGradient>
+                            <radialGradient id="litgrad" cx=".5" cy=".4" r=".75">
+                                <stop offset="0" stop-color="#fffdf0"/>
+                                <stop offset=".55" stop-color="#fff0a6"/>
+                                <stop offset="1" stop-color="#ffd24d"/>
+                            </radialGradient>
+                        </defs>
+                        <rect class="bar"  x="16" y="46" width="88" height="8" rx="3"/>
+                        <rect class="foot" x="22" y="52" width="18" height="10" rx="2.5"/>
+                        <rect class="foot" x="80" y="52" width="18" height="10" rx="2.5"/>
+                        <rect x="4" y="6" width="112" height="44" rx="16" fill="url(#offgrad)" stroke="rgba(0,0,0,.2)" stroke-width="1"/>
+                        <rect class="lit" x="4" y="6" width="112" height="44" rx="16" fill="url(#litgrad)"/>
+                        <rect class="gloss" x="14" y="10" width="92" height="9" rx="4.5"/>
+                        <text class="txt" x="60" y="37" text-anchor="middle" textLength="78" lengthAdjust="spacingAndGlyphs">TAXI</text>
+                    </svg>
+                </span>
+            </span>
+        </label>
+
+        <button class="size-btn menu-btn" id="menuToggle" type="button" aria-expanded="false" aria-controls="menuBox" aria-label="Menü">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg>
+        </button>
+    </div>
+</div>
+
+<!-- Verstecktes Menü: Schriftgröße + Flagge/Name -->
+<div class="menu-box" id="menuBox">
+    <div>
+        <span class="menu-label">Schriftgröße</span>
+        <div class="size-row">
+            <span class="small-a">A</span>
+            <div class="size-ctl">
+                <div class="step-slider" id="stepSlider" role="slider" tabindex="0" aria-label="Schriftgröße" aria-valuemin="0" aria-valuemax="4" aria-valuenow="1">
+                    <div class="step-track">
+                        <div class="step-fill" id="stepFill"></div>
+                        <i class="step-dot" style="left:0%"></i><i class="step-dot" style="left:25%"></i><i class="step-dot" style="left:50%"></i><i class="step-dot" style="left:75%"></i><i class="step-dot" style="left:100%"></i>
+                    </div>
+                    <div class="step-thumb" id="stepThumb"></div>
+                </div>
+                <div class="step-labels">
+                    <button type="button" class="step-label" style="left:0%">S</button>
+                    <button type="button" class="step-label" style="left:25%">M</button>
+                    <button type="button" class="step-label" style="left:50%">L</button>
+                    <button type="button" class="step-label" style="left:75%">XL</button>
+                    <button type="button" class="step-label" style="left:100%">XXL</button>
+                </div>
+            </div>
+            <span class="big-a">A</span>
+            <span class="size-value" id="sizeValue">17px</span>
+        </div>
+    </div>
+
+    <div class="menu-grid-row">
+        <!-- Linke Spalte: Stunden-Scrollrad -->
+        <div class="menu-col">
+            <span class="menu-label">Stunden-Filter</span>
+            <div class="hour-wheel-menu-container">
+                <div class="hour-wheel-center-highlight"></div>
+                <div class="hour-wheel-vert" id="hourWheelVert">
+                    <div class="hour-wheel-spacer-v"></div>
+                    <div class="hour-item-v active" data-hours="0">Alle</div>
+                    <div class="hour-item-v" data-hours="6">6 Std.</div>
+                    <div class="hour-item-v" data-hours="5">5 Std.</div>
+                    <div class="hour-item-v" data-hours="4">4 Std.</div>
+                    <div class="hour-item-v" data-hours="3">3 Std.</div>
+                    <div class="hour-item-v" data-hours="2">2 Std.</div>
+                    <div class="hour-item-v" data-hours="1">1 Std.</div>
+                    <div class="hour-wheel-spacer-v"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Rechte Spalte: Zielland (Flagge & Name übereinander) -->
+        <div class="menu-col">
+            <span class="menu-label">Tafel: Zielland</span>
+            <div class="country-stack">
+                <span class="menu-label" style="font-size:0.65rem; margin:0;">Anzeigeformat</span>
+                <div class="seg">
+                    <button type="button" class="seg-btn active" id="segFlag">Flagge</button>
+                    <button type="button" class="seg-btn" id="segName">Name</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <span class="menu-label">Gestartet-Filter: Anzahl</span>
+        <div class="seg">
+            <button type="button" class="seg-btn active" id="departedBtn">Letzte 15 Flüge</button>
+        </div>
+    </div>
+    <div class="menu-grid-row">
+        <div class="menu-col">
+            <span class="menu-label">Ansicht</span>
+            <div class="seg stack">
+                <button type="button" class="seg-btn view-btn active" id="btnView1" onclick="switchView('view1')">Detail</button>
+                <button type="button" class="seg-btn view-btn" id="btnView3" onclick="switchView('view3')">Tafel</button>
+            </div>
+        </div>
+        <div class="menu-col">
+            <span class="menu-label">Gestartete in Alle / Terminal A / Terminal B/C</span>
+            <div class="seg stack">
+                <button type="button" class="seg-btn active" id="segDepartedOn">Einblenden</button>
+                <button type="button" class="seg-btn" id="segDepartedOff">Ausblenden</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- GEMEINSAME STEUERELEMENTE -->
+<div class="update-info" id="updateInfo">Lade Daten...</div>
+<div class="search-container" id="searchContainer">
+    <input type="text" id="searchInput" class="search-input" placeholder="Nach Flug, Ziel, Land, Airline oder Gate suchen..." aria-label="Flüge durchsuchen">
+    <button type="button" id="clearSearchBtn" class="clear-search-btn" title="Suche zurücksetzen" aria-label="Suche zurücksetzen">&times;</button>
+</div>
+<div class="filter-container">
+    <button class="filter-btn btn-all active" onclick="filterFlights('all', event)">Alle</button>
+    <button class="filter-btn btn-linie" onclick="filterFlights('Terminal A', event)">A</button>
+    <button class="filter-btn btn-charter" onclick="filterFlights('Terminal B/C', event)">B/C</button>
+    <button class="filter-btn btn-boarding" onclick="filterFlights('boarding', event)">Boarding</button>
+    <button class="filter-btn btn-departed" onclick="filterFlights('departed', event)" title="Die letzten 15 gestarteten Flüge">Gestartet</button>
+</div>
+
+<!-- ANSICHT 1: Klassische Detail-Karten -->
+<div id="view1" class="view-section active-view">
+    <div id="flightList">
+        <div class="no-flights">Flüge werden geladen...</div>
+    </div>
+</div>
+
+<!-- ANSICHT 3: Flughafentafel -->
+<div id="view3" class="view-section">
+    <div class="tf-board">
+        <div class="tf-head tf-row" aria-hidden="true">
+            <div>Flug</div><div>Nach</div><div>Abflug</div><div>Gate</div><div>Check-in</div><div>Status</div>
+        </div>
+        <div class="tf-body" id="tfBody">
+            <div class="tf-empty">Flüge werden geladen...</div>
+        </div>
+        <div class="tf-footer">Der Balken füllt sich, je näher der Abflug rückt: blau für Terminal A, orange für Terminal B/C, rot für annullierte Flüge.</div>
+    </div>
+</div>
+
+<!-- Nach oben -->
+<button type="button" class="to-top" id="toTop" aria-label="Nach oben" title="Nach oben">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V6M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script>
+const REFRESH_MINUTES = 5;
+const FONT_STEPS = [
+    { label: 'S', px: 14 }, { label: 'M', px: 17 }, { label: 'L', px: 20 },
+    { label: 'XL', px: 23 }, { label: 'XXL', px: 26 }
+];
+const DEFAULT_STEP = 1;   // M (17px)
+const HOURS_KEY = 'dus_selected_hours';
+const HOURS_VALID = [0, 1, 2, 3, 4, 5, 6];
+let selectedHours = 0; // 0 = Alle, 1-6 = Filter nach Stunden
+try {
+    const savedHours = parseInt(localStorage.getItem(HOURS_KEY), 10);
+    if (HOURS_VALID.includes(savedHours)) selectedHours = savedHours;
+} catch (e) {}
+const STORAGE_KEY = 'dus_font_size';
+const THEME_KEY = 'dus_theme';
+const VIEW_KEY = 'dus_active_view';
+const FLAG_KEY = 'dus_flag_mode';
+const FILTER_KEY = 'dus_active_filter';
+const TF_FENSTER = 90;
+const DEPARTED_STEPS = [5, 10, 15];   // Reihenfolge beim Tippen im Menü
+const DEPARTED_KEY = 'dus_landed_count';
+const SHOWDEPARTED_KEY = 'dus_show_landed';
+let showDepartedInLists = true;       // Gestartete in Alle/Terminal A/Terminal B/C anzeigen
+let departedCount = 15;               // Anzahl der Flüge im Filter "Gestartet"
+
+let allFlights = [];
+let currentFilter = 'all';
+let currentSearch = '';
+let showFlag = true;
+
+/* ---------- Hilfsfunktion: Land zu ISO-Ländercode für FlagCDN ---------- */
+function getFlagCode(country) {
+    if (!country) return 'de';
+    const map = {
+        'ägypten': 'eg', 'egypt': 'eg',
+        'albanien': 'al', 'albania': 'al',
+        'barbados': 'bb',
+        'belgien': 'be', 'belgium': 'be',
+        'bosnien und herzegowina': 'ba', 'bosnia and herzegovina': 'ba',
+        'bulgarien': 'bg', 'bulgaria': 'bg',
+        'curacao': 'cw', 'curaçao': 'cw',
+        'dänemark': 'dk', 'denmark': 'dk',
+        'deutschland': 'de', 'germany': 'de',
+        'dominikanische republik': 'do', 'dominican republic': 'do',
+        'estland': 'ee', 'estonia': 'ee',
+        'finnland': 'fi', 'finland': 'fi',
+        'frankreich': 'fr', 'france': 'fr',
+        'griechenland': 'gr', 'greece': 'gr',
+        'großbritannien': 'gb', 'united kingdom': 'gb', 'uk': 'gb', 'england': 'gb',
+        'island': 'is', 'iceland': 'is',
+        'irak': 'iq', 'iraq': 'iq',
+        'irland': 'ie', 'ireland': 'ie',
+        'israel': 'il',
+        'italien': 'it', 'italy': 'it',
+        'jamaika': 'jm', 'jamaica': 'jm',
+        'jordanien': 'jo', 'jordan': 'jo',
+        'kanada': 'ca', 'canada': 'ca',
+        'kapverdische inseln': 'cv', 'kap verde': 'cv', 'cape verde': 'cv',
+        'katar': 'qa', 'qatar': 'qa',
+        'kosovo': 'xk',
+        'kroatien': 'hr', 'croatia': 'hr',
+        'lettland': 'lv', 'latvia': 'lv',
+        'libanon': 'lb', 'lebanon': 'lb',
+        'libyen': 'ly', 'libya': 'ly',
+        'litauen': 'lt', 'lithuania': 'lt',
+        'malta': 'mt',
+        'marokko': 'ma', 'morocco': 'ma',
+        'moldawien': 'md', 'moldova': 'md',
+        'montenegro': 'me',
+        'niederlande': 'nl', 'netherlands': 'nl',
+        'nordmazedonien': 'mk', 'north macedonia': 'mk',
+        'norwegen': 'no', 'norway': 'no',
+        'österreich': 'at', 'austria': 'at',
+        'polen': 'pl', 'poland': 'pl',
+        'portugal': 'pt',
+        'rumänien': 'ro', 'romania': 'ro',
+        'saudi-arabien': 'sa', 'saudi arabia': 'sa',
+        'schweden': 'se', 'sweden': 'se',
+        'schweiz': 'ch', 'switzerland': 'ch',
+        'serbien': 'rs', 'serbia': 'rs',
+        'spanien': 'es', 'spain': 'es',
+        'syrien': 'sy', 'syria': 'sy',
+        'tschechien': 'cz', 'czechia': 'cz', 'czech republic': 'cz',
+        'tunesien': 'tn', 'tunisia': 'tn',
+        'türkei': 'tr', 'turkey': 'tr',
+        'ukraine': 'ua',
+        'ungarn': 'hu', 'hungary': 'hu',
+        'usa': 'us', 'vereinigte staaten': 'us', 'united states': 'us',
+        'ver. arabische emirate': 'ae', 'united arab emirates': 'ae', 'vae': 'ae', 'dubai': 'ae',
+        'zypern': 'cy', 'cyprus': 'cy',
+    };
+    const key = country.toLowerCase().trim();
+    return map[key] || 'de'; // Standard-Fallback (Deutschland) falls unbekannt
+}
+
+/* ---------- Reiter / Design Switch ---------- */
+function switchView(viewId) {
+    document.querySelectorAll('.view-section').forEach(el => el.classList.remove('active-view'));
+    document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
+
+    const target = document.getElementById(viewId) || document.getElementById('view1');
+    target.classList.add('active-view');
+    const btn = document.getElementById('btn' + target.id.charAt(0).toUpperCase() + target.id.slice(1));
+    if (btn) btn.classList.add('active');
+
+    if (target.id === 'view3') updateBoardBars();
+    try { localStorage.setItem(VIEW_KEY, target.id); } catch (e) {}
+}
+
+function loadSavedView() {
+    try {
+        const saved = localStorage.getItem(VIEW_KEY);
+        if (saved === 'view1' || saved === 'view3') {
+            switchView(saved);
+        }
+    } catch (e) {}
+}
+
+/* ---------- Theme ---------- */
+const root = document.documentElement;
+const themeCb = document.getElementById('themeSwitch');
+
+function applyTheme() {
+    if (themeCb.checked) {
+        root.setAttribute('data-theme', 'dark');
+    } else {
+        root.removeAttribute('data-theme');
+    }
+}
+
+function loadTheme() {
+    let night = false, saved = null;
+    try { saved = localStorage.getItem(THEME_KEY); } catch (e) {}
+    if (saved === 'dark' || saved === 'light') {
+        night = saved === 'dark';
+    } else {
+        try { night = window.matchMedia('(prefers-color-scheme: dark)').matches; } catch (e) {}
+    }
+    themeCb.checked = night;
+    applyTheme();
+}
+
+themeCb.addEventListener('change', function (e) {
+    e.stopPropagation();
+    applyTheme();
+    try { localStorage.setItem(THEME_KEY, themeCb.checked ? 'dark' : 'light'); } catch (e) {}
+});
+
+loadTheme();
+
+/* ---------- Menü (3 Striche) ---------- */
+const menuToggle = document.getElementById('menuToggle');
+const menuBox = document.getElementById('menuBox');
+
+function setMenu(open) {
+    menuBox.classList.toggle('active', open);
+    menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) syncHourWheel();
+}
+
+menuToggle.addEventListener('click', () => setMenu(!menuBox.classList.contains('active')));
+
+document.addEventListener('click', e => {
+    if (!menuBox.classList.contains('active')) return;
+    if (menuBox.contains(e.target) || menuToggle.contains(e.target)) return;
+    setMenu(false);
+});
+
+/* ---------- Schriftgröße ---------- */
+const stepSlider = document.getElementById('stepSlider');
+const stepThumb = document.getElementById('stepThumb');
+const stepFill = document.getElementById('stepFill');
+const sizeValue = document.getElementById('sizeValue');
+const stepBtns = document.querySelectorAll('.step-label');
+let currentStep = DEFAULT_STEP;
+
+function applyStep(i, save) {
+    currentStep = Math.max(0, Math.min(FONT_STEPS.length - 1, i));
+    const s = FONT_STEPS[currentStep];
+    const pct = (currentStep / (FONT_STEPS.length - 1)) * 100;
+    document.documentElement.style.setProperty('--base-font-size', s.px + 'px');
+    stepThumb.style.left = pct + '%';
+    stepFill.style.width = pct + '%';
+    sizeValue.textContent = s.px + 'px';
+    stepSlider.setAttribute('aria-valuenow', currentStep);
+    stepSlider.setAttribute('aria-valuetext', s.label + ' (' + s.px + 'px)');
+    stepBtns.forEach((b, idx) => b.classList.toggle('active', idx === currentStep));
+    if (save) { try { localStorage.setItem(STORAGE_KEY, s.px); } catch (err) {} }
+}
+
+function loadFontSize() {
+    let idx = DEFAULT_STEP;
+    try {
+        const v = parseInt(localStorage.getItem(STORAGE_KEY), 10);
+        if (v >= 10 && v <= 40) {
+            let best = Infinity;
+            FONT_STEPS.forEach((s, i) => {
+                const d = Math.abs(s.px - v);
+                if (d < best) { best = d; idx = i; }
+            });
+        }
+    } catch (e) {}
+    applyStep(idx, false);
+}
+
+let dragBox = null;
+
+function stepFromX(clientX) {
+    const w = dragBox.width || 1;
+    const p = Math.max(0, Math.min(1, (clientX - dragBox.left) / w));
+    return Math.round(p * (FONT_STEPS.length - 1));
+}
+
+stepSlider.addEventListener('pointerdown', e => {
+    e.preventDefault();
+    const r = stepSlider.getBoundingClientRect();
+    dragBox = { left: r.left, width: r.width };
+    try { stepSlider.setPointerCapture(e.pointerId); } catch (err) {}
+    applyStep(stepFromX(e.clientX), true);
+});
+
+stepSlider.addEventListener('pointermove', e => {
+    if (!dragBox) return;
+    const i = stepFromX(e.clientX);
+    if (i !== currentStep) applyStep(i, true);
+});
+
+function endDrag() { dragBox = null; }
+stepSlider.addEventListener('pointerup', endDrag);
+stepSlider.addEventListener('pointercancel', endDrag);
+
+stepSlider.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowUp') { e.preventDefault(); applyStep(currentStep + 1, true); }
+    else if (e.key === 'ArrowLeft' || e.key === 'ArrowDown') { e.preventDefault(); applyStep(currentStep - 1, true); }
+});
+
+stepBtns.forEach((b, idx) => b.addEventListener('click', () => applyStep(idx, true)));
+
+loadFontSize();
+
+/* ---------- Flagge / Name (Tafel) ---------- */
+const segFlag = document.getElementById('segFlag');
+const segName = document.getElementById('segName');
+
+function setFlagMode(flag, save) {
+    showFlag = flag;
+    segFlag.classList.toggle('active', flag);
+    segName.classList.toggle('active', !flag);
+    if (save) { try { localStorage.setItem(FLAG_KEY, flag ? 'flag' : 'name'); } catch (e) {} }
+}
+
+segFlag.addEventListener('click', () => { setFlagMode(true, true); applyFilter(); });
+segName.addEventListener('click', () => { setFlagMode(false, true); applyFilter(); });
+
+/* ---------- Menü: Anzahl im Filter "Gestartet" (5 → 10 → 15 → 5 ...) ---------- */
+const departedBtn = document.getElementById('departedBtn');
+
+function updateDepartedBtn() {
+    departedBtn.textContent = 'Letzte ' + departedCount + ' Flüge';
+    const filterBtn = document.querySelector('.btn-departed');
+    if (filterBtn) filterBtn.title = 'Die letzten ' + departedCount + ' gestarteten Flüge';
+}
+
+departedBtn.addEventListener('click', () => {
+    const i = DEPARTED_STEPS.indexOf(departedCount);
+    departedCount = DEPARTED_STEPS[(i + 1) % DEPARTED_STEPS.length];
+    try { localStorage.setItem(DEPARTED_KEY, departedCount); } catch (e) {}
+    updateDepartedBtn();
+    applyFilter();
+});
+
+try {
+    const v = parseInt(localStorage.getItem(DEPARTED_KEY), 10);
+    if (DEPARTED_STEPS.includes(v)) departedCount = v;
+} catch (e) {}
+updateDepartedBtn();
+
+/* ---------- Menü: Gestartete in Alle/Terminal A/Terminal B/C ein-/ausblenden ---------- */
+const segDepartedOn = document.getElementById('segDepartedOn');
+const segDepartedOff = document.getElementById('segDepartedOff');
+
+function setShowDeparted(on, save) {
+    showDepartedInLists = on;
+    segDepartedOn.classList.toggle('active', on);
+    segDepartedOff.classList.toggle('active', !on);
+    if (save) { try { localStorage.setItem(SHOWDEPARTED_KEY, on ? 'on' : 'off'); } catch (e) {} }
+}
+
+segDepartedOn.addEventListener('click', () => { setShowDeparted(true, true); applyFilter(); });
+segDepartedOff.addEventListener('click', () => { setShowDeparted(false, true); applyFilter(); });
+
+try { setShowDeparted(localStorage.getItem(SHOWDEPARTED_KEY) !== 'off', false); } catch (e) { setShowDeparted(true, false); }
+
+try { setFlagMode(localStorage.getItem(FLAG_KEY) !== 'name', false); } catch (e) { setFlagMode(true, false); }
+
+/* ---------- Such-Event-Listener & Clear Button ---------- */
+const searchInput = document.getElementById('searchInput');
+const searchContainer = document.getElementById('searchContainer');
+const clearSearchBtn = document.getElementById('clearSearchBtn');
+
+function updateSearchState() {
+    currentSearch = searchInput.value.toLowerCase().trim();
+    if (searchInput.value.length > 0) {
+        searchContainer.classList.add('has-text');
+    } else {
+        searchContainer.classList.remove('has-text');
+    }
+    applyFilter();
+}
+
+searchInput.addEventListener('input', updateSearchState);
+
+clearSearchBtn.addEventListener('click', () => {
+    searchInput.value = '';
+    updateSearchState();
+    searchInput.focus();
+});
+
+/* ---------- Vertikales Stunden-Scrollrad ---------- */
+const hourWheelVert = document.getElementById('hourWheelVert');
+const hourItemsV = document.querySelectorAll('.hour-item-v');
+let wheelScrollTimeoutV = null;
+
+function syncHourWheel() {
+    const item = document.querySelector(`.hour-item-v[data-hours="${selectedHours}"]`);
+    if (!item) return;
+    hourItemsV.forEach(it => it.classList.toggle('active', it === item));
+    const top = item.offsetTop - (hourWheelVert.offsetHeight / 2) + (item.offsetHeight / 2);
+    hourWheelVert.style.scrollBehavior = 'auto';
+    hourWheelVert.scrollTop = top;
+    hourWheelVert.style.scrollBehavior = '';
+}
+
+function scrollHourToCenterVert(hours) {
+    const t = document.querySelector(`.hour-item-v[data-hours="${hours}"]`);
+    if (t) {
+        const pos = t.offsetTop - (hourWheelVert.offsetHeight / 2) + (t.offsetHeight / 2);
+        hourWheelVert.scrollTo({ top: pos, behavior: 'smooth' });
+    }
+}
+
+function updateActiveHourByScrollVert() {
+    const center = hourWheelVert.scrollTop + (hourWheelVert.offsetHeight / 2);
+    let closest = null, min = Infinity;
+    hourItemsV.forEach(item => {
+        const d = Math.abs(center - (item.offsetTop + item.offsetHeight / 2));
+        if (d < min) { min = d; closest = item; }
+    });
+    if (closest) {
+        const hours = parseInt(closest.dataset.hours, 10);
+        if (selectedHours !== hours) {
+            selectedHours = hours;
+            hourItemsV.forEach(it => it.classList.toggle('active', it === closest));
+            try { localStorage.setItem(HOURS_KEY, hours); } catch (e) {}
+            applyFilter();
+        }
+    }
+}
+
+hourItemsV.forEach(it => it.classList.toggle('active', parseInt(it.dataset.hours, 10) === selectedHours));
+hourWheelVert.addEventListener('scroll', () => {
+    clearTimeout(wheelScrollTimeoutV);
+    wheelScrollTimeoutV = setTimeout(updateActiveHourByScrollVert, 60);
+});
+hourItemsV.forEach(item => item.addEventListener('click', () => scrollHourToCenterVert(parseInt(item.dataset.hours, 10))));
+
+/* ---------- Nach-oben-Button ---------- */
+const toTop = document.getElementById('toTop');
+
+function updateToTop() {
+    toTop.classList.toggle('show', (window.scrollY || document.documentElement.scrollTop) > 300);
+}
+
+window.addEventListener('scroll', updateToTop, { passive: true });
+toTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+updateToTop();
+
+/* ---------- Flugdaten Laden & Filtern ---------- */
+const FIREBASE_URL = 'https://dus-airport-default-rtdb.europe-west1.firebasedatabase.app/departure.json';
+
+function parseUpdated(s) {
+    const m = String(s).match(/(\d+)\.(\d+)\.(\d+) (\d+):(\d+)/);
+    return m ? new Date(+m[3], m[2] - 1, +m[1], +m[4], +m[5]) : null;
+}
+
+function fetchData(url) {
+    return fetch(url, { cache: 'no-store' })
+        .then(response => {
+            if (!response.ok) throw new Error('HTTP ' + response.status);
+            return response.json();
+        })
+        .then(data => {
+            if (!data || !data.updated_at) throw new Error('Keine Daten');
+            data.flights = Array.isArray(data.flights) ? data.flights : Object.values(data.flights || {});
+            return data;
+        });
+}
+
+function loadData() {
+    // Zuerst Firebase, bei Fehler die cache.json aus dem Repo als Reserve
+    fetchData(FIREBASE_URL)
+        .catch(() => fetchData('cache.json?t=' + Date.now()))
+        .then(data => {
+            const upd = parseUpdated(data.updated_at);
+            const ageMin = upd ? (Date.now() - upd.getTime()) / 60000 : 0;
+            const hour = Math.floor(berlinMin() / 60);
+            let info = `${data.flights.length} Abflüge`;
+            if (ageMin > 30) {
+                info = (hour >= 22 || hour < 3)
+                    ? 'Nachtpause, Updates ab ca. 03:00 Uhr'
+                    : `Achtung: Daten sind ${Math.round(ageMin)} Min. alt`;
+            }
+            document.getElementById('updateInfo').innerHTML = `Letztes Update: <b>${data.updated_at} Uhr</b> (${data.source})<br>${info}`;
+
+            if (JSON.stringify(data.flights) === JSON.stringify(allFlights)) return;
+
+            allFlights = data.flights;
+            applyFilter();
+        })
+        .catch(() => {
+            if (allFlights.length === 0) {
+                document.getElementById('flightList').innerHTML = '<div class="no-flights">Fehler beim Laden der Flugdaten</div>';
+                document.getElementById('tfBody').innerHTML = '<div class="tf-empty">Fehler beim Laden der Flugdaten</div>';
+            }
+        });
+}
+
+function emptyText() {
+    if (currentFilter === 'boarding') return 'Gerade kein Boarding oder Rollen.';
+    if (currentFilter === 'departed') return 'Noch keine gestarteten Flüge.';
+    if (selectedHours > 0) return `Keine Flüge in den nächsten ${selectedHours} Std. gefunden.`;
+    return 'Keine Flüge gefunden.';
+}
+
+function getFilteredList() {
+    let list = allFlights;
+
+    if (currentFilter === 'boarding') {
+        // Boarding-Reiter: Boarding, Boarding beendet und Rollt
+        list = list.filter(f => String(f.status).toLowerCase() === 'boarding' || flightPhase(f) !== null);
+    } else if (currentFilter === 'departed') {
+        list = list.filter(f => String(f.status).toLowerCase() === 'departed');
+    } else if (currentFilter !== 'all') {
+        list = list.filter(f => f.type === currentFilter);
+    }
+
+    // Gestartete in Alle / Terminal A / Terminal B/C ausblenden (Menü)
+    if (!showDepartedInLists && (currentFilter === 'all' || currentFilter === 'Terminal A' || currentFilter === 'Terminal B/C')) {
+        list = list.filter(f => String(f.status).toLowerCase() !== 'departed');
+    }
+
+    // Stundenfilter: nur Abflüge bis zum gewählten Limit (Gestartete, Annullierte und Boarding/Rollt bleiben unberührt)
+    if (selectedHours > 0) {
+        const maxMin = selectedHours * 60;
+        const nowMin = berlinMin();
+        list = list.filter(f => {
+            const s = String(f.status).toLowerCase();
+            if (s === 'departed' || s === 'cancelled' || s === 'diverted' || s === 'incident' || s === 'boarding') return true;
+            if (flightPhase(f) !== null) return true;
+            let diff = timeToMinutes(f.time_estimated || f.time_scheduled) - nowMin;
+            if (diff < -720) diff += 1440;
+            if (diff > 720) diff -= 1440;
+            return diff <= maxMin;
+        });
+    }
+
+    if (currentSearch) {
+        list = list.filter(f => {
+            const city = (f.city || '').toLowerCase();
+            const country = (f.country || '').toLowerCase();
+            const airline = (f.airline || '').toLowerCase();
+            const flightNo = (f.flight_no || '').toLowerCase();
+            const gate = (f.gate || '').toLowerCase();
+            const checkin = (f.checkin || '').toLowerCase();
+
+            return city.includes(currentSearch) ||
+                   country.includes(currentSearch) ||
+                   airline.includes(currentSearch) ||
+                   flightNo.includes(currentSearch) ||
+                   gate.includes(currentSearch) ||
+                   checkin.includes(currentSearch);
+        });
+    }
+
+    // Gestartet: die letzten N Abflüge ab jetzt, später gestartete stehen unten
+    if (currentFilter === 'departed') {
+        const now = berlinMin();
+        const ago = f => {
+            let d = (now - timeToMinutes(f.time_estimated || f.time_scheduled)) % 1440;
+            if (d < 0) d += 1440;
+            return d;
+        };
+        return [...list]
+            .sort((a, b) => ago(a) - ago(b))     // jüngste zuerst, um die letzten N zu wählen
+            .slice(0, departedCount)
+            .sort((a, b) => ago(b) - ago(a));    // Anzeige: ältere oben, später gestartete unten
+    }
+
+    // Einheitlich für Detail UND Tafel: nach erwarteter Zeit sortiert
+    // Minuten ab jetzt (mit Puffer für kürzlich Gestartete), damit die Sortierung über Mitternacht stimmt
+    const nowMin = berlinMin();
+    const expected = f => (((timeToMinutes(f.time_estimated || f.time_scheduled) - nowMin + 120) % 1440) + 1440) % 1440;
+
+    // Annullierte (rot) stehen ganz oben, danach alle anderen nach Zeit
+    const isCx = f => ['cancelled', 'diverted', 'incident'].includes(String(f.status).toLowerCase());
+
+    return [...list].sort((a, b) =>
+        (isCx(b) - isCx(a)) || (expected(a) - expected(b)) || ((a.dt || 0) - (b.dt || 0)));
+}
+
+function applyFilter() {
+    const filtered = getFilteredList();
+    renderFlights(filtered);
+    renderBoard(filtered);
+}
+
+/* ---------- Gemeinsame Phasen-Erkennung (Detail + Tafel) ----------
+   Liefert 'taxi' (Rollt), 'boardend' (Boarding beendet) oder null.
+   Prüft status UND status_text, damit es egal ist, wo der Scraper den Wert ablegt. */
+function flightPhase(f) {
+    const s = String(f.status || '').toLowerCase().replace(/[\s-]+/g, '_');
+    const t = String(f.status_text || '').toLowerCase();
+    if (s === 'departed' || s === 'cancelled' || s === 'diverted' || s === 'incident') return null;
+
+    if (s === 'rollt' || s === 'taxi' || s === 'taxiing' ||
+        t.includes('rollt') || t.includes('taxi') || t.includes('zur startbahn')) {
+        return 'taxi';
+    }
+    if (s === 'boarding_beendet' || s === 'boarding_closed' || s === 'gate_closed' ||
+        t.includes('beendet') || t.includes('gate geschlossen') || t.includes('gate closed')) {
+        return 'boardend';
+    }
+    return null;
+}
+
+/* ---------- Rendering Ansicht 1 (Detail-Karten) ---------- */
+function renderFlights(flights) {
+    const container = document.getElementById('flightList');
+    container.innerHTML = '';
+
+    if (!flights || flights.length === 0) {
+        container.innerHTML = '<div class="no-flights">' + emptyText() + '</div>';
+        return;
+    }
+
+    const statusMap = {
+        "scheduled": "Geplant",
+        "checkin": "Geplant",
+        "boarding": "Boarding",
+        "boarding_beendet": "Boarding Beendet",
+        "rollt": "Rollt",
+        "departed": "Gestartet",
+        "cancelled": "Annulliert",
+        "incident": "Störung",
+        "diverted": "Umgeleitet"
+    };
+
+    flights.forEach(f => {
+        const st = String(f.status).toLowerCase();
+        const phase = flightPhase(f);
+        const isCancelled = st === 'cancelled' || st === 'diverted' || st === 'incident';
+        const isCharter = f.type === "Terminal B/C" || f.type === "Charter";
+
+        let cardClass = isCharter ? "flight-card card-charter" : "flight-card card-linie";
+        if (isCancelled) {
+            cardClass = "flight-card card-cancelled";
+        }
+
+        const badgeClass = isCharter ? "badge-charter" : "badge-linie";
+
+        const est = f.time_estimated;
+        const hasEst = est && est !== f.time_scheduled;
+        let diff = hasEst ? timeToMinutes(est) - timeToMinutes(f.time_scheduled) : 0;
+        if (diff < -720) diff += 1440;
+        if (diff > 720) diff -= 1440;
+        const diffTxt = hasEst ? ` (${diff > 0 ? '+' : ''}${diff} Min.)` : '';
+
+        const delayHtml = (!isCancelled && hasEst)
+            ? `<span class="delay-badge${diff <= 0 ? ' early-badge' : ''}">${est} Uhr${diff > 0 ? ' (+' + diff + ')' : ''}</span>`
+            : '';
+
+        let statusText;
+        if (isCancelled) {
+            statusText = statusMap[st] || "Annulliert";
+        } else if (st === 'departed') {
+            statusText = 'Gestartet' + (hasEst ? ` ${est} Uhr${diffTxt}` : '');
+        } else if (phase === 'taxi') {
+            statusText = 'Rollt' + (hasEst ? `, Abflug ${est} Uhr${diffTxt}` : '');
+        } else if (phase === 'boardend') {
+            statusText = 'Boarding beendet' + (hasEst ? `, Abflug ${est} Uhr${diffTxt}` : '');
+        } else if (st === 'boarding') {
+            statusText = 'Boarding' + (hasEst ? `, Abflug ${est} Uhr${diffTxt}` : '');
+        } else if (st === 'checkin') {
+            statusText = 'Check-in offen' + (hasEst ? `, Abflug ${est} Uhr${diffTxt}` : '');
+        } else if (hasEst) {
+            statusText = `Abflug: ${est} Uhr${diffTxt}`;
+        } else {
+            statusText = statusMap[st] || f.status;
+        }
+
+        const countryHtml = f.country ? ` <span class="country">${f.country}</span>` : '';
+        const fromText = f.country ? `${f.city}, ${f.country}` : f.city;
+        const gateTxt = f.gate ? esc(f.gate) : '–';
+        const checkinTxt = f.checkin ? esc(f.checkin) : '–';
+
+        let iconHtml = '';
+        if (phase === 'taxi') {
+            iconHtml = '<span class="status-icon blink-slow" title="Rollt">🛫</span>';
+        } else if (phase === 'boardend') {
+            iconHtml = '<span class="status-icon blink" title="Boarding beendet">✈️</span>';
+        } else if (st === 'boarding') {
+            iconHtml = '<span class="status-icon blink" title="Boarding">✈️</span>';
+        } else if (st === 'departed') {
+            iconHtml = '<span class="status-icon" title="Gestartet">✈️</span>';
+        }
+
+        const card = document.createElement('div');
+        card.className = cardClass;
+        card.innerHTML = `
+            <div class="card-header">
+                <div class="time-col">
+                    <span class="flight-time">${f.time_scheduled}</span>
+                    ${delayHtml}
+                </div>
+                <div class="main-info">
+                    <div class="city-name">${f.city}${countryHtml}</div>
+                    <div class="gate-info">
+                        <span class="${badgeClass}"${f.type_source !== 'Gate' ? ' title="Vorläufig, Gate noch nicht vergeben"' : ''}>${f.type}${f.type_source !== 'Gate' ? ' ?' : ''}</span>
+                    </div>
+                </div>
+                ${iconHtml}
+            </div>
+            <div class="card-details">
+                <hr class="detail-divider">
+                <div class="detail-grid">
+                    <div><strong>Flug-Nr.:</strong> ${f.flight_no}</div>
+                    <div><strong>Airline:</strong> ${f.airline}</div>
+                    <div><strong>Nach:</strong> ${fromText}</div>
+                    <div><strong>Typ:</strong> ${f.type}</div>
+                    <div><strong>Gate:</strong> ${gateTxt}</div>
+                    <div><strong>Check-in:</strong> ${checkinTxt}</div>
+                    <div style="grid-column: 1 / -1"><strong>Status:</strong> ${statusText}</div>
+                </div>
+            </div>
+        `;
+        container.appendChild(card);
+    });
+}
+
+function filterFlights(category, event, save = true) {
+    document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active"));
+    
+    if (event && event.target) { 
+        event.target.classList.add("active"); 
+    } else {
+        const btnMap = {
+            'all': '.btn-all',
+            'Terminal A': '.btn-linie',
+            'Terminal B/C': '.btn-charter',
+            'boarding': '.btn-boarding',
+            'departed': '.btn-departed'
+        };
+        const b = document.querySelector(btnMap[category]);
+        if (b) b.classList.add("active");
+    }
+
+    currentFilter = category;
+    if (save) {
+        try { localStorage.setItem(FILTER_KEY, category); } catch (e) {}
+    }
+    applyFilter();
+}
+
+/* ---------- Zeit-Hilfsfunktionen ---------- */
+function timeToMinutes(timeStr) {
+    if (!timeStr) return 0;
+    const [hours, minutes] = timeStr.split(':').map(Number);
+    return (hours || 0) * 60 + (minutes || 0);
+}
+
+/* ---------- Rendering Ansicht 3 (Flughafentafel) ---------- */
+function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function berlinMin() {
+    const p = new Date().toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Berlin' }).split(':');
+    return parseInt(p[0], 10) * 60 + parseInt(p[1], 10);
+}
+
+function tfStatus(f) {
+    const s = String(f.status).toLowerCase();
+
+    if (s === 'departed') {
+        return { cls: 's-gestartet', label: 'Gestartet' };
+    }
+    if (s === 'cancelled' || s === 'diverted' || s === 'incident') {
+        return { cls: 's-annulliert', label: 'Annulliert' };
+    }
+
+    const phase = flightPhase(f);
+    if (phase === 'taxi') {
+        return { cls: 's-rollt', label: 'Rollt' };
+    }
+    if (phase === 'boardend') {
+        return { cls: 's-boarding', label: 'Boarding Beendet' };
+    }
+
+    const rawText = String(f.status_text || '').toLowerCase();
+    if (s === 'boarding' || rawText.includes('boarding') || rawText.includes('final call')) {
+        return { cls: 's-boarding', label: 'Boarding' };
+    }
+    // Noch nicht gestartet / Check-in -> Geplant
+    return { cls: 's-checkin', label: 'Geplant' };
+}
+
+function tfFortschritt(zeit, status) {
+    const s = String(status).toLowerCase();
+    if (s === 'departed' || s === 'cancelled' || s === 'diverted' || s === 'incident') return 1;
+    let diff = timeToMinutes(zeit) - berlinMin();
+    if (diff < -120) diff += 1440;   // Anzeige-Fenster: -60 Min. bis +5 Std.; alles Frühere liegt nach Mitternacht
+    if (diff <= 0) return 1;
+    return Math.max(0, Math.min(1, 1 - diff / TF_FENSTER));
+}
+
+function renderBoard(flights) {
+    const body = document.getElementById('tfBody');
+    if (!body) return;
+    body.innerHTML = '';
+
+    if (!flights || flights.length === 0) {
+        body.innerHTML = '<div class="tf-empty">' + emptyText() + '</div>';
+        return;
+    }
+
+    flights.forEach(f => {
+        const st = tfStatus(f);
+        const s = String(f.status).toLowerCase();
+        const isCancelled = s === 'cancelled' || s === 'diverted' || s === 'incident';
+        const art = isCancelled ? 'cancelled' : ((f.type === 'Terminal B/C' || f.type === 'Charter') ? 'charter' : 'linie');
+
+        const zeit = f.time_estimated || f.time_scheduled || '';
+        const cc = getFlagCode(f.country);
+        const flagUrl = `https://flagcdn.com/${cc}.svg`;
+
+        let countryHtml = '';
+        if (f.country) {
+            countryHtml = showFlag
+                ? `<img class="tf-flag" src="${flagUrl}" alt="${esc(f.country)}" title="${esc(f.country)}" loading="lazy">`
+                : '<small>' + esc(f.country) + '</small>';
+        }
+
+        const row = document.createElement('div');
+        row.className = 'tf-row ' + st.cls + ' art-' + art + (isCancelled ? ' cancelled' : '');
+        row.innerHTML = `
+            <div class="tf-bar ${art}" data-zeit="${esc(zeit)}" data-status="${esc(f.status)}"></div>
+            <div class="tf-flight">${esc(f.flight_no)}<small>${esc(f.airline)}</small></div>
+            <div class="tf-city">${esc(f.city)}${countryHtml}</div>
+            <div class="tf-time">${esc(zeit)}</div>
+            <div class="tf-exit"><span class="tf-lbl">Gate </span>${f.gate ? esc(f.gate) : '–'}</div>
+            <div class="tf-kind"><span class="tf-lbl">Check-in </span>${f.checkin ? esc(f.checkin) : '–'}</div>
+            <div class="tf-status"><span class="tf-dot"></span><span>${st.label}${!isCancelled && f.delay > 0 ? '<span class="tf-delay">+' + esc(f.delay) + ' Min.</span>' : ''}</span></div>
+        `;
+        body.appendChild(row);
+    });
+    requestAnimationFrame(() => requestAnimationFrame(updateBoardBars));
+}
+
+function updateBoardBars() {
+    document.querySelectorAll('#tfBody .tf-bar').forEach(bar => {
+        const p = tfFortschritt(bar.dataset.zeit, bar.dataset.status);
+        bar.style.width = (p * 100).toFixed(1) + '%';
+    });
+}
+
+// Initialisierung
+loadSavedView();
+
+// Gespeicherten Filter laden oder Standard ('all') nutzen
+try {
+    const savedFilter = localStorage.getItem(FILTER_KEY);
+    const validFilters = ['all', 'Terminal A', 'Terminal B/C', 'boarding', 'departed'];
+    if (savedFilter && validFilters.includes(savedFilter)) {
+        filterFlights(savedFilter, null, false);
+    } else {
+        filterFlights('all', null, false);
+    }
+} catch (e) {
+    filterFlights('all', null, false);
+}
+
+loadData();
+setInterval(loadData, REFRESH_MINUTES * 60 * 1000);
+setInterval(updateBoardBars, 20000);
+
+requestAnimationFrame(function () {
+    requestAnimationFrame(function () { document.body.classList.remove('no-anim'); });
+});
+</script>
+</body>
+</html>
