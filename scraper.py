@@ -57,7 +57,7 @@ WINDOW_START = (3, 0)     # frühester Start 03:00
 WINDOW_END = (22, 0)      # spätester Start 22:00
 
 # Anzeige-Fenster (nach tatsächlicher/erwarteter Abflugzeit)
-MINUTES_PAST = 60
+MINUTES_PAST = 120
 HOURS_FUTURE = 12              # normale Flüge: bis zu 12 Std. im Voraus
 HOURS_FUTURE_CANCELLED = 20   # annullierte Flüge: bis zu 20 Std. im Voraus
 
